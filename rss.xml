@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>IMPLAN</title>
+    <link>http://implan.github.io</link>
+    <description>Instituto Municipal de Planeación y Competitividad de Torreón.</description>
+    <item>
+      <title>Nuevo Sitio Web</title>
+      <link>http://implan.github.io/noticias/2014-04-01-sitio-web.html</link>
+      <description>
+&lt;p&gt;Bienvenio al nuevo sitio web.&lt;/p&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Tue, 01 Apr 2014 16:40:00 -0600</pubDate>
+      <dc:date>2014-04-01T16:40:00-06:00</dc:date>
+    </item>
+    <item>
+      <title>Participación en los Foros Temáticos</title>
+      <link>http://implan.github.io/noticias/2014-03-21-foros.html</link>
+      <description>
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sa.&lt;/p&gt;
+
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Tue, 01 Apr 2014 16:30:00 -0600</pubDate>
+      <dc:date>2014-04-01T16:30:00-06:00</dc:date>
+    </item>
+    <item>
+      <title>Nuevas Instalaciones</title>
+      <link>http://implan.github.io/noticias/2014-02-15-nuevas-instalaciones.html</link>
+      <description>
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquya.&lt;/p&gt;
+
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Tue, 01 Apr 2014 16:20:00 -0600</pubDate>
+      <dc:date>2014-04-01T16:20:00-06:00</dc:date>
+    </item>
+    <item>
+      <title>Toma de Protesta de la Mesa Directiva</title>
+      <link>http://implan.github.io/noticias/2014-01-11-toma-de-protesta.html</link>
+      <description>
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sa.&lt;/p&gt;
+
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Tue, 01 Apr 2014 16:10:00 -0600</pubDate>
+      <dc:date>2014-04-01T16:10:00-06:00</dc:date>
+    </item>
+    <item>
+      <title>Sobreexplotación del manto acúifero de la Laguna</title>
+      <link>http://implan.github.io/blog/manto-acuifero.html</link>
+      <description>
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sa.&lt;/p&gt;
+
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Tue, 01 Apr 2014 15:30:00 -0600</pubDate>
+      <dc:date>2014-04-01T15:30:00-06:00</dc:date>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,187 @@
+/*
+ * IMPLAN TORREON
+ *
+ * cms.css
+ */
+
+/*
+ * GENERAL
+ */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom:0px;
+    background-color:#FFF;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited { color:#e2007e; }
+
+/*
+ * MENU PRINCIPAL
+ */
+.menu-principal {
+    background-color:#505664;
+    margin-bottom:0;
+    border-bottom:2px solid #ff7500;
+}
+/* NOMBRE DEL SITIO */
+.menu-principal a.navbar-brand,
+.menu-principal a.navbar-brand:active,
+.menu-principal a.navbar-brand:visited   { color:#FFF; }
+.menu-principal a.navbar-brand:hover,
+.menu-principal a.navbar-brand:focus     { background-color:#000; color:#FFF; }
+/* OPCIONES DEL MENU */
+.menu-principal .navbar-nav li a,
+.menu-principal .navbar-nav li a:active,
+.menu-principal .navbar-nav li a:visited { color:#FFF; }
+.menu-principal .navbar-nav li a:hover,
+.menu-principal .navbar-nav li a:focus   { background-color:#000; color:#FFF; }
+
+/*
+ * DESTACADO
+ */
+.destacado {
+    background-color:#dcdddf;
+    color:#333;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-top:0;
+    margin-bottom:8px;
+}
+
+/*
+ * CONTENIDO
+ */
+.contenido {
+    background-color:white;
+    color:#333;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.contenido blockquote { border-left: 5px solid #ff7500; }
+.contenido img        { margin:8px; }
+.contenido h3,
+.contenido h4,
+.contenido h5,
+.contenido h6         { clear:both; }
+/* JUMBOTRON */
+.jumbotron    { background-color:#e2007e; margin-top:60px; }
+.jumbotron h2,
+.jumbotron p  { color:white; }
+/* BOTONES  */
+.btn-publicacion-completa,
+.btn-publicacion-completa:active,
+.btn-publicacion-completa:visited { background-color:#e2007e; border-color:#e2007e; color:#DDD; }
+.btn-publicacion-completa:hover,
+.btn-publicacion-completa:focus   { background-color:#ff7500; border-color:#000; color:#FFF; }
+/* PAGINACION */
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus { background-color:gray; border-color:gray; color:white; }
+
+/*
+ * FOOTER
+ */
+footer {
+    background-color:#dcdddf;
+    color:#CCC;
+}
+
+/*
+ * PROMOCIONES
+ */
+.promociones {
+    background-color:#e2007e;
+    color:#000;
+}
+.promociones-row {
+    margin:0;
+    height:100%;
+    width:100%;
+}
+.promocion {
+    display:table-cell;
+    float:none;
+    margin:0;
+    padding-top:16px;
+    padding-bottom:16px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/*
+ * LOGOTIPOS
+ */
+.logotipos {
+    background-color:#c3c3c3;
+    color:#000;
+}
+.logotipos-row {
+    margin:0;
+    height:100%;
+    width:100%;
+}
+.logotipo {
+    margin:0;
+    padding:20px 10px 20px 10px;
+}
+
+/*
+ * MENU SECUNDARIO
+ */
+.menu-secundario {
+    background-color:#505664;
+    line-height:0.5;
+    font-size:9pt;
+    padding:4px;
+}
+.menu-secundario-body {
+    background-color:#505664;
+    padding:0;
+    margin:0;
+}
+.menu-secundario-panel {
+    background-color:#505664;
+    margin:0;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+}
+.menu-secundario-panel-interior {
+    background-color:#505664;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:0;
+    border-bottom:0;
+    border-left:0;
+    border-right:2px solid #dcdddf;
+    border-radius:0;
+    box-shadow:none;
+}
+.menu-secundario-panel-interior .panel-heading {
+    font-weight:bold;
+    color:#dcdddf;
+}
+.menu-secundario-panel-interior .list-group .list-group-item {
+    background-color:#505664;
+    border:0;
+}
+.menu-secundario-panel-interior .list-group .list-group-item a,
+.menu-secundario-panel-interior .list-group .list-group-item a:active,
+.menu-secundario-panel-interior .list-group .list-group-item a:visited,
+.menu-secundario-panel-interior .list-group .list-group-item a:hover,
+.menu-secundario-panel-interior .list-group .list-group-item a:focus   { color:#FFF; }
+
+/*
+ * PIE
+ */
+.pie {
+    background-color:#1b1e25;
+    padding-top:8px;
+    padding-bottom:8px;
+    text-align:right;
+}
