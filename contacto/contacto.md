@@ -2,7 +2,7 @@ Contacto
 ========
 
 Fecha: 2014-04-01 11:10
-Categorías: Interacción
+Categorías: Contacto
 
 #### Correo electrónico
 

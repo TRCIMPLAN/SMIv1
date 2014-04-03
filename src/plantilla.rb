@@ -261,26 +261,26 @@ class Plantilla
         a << '    </div>'
         # PROMOCIONES TERMINA
         # LOGOTIPOS INICIA
-        a << '    <!-- LOGOTIPOS -->'
-        a << '    <div class="logotipos">'
-        a << '      <div class="container">'
-        a << '        <div class="row logotipos-row">'
-        if en_raiz
-            a << '          <div class="col-md-2 logotipo"><img src="imagenes/ciclac-096.png"  alt="CICLAC"></div>'
-            a << '          <div class="col-md-3 logotipo"><img src="imagenes/cieslag-196.png" alt="CIESLAG"></div>'
-            a << '          <div class="col-md-2 logotipo"><img src="imagenes/cmic-128.png"    alt="CMIC"></div>'
-            a << '          <div class="col-md-2 logotipo"><img src="imagenes/fomec-128.png"   alt="FOMEC"></div>'
-            a << '          <div class="col-md-3 logotipo"><img src="imagenes/ibero-196.png"   alt="Universidad Iberoamericana"></div>'
-        else
-            a << '          <div class="col-md-2 logotipo"><img src="../imagenes/ciclac-096.png"  alt="CICLAC"></div>'
-            a << '          <div class="col-md-3 logotipo"><img src="../imagenes/cieslag-196.png" alt="CIESLAG"></div>'
-            a << '          <div class="col-md-2 logotipo"><img src="../imagenes/cmic-128.png"    alt="CMIC"></div>'
-            a << '          <div class="col-md-2 logotipo"><img src="../imagenes/fomec-128.png"   alt="FOMEC"></div>'
-            a << '          <div class="col-md-3 logotipo"><img src="../imagenes/ibero-196.png"   alt="Universidad Iberoamericana"></div>'
-        end
-        a << '        </div>'
-        a << '      </div>'
-        a << '    </div>'
+        #~ a << '    <!-- LOGOTIPOS -->'
+        #~ a << '    <div class="logotipos">'
+        #~ a << '      <div class="container">'
+        #~ a << '        <div class="row logotipos-row">'
+        #~ if en_raiz
+            #~ a << '          <div class="col-md-2 logotipo"><img src="imagenes/ciclac-096.png"  alt="CICLAC"></div>'
+            #~ a << '          <div class="col-md-3 logotipo"><img src="imagenes/cieslag-196.png" alt="CIESLAG"></div>'
+            #~ a << '          <div class="col-md-2 logotipo"><img src="imagenes/cmic-128.png"    alt="CMIC"></div>'
+            #~ a << '          <div class="col-md-2 logotipo"><img src="imagenes/fomec-128.png"   alt="FOMEC"></div>'
+            #~ a << '          <div class="col-md-3 logotipo"><img src="imagenes/ibero-196.png"   alt="Universidad Iberoamericana"></div>'
+        #~ else
+            #~ a << '          <div class="col-md-2 logotipo"><img src="../imagenes/ciclac-096.png"  alt="CICLAC"></div>'
+            #~ a << '          <div class="col-md-3 logotipo"><img src="../imagenes/cieslag-196.png" alt="CIESLAG"></div>'
+            #~ a << '          <div class="col-md-2 logotipo"><img src="../imagenes/cmic-128.png"    alt="CMIC"></div>'
+            #~ a << '          <div class="col-md-2 logotipo"><img src="../imagenes/fomec-128.png"   alt="FOMEC"></div>'
+            #~ a << '          <div class="col-md-3 logotipo"><img src="../imagenes/ibero-196.png"   alt="Universidad Iberoamericana"></div>'
+        #~ end
+        #~ a << '        </div>'
+        #~ a << '      </div>'
+        #~ a << '    </div>'
         # LOGOTIPOS TERMINA
         # MENU SECUNDARIO INICIA
         if @menu_secundario != nil

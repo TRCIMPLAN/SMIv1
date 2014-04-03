@@ -22,7 +22,7 @@ a:visited { color:#e2007e; }
  * MENU PRINCIPAL
  */
 .menu-principal {
-    background-color:#505664;
+    background-color:#524B48;
     margin-bottom:0;
     border-bottom:2px solid #ff7500;
 }
@@ -132,25 +132,25 @@ footer {
  * MENU SECUNDARIO
  */
 .menu-secundario {
-    background-color:#505664;
+    background-color:#524B48;
     line-height:0.5;
     font-size:9pt;
     padding:4px;
 }
 .menu-secundario-body {
-    background-color:#505664;
+    background-color:#524B48;
     padding:0;
     margin:0;
 }
 .menu-secundario-panel {
-    background-color:#505664;
+    background-color:#524B48;
     margin:0;
     border:0;
     border-radius:0;
     box-shadow:none;
 }
 .menu-secundario-panel-interior {
-    background-color:#505664;
+    background-color:#524B48;
     margin-top:20px;
     margin-bottom:20px;
     padding-top:20px;
@@ -167,7 +167,7 @@ footer {
     color:#dcdddf;
 }
 .menu-secundario-panel-interior .list-group .list-group-item {
-    background-color:#505664;
+    background-color:#524B48;
     border:0;
 }
 .menu-secundario-panel-interior .list-group .list-group-item a,

@@ -27,7 +27,7 @@
 # Se recomienda ejecutar este script en el directorio donde se encuentre
 # De lo contrario, deshabilite el siguiente comando para hacer el cambio de directorio
 # NO debe tener diagonal (/) al final
-#Dir.chdir('/home/guivaloz/Documentos/IMPLAN/GitHub/IMPLAN/SitioWebRuby')
+#Dir.chdir('/home/usuario/www')
 
 # -----------------------
 # NO MODIFIQUE ESTA PARTE
