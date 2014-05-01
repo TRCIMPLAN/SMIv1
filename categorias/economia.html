@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sitio web del IMPLAN">
-  <meta name="author" content="Instituto Municipal de Planeación y Competitividad de Torreón">
-  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="IMPLAN" href="../rss.xml" />
-  <title>IMPLAN | Economía</title>
+  <meta name="author" content="IMPLAN Torreón">
+  <meta name="description" content="Economia">
+  <link rel="shortcut icon" type="image/x-icon" href="../imagenes/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="SMI" href="../rss.xml" />
+  <title>SMI | Economia</title>
   <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/morris.css" rel="stylesheet">
   <link href="../css/cms.css" rel="stylesheet">
-  <link href="../css/carousel.css" rel="stylesheet">
   <!-- SOPORTE PARA IE8 -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -19,123 +19,277 @@
   <![endif]-->
 </head>
 <body>
+  <header>
   <!-- MENU PRINCIPAL INICIA -->
-  <div class="navbar navbar-default navbar-fixed-top menu-principal" role="navigation">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" id="menu-principal">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-principal-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../index.html"><img src="../imagenes/implan-barra-logo.png"></a>
+        <a class="navbar-brand" href="http://trcimplan.mx/"><img src="../imagenes/implan-barra-logo-chico.png"></a>
       </div>
-    <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse" id="menu-principal-collapse">
     <ul class="nav navbar-nav">
-      <li><a href="../noticias/"><img src="../imagenes/implan-barra-mini-gris.png"> NOTICIAS</a></li>
-      <li><a href="../blog/"><img src="../imagenes/implan-barra-mini-gris.png"> BLOG</a></li>
-      <li><a href="../institucional/"><img src="../imagenes/implan-barra-mini-gris.png"> INSTITUCIONAL</a></li>
-      <li><a href="../servicios/"><img src="../imagenes/implan-barra-mini-gris.png"> SERVICIOS</a></li>
-      <li><a href="../contacto/"><img src="../imagenes/implan-barra-mini-gris.png"> CONTACTO</a></li>
+      <li><a href="../http://trcimplan.mx/institucional/">INSTITUCIONAL</a></li>
+      <li><a href="../http://trcimplan.mx/servicios/">SERVICIOS</a></li>
+      <li><a href="../http://trcimplan.mx/interaccion/">INTERACCIÓN</a></li>
+      <li><a href="../http://trcimplan.mx/consejo/">CONSEJO DIRECTIVO</a></li>
+      <li><a href="../http://trcimplan.mx/contacto/">CONTACTO</a></li>
     </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="redes-sociales" href="https://twitter.com/trcimplan" target="_blank"><img src="../imagenes/redes-sociales-twitter.png" alt="Twitter"></a></li>
+          <li><a class="redes-sociales" href="https://facebook.com/trcimplan" target="_blank"><img src="../imagenes/redes-sociales-facebook.png" alt="Facebook"></a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- MENU PRINCIPAL TERMINA -->
+  </header>
+  <!-- CONTENIDO INICIA -->
+  <div id="contenido">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+        <!-- ENCABEZADO INICIA -->
+<!-- MENU REGIONES SUBINDICES INDICES INICIA -->
+<a href="../index.html"><img class="img-responsive img-encabezado" src="../imagenes/encabezado-smi.jpg"></a>
+<div class="panel-group" id="menu-regiones-subindices-indicadores">
+  <div class="panel menu-subindices-indicadores">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#menu-regiones-subindices-indicadores" href="#indicadores-torreon">TORREÓN</a>
+      </h4>
+    </div>
+    <div class="panel-collapse collapse" id="indicadores-torreon">
+      <div class="panel-body">
+        <div class="menu-subindices-indicadores-block">
+          ECONOMÍA
+          <ul>
+            <li><a href="../indicadores-torreon/economia-empresas.html">EMPRESAS</a></li>
+            <li><a href="../indicadores-torreon/economina-pobreza.html">POBREZA</a></li>
+          </ul>
+        </div>
+        <div class="menu-subindices-indicadores-block">
+          GOBIERNO
+          <ul>
+            <li><a href="../indicadores-torreon/gobierno-nomina.html">NOMINA</a></li>
+            <li><a href="../indicadores-torreon/gobierno-transparencia.html">TRANSPARENCIA</a></li>
+            <li><a href="../indicadores-torreon/gobierno-densidad.html">DENSIDAD</a></li>
+          </ul>
+        </div>
+        <div class="menu-subindices-indicadores-block">
+          SEGURIDAD
+          <ul>
+            <li><a href="../indicadores-torreon/seguridad-homicidios.html">HOMICIDIOS</a></li>
+            <li><a href="../indicadores-torreon/seguridad-robos.html">ROBOS</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- MENU PRINCIPAL TERMINA -->
-  <!-- CONTENIDO -->
-  <div class="contenido">
-    <div class="container">
-    <!-- JUMBOTRON -->
-    <div class="jumbotron">
-      <h2>IMPLAN</h2>
-      <p>Instituto Municipal de Planeación y Competitividad de Torreón.</p>
+  <div class="panel menu-subindices-indicadores">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#menu-regiones-subindices-indicadores" href="#indicadores-gomez-palacio">GÓMEZ PALACIO</a>
+      </h4>
     </div>
-      <div class="row">
-        <div class="col-md-8">
-          <h1>Economía</h1>
-<h3><a href="../blog/equidad-economica-en-torreon.html">Equidad económica en Torreón</a></h3>
-<blockquote>
-  <p><small>2014-04-03 09:30 - Alicia Valdez</small></p>
+    <div class="panel-collapse collapse" id="indicadores-gomez-palacio">
+      <div class="panel-body">
+        <div class="menu-subindices-indicadores-block">
+          ECONOMÍA
+          <ul>
+            <li><a href="../indicadores-gomez-palacio/economia-empresas.html">EMPRESAS</a></li>
+            <li><a href="../indicadores-gomez-palacio/economina-pobreza.html">POBREZA</a></li>
+          </ul>
+        </div>
+        <div class="menu-subindices-indicadores-block">
+          GOBIERNO
+          <ul>
+            <li><a href="../indicadores-gomez-palacio/gobierno-nomina.html">NOMINA</a></li>
+            <li><a href="../indicadores-gomez-palacio/gobierno-transparencia.html">TRANSPARENCIA</a></li>
+          </ul>
+        </div>
+        <div class="menu-subindices-indicadores-block">
+          SEGURIDAD
+          <ul>
+            <li><a href="../indicadores-gomez-palacio/seguridad-homicidios.html">HOMICIDIOS</a></li>
+            <li><a href="../indicadores-gomez-palacio/seguridad-robos.html">ROBOS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel menu-subindices-indicadores">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#menu-regiones-subindices-indicadores" href="#indicadores-lerdo">LERDO</a>
+      </h4>
+    </div>
+    <div class="panel-collapse collapse" id="indicadores-lerdo">
+      <div class="panel-body">
+        <div class="menu-subindices-indicadores-block">
+          ECONOMÍA
+          <ul>
+            <li><a href="../indicadores-lerdo/economia-empresas.html">EMPRESAS</a></li>
+            <li><a href="../indicadores-lerdo/economina-pobreza.html">POBREZA</a></li>
+          </ul>
+        </div>
+        <div class="menu-subindices-indicadores-block">
+          GOBIERNO
+          <ul>
+            <li><a href="../indicadores-lerdo/gobierno-nomina.html">NOMINA</a></li>
+            <li><a href="../indicadores-lerdo/gobierno-transparencia.html">TRANSPARENCIA</a></li>
+          </ul>
+        </div>
+        <div class="menu-subindices-indicadores-block">
+          SEGURIDAD
+          <ul>
+            <li><a href="../indicadores-lerdo/seguridad-homicidios.html">HOMICIDIOS</a></li>
+            <li><a href="../indicadores-lerdo/seguridad-robos.html">ROBOS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MENU REGIONES SUBINDICES INDICES TERMINA -->
+        <!-- ENCABEZADO TERMINA -->
+          <h1 class="titulo">Economia</h1>
+<h3><a href="../indicadores/economia-producto-interno-bruto.html">PRODUCTO INTERNO BRUTO</a></h3>
+  <p><small>2014-04-08 - Investigación</small></p>
 
-<p>Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social. De acuerdo al Índice de Gini, el principal indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad, estamos en mejores condiciones que el promedio del país. Incluso para estándares globales, nuestro coeficiente de Gini de 0.45 es relativamente bueno, tomando en cuenta a otros países de América Latina como Chile y Brasil los cuales se encuentran por arriba del 0.50, mientras algunos otros como Argentina y Estados Unidos tienen índices de 0.445 en 2010 y 0.45 en 2007 respectivamente (CIA Factbook 2014, The World Bank 2014).</p>
+<h4 id="descripcin">Descripción</h4>
 
+<p>Valor monetario de los bienes y servicios producidos en una región por las actividades económicas.</p>
 
-  <p class="text-right"><button type="button" class="btn btn-publicacion-completa" onclick="location.href='../blog/equidad-economica-en-torreon.html'">Publicación completa...</button></p>
-</blockquote>
+<h4 id="observaciones">Observaciones</h4>
+
+<p>pesos constantes de 2003.</p>
+
+<p><a href="http://www.inegi.gob.mx">INEGI</a></p>
+
+<h4 id="informacin-recopilada">Información recopilada</h4>
+
+<table class="table table-hover table-bordered">
+  <tr><th>Fecha</th><th>Dato</th><th>Región</th><th>Fuente</th><th>Notas</th></tr>
+  <tr><td>2013-01-01</td><td>$ 543,543.00</td><td>TORREON</td><td>INEGI</td><td></td></tr>
+  <tr><td>2012-01-01</td><td>$ 345,345.00</td><td>TORREON</td><td>INEGI</td><td></td></tr>
+</table>
+
+<h4 id="grfica">Gráfica</h4>
+
+<div id="Morrissjiururz" class="grafica"></div>
+<p><!-- JAVASCRIPT DE LA GRAFICA EN Morrissjiururz --></p>
+
         </div>
         <div class="col-md-3">
-<a class="twitter-timeline" width="100%" href="https://twitter.com/guivaloz/torre%C3%B3n" data-widget-id="444211878768570368">Tweets de https://twitter.com/guivaloz/torre%C3%B3n</a>
+    <p class="acerca">El Sistema Municipal de Indicadores (SMI) es un banco de información sobre los temas de interés de nuestra ciudad y su zona metropolitana, para conocer el estado de distintos fenómenos comparables en el tiempo, pero también con otras ciudades y con estándares internacionales. El SMI ordena y recopila información dispersa para convertirla en conocimiento útil, para que el gobierno, empresas y sociedad conozcan las condiciones de nuestra ciudad y así sepamos hacia donde orientar nuestras acciones, y con el tiempo podamos medir el impacto no sólo de las políticas públicas sino también de los proyectos empresariales y las iniciativas sociales.</p>
+
+<div class="menu-secundario">
+    <div class="menu-secundario-encabezado">Categorías</div>
+    <ul class="menu-secundario-grupo">
+      <li class="menu-secundario-item"><a href="../categorias/ayuntamiento_de_torreÓn.html">AYUNTAMIENTO DE TORREÓN (5)</a></li>
+      <li class="menu-secundario-item"><a href="../categorias/economia.html">Economia (1)</a></li>
+      <li class="menu-secundario-item"><a href="../categorias/gobierno.html">GOBIERNO (3)</a></li>
+      <li class="menu-secundario-item"><a href="../categorias/por_cada_100_mil.html">POR CADA 100 MIL (1)</a></li>
+      <li class="menu-secundario-item"><a href="../categorias/por_cada_mil.html">POR CADA MIL (1)</a></li>
+      <li class="menu-secundario-item"><a href="../categorias/seguridad.html">SEGURIDAD (1)</a></li>
+      <li class="menu-secundario-item"><a href="../categorias/torreon.html">TORREON (5)</a></li>
+    </ul>
+    </div>
+<div class="menu-secundario">
+    <div class="menu-secundario-encabezado">Últimas publicaciones</div>
+    <ul class="menu-secundario-grupo">
+      <li class="menu-secundario-item"><a href="../indicadores-torreon/sociedad-tasa-de-mortalidad.html">TASA DE MORTALIDAD</a></li>
+      <li class="menu-secundario-item"><a href="../indicadores-torreon/seguridad-tasa-de-homicidios.html">TASA DE HOMICIDIOS</a></li>
+      <li class="menu-secundario-item"><a href="../indicadores/seguridad-cantidad-de-policias.html">CANTIDAD DE POLICIAS</a></li>
+      <li class="menu-secundario-item"><a href="../indicadores/gobierno-percepcion-de-confiabilidad.html">PERCEPCION DE CONFIABILIDAD</a></li>
+      <li class="menu-secundario-item"><a href="../indicadores/gobierno-nomina.html">NOMINA</a></li>
+    </ul>
+    </div>
         </div>
       </div>
     </div>
   </div>
-  <footer>
-    <!-- PROMOCIONES -->
-    <div class="promociones">
-      <div class="container">
-        <div class="row promociones-row">
-          <div class="col-md-3 promocion"><img src="../imagenes/implan-negro-256x96.png" alt="IMPLAN"></div>
-          <div class="col-md-3 promocion"><img src="../imagenes/descarga.png"            alt="Planes y Reglamentos"><br>DESCARGA<br><strong>PLANES Y REGLAMENTOS</strong></div>
-          <div class="col-md-3 promocion"><img src="../imagenes/gis.png"                 alt="GIS"><br>INFORMACION<br><strong>S.I.G.</strong></div>
-          <div class="col-md-3 promocion"><img src="../imagenes/descarga.png"            alt="Planes y Reglamentos"><br>DESCARGA<br><strong>PLANES Y REGLAMENTOS</strong></div>
-        </div>
-      </div>
-    </div>
-    <!-- MENU SECUNDARIO -->
-    <div class="menu-secundario">
-      <div class="container">
-        <div class="panel menu-secundario-panel">
-          <div class="panel-body menu-secundario-body">
-            <div class="panel col-md-3 menu-secundario-panel-interior">
-              <img class="img-responsive" src="../imagenes/implan-blanco-256x91.png">
+  <!-- CONTENIDO TERMINA -->
+<!-- INFERIOR INICIA -->
+<div id="inferior">
+    <div class="container">
+        <div class="row">
+            <!-- MAPA DEL SITIO INICIA -->
+            <div class="col-md-9">
+                <a href="http://trcimplan.mx/"><img class="inferior-logo" src="../imagenes/implan-barra-mediano.png" alt="IMPLAN"></a>
+                <div class="row">
+                    <div class="col-md-3 inferior-mapa">
+                      INSTITUCIONAL
+                      <ul>
+                        <li><a href="http://trcimplan.mx/institucional/vision-mision/">VISIÓN / MISIÓN</a></li>
+                        <li><a href="http://trcimplan.mx/institucional/mensaje-del-director/">MENSAJE DEL DIRECTOR</a></li>
+                        <li><a href="http://trcimplan.mx/institucional/quienes-somos/">QUIENES SOMOS</a></li>
+                        <li><a href="http://trcimplan.mx/institucional/estructura-organica/">ESTRUCTURA ORGÁNICA</a></li>
+                        <li><a href="http://www.icai.org.mx/ipmn/dependencias/impyc" target="_blank">TRANSPARENCIA</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 inferior-mapa">
+                      SERVICIOS
+                      <ul>
+                        <li><a href="http://trcimplan.mx/servicios/reglamentos/">REGLAMENTOS</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/indicadores/">INDICADORES</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/sig/">SIG</a></li>
+                        <li><a href="http://trcimplan.mx/servicios/banco-de-proyectos/">PROYECTOS</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 inferior-mapa">
+                      INTERACCIÓN
+                      <ul>
+                        <li><a href="http://trcimplan.mx/category/blog/">BLOG</a></li>
+                        <li><a href="http://trcimplan.mx/category/eventos/">EVENTOS</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 inferior-mapa">
+                      <a href="http://trcimplan.mx/consejo/">CONSEJO DIRECTIVO</a>
+                    </div>
+                    <div class="col-md-2 inferior-mapa inferior-mapa-ultimo">
+                      <a href="http://trcimplan.mx/contacto/">CONTACTO</a>
+                    </div>
+                </div>
             </div>
-<div class="panel col-md-3 menu-secundario-panel-interior">
-    <div class="panel-heading">Últimas publicaciones</div>
-    <ul class="list-group">
-      <li class="list-group-item"><a href="../blog/equidad-economica-en-torreon.html">Equidad económica</a></li>
-      <li class="list-group-item"><a href="../noticias/2014-04-01-sitio-web.html">Sitio Web</a></li>
-      <li class="list-group-item"><a href="../noticias/2014-03-21-foros.html">Foros Temáticos</a></li>
-      <li class="list-group-item"><a href="../noticias/2014-02-15-nuevas-instalaciones.html">Nuevas Instalaciones</a></li>
-      <li class="list-group-item"><a href="../noticias/2014-01-11-toma-de-protesta.html">Toma de Protesta</a></li>
-    </ul>
-    </div><div class="panel col-md-3 menu-secundario-panel-interior">
-    <div class="panel-heading">Categorías</div>
-    <ul class="list-group">
-      <li class="list-group-item"><a href="../categorias/columna_dragones.html">Columna Dragones (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/consejo.html">Consejo (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/contacto.html">Contacto (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/desarrollo_institucional.html">Desarrollo Institucional (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/economia.html">Economía (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/equidad.html">Equidad (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/foros.html">Foros (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/indicadores.html">Indicadores (4)</a></li>
-      <li class="list-group-item"><a href="../categorias/institucional.html">Institucional (3)</a></li>
-      <li class="list-group-item"><a href="../categorias/mesa_directiva.html">Mesa Directiva (1)</a></li>
-      <li class="list-group-item"><a href="../categorias/noticias.html">Noticias (3)</a></li>
-    </ul>
-    </div><div class="panel col-md-3 menu-secundario-panel-interior">
-    <div class="panel-heading">Autores</div>
-    <ul class="list-group">
-      <li class="list-group-item"><a href="../autores/alicia_valdez.html">Alicia Valdez (1)</a></li>
-      <li class="list-group-item"><a href="../autores/eduardo_holguin.html">Eduardo Holguín (1)</a></li>
-      <li class="list-group-item"><a href="../autores/implan.html">IMPLAN (13)</a></li>
-    </ul>
-    </div>
-          </div>
+            <!-- MAPA DEL SITIO TERMINA -->
+            <div class="col-md-3">
+            </div>
         </div>
-      </div>
     </div>
-    <!-- PIE -->
+</div>
+<!-- INFERIOR TERMINA -->
+  <!-- PIE INICIA -->
+  <footer>
     <div class="pie">
       <div class="container">
-Todos los Derechos Reservados. IMPLAN TORREÓN © 2014 Diseño por TRCIMPLAN.
-
+Todos los Derechos Reservados IMPLAN TORREÓN © 2014.
       </div>
     </div>
   </footer>
+  <!-- PIE TERMINA -->
+  <!-- CODIGO JAVASCRIPT PUESTO AL FINAL PARA QUE SE CARGUE MAS RAPIDO LA PAGINA -->
   <script src="../js/jquery.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <script src="../js/raphael-min.js"></script>
+  <script src="../js/morris.min.js"></script>
+  <script>
+  new Morris.Bar({
+    element: 'Morrissjiururz',
+    data: [
+      { fecha: '2013-01-01', dato: 543543.00 },
+      { fecha: '2012-01-01', dato: 345345.00 }
+    ],
+    xkey: 'fecha',
+    ykeys: ['dato'],
+    labels: ['Dato']
+  });
+  </script>
 </body>
 </html>

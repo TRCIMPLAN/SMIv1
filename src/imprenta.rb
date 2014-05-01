@@ -27,7 +27,12 @@ class Imprenta
     #
     # Propiedades modificables
     #
-    attr_writer :titulo_sitio, :frase_sitio, :anuncio, :grafico_encabezado, :publicaciones_directorios, :publicaciones_etiquetas, :menu_principal, :menu_principal_en_raiz, :contenido_secundario, :publicaciones_por_pagina_maximo, :autor_por_defecto, :categorias_directorio, :autores_directorio, :menus_directorio, :usar_contenido_secundario, :url_sitio, :descripcion_sitio, :pie_html, :archivo_rss, :publicaciones_anexos
+    attr_writer :titulo_sitio, :frase_sitio, :encabezado, :publicaciones_directorios, :publicaciones_etiquetas, :menu_principal, :menu_principal_en_raiz, :usar_contenido_secundario, :contenido_secundario, :usar_menu_secundario, :menu_secundario, :publicaciones_por_pagina_maximo, :autor_por_defecto, :categorias_directorio, :autores_directorio, :menus_directorio, :url_sitio, :descripcion_sitio, :pie, :archivo_rss, :publicaciones_anexos, :archivo_rss
+
+    #
+    # Propiedades leibles
+    #
+    attr_reader :archivo_rss
 
     #
     # Valores por defecto de las propiedades
@@ -36,16 +41,19 @@ class Imprenta
         # Propiedades modificables
         @titulo_sitio                    = 'Título del sitio'
         @frase_sitio                     = 'Descripción del sitio'
-        @anuncio                         = ''
         @publicaciones_directorios       = Array.new
+        @publicaciones_etiquetas         = Array.new
+        @usar_menu_secundario            = false
+        @menu_secundario                 = ''
+        @usar_contenido_secundario       = false
         @contenido_secundario            = ''
         @publicaciones_por_pagina_maximo = 5
         @autor_por_defecto               = 'sin_autor'
         @categorias_directorio           = 'categorias'
         @autores_directorio              = 'autores'
         @menus_directorio                = 'menus'
-        @usar_contenido_secundario       = true
         @publicaciones_anexos            = Hash.new
+        @archivo_rss                     = 'rss.xml'
         # Propiedades no modificables
         @cantidad      = 0
         @publicaciones = Array.new
@@ -99,6 +107,7 @@ class Imprenta
         # Cargar los archivos .rb de los directorios de las publicaciones
         pubs = Array.new
         @publicaciones_directorios.each do |dir|
+            next if FileTest.directory?(dir) == false
             archivos = Dir.glob(dir + '/*.rb')
             next if archivos.size == 0
             archivos.sort.each do |arch|
@@ -120,16 +129,19 @@ class Imprenta
         pubs = Array.new
         # Bucle para cada directorio
         @publicaciones_directorios.each do |dir|
-            archivos = Dir.glob(dir + '/*.md')  # Obtener los archivos *.md en el directorio
-            next if archivos.size == 0          # Si no hay archivos, brincarse al siguiente directorio
+            next if FileTest.directory?(dir) == false  # Si no existe el directorio se salta
+            archivos = Dir.glob(dir + '/*.md')         # Obtener los archivos *.md en el directorio
+            next if archivos.size == 0                 # Si no hay archivos, brincarse al siguiente directorio
             # Bucle para cada archivo
             archivos.sort.each do |arch|
-                p            = Publicacion.new           # Nueva publicación
-                p.tipo       = 'md'                      # Tipo de contenido: md = markdown
-                p.directorio = dir                       # Pasamos el directorio en el que vamos
-                p.archivo    = arch[/([\w._-]+)\.md/,1]  # Como arch viene como directorio/archivo.md nos quedamos con el nombre del archivo
-                renglon      = 0                         # Para saber en qué renglón andamos
-                contenido = String.new                   # No se puede acumular en una propiedad, así que juntaremos el contenido en esta variable local
+                p             = Publicacion.new           # Nueva publicación
+                p.tipo        = 'md'                      # Tipo de contenido: md = markdown
+                p.directorio  = dir                       # Pasamos el directorio en el que vamos
+                p.archivo     = arch[/([\w._-]+)\.md/,1]  # Como arch viene como directorio/archivo.md nos quedamos con el nombre del archivo
+                renglon       = 0                         # Para saber en qué renglón andamos
+                contenido     = Array.new                 # No se puede acumular en una propiedad, así que juntaremos el contenido en esta variable local
+                javascript    = Array.new                 # Del mismo modo, si hay javascript lo separamos
+                javascript_on = false                     # Bandera
                 # Bucle para abrir, leer linea por linea y cerrar
                 IO.foreach(arch) do |linea|
                     renglon += 1
@@ -138,22 +150,31 @@ class Imprenta
                         p.nombre_menu = linea.chomp  # Por defecto igual al nombre
                     elsif renglon == 2 and linea =~ /[=]+/
                         next                         # Se espera que el segundo renglón sea el subrayado del título
-                    elsif linea.chomp =~ /Corto: /
-                        p.nombre_menu = $'           # Sobreescribe al nombre si está definido Corto
-                    elsif linea.chomp =~ /Autor: /
+                    elsif javascript_on == false and linea =~ /<script/
+                        javascript_on  = true
+                        javascript.push(linea.chomp)
+                    elsif javascript_on == true and linea =~ /<\/script>/
+                        javascript.push(linea.chomp)
+                        javascript_on  = false
+                    elsif javascript_on == true
+                        javascript.push(linea.chomp)
+                    elsif linea.chomp  =~ /^Corto: /
+                        p.nombre_menu  = $'           # Sobreescribe al nombre si está definido Corto
+                    elsif linea.chomp  =~ /^Autor: /
                         p.autor = $'
-                    elsif linea.chomp =~ /Fecha: /
+                    elsif linea.chomp  =~ /^Fecha: /
                         p.fecha = $'
-                    elsif linea.chomp =~ /Categorías: /
-                        p.categorias = $'.split(/, /)
+                    elsif linea.chomp  =~ /^Categorías: /
+                        p.categorias   = $'.split(/, /)
                     else
-                        contenido += linea
+                        contenido.push(linea.chomp)
                     end
                 end
-                p.contenido = contenido                        # Pasamos el contenido a la propiedad respactiva en la publicación
-                p.autor = @autor_por_defecto if p.autor == ''  # Si no hay autor en el archivo markdown, le asignamos el autor por defecto
-                pubs.push(p)                                   # Agregar la publicación e
-                @cantidad += 1                                 # Incrementar la cantidad de las mismas
+                p.contenido  = contenido.join("\n")                 # Pasamos el contenido
+                p.javascript = javascript.join("\n")                # Pasamos el javascript
+                p.autor      = @autor_por_defecto if p.autor == ''  # Si no hay autor en el archivo markdown, le asignamos el autor por defecto
+                pubs.push(p)                                        # Agregar la publicación e
+                @cantidad += 1                                      # Incrementar la cantidad de las mismas
             end
         end
         # Almacenar en @publicaciones
@@ -257,19 +278,30 @@ class Imprenta
         # Ordenar las publicaciones por fecha, los más recientes primero
         ordenadas      = @publicaciones.sort_by { |pub| pub.fecha }
         @publicaciones = ordenadas.reverse
-        # Inicializar la plantilla de todas las publicaciones, excepto de la página inicial
-        @plantilla                    = Plantilla.new
-        @plantilla.titulo_sitio       = @titulo_sitio
-        @plantilla.frase_sitio        = @frase_sitio
-        @plantilla.grafico_encabezado = @grafico_encabezado
-        @plantilla.menu_principal     = @menu_principal
-        if @usar_contenido_secundario
-            @plantilla.menu_secundario      = self.menu_ultimas_publicaciones + self.menu_categorias + self.menu_autores
-            @plantilla.contenido_secundario = @contenido_secundario + self.menus_adicionales
-        else
-            @plantilla.menu_secundario = self.menu_ultimas_publicaciones + self.menu_categorias + self.menu_autores + @contenido_secundario + self.menus_adicionales
+        # Inicializar la plantilla de todas las publicaciones, excepto de las páginas iniciales
+        @plantilla                = Plantilla.new
+        @plantilla.titulo_sitio   = @titulo_sitio
+        @plantilla.frase_sitio    = @frase_sitio
+        @plantilla.encabezado     = @encabezado
+        @plantilla.menu_principal = @menu_principal
+        # Agregar items al Menú Secundario
+        @plantilla.agregar_menu_secundario(@menu_secundario) if @menu_secundario != ''
+        if @usar_menu_secundario
+            @plantilla.agregar_menu_secundario(self.menu_categorias)
+           #@plantilla.agregar_menu_secundario(self.menu_autores)
+            @plantilla.agregar_menu_secundario(self.menu_ultimas_publicaciones)
+           #@plantilla.agregar_menu_secundario(self.menus_adicionales)
         end
-        @plantilla.pie_html    = @pie_html
+        # Agregar items al Contenido Secundario
+        @plantilla.agregar_contenido_secundario(@contenido_secundario) if @contenido_secundario != ''
+        if @usar_contenido_secundario
+            @plantilla.agregar_contenido_secundario(self.menu_categorias)
+           #@plantilla.agregar_contenido_secundario(self.menu_autores)
+            @plantilla.agregar_contenido_secundario(self.menu_ultimas_publicaciones)
+           #@plantilla.agregar_contenido_secundario(self.menus_adicionales)
+        end
+        #
+        @plantilla.pie         = @pie
         @plantilla.archivo_rss = @archivo_rss
         # Entregar mensaje
         "Han ingresado #{@publicaciones.length} publicaciones."
@@ -299,47 +331,60 @@ class Imprenta
     end
 
     #
-    # Pagina inicial
+    # Paginas iniciales
     #
-    def pagina_inicial
+    def paginas_iniciales
         # Para los menús son necesarias estas banderas
         @en_raiz = true
         @en_otro = false
-        # Esta plantilla es sólo para la página inicial
-        plantilla                    = Plantilla.new
-        plantilla.titulo_sitio       = @titulo_sitio
-        plantilla.frase_sitio        = @frase_sitio
-        plantilla.grafico_encabezado = @grafico_encabezado
-        plantilla.menu_principal     = @menu_principal_en_raiz # Note que usa el menú para la raíz
+        # Esta plantilla es sólo para las páginas iniciales
+        plantilla                = Plantilla.new
+        plantilla.titulo_sitio   = @titulo_sitio
+        plantilla.frase_sitio    = @frase_sitio
+        plantilla.encabezado     = @encabezado
+        plantilla.menu_principal = @menu_principal_en_raiz # Note que usa el menú para la raíz
+        # Agregar items al Menú Secundario
+        plantilla.agregar_menu_secundario(@menu_secundario) if @menu_secundario != ''
+        if @usar_menu_secundario
+            plantilla.agregar_menu_secundario(self.menu_categorias)
+           #plantilla.agregar_menu_secundario(self.menu_autores)
+            plantilla.agregar_menu_secundario(self.menu_ultimas_publicaciones)
+           #plantilla.agregar_menu_secundario(self.menus_adicionales)
+        end
+        # Agregar items al Contenido Secundario
+        plantilla.agregar_contenido_secundario(@contenido_secundario) if @contenido_secundario != ''
         if @usar_contenido_secundario
-            plantilla.menu_secundario      = self.menu_ultimas_publicaciones + self.menu_categorias + self.menu_autores
-            plantilla.contenido_secundario = @contenido_secundario + self.menus_adicionales
-        else
-            plantilla.menu_secundario = self.menu_ultimas_publicaciones + self.menu_categorias + self.menu_autores + @contenido_secundario + self.menus_adicionales
+            plantilla.agregar_contenido_secundario(self.menu_categorias)
+           #plantilla.agregar_contenido_secundario(self.menu_autores)
+            plantilla.agregar_contenido_secundario(self.menu_ultimas_publicaciones)
+           #plantilla.agregar_contenido_secundario(self.menus_adicionales)
         end
-        plantilla.pie_html    = @pie_html
+        #
+        plantilla.pie         = @pie
         plantilla.archivo_rss = @archivo_rss
-        # Juntar contenido para la página de inicio
-        c         = 0
-        contenido = Array.new
-        contenido.push(@anuncio) if @anuncio != ''
+        # Multipaǵinas definirá index.html, index-2.html, etc.
+        multipagina = Multipagina.new('.', 'index')
+        # Bucle para agregar cada publicación a multipágina
         @publicaciones.each do |pub|
-            if pub.aparece_en_pagina_inicial
-                #pub.en_raiz = @en_raiz
-                #pub.en_otro = @en_otro
-                contenido.push(pub.breve_en_raiz)
-                c += 1
-                break if c >= @publicaciones_por_pagina_maximo
-            end
+            pub.en_raiz = @en_raiz
+            pub.en_otro = @en_otro
+            multipagina.agregar(pub)
         end
-        # Entregar el HTML de la pagina inicial
-        plantilla.to_html('Página inicial', contenido.join("\n"), true) # Como va en la raiz tiene true
+        # En este arreglo juntaremos el hash que se va entregar
+        paginas  = Hash.new
+        # Bucle para cada página en la multipágina
+        multipagina.paginas.each { |ruta, paquetes| paginas[ruta] = plantilla.to_html('Inicio', paquetes['contenido'], paquetes['javascript'], true)}
+        # Entregar
+        paginas
     end
 
     #
     # Páginas publicaciones
     #
+    # Entregar un hash con los nombres de los archivos => contenido HTML de cada página
+    #
     def paginas_publicaciones
+        # En este arreglo juntaremos el hash que se va entregar
         paginas = Hash.new
         # Bluce para cada una de las publicaciones
         @publicaciones.each do |pub|
@@ -349,10 +394,10 @@ class Imprenta
             else
                 contenido = pub.completo + @publicaciones_anexos[pub.directorio]  # La publicación completa más el anexo respectivo
             end
-            # Agregar la ruta con el contenido de la página
-            paginas[pub.ruta] = @plantilla.to_html(pub.nombre, contenido)
+            # Agregar
+            paginas[pub.ruta] = @plantilla.to_html(pub.nombre, contenido, pub.javascript)
         end
-        # Entregar un hash con los nombres de los archivos y el contenido HTML de cada publicación
+        # Entregar
         paginas
     end
 
@@ -360,26 +405,35 @@ class Imprenta
     # Páginas directorios
     #
     def paginas_directorios
-        @en_raiz = false    # Las páginas de los directorios están en sus directorios correspondientes
+        # Las páginas de los directorios están en sus directorios correspondientes
+        @en_raiz = false
         @en_otro = false
+        # En este arreglo juntaremos el hash que se va entregar
         paginas  = Hash.new
+        # Bucle para cada directorio
         @publicaciones_directorios.each do |dir|
+            next if FileTest.directory?(dir) == false
+            # Multipaǵinas definirá index.html, index-2.html, etc.
             multipagina = Multipagina.new(dir, 'index')
+            # Bucle para cada publicación
             @publicaciones.each do |pub|
                 pub.en_raiz = @en_raiz
                 pub.en_otro = @en_otro
-                multipagina.agregar(pub) if pub.directorio == dir
+                multipagina.agregar(pub) if pub.directorio == dir # Sólo si la publicación está en el directorio se agrega
             end
-            multipagina.paginas.each do |ruta, contenido|
+            # Para cada página acumulada en la multipágina del directorio en procesamiento
+            multipagina.paginas.each do |ruta, paquetes|
+                # En el archivo cms.rb puede estar definida una etiqueta
                 if @publicaciones_etiquetas.class == Hash and @publicaciones_etiquetas[dir] != nil
                     etiqueta = @publicaciones_etiquetas[dir]
                 else
                     etiqueta = dir.capitalize
                 end
-                paginas[ruta] = @plantilla.to_html(etiqueta, contenido)
+                # Agregar página
+                paginas[ruta] = @plantilla.to_html(etiqueta, paquetes['contenido'], paquetes['javascript'])
             end
         end
-        # Entregar un hash con la ruta y el contenido HTML de cada índice
+        # Entregar
         paginas
     end
 
@@ -387,19 +441,25 @@ class Imprenta
     # Páginas categorias
     #
     def paginas_categorias
-        @en_raiz = false    # Las páginas de las categorías están en sus directorios correspondientes
+        # Las páginas de las categorías están en sus directorios correspondientes
+        @en_raiz = false
         @en_otro = true
+        # En este arreglo juntaremos el hash que se va entregar
         paginas  = Hash.new
+        # Bucle para cada categoría
         @categorias.each do |nombre, clasificado|
+            # Multipaǵinas definirá categoria.html, categoria-2.html, etc.
             multipagina = Multipagina.new(@categorias_directorio, sustituir_caracteres(clasificado.nombre))
+            # Bucle a través de las publicaciones de esta categoría
             clasificado.publicaciones.each do |pub|
                 pub.en_raiz = @en_raiz
                 pub.en_otro = @en_otro
                 multipagina.agregar(pub)
             end
-            multipagina.paginas.each { |ruta, contenido| paginas[ruta] = @plantilla.to_html(nombre, contenido) }
+            # Agregar página
+            multipagina.paginas.each { |ruta, paquetes| paginas[ruta] = @plantilla.to_html(nombre, paquetes['contenido'], paquetes['javascript']) }
         end
-        # Entregar un hash con la ruta y el contenido HTML de cada página
+        # Entregar
         paginas
     end
 
@@ -407,19 +467,25 @@ class Imprenta
     # Páginas autores
     #
     def paginas_autores
-        @en_raiz = false    # Las páginas de los autores están en sus directorios correspondientes
+        # Las páginas de los autores están en sus directorios correspondientes
+        @en_raiz = false
         @en_otro = true
+        # En este arreglo juntaremos el hash que se va entregar
         paginas  = Hash.new
+        # Bucle para cada autor
         @autores.each do |nombre, clasificado|
+            # Multipágina definirá autor.html, autor-2.html, etc.
             multipagina = Multipagina.new(@autores_directorio, sustituir_caracteres(nombre))
+            # Bucle a través de las publicaciones de este autor
             clasificado.publicaciones.each do |pub|
                 pub.en_raiz = @en_raiz
                 pub.en_otro = @en_otro
                 multipagina.agregar(pub)
             end
-            multipagina.paginas.each { |ruta, contenido| paginas[ruta] = @plantilla.to_html("Publicaciones escritas por #{nombre}", contenido) }
+            # Agregar página
+            multipagina.paginas.each { |ruta, paquetes| paginas[ruta] = @plantilla.to_html("Publicaciones escritas por #{nombre}", paquetes['contenido'], paquetes['javascript']) }
         end
-        # Entregar un hash con la ruta y el contenido HTML de cada página
+        # Entregar
         paginas
     end
 

@@ -43,7 +43,6 @@ class Menu
         @elementos         = Array.new
         @encabezados       = Array.new
         @encabezado_actual = ''
-        @imagen_mini       = ''
     end
 
     #
@@ -76,27 +75,18 @@ class Menu
         else
             li = "<li>"
         end
-        if @imagen_mini != ''
-            if @en_raiz
-                imagen = "<img src=\"imagenes/#@imagen_mini\"> "
-            else
-                imagen = "<img src=\"../imagenes/#@imagen_mini\"> "
-            end
-        else
-            imagen = ''
-        end
         a =  Array.new
         a << "<div class=\"#@panel_clase\">" if @panel_clase != ''
         if @encabezado_actual == ''
             a << "    #{ul}"
             @elementos.each do |e|
                 if e['url'] == ''
-                    a << "      #{li}#{imagen} #{e['etiqueta']}</li>"
+                    a << "      #{li}#{e['etiqueta']}</li>"
                 else
                     if @en_raiz
-                        a << "      #{li}<a href=\"#{e['url']}\">#{imagen}#{e['etiqueta']}</a></li>"
+                        a << "      #{li}<a href=\"#{e['url']}\">#{e['etiqueta']}</a></li>"
                     else
-                        a << "      #{li}<a href=\"../#{e['url']}\">#{imagen}#{e['etiqueta']}</a></li>"
+                        a << "      #{li}<a href=\"../#{e['url']}\">#{e['etiqueta']}</a></li>"
                     end
                 end
             end
@@ -109,12 +99,12 @@ class Menu
                 @elementos.each do |e|
                     if e['encabezado'] == encabezado['etiqueta']
                         if e['url'] == ''
-                            b << "      #{li}#{imagen}#{e['etiqueta']}</li>"
+                            b << "      #{li}#{e['etiqueta']}</li>"
                         else
                             if @en_raiz
-                                b << "      #{li}<a href=\"#{e['url']}\">#{imagen}#{e['etiqueta']}</a></li>"
+                                b << "      #{li}<a href=\"#{e['url']}\">#{e['etiqueta']}</a></li>"
                             else
-                                b << "      #{li}<a href=\"../#{e['url']}\">#{imagen}#{e['etiqueta']}</a></li>"
+                                b << "      #{li}<a href=\"../#{e['url']}\">#{e['etiqueta']}</a></li>"
                             end
                         end
                     end
@@ -122,12 +112,12 @@ class Menu
                 if b.length > 0
                     b.each { |c| a << c }
                 elsif encabezado['url'] == ''
-                    a << "      #{li}#{imagen}#{encabezado['etiqueta']}</li>"
+                    a << "      #{li}#{encabezado['etiqueta']}</li>"
                 else
                     if @en_raiz
-                        a << "      #{li}<a href=\"#{encabezado['url']}\">#{imagen}#{encabezado['etiqueta']}</a></li>"
+                        a << "      #{li}<a href=\"#{encabezado['url']}\">#{encabezado['etiqueta']}</a></li>"
                     else
-                        a << "      #{li}<a href=\"../#{encabezado['url']}\">#{imagen}#{encabezado['etiqueta']}</a></li>"
+                        a << "      #{li}<a href=\"../#{encabezado['url']}\">#{encabezado['etiqueta']}</a></li>"
                     end
                 end
                 a << '    </ul>'
@@ -138,22 +128,24 @@ class Menu
     end
 
     #
-    # Menu primario, usa Twitter Bootstrap
+    # Menu primario
     #
     def to_primario_html
-        @lista_clase = 'nav navbar-nav'
-        @imagen_mini = 'implan-barra-mini-gris.png'
+        @panel_clase      = ''
+        @encabezado_clase = ''
+        @lista_clase      = 'nav navbar-nav'
+        @opcion_clase     = ''
         to_html
     end
 
     #
-    # Menu secundario, usa Twitter Bootstrap panel-default
+    # Menu secundario
     #
     def to_secundario_html
-        @panel_clase      = 'panel col-md-3 menu-secundario-panel-interior'
-        @encabezado_clase = 'panel-heading'
-        @lista_clase      = 'list-group'
-        @opcion_clase     = 'list-group-item'
+        @panel_clase      = 'menu-secundario'
+        @encabezado_clase = 'menu-secundario-encabezado'
+        @lista_clase      = 'menu-secundario-grupo'
+        @opcion_clase     = 'menu-secundario-item'
         to_html
     end
 

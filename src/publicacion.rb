@@ -34,12 +34,12 @@ class Publicacion
     #
     # Propiedades modificables
     #
-    attr_writer :nombre, :nombre_menu, :directorio, :archivo, :fecha, :autor, :contenido, :categorias, :aparece_en_pagina_inicial, :en_raiz, :en_otro, :tipo
+    attr_writer :nombre, :nombre_menu, :directorio, :archivo, :fecha, :autor, :contenido, :javascript, :categorias, :aparece_en_pagina_inicial, :en_raiz, :en_otro, :tipo
 
     #
     # Propiedades leibles
     #
-    attr_reader :nombre, :nombre_menu, :directorio, :fecha, :autor, :categorias, :aparece_en_pagina_inicial
+    attr_reader :nombre, :nombre_menu, :directorio, :fecha, :autor, :javascript, :categorias, :aparece_en_pagina_inicial
 
     #
     # Valores por defecto de las propiedades
@@ -53,6 +53,7 @@ class Publicacion
         @fecha                     = ''
         @autor                     = ''
         @contenido                 = ''
+        @javascript                = ''
         @categorias                = Array.new
         @aparece_en_pagina_inicial = true
         @en_raiz                   = false     # Verdadero cuando la publicación va para la página inicial
@@ -203,24 +204,6 @@ class Publicacion
         end
         # Entregar
         a.join("\n")
-    end
-
-    #
-    # Breve para archivo en la raiz
-    #
-    def breve_en_raiz
-        @en_raiz = true
-        @en_otro = false
-        breve
-    end
-
-    #
-    # Breve para archivo en otro directorio, como autores o categorias
-    #
-    def breve_en_otro
-        @en_raiz = false
-        @en_otro = true
-        breve
     end
 
     #

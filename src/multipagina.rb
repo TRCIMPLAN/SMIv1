@@ -51,51 +51,65 @@ class Multipagina
     #
     # Páginas
     #
-    # Entrega un hash con los contenidos de la forma Ruta_Archivo => Contenido
+    # Entrega un hash con los contenidos de la forma 'ruta' => { 'contenido' => '...', 'javascript' => '...' }
+    # Tiene la capacidad de entregar por separado el javascript para que en la plantilla se ponga al final
     #
     def paginas
         # No hace nada si no hay publicaciones
         return if @publicaciones.length == 0
-        # Iniciamos las variables
-        paginas   = Array.new
-        num_pag   = 0
-        contenido = Array.new
+        # Iniciamos las variables que irán recabando la información para esta multipágina
+        paginas    = Array.new
+        num_pag    = 0
+        contenido  = Array.new
+        javascript = Array.new
         # Bucle
         @publicaciones.each do |pub|
             # Juntaremos los breves de las publicaciones
             contenido.push(pub.breve)
+            javascript.push(pub.javascript) if pub.javascript != ''
             # Cada vez que se alcanze el maximo, cambiamos de página
             if contenido.length >= @publicaciones_por_pagina_maximo
-                # Almacenamos la página
+                # Determinar lo que se va a agregar
                 num_pag += 1
                 if num_pag == 1
-                    vinculo = "#{@nombre}.html"                # Es el vínculo relativo para los números de páginas
+                    vinculo = "#{@nombre}.html"            # Es la primer página
                 else
-                    vinculo = "#{@nombre}-#{num_pag}.html"     # Es el vínculo relativo para los números de páginas
+                    vinculo = "#{@nombre}-#{num_pag}.html" # A partir de la segunda página se anexa su número
                 end
-                ruta             = "#{@directorio}/#{vinculo}" # Es donde este script va crear el archivo HTML
-                paginas[num_pag] = { 'ruta' => ruta, 'contenido' => contenido.join("\n"), 'vinculo' => vinculo}
+                # Agregar página
+                paginas[num_pag] = {
+                    'ruta'       => "#{@directorio}/#{vinculo}",
+                    'contenido'  => contenido.join("\n"),
+                    'javascript' => javascript.join("\n"),
+                    'vinculo'    => vinculo}
                 # Comenzamos una nueva paǵina
-                contenido = Array.new
+                contenido  = Array.new
+                javascript = Array.new
             end
         end
-        # Si quedan contenidos, terminamos la última página
+        # Si quedan contenidos, elaboramos la última página
         if contenido.length > 0
+            # Determinar lo que se va a agregar
             num_pag += 1
             if num_pag == 1
-                vinculo = "#{@nombre}.html"                # Es el vínculo relativo para los números de páginas
+                vinculo = "#{@nombre}.html"            # Es la primer página
             else
-                vinculo = "#{@nombre}-#{num_pag}.html"     # Es el vínculo relativo para los números de páginas
+                vinculo = "#{@nombre}-#{num_pag}.html" # Es la segunda o posterior página
             end
-            ruta             = "#{@directorio}/#{vinculo}" # Es donde este script va crear el archivo HTML
-            paginas[num_pag] = { 'ruta' => ruta, 'contenido' => contenido.join("\n"), 'vinculo' => vinculo}
+            # Agregar página
+            paginas[num_pag] = {
+                'ruta'       => "#{@directorio}/#{vinculo}",
+                'contenido'  => contenido.join("\n"),
+                'javascript' => javascript.join("\n"),
+                'vinculo'    => vinculo}
         end
-        # Necesitamos entregar un hash de la forma Ruta => Contenido
+        # En este hash vamos a acumular lo que se va a entregar
         resultado = Hash.new
-        # Al final de cada página, pondremos los vínculos a las páginas
+        # Al final del contenido de cada página, pondremos el paginador, si hay dos o más páginas
         if num_pag > 1
+            # Hay dos o más paginas
             (1..num_pag).each do |i|
-                # Hay dos o más paginas. Elaboramos los vínculos a las páginas
+                # En este arreglo juntaremos el código del paginador
                 paginador = Array.new
                 paginador.push('<ul class="pagination">')
                 paginador.push("  <li><a href=\"#{paginas[i-1]['vinculo']}\">&laquo;</a></li>") if i > 1
@@ -108,14 +122,18 @@ class Multipagina
                 end
                 paginador.push("  <li><a href=\"#{paginas[i+1]['vinculo']}\">&raquo;</a></li>") if i < num_pag
                 paginador.push('</ul>')
-                # Agregamos los vínculos de las páginas después del contenido
-                resultado[paginas[i]['ruta']] = "#{paginas[i]['contenido']}\n#{paginador.join("\n")}"
+                # Agregar
+                resultado[paginas[i]['ruta']] = {
+                    'contenido'  => "#{paginas[i]['contenido']}\n#{paginador.join("\n")}",
+                    'javascript' => paginas[1]['javascript']}
             end
         else
-            # Solo hay una página
-            resultado[paginas[1]['ruta']] = paginas[1]['contenido']
+            # Solo es una página, entonces no habrá paginador
+            resultado[paginas[1]['ruta']] = {
+                'contenido'  => paginas[1]['contenido'],
+                'javascript' => paginas[1]['javascript']}
         end
-        # Entregamos
+        # Entregar
         resultado
     end
 

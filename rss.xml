@@ -5,62 +5,143 @@
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>IMPLAN</title>
+    <title>SMI</title>
     <link>http://implan.github.io</link>
-    <description>Instituto Municipal de Planeación y Competitividad de Torreón.</description>
+    <description>Sistema Municipal de Indicadores, IMPLAN Torreón.</description>
     <item>
-      <title>Equidad económica en Torreón</title>
-      <link>http://implan.github.io/blog/equidad-economica-en-torreon.html</link>
+      <title>TASA DE MORTALIDAD</title>
+      <link>http://implan.github.io/indicadores-torreon/sociedad-tasa-de-mortalidad.html</link>
       <description>
-&lt;p&gt;Torreón, como la zona metropolitana de La Laguna, se encuentra en una situación favorable en temas de igualdad y cohesión social. De acuerdo al Índice de Gini, el principal indicador de igualdad usado internacionalmente donde 0 representa la igualdad perfecta y 1 la total inequidad, estamos en mejores condiciones que el promedio del país. Incluso para estándares globales, nuestro coeficiente de Gini de 0.45 es relativamente bueno, tomando en cuenta a otros países de América Latina como Chile y Brasil los cuales se encuentran por arriba del 0.50, mientras algunos otros como Argentina y Estados Unidos tienen índices de 0.445 en 2010 y 0.45 en 2007 respectivamente (CIA Factbook 2014, The World Bank 2014).&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
+&lt;p&gt;Número de muertes por cada mil habitantes. Fuente Registros Administrativos INEGI, con estimaciones de población propias con base en Censos y Conteos de Población y Vivienda 1990 - 2010.&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1994-12-31&lt;/td&gt;&lt;td&gt;4.8725&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1995-12-31&lt;/td&gt;&lt;td&gt;4.7945&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
+
+&lt;div id=&quot;Morrisgzotxgef&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morrisgzotxgef --&gt;&lt;/p&gt;
 </description>
-      <author>Alicia Valdez</author>
-      <pubDate>Thu, 03 Apr 2014 09:30:00 -0600</pubDate>
-      <dc:date>2014-04-03T09:30:00-06:00</dc:date>
+      <author>Central</author>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>Nuevo Sitio Web</title>
-      <link>http://implan.github.io/noticias/2014-04-01-sitio-web.html</link>
+      <title>TASA DE HOMICIDIOS</title>
+      <link>http://implan.github.io/indicadores-torreon/seguridad-tasa-de-homicidios.html</link>
       <description>
-&lt;p&gt;Bienvenio al nuevo sitio web.&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
+
+&lt;p&gt;Número de homicidios por cada 100 mil habitantes.&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1990-12-31&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1991-12-31&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1992-12-31&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1993-12-31&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1994-12-31&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;1995-12-31&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
+
+&lt;div id=&quot;Morrisouskopsq&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morrisouskopsq --&gt;&lt;/p&gt;
 </description>
-      <author>IMPLAN</author>
-      <pubDate>Tue, 01 Apr 2014 16:40:00 -0600</pubDate>
-      <dc:date>2014-04-01T16:40:00-06:00</dc:date>
+      <author>Central</author>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>Participación en los Foros Temáticos</title>
-      <link>http://implan.github.io/noticias/2014-03-21-foros.html</link>
+      <title>CANTIDAD DE POLICIAS</title>
+      <link>http://implan.github.io/indicadores/seguridad-cantidad-de-policias.html</link>
       <description>
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sa.&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
+&lt;p&gt;Cantidad de Policías&lt;/p&gt;
+
+&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+
+&lt;p&gt;Basado en el reporte mensual de la dirección de seguridad pública de torreón.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://lapoliciadetorreon.wordpress.com&quot;&gt;SITIO WEB DE LA DSPM&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Región&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-05-01&lt;/td&gt;&lt;td&gt;1050&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-04-01&lt;/td&gt;&lt;td&gt;900&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-03-01&lt;/td&gt;&lt;td&gt;900&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;Se incrementó la contratación&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-02-01&lt;/td&gt;&lt;td&gt;740&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-01-01&lt;/td&gt;&lt;td&gt;700&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
+
+&lt;div id=&quot;Morriscchwepwq&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morriscchwepwq --&gt;&lt;/p&gt;
 </description>
-      <author>IMPLAN</author>
-      <pubDate>Tue, 01 Apr 2014 16:30:00 -0600</pubDate>
-      <dc:date>2014-04-01T16:30:00-06:00</dc:date>
+      <author>Investigación</author>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>Nuevas Instalaciones</title>
-      <link>http://implan.github.io/noticias/2014-02-15-nuevas-instalaciones.html</link>
+      <title>PERCEPCION DE CONFIABILIDAD</title>
+      <link>http://implan.github.io/indicadores/gobierno-percepcion-de-confiabilidad.html</link>
       <description>
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquya.&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
+&lt;p&gt;Porcentaje de la Población que opina que es bueno el Gobierno Municipal.&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Región&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-03-01&lt;/td&gt;&lt;td&gt;0.5101 %&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-02-01&lt;/td&gt;&lt;td&gt;0.4820 %&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-01-01&lt;/td&gt;&lt;td&gt;0.4200 %&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 </description>
-      <author>IMPLAN</author>
-      <pubDate>Tue, 01 Apr 2014 16:20:00 -0600</pubDate>
-      <dc:date>2014-04-01T16:20:00-06:00</dc:date>
+      <author>Investigación</author>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>Toma de Protesta de la Mesa Directiva</title>
-      <link>http://implan.github.io/noticias/2014-01-11-toma-de-protesta.html</link>
+      <title>NOMINA</title>
+      <link>http://implan.github.io/indicadores/gobierno-nomina.html</link>
       <description>
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sa.&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
+&lt;p&gt;Erogación mensual de la nómina&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Región&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-03-01&lt;/td&gt;&lt;td&gt;$ 1,231.00&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-02-01&lt;/td&gt;&lt;td&gt;$ 1,340.00&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-01-01&lt;/td&gt;&lt;td&gt;$ 1,254.00&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
+
+&lt;div id=&quot;Morrisokyoqkvf&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morrisokyoqkvf --&gt;&lt;/p&gt;
 </description>
-      <author>IMPLAN</author>
-      <pubDate>Tue, 01 Apr 2014 16:10:00 -0600</pubDate>
-      <dc:date>2014-04-01T16:10:00-06:00</dc:date>
+      <author>Investigación</author>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
     </item>
   </channel>
 </rss>
