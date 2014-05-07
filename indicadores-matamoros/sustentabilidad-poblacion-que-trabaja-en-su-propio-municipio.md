@@ -1,13 +1,15 @@
-MATAMOROS, POBLACION QUE TRABAJA EN SU PROPIO MUNICIPIO
+Población que Trabaja en su PROPIO Municipio
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Movilidad
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
-Porcentaje de la población ocupada que trabaja y reside en el mismo municipio
+Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de la población ocupada que trabaja y reside en el mismo municipio
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>76.0000 %</td><td>CONAPO</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

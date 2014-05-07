@@ -1,9 +1,11 @@
-TORREON, INGRESOS TOTALES
+Ingresos Totales
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Torreón
 
 #### Información recopilada
 
@@ -18,13 +20,19 @@ Autor: IMPLAN
   <tr><td>2013-12-31</td><td>$ 1,927,501,368.00</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
+
 #### Gráfica
 
-<div id="Morriszbfovagj" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszbfovagj -->
+<div id="Morrisijwtocxl" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisijwtocxl -->
   <script>
   new Morris.Bar({
-    element: 'Morriszbfovagj',
+    element: 'Morrisijwtocxl',
     data: [
       { fecha: '2007-12-31', dato: 1395070656.00 },
       { fecha: '2008-12-31', dato: 1672978076.00 },

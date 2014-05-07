@@ -99,9 +99,9 @@ class CMS < Imprenta
         puts alimentarse
      #~ puts clasificar_autores
         puts clasificar_categorias
-        puts preparar_menu_ultimas_publicaciones
+     #~ puts preparar_menu_ultimas_publicaciones
         # Preparar plantilla para archivos que NO estarán en la raíz
-        @plantilla.contenido_secundario = @menu_categorias.to_html + @menu_ultimas_publicaciones.to_html # + @menu_autores.to_html
+        @plantilla.contenido_secundario = @menu_categorias.to_html # + @menu_autores.to_html + @menu_ultimas_publicaciones.to_html
         @plantilla.menu_principal       = @menu_principal.to_html
         @plantilla.encabezado           = menu_rsi.to_html
         # Crear archivos que NO estarán en la raíz
@@ -114,7 +114,7 @@ class CMS < Imprenta
         puts "Creando páginas de las categorías..."
         paginas_categorias.each    { |archivo, contenido| puts crear_archivo(archivo, contenido) }
         # Preparar la plantilla para archivos que SI van a estar en la raíz
-        @plantilla.contenido_secundario = @menu_categorias.to_html(true) + @menu_ultimas_publicaciones.to_html(true) # + @menu_autores.to_html(true)
+        @plantilla.contenido_secundario = @menu_categorias.to_html(true) # + @menu_autores.to_html(true) + @menu_ultimas_publicaciones.to_html(true)
         @plantilla.menu_principal       = @menu_principal.to_html(true)
         @plantilla.encabezado           = menu_rsi.to_html(true)
         # Crear archivos para la raíz

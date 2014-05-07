@@ -1,9 +1,11 @@
-LERDO, INGRESOS TOTALES
+Ingresos Totales
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Lerdo
 
 #### Información recopilada
 
@@ -17,13 +19,19 @@ Autor: IMPLAN
   <tr><td>2012-12-31</td><td>$ 360,393,013.00</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
+
 #### Gráfica
 
-<div id="Morriswcxitbvu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswcxitbvu -->
+<div id="Morriszgrkmryz" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszgrkmryz -->
   <script>
   new Morris.Bar({
-    element: 'Morriswcxitbvu',
+    element: 'Morriszgrkmryz',
     data: [
       { fecha: '2007-12-31', dato: 241931931.00 },
       { fecha: '2008-12-31', dato: 262644851.00 },

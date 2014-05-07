@@ -1,13 +1,15 @@
-GOMEZ PALACIO, MORTALIDAD MATERNA
+Mortalidad Materna
 =====
 
 Fecha: 2014-05-01
-Categorías: SALUD, GENERO
+Categorías: Salud, Género
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
-Defunciones maternas por cada cien mil partos
+Defunciones maternas por cada cien mil partos.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Defunciones maternas por cada cien mil partos
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>54</td><td>SINAIS (SSA)</td><td></td></tr>
 </table>
+
+Unidad: Por cada 100 mil.

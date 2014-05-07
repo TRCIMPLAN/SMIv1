@@ -1,13 +1,11 @@
-LERDO, RED CARRETERA TOTAL
+Red Carretera Total
 =====
 
 Fecha: 2014-05-01
-Categorías: INFRAESTRUCTURA
+Categorías: Infraestructura
 Autor: IMPLAN
 
-#### Observaciones
-
-No aplica a nivel metropilitano
+### Lerdo
 
 #### Información recopilada
 
@@ -15,3 +13,9 @@ No aplica a nivel metropilitano
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>314</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Kilómetros.
+
+#### Observaciones
+
+No aplica a nivel metropolitano.

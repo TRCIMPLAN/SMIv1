@@ -1,9 +1,11 @@
-LERDO, SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL
+SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL
 =====
 
 Fecha: 2014-05-01
 Categorías: 
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
@@ -15,3 +17,5 @@ Sentenciados registrados en los juzgados de primera instancia en materia penal d
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2008-12-31</td><td>20</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: 00) SIN UNIDAD.

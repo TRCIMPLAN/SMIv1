@@ -1,9 +1,11 @@
-GOMEZ PALACIO, SENTENCIADOS POR DELITOS DE NARCOTICOS
+SENTENCIADOS POR DELITOS DE NARCOTICOS
 =====
 
 Fecha: 2014-05-01
 Categorías: 
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
@@ -15,3 +17,5 @@ Sentenciados por delitos en materia de narcóticos registrados en los juzgados d
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2008-12-31</td><td>60</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: 00) SIN UNIDAD.

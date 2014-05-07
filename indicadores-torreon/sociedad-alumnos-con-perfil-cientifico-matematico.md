@@ -1,17 +1,15 @@
-TORREON, ALUMNOS CON PERFIL CIENTIFICO-MATEMATICO
+Alumnos con Perfil Científico-Matemático
 =====
 
 Fecha: 2014-05-01
-Categorías: EDUCACION
+Categorías: Educación
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
-Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico
-
-#### Observaciones
-
-El criterio de "Alumnos buenos y excelentes" provienen de www.mejoratuescuela.org
+Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.
 
 #### Información recopilada
 
@@ -19,3 +17,9 @@ El criterio de "Alumnos buenos y excelentes" provienen de www.mejoratuescuela.or
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2013-12-31</td><td>46.0000 %</td><td>SEP</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.
+
+#### Observaciones
+
+El criterio de "Alumnos buenos y excelentes" provienen de www.mejoratuescuela.org

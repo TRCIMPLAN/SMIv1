@@ -1,17 +1,15 @@
-TORREON, DESEMPLEO
+Desempleo
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Empleo
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
 Cantidad de personas desempleadas.
-
-#### Observaciones
-
-Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
 
 #### Información recopilada
 
@@ -22,13 +20,19 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
   <tr><td>2009-12-31</td><td>19536</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Personas.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
+
 #### Gráfica
 
-<div id="Morriszvikfpgj" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszvikfpgj -->
+<div id="Morrisxmrdkueb" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxmrdkueb -->
   <script>
   new Morris.Bar({
-    element: 'Morriszvikfpgj',
+    element: 'Morrisxmrdkueb',
     data: [
       { fecha: '1989-12-31', dato: 4043 },
       { fecha: '1999-12-31', dato: 2135 },

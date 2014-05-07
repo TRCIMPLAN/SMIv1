@@ -1,13 +1,15 @@
-LERDO, MEDICOS
+Médicos
 =====
 
 Fecha: 2014-05-01
-Categorías: SALUD
+Categorías: Salud
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
-Médicos en contacto con pacientes por cada diez mil personas
+Médicos en contacto con pacientes por cada diez mil personas.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Médicos en contacto con pacientes por cada diez mil personas
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>6.5000</td><td>SINAIS (SSA)</td><td></td></tr>
 </table>
+
+Unidad: Por cada 10 mil.

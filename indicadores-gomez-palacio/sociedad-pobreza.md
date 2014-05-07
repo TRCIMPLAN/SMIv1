@@ -1,13 +1,15 @@
-GOMEZ PALACIO, POBREZA
+Pobreza
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Bienestar
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
-Porcentaje de la población en situación de pobreza
+Porcentaje de la población en situación de pobreza.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de la población en situación de pobreza
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>37.2000 %</td><td>CONEVAL</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

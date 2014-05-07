@@ -1,13 +1,15 @@
-MATAMOROS, POBREZA EXTREMA
+Pobreza Extrema
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Bienestar
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
-Porcentaje de la población en situación de pobreza extrema
+Porcentaje de la población en situación de pobreza extrema.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de la población en situación de pobreza extrema
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>3.9000 %</td><td>CONEVAL</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

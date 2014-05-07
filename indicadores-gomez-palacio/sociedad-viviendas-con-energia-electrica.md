@@ -1,13 +1,15 @@
-GOMEZ PALACIO, VIVIENDAS CON ENERGIA ELECTRICA
+Viviendas con energía eléctrica
 =====
 
 Fecha: 2014-05-01
-Categorías: VIVIENDA
+Categorías: Vivienda
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
-Porcentaje de viviendas con energía eléctrica
+Porcentaje de viviendas con acceso a energía eléctrica
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de viviendas con energía eléctrica
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>98.0000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

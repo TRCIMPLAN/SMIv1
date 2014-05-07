@@ -1,9 +1,11 @@
-MATAMOROS, ALUMBRADO PUBLICO
+Alumbrado Público
 =====
 
 Fecha: 2014-05-01
-Categorías: SERVICIOS PUBLICOS
+Categorías: Servicios Públicos
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
@@ -15,3 +17,5 @@ Porcentaje de viviendas sin acceso a alumbrado público en su manzana
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>16.8000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

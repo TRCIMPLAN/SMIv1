@@ -1,9 +1,11 @@
-TORREON, INGRESO PER CAPITA
+Ingreso Per cápita
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
@@ -13,22 +15,28 @@ Ingresos totales del municipio entre el total de la población.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 2,312.71</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 2,713.59</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 2,467.92</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 2,858.83</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 2,921.67</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 2,753.40</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>$ 2,821.23</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
+  <tr><td>2007-12-31</td><td>$ 2,312.71</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>$ 2,713.59</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2009-12-31</td><td>$ 2,467.92</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>$ 2,858.83</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>$ 2,921.67</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>$ 2,753.40</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>$ 2,821.23</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
+
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morrissrpgweml" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrissrpgweml -->
+<div id="Morrisojzjbrxy" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisojzjbrxy -->
   <script>
   new Morris.Bar({
-    element: 'Morrissrpgweml',
+    element: 'Morrisojzjbrxy',
     data: [
       { fecha: '2007-12-31', dato: 2312.71 },
       { fecha: '2008-12-31', dato: 2713.59 },

@@ -1,9 +1,11 @@
-TORREON, TASA DE HOMICIDIOS
+TASA DE HOMICIDIOS
 =====
 
 Fecha: 2014-05-01
 Categorías: 
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
@@ -21,13 +23,15 @@ Número de homicidios por cada 100 mil habitantes.
   <tr><td>1995-12-31</td><td>10</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Por cada 100 mil.
+
 #### Gráfica
 
-<div id="Morrisixapgetf" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisixapgetf -->
+<div id="Morrisafewwgei" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisafewwgei -->
   <script>
   new Morris.Bar({
-    element: 'Morrisixapgetf',
+    element: 'Morrisafewwgei',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },

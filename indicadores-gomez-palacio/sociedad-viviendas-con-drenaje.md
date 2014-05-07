@@ -1,13 +1,15 @@
-GOMEZ PALACIO, VIVIENDAS CON DRENAJE
+Viviendas con Drenaje
 =====
 
 Fecha: 2014-05-01
-Categorías: VIVIENDA
+Categorías: Vivienda
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
-Porcentaje de viviendas habitadas que disponen de drenaje
+Porcentaje de viviendas habitadas que disponen de drenaje.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de viviendas habitadas que disponen de drenaje
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>93.8000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

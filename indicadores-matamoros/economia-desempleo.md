@@ -1,17 +1,15 @@
-MATAMOROS, DESEMPLEO
+Desempleo
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Empleo
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
 Cantidad de personas desempleadas.
-
-#### Observaciones
-
-Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
 
 #### Información recopilada
 
@@ -22,13 +20,19 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
   <tr><td>2009-12-31</td><td>2380</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Personas.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
+
 #### Gráfica
 
-<div id="Morrisyzdnhpbw" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisyzdnhpbw -->
+<div id="Morrismrznpxmb" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismrznpxmb -->
   <script>
   new Morris.Bar({
-    element: 'Morrisyzdnhpbw',
+    element: 'Morrismrznpxmb',
     data: [
       { fecha: '1989-12-31', dato: 774 },
       { fecha: '1999-12-31', dato: 378 },

@@ -1,13 +1,15 @@
-TORREON, VIVIENDAS CON AGUA DE LA RED PUBLICA
+Viviendas con Agua de la Red Pública
 =====
 
 Fecha: 2014-05-01
-Categorías: VIVIENDA
+Categorías: Vivienda
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
-Porcentaje de viviendas habitadas que cuentan con agua de la red pública
+Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de viviendas habitadas que cuentan con agua de la red pública
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>95.3000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

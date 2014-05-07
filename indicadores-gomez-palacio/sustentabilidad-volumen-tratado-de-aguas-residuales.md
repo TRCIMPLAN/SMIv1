@@ -1,9 +1,11 @@
-GOMEZ PALACIO, VOLUMEN TRATADO DE AGUAS RESIDUALES
+Volumen Tratado de Aguas Residuales
 =====
 
 Fecha: 2014-05-01
-Categorías: MEDIO AMBIENTE
+Categorías: Medio Ambiente
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Información recopilada
 
@@ -11,3 +13,5 @@ Autor: IMPLAN
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>1.8300</td><td>IMCO-CONAGUA</td><td></td></tr>
 </table>
+
+Unidad: Litros por segundo por persona.

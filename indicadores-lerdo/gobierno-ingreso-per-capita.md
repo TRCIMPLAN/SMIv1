@@ -1,9 +1,11 @@
-LERDO, INGRESO PER CAPITA
+Ingreso Per cápita
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
@@ -13,21 +15,27 @@ Ingresos totales del municipio entre el total de la población.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 1,803.84</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 2,595.45</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 2,623.62</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 1,980.37</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 2,255.84</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 2,460.58</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
+  <tr><td>2007-12-31</td><td>$ 1,803.84</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>$ 2,595.45</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2009-12-31</td><td>$ 2,623.62</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>$ 1,980.37</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>$ 2,255.84</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>$ 2,460.58</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
+
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morrisysqfcevp" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisysqfcevp -->
+<div id="Morrisjmupldhe" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjmupldhe -->
   <script>
   new Morris.Bar({
-    element: 'Morrisysqfcevp',
+    element: 'Morrisjmupldhe',
     data: [
       { fecha: '2007-12-31', dato: 1803.84 },
       { fecha: '2008-12-31', dato: 2595.45 },

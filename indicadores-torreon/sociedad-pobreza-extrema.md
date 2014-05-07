@@ -1,13 +1,15 @@
-TORREON, POBREZA EXTREMA
+Pobreza Extrema
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Bienestar
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
-Porcentaje de la población en situación de pobreza extrema
+Porcentaje de la población en situación de pobreza extrema.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de la población en situación de pobreza extrema
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>2.8400 %</td><td>CONEVAL</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

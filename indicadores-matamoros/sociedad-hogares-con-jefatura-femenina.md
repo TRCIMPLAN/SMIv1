@@ -1,13 +1,15 @@
-MATAMOROS, HOGARES CON JEFATURA FEMENINA
+Hogares con Jefatura Femenina
 =====
 
 Fecha: 2014-05-01
-Categorías: GENERO
+Categorías: Género
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
-Porcentaje de hogares con jefatura femenina
+Porcentaje de hogares con jefatura femenina.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de hogares con jefatura femenina
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>18.4800 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

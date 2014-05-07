@@ -1,36 +1,40 @@
-LERDO, TAMAÑO DEL MERCADO HIPOTECARIO
+Tamaño del Mercado Hipotecario
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Mercados
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
 Créditos otorgados durante el año indicado
 
-#### Observaciones
-
-Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>76</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>179</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>340</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>379</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2014-03-31</td><td>27</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>76</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>179</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>340</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>379</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2014-03-31</td><td>27</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
 </table>
+
+Unidad: Cantidad de Créditos.
+
+#### Observaciones
+
+Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
 
 #### Gráfica
 
-<div id="Morriswrphgfwj" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswrphgfwj -->
+<div id="Morrisfonwgxku" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisfonwgxku -->
   <script>
   new Morris.Bar({
-    element: 'Morriswrphgfwj',
+    element: 'Morrisfonwgxku',
     data: [
       { fecha: '2010-12-31', dato: 76 },
       { fecha: '2011-12-31', dato: 179 },

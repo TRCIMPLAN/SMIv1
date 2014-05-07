@@ -9,24 +9,30 @@
     <link>http://trcimplan.github.io</link>
     <description>Sistema Municipal de Indicadores</description>
     <item>
-      <title>TORREON, VOLUMEN TRATADO DE AGUAS RESIDUALES</title>
+      <title>Volumen Tratado de Aguas Residuales</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html</link>
       <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;2.4400&lt;/td&gt;&lt;td&gt;IMCO-CONAGUA&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Litros por segundo por persona.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, VIVIENDAS OCUPADAS POR TEMPORADA</title>
-      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-viviendas-ocupadas-por-temporada.html</link>
+      <title>Viviendas Ocupadas Temporalmente</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</link>
       <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
 &lt;p&gt;Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.&lt;/p&gt;
@@ -37,18 +43,22 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;2.9000 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Porcentaje.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, VIVIENDAS DESHABITADAS</title>
+      <title>Viviendas Deshabitadas</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html</link>
       <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Viviendas deshabitadas con respecto al total de viviendas disponibles&lt;/p&gt;
+&lt;p&gt;Viviendas deshabitadas con respecto al total de viviendas disponibles.&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
@@ -56,48 +66,41 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;20.5700 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-</description>
-      <author>IMPLAN</author>
-      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
-    </item>
-    <item>
-      <title>TORREON, VEHICULOS AUTOMOTORES</title>
-      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-vehiculos-automotores.html</link>
-      <description>
-&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
-&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
-  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;225&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
+&lt;p&gt;Unidad: Porcentaje.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, SOBREEXPLOTACION DEL ACUIFERO</title>
+      <title>Sobreexplotación del Acuífero</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html</link>
       <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;100.0000 %&lt;/td&gt;&lt;td&gt;IMCO-CONAGUA&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Porcentaje.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, RESERVA TERRITORIAL</title>
+      <title>Reserva Territorial</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-reserva-territorial.html</link>
       <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Área no urbanizada&lt;/p&gt;
+&lt;p&gt;Área no urbanizada.&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
@@ -105,18 +108,41 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2005-12-31&lt;/td&gt;&lt;td&gt;75.7000 %&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Porcentaje.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, RED CARRETERA TRONCAL FEDERAL</title>
-      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html</link>
+      <title>Red de Transporte Público</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-de-transporte-publico.html</link>
       <description>
-&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
 
-&lt;p&gt;No aplica a nivel metropilitano&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
+
+&lt;p&gt;Extensión de la red de transporte público en Kilómetros totales.&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-03-31&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;td&gt;IMPLAN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Unidad: Kilómetros.&lt;/p&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Red Carretra Troncal Federal</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretra-troncal-federal.html</link>
+      <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
@@ -124,18 +150,22 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;226&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Kilómetros.&lt;/p&gt;
+
+&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+
+&lt;p&gt;No aplica a nivel metropolitano.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, RED CARRETERA TOTAL</title>
+      <title>Red Carretera Total</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretera-total.html</link>
       <description>
-&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
-
-&lt;p&gt;No aplica a nivel metropilitano&lt;/p&gt;
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
@@ -143,18 +173,26 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;226&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Kilómetros.&lt;/p&gt;
+
+&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+
+&lt;p&gt;No aplica a nivel metropolitano.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, RED CARRETERA DE ALIMENTADORAS ESTATALES</title>
+      <title>Red Carretera de Alimentadoras Estatales</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html</link>
       <description>
-&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
 
-&lt;p&gt;No aplica a nivel metropolitano&lt;/p&gt;
+&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
+
+&lt;p&gt;Red carretera de alimentadoras estatales.&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
@@ -162,18 +200,26 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;INDETERMINADO&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Kilómetros.&lt;/p&gt;
+
+&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+
+&lt;p&gt;No aplica a nivel metropolitano&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TORREON, POBLACION QUE TRABAJA EN SU PROPIO MUNICIPIO</title>
+      <title>Población que Trabaja en su PROPIO Municipio</title>
       <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</link>
       <description>
+&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Porcentaje de la población ocupada que trabaja y reside en el mismo municipio&lt;/p&gt;
+&lt;p&gt;Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
@@ -181,6 +227,8 @@
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;89.0000 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Unidad: Porcentaje.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>

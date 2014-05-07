@@ -1,13 +1,15 @@
-TORREON, RED CARRETERA DE ALIMENTADORAS ESTATALES
+Red Carretera de Alimentadoras Estatales
 =====
 
 Fecha: 2014-05-01
-Categorías: INFRAESTRUCTURA
+Categorías: Infraestructura
 Autor: IMPLAN
 
-#### Observaciones
+### Torreón
 
-No aplica a nivel metropolitano
+#### Descripción
+
+Red carretera de alimentadoras estatales.
 
 #### Información recopilada
 
@@ -15,3 +17,9 @@ No aplica a nivel metropolitano
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>INDETERMINADO</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Kilómetros.
+
+#### Observaciones
+
+No aplica a nivel metropolitano

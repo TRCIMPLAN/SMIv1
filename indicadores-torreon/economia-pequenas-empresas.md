@@ -1,9 +1,11 @@
-TORREON, PEQUEÑAS EMPRESAS
+Pequeñas Empresas
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Empresas
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
@@ -13,5 +15,11 @@ Porcentaje del total de empresas que emplean entre 11 y 50 empleados.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2013-12-31</td><td>8.6600 %</td><td>SISTEMA DE INFORMACION EMPRESARIAL MEXICANO (SIEM)</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>8.6600 %</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
 </table>
+
+Unidad: Cantidad de Empresas.
+
+#### Observaciones
+
+Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1)

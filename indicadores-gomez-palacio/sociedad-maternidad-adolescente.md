@@ -1,9 +1,11 @@
-GOMEZ PALACIO, MATERNIDAD ADOLESCENTE
+Maternidad Adolescente
 =====
 
 Fecha: 2014-05-01
-Categorías: GENERO
+Categorías: Género
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Información recopilada
 
@@ -11,3 +13,5 @@ Autor: IMPLAN
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>16.3000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

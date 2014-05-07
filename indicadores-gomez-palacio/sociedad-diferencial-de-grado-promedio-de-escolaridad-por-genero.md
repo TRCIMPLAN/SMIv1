@@ -1,17 +1,15 @@
-GOMEZ PALACIO, DIFERENCIAL DE GRADO PROMEDIO DE ESCOLARIDAD POR GENERO
+Diferencial de Grado Promedio de Escolaridad por Género
 =====
 
 Fecha: 2014-05-01
-Categorías: GENERO, EDUCACION
+Categorías: Género, Educación
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
-Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres
-
-#### Observaciones
-
-Años de escolaridad
+Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.
 
 #### Información recopilada
 
@@ -19,3 +17,9 @@ Años de escolaridad
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>-0.2000</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Promedio.
+
+#### Observaciones
+
+Años de escolaridad.

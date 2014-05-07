@@ -1,13 +1,15 @@
-LERDO, VIVIENDAS QUE DISPONEN DE RETRETE
+Viviendas que Disponen de Retrete
 =====
 
 Fecha: 2014-05-01
-Categorías: VIVIENDA, SALUD
+Categorías: Vivienda, Salud
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
-Porcentaje de viviendas habitadas que disponen de retrete
+Porcentaje de viviendas habitadas que disponen de retrete.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de viviendas habitadas que disponen de retrete
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>91.4000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

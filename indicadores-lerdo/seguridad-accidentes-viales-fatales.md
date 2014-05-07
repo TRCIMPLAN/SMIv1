@@ -1,9 +1,11 @@
-LERDO, ACCIDENTES VIALES FATALES
+Accidentes Viales Fatales
 =====
 
 Fecha: 2014-05-01
 Categorías: 
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
@@ -15,3 +17,5 @@ Cantidad de accidentes viales fatales por año.
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>11</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Cantidad.

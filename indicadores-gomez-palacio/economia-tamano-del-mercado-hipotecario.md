@@ -1,36 +1,40 @@
-GOMEZ PALACIO, TAMAÑO DEL MERCADO HIPOTECARIO
+Tamaño del Mercado Hipotecario
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Mercados
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
 Créditos otorgados durante el año indicado
 
-#### Observaciones
-
-Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>188</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>669</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>1030</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>948</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2014-03-31</td><td>85</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>188</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>669</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>1030</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>948</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td>2014-03-31</td><td>85</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
 </table>
+
+Unidad: Cantidad de Créditos.
+
+#### Observaciones
+
+Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
 
 #### Gráfica
 
-<div id="Morrishxjipikb" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishxjipikb -->
+<div id="Morriskopdrigz" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriskopdrigz -->
   <script>
   new Morris.Bar({
-    element: 'Morrishxjipikb',
+    element: 'Morriskopdrigz',
     data: [
       { fecha: '2010-12-31', dato: 188 },
       { fecha: '2011-12-31', dato: 669 },

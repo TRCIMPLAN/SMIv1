@@ -1,13 +1,15 @@
-MATAMOROS, VIVIENDAS DESHABITADAS
+Viviendas Deshabitadas
 =====
 
 Fecha: 2014-05-01
-Categorías: VIVIENDA
+Categorías: Vivienda
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
-Viviendas deshabitadas con respecto al total de viviendas disponibles
+Viviendas deshabitadas con respecto al total de viviendas disponibles.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Viviendas deshabitadas con respecto al total de viviendas disponibles
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>12.2000 %</td><td>CONAPO</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

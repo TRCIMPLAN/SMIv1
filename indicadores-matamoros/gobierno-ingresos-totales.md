@@ -1,9 +1,11 @@
-MATAMOROS, INGRESOS TOTALES
+Ingresos Totales
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Matamoros
 
 #### Información recopilada
 
@@ -17,13 +19,19 @@ Autor: IMPLAN
   <tr><td>2012-12-31</td><td>$ 176,265,107.00</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
+
 #### Gráfica
 
-<div id="Morrisqjzjnpja" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqjzjnpja -->
+<div id="Morrisxwvhluas" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxwvhluas -->
   <script>
   new Morris.Bar({
-    element: 'Morrisqjzjnpja',
+    element: 'Morrisxwvhluas',
     data: [
       { fecha: '2007-12-31', dato: 118848281.00 },
       { fecha: '2008-12-31', dato: 179363074.00 },

@@ -1,9 +1,11 @@
-GOMEZ PALACIO, INGRESOS TOTALES
+Ingresos Totales
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Información recopilada
 
@@ -17,13 +19,19 @@ Autor: IMPLAN
   <tr><td>2012-12-31</td><td>$ 1,127,248,678.00</td><td>INEGI</td><td></td></tr>
 </table>
 
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
+
 #### Gráfica
 
-<div id="Morristewojubz" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristewojubz -->
+<div id="Morrisupifvrxe" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisupifvrxe -->
   <script>
   new Morris.Bar({
-    element: 'Morristewojubz',
+    element: 'Morrisupifvrxe',
     data: [
       { fecha: '2007-12-31', dato: 633417899.00 },
       { fecha: '2008-12-31', dato: 939654384.00 },

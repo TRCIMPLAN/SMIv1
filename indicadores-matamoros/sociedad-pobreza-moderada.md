@@ -1,13 +1,15 @@
-MATAMOROS, POBREZA MODERADA
+Pobreza Moderada
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Bienestar
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
-Porcentaje de la población en situación de pobreza moderada
+Porcentaje de la población en situación de pobreza moderada.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Porcentaje de la población en situación de pobreza moderada
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2012-12-31</td><td>29.8000 %</td><td>CONEVAL</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

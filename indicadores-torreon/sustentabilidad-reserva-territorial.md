@@ -1,13 +1,15 @@
-TORREON, RESERVA TERRITORIAL
+Reserva Territorial
 =====
 
 Fecha: 2014-05-01
-Categorías: MEDIO AMBIENTE
+Categorías: Medio Ambiente
 Autor: IMPLAN
+
+### Torreón
 
 #### Descripción
 
-Área no urbanizada
+Área no urbanizada.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Autor: IMPLAN
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2005-12-31</td><td>75.7000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.

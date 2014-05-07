@@ -1,17 +1,15 @@
-LERDO, ESPACIOS CULTURALES
+Espacios Culturales
 =====
 
 Fecha: 2014-05-01
-Categorías: EDUCACION, CULTURA
+Categorías: Educación, Cultura
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
-Espacios culturales físicamente delimitados
-
-#### Observaciones
-
-Se realizó un filtrado básico de la totalidad de los espacios culturales considerados por CONACULTA, ya que ellos consideran programas, fondos y proyectos a sus estadísticas totales, así como eventos que fueron realizados en una ocasión y datan de hace más de 5 años.
+Espacios culturales físicamente delimitados.
 
 #### Información recopilada
 
@@ -19,3 +17,9 @@ Se realizó un filtrado básico de la totalidad de los espacios culturales consi
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2014-03-31</td><td>13</td><td>CONACULTA-IMPLAN</td><td></td></tr>
 </table>
+
+Unidad: Por cada 100 mil.
+
+#### Observaciones
+
+Se realizó un filtrado básico de la totalidad de los espacios culturales considerados por CONACULTA, ya que ellos consideran programas, fondos y proyectos a sus estadísticas totales, así como eventos que fueron realizados en una ocasión y datan de hace más de 5 años. (www.sic.gob.mx)

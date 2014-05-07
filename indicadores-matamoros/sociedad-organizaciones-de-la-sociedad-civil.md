@@ -1,13 +1,15 @@
-MATAMOROS, ORGANIZACIONES DE LA SOCIEDAD CIVIL
+Organizaciones de la Sociedad Civil
 =====
 
 Fecha: 2014-05-01
-Categorías: PARTICIPACION CIUDADANA
+Categorías: Participación Ciudadana
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
-Organizaciones de la sociedad civil por cada diez mil habitantes
+Organizaciones de la sociedad civil por cada diez mil habitantes.
 
 #### Información recopilada
 
@@ -15,3 +17,5 @@ Organizaciones de la sociedad civil por cada diez mil habitantes
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2014-03-31</td><td>1.1000</td><td>RFOSC</td><td></td></tr>
 </table>
+
+Unidad: Por cada 10 mil.

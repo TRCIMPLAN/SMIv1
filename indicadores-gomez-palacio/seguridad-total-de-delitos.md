@@ -1,9 +1,11 @@
-GOMEZ PALACIO, TOTAL DE DELITOS
+TOTAL DE DELITOS
 =====
 
 Fecha: 2014-05-01
 Categorías: SEGURIDAD
 Autor: IMPLAN
+
+### Gómez Palacio
 
 #### Descripción
 
@@ -13,18 +15,20 @@ Total de delitos cometidos por mes
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2014-01-31</td><td>363</td><td>SECRETARIADO EJECUTIVO DEL SISTEMA NACIONAL DE SEGURIDAD PUBLICA</td><td></td></tr>
-  <tr><td>2014-02-28</td><td>307</td><td>SECRETARIADO EJECUTIVO DEL SISTEMA NACIONAL DE SEGURIDAD PUBLICA</td><td></td></tr>
-  <tr><td>2014-03-31</td><td>382</td><td>SECRETARIADO EJECUTIVO DEL SISTEMA NACIONAL DE SEGURIDAD PUBLICA</td><td></td></tr>
+  <tr><td>2014-01-31</td><td>363</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+  <tr><td>2014-02-28</td><td>307</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+  <tr><td>2014-03-31</td><td>382</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
 </table>
+
+Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisdwsgaahm" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisdwsgaahm -->
+<div id="Morrisavrwluxu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisavrwluxu -->
   <script>
   new Morris.Bar({
-    element: 'Morrisdwsgaahm',
+    element: 'Morrisavrwluxu',
     data: [
       { fecha: '2014-01-31', dato: 363 },
       { fecha: '2014-02-28', dato: 307 },

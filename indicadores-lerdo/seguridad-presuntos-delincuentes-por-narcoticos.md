@@ -1,9 +1,11 @@
-LERDO, PRESUNTOS DELINCUENTES POR NARCOTICOS
+Presuntos Delincuentes por Narcóticos
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Seguridad
 Autor: IMPLAN
+
+### Lerdo
 
 #### Descripción
 
@@ -15,3 +17,5 @@ Presuntos delincuentes por delitos en materia de narcóticos registrados en los 
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2008-12-31</td><td>22</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Cantidad.

@@ -1,9 +1,11 @@
-MATAMOROS, INGRESO PER CAPITA
+Ingreso Per cápita
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: Finanzas Públicas
 Autor: IMPLAN
+
+### Matamoros
 
 #### Descripción
 
@@ -13,21 +15,27 @@ Ingresos totales del municipio entre el total de la población.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 1,155.87</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 1,717.79</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 1,623.19</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 1,399.66</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 1,418.38</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 1,594.68</td><td>ELABORACION PROPIA CON DATOS OBTENIDOS DE INEGI</td><td></td></tr>
+  <tr><td>2007-12-31</td><td>$ 1,155.87</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>$ 1,717.79</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2009-12-31</td><td>$ 1,623.19</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>$ 1,399.66</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>$ 1,418.38</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>$ 1,594.68</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
+
+Unidad: Pesos.
+
+#### Observaciones
+
+Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morrisjbgngwya" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjbgngwya -->
+<div id="Morrispongrmrg" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispongrmrg -->
   <script>
   new Morris.Bar({
-    element: 'Morrisjbgngwya',
+    element: 'Morrispongrmrg',
     data: [
       { fecha: '2007-12-31', dato: 1155.87 },
       { fecha: '2008-12-31', dato: 1717.79 },

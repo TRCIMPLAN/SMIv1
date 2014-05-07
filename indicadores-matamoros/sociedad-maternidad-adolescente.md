@@ -1,9 +1,11 @@
-MATAMOROS, MATERNIDAD ADOLESCENTE
+Maternidad Adolescente
 =====
 
 Fecha: 2014-05-01
-Categorías: GENERO
+Categorías: Género
 Autor: IMPLAN
+
+### Matamoros
 
 #### Información recopilada
 
@@ -11,3 +13,5 @@ Autor: IMPLAN
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   <tr><td>2010-12-31</td><td>19.9000 %</td><td>INEGI</td><td></td></tr>
 </table>
+
+Unidad: Porcentaje.
