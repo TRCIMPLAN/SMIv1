@@ -21,16 +21,16 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
   <tr><td>2011-12-31</td><td>240,598,550.0000</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
   <tr><td>2012-12-31</td><td>261,966,994.0000</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
   <tr><td>2013-12-31</td><td>319,887,703.0000</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2014-03-31</td><td>334,888,287.0000</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2014-03-31</td><td>334,888,287.0000</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td>Dato trimestral</td></tr>
 </table>
 
 #### Gráfica
 
-<div id="Morrisxnhuoxzl" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxnhuoxzl -->
+<div id="Morrisgtrfhked" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgtrfhked -->
   <script>
   new Morris.Line({
-    element: 'Morrisxnhuoxzl',
+    element: 'Morrisgtrfhked',
     data: [
       { fecha: '2010-12-31', dato: 231743194.0000 },
       { fecha: '2011-12-31', dato: 240598550.0000 },

@@ -19,11 +19,11 @@ Autor: IMPLAN
 
 #### Gráfica
 
-<div id="Morrisqgmgwarr" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqgmgwarr -->
+<div id="Morrisqjzjnpja" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqjzjnpja -->
   <script>
   new Morris.Bar({
-    element: 'Morrisqgmgwarr',
+    element: 'Morrisqjzjnpja',
     data: [
       { fecha: '2007-12-31', dato: 118848281.00 },
       { fecha: '2008-12-31', dato: 179363074.00 },

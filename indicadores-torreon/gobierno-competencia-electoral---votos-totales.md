@@ -2,7 +2,7 @@ TORREON, COMPETENCIA ELECTORAL - VOTOS TOTALES
 =====
 
 Fecha: 2014-05-01
-Categorías: POLITICA
+Categorías: PARTICIPACION CIUDADANA
 Autor: IMPLAN
 
 #### Información recopilada

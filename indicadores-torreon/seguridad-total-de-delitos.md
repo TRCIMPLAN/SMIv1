@@ -20,11 +20,11 @@ Total de delitos cometidos por mes
 
 #### Gráfica
 
-<div id="Morrishftzrabr" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishftzrabr -->
+<div id="Morriscarwkrtm" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscarwkrtm -->
   <script>
   new Morris.Bar({
-    element: 'Morrishftzrabr',
+    element: 'Morriscarwkrtm',
     data: [
       { fecha: '2014-01-31', dato: 934 },
       { fecha: '2014-02-28', dato: 841 },

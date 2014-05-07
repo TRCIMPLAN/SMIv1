@@ -24,11 +24,11 @@ La cantidad es anual.
 
 #### Gráfica
 
-<div id="Morrisyxuvfdry" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisyxuvfdry -->
+<div id="Morristdybznvt" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristdybznvt -->
   <script>
   new Morris.Bar({
-    element: 'Morrisyxuvfdry',
+    element: 'Morristdybznvt',
     data: [
       { fecha: '1998-12-31', dato: 3081.00 },
       { fecha: '2003-12-31', dato: 6804.00 },

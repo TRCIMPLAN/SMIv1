@@ -80,10 +80,14 @@ class MenuRegionesSubindicesIndicadoresConfig
                 1 => {'nombre' => 'CANTIDAD DE POLICIAS', 'ruta' => 'indicadores-torreon/seguridad-cantidad-de-policias.html'},
                 83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                88 => {'nombre' => 'PRESUNTOS DELINCUENTES POR NARCOTICOS', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html'},
+                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
                 84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html'},
                 9 => {'nombre' => 'TASA DE HOMICIDIOS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-homicidios.html'},
+                91 => {'nombre' => 'TASA DE PERSONAS CONDENADAS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-personas-condenadas.html'},
                 87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-torreon/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -167,9 +171,12 @@ class MenuRegionesSubindicesIndicadoresConfig
                 82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                88 => {'nombre' => 'PRESUNTOS DELINCUENTES POR NARCOTICOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html'},
+                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
                 84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html'},
                 87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -247,9 +254,12 @@ class MenuRegionesSubindicesIndicadoresConfig
                 82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                88 => {'nombre' => 'PRESUNTOS DELINCUENTES POR NARCOTICOS', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-por-narcoticos.html'},
+                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
                 84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html'},
                 87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-lerdo/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -327,9 +337,13 @@ class MenuRegionesSubindicesIndicadoresConfig
                 82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                88 => {'nombre' => 'PRESUNTOS DELINCUENTES POR NARCOTICOS', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-por-narcoticos.html'},
+                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
                 84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                91 => {'nombre' => 'TASA DE PERSONAS CONDENADAS', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-personas-condenadas.html'},
                 87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-matamoros/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD

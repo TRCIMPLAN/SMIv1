@@ -9,6 +9,10 @@ Autor: IMPLAN
 
 Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.
 
+#### Observaciones
+
+Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered">

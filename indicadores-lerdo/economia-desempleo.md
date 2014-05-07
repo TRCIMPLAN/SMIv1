@@ -9,6 +9,10 @@ Autor: IMPLAN
 
 Cantidad de personas desempleadas.
 
+#### Observaciones
+
+Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered">
@@ -20,11 +24,11 @@ Cantidad de personas desempleadas.
 
 #### Gráfica
 
-<div id="Morrisnifpijai" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisnifpijai -->
+<div id="Morrishlusxrxf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishlusxrxf -->
   <script>
   new Morris.Bar({
-    element: 'Morrisnifpijai',
+    element: 'Morrishlusxrxf',
     data: [
       { fecha: '1989-12-31', dato: 821 },
       { fecha: '1999-12-31', dato: 360 },

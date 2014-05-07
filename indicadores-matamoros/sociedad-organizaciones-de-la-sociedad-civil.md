@@ -2,7 +2,7 @@ MATAMOROS, ORGANIZACIONES DE LA SOCIEDAD CIVIL
 =====
 
 Fecha: 2014-05-01
-Categorías: 
+Categorías: PARTICIPACION CIUDADANA
 Autor: IMPLAN
 
 #### Descripción

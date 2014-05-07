@@ -9,6 +9,10 @@ Autor: IMPLAN
 
 Créditos otorgados durante el año indicado
 
+#### Observaciones
+
+Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered">
@@ -22,11 +26,11 @@ Créditos otorgados durante el año indicado
 
 #### Gráfica
 
-<div id="Morrisyadcdaot" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisyadcdaot -->
+<div id="Morrisxmkqbodo" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxmkqbodo -->
   <script>
   new Morris.Bar({
-    element: 'Morrisyadcdaot',
+    element: 'Morrisxmkqbodo',
     data: [
       { fecha: '2010-12-31', dato: 15 },
       { fecha: '2011-12-31', dato: 152 },
