@@ -1,38 +1,64 @@
 /*
  * IMPLAN Torreón
  *
- * css/cms.css
+ * Copyright 2014 Guillermo Valdés Lozano <guivaloz@movimientolibre.com>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ * MA 02110-1301, USA.
+ *
  */
 
 /*
  * GENERAL
  */
 body {
-    font-family:Helvetica, sans-serif;
+    background-color:#524B48; /* GRIS OSCURO */
+    padding-top:50px;
+    font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     line-height:1.2;
-    margin-top:0;
-    padding-bottom:0;
-    background-color:#524B48; /* GRIS OSCURO */
 }
-a         { color:#e2007e; text-decoration:none; }
+a,
+a:hover,
+a:focus,
 a:active,
 a:visited { color:#e2007e; text-decoration:none; }
-a:hover,
-a:focus   { color:#e2007e; text-decoration:none; }
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
+    font-family:"Liberation Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:bold;
 }
+
+/*
+ * SIN ESQUINAS REDONDEADAS
+ */
 .panel,
 .panel-default,
 .panel-group,
-.panel-group .panel,
-.panel-group .panel-heading {
+.panel,
+.panel-heading,
+.list-group{
     border-radius:0px;
     border:0px;
+}
+.panel > .list-group:last-child .list-group-item:last-child {
+    border-radius:0px;
 }
 
 /*
@@ -41,51 +67,23 @@ h4 {
 #menu-principal {
     background-color:#524B48; /* GRIS OSCURO */
     border-bottom:2px solid #ff7500;
-    margin-bottom:0;
-    color:#AAA;
-}
-/* OPCIONES DEL MENU */
-#menu-principal li a {
-    margin-left:4px;
-    background-color:#524B48;
+    font-size:12px;
     font-weight:bold;
-    font-size:11px;
-    color:#FFF;
 }
-#menu-principal .redes-sociales {
-    padding-top:8px;
-    padding-bottom:4px;
-}
-#menu-principal li a:active,
-#menu-principal li a:visited {
-    color:#FFF;
-}
-#menu-principal li a:hover,
-#menu-principal li a:focus {
-    color:#FF7300; /* NARANJA INTENSO */
-}
-/* DROPMENU */
-#menu-principal .dropdown-menu {
-    background-color:transparent;
-    background-image:url("../imagenes/menu-principal-fondo-transparente.png");
-}
-#menu-principal .dropdown-menu a {
-    margin-top:8px;
-    margin-bottom:8px;
-    background-color:transparent;
-    font-weight:bold;
-    font-size:11px;
-    color:#FFF;
-}
-#menu-principal .dropdown-menu a:active,
-#menu-principal .dropdown-menu a:visited {
-    color:#FFF;
-}
-#menu-principal .dropdown-menu a:hover,
-#menu-principal .dropdown-menu a:focus {
-    background-image:url("../imagenes/menu-principal-fondo-transparente-hover.png");
-    color:#FFF;
-}
+
+/* NOMBRE DEL SITIO */
+#menu-principal a.navbar-brand         { color:#FFF; }
+#menu-principal a.navbar-brand:hover,
+#menu-principal a.navbar-brand:focus   { color:#FF7500; }
+#menu-principal a.navbar-brand:active,
+#menu-principal a.navbar-brand:visited { color:#FFF; }
+
+/* OPCIONES */
+#menu-principal .navbar-nav li a         { color:#FFF; }
+#menu-principal .navbar-nav li a:hover,
+#menu-principal .navbar-nav li a:focus   { color:#FF7500; }
+#menu-principal .navbar-nav li a:active,
+#menu-principal .navbar-nav li a:visited { color:#FFF; }
 
 /*
  * MENU REGIONES SUBINDICES INDICADORES
@@ -134,53 +132,65 @@ h4 {
 /*
  * CONTENIDO
  */
-#contenido {
-    padding:0;
-}
+#contenido { background-color:#888; }
 #contenido .container {
-    padding-top:16px;
-    padding-bottom:12px;
+    background-color:#DDD;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+#contenido section {
     background-color:#FFF;
-    color:#444;
-}
-.img-encabezado {
-    padding-bottom:16px;
-}
-.titulo {
-    font-weight:bold;
-    border-bottom:2px solid #CCC;
-}
-/* MENU SECUNDARIO */
-.acerca {
-    font-size:12px;
-    color:#444;
-    border:1px solid #888;
     padding:8px;
+    font-size:14px;
+    line-height:1.5em;
+    border-bottom:solid 2px #BBB;
+    margin-bottom:8px;
 }
+#contenido article {
+    background-color:#FFF;
+    padding:8px;
+    font-size:14px;
+    line-height:1.5em;
+    border-bottom:solid 2px #BBB;
+    margin-bottom:8px;
+}
+#contenido h3 {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+#contenido blockquote p {
+    font-size:16px;
+    line-height:1.5em;
+}
+.btn-publicacion-completa,
+.btn-publicacion-completa:hover,
+.btn-publicacion-completa:focus {
+    border-color:#524B48;
+    color:#524B48;
+}
+.btn-categoria,
+.btn-categoria:hover,
+.btn-categoria:focus {
+    color:#524B48;
+}
+
+/* PAGINACION */
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus { background-color:gray; border-color:gray; color:white; }
+
+/*
+ * MENU SECUNDARIO
+ */
 .menu-secundario {
     font-size:12px;
     background-color:#524B48; /* GRIS OSCURO */
     padding:0;
-    margin-bottom:16px;
+    margin-bottom:8px;
 }
-.menu-secundario-encabezado {
-    border-bottom:1px solid #888;
-    color:#888;
-    padding:8px 8px 4px 8px;
+.menu-secundario .list-group-item {
+    padding:4px 15px;
 }
-.menu-secundario-grupo {
-    list-style:none;
-    padding:2px 0 8px 0;
-}
-.menu-secundario-item {
-    position:relative;
-    padding:0;
-}
-.menu-secundario-item a         { color:#CCC; text-decoration:none; display:block; padding:2px 8px 2px 8px; }
-.menu-secundario-item a:active,
-.menu-secundario-item a:visited { color:#CCC; }
-.menu-secundario-item a:hover,
-.menu-secundario-item a:focus   { color:#FFF; background-color:#FF7300; }
 
 /*
  * INFERIOR
@@ -232,30 +242,19 @@ h4 {
 .inferior-mapa a:focus   { color:#FFF; background-color:#FF7300; }
 
 /*
- * BOTONES
- */
-.btn-publicacion-completa,
-.btn-publicacion-completa:active,
-.btn-publicacion-completa:visited { background-color:#e2007e; border-color:#e2007e; color:#FFF; }
-.btn-publicacion-completa:hover,
-.btn-publicacion-completa:focus   { background-color:#ff7500; border-color:#000; color:#FFF; }
-
-/*
- * PAGINACION
- */
-.pagination > .active > a,
-.pagination > .active > a:hover,
-.pagination > .active > a:focus { background-color:gray; border-color:gray; color:white; }
-
-/*
  * PIE
  */
-footer {
-    margin:0;
-    padding-top:8px;
-    padding-bottom:8px;
+#pie {
     background-color:#1b1e25;
     color:#DDD;
-    text-align:right;
     font-size:10px;
 }
+#pie p {
+    padding-top:8px;
+    padding-bottom:8px;
+}
+#pie a         { color:#CCC; font-weight:bold; }
+#pie a:hover,
+#pie a:focus   { color:#FFF; }
+#pie a:active,
+#pie a:visited { color:#CCC; }

@@ -5,143 +5,186 @@
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>SMI</title>
-    <link>http://implan.github.io</link>
-    <description>Sistema Municipal de Indicadores, IMPLAN Torreón.</description>
+    <title>IMPLAN Torreón</title>
+    <link>http://trcimplan.github.io</link>
+    <description>Sistema Municipal de Indicadores</description>
     <item>
-      <title>TASA DE MORTALIDAD</title>
-      <link>http://implan.github.io/indicadores-torreon/sociedad-tasa-de-mortalidad.html</link>
+      <title>TORREON, VOLUMEN TRATADO DE AGUAS RESIDUALES</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html</link>
+      <description>
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;2.4400&lt;/td&gt;&lt;td&gt;IMCO-CONAGUA&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>TORREON, VIVIENDAS OCUPADAS POR TEMPORADA</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-viviendas-ocupadas-por-temporada.html</link>
       <description>
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Número de muertes por cada mil habitantes. Fuente Registros Administrativos INEGI, con estimaciones de población propias con base en Censos y Conteos de Población y Vivienda 1990 - 2010.&lt;/p&gt;
+&lt;p&gt;Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1994-12-31&lt;/td&gt;&lt;td&gt;4.8725&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1995-12-31&lt;/td&gt;&lt;td&gt;4.7945&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;2.9000 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-
-&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
-
-&lt;div id=&quot;Morrisgzotxgef&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morrisgzotxgef --&gt;&lt;/p&gt;
 </description>
-      <author>Central</author>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>TASA DE HOMICIDIOS</title>
-      <link>http://implan.github.io/indicadores-torreon/seguridad-tasa-de-homicidios.html</link>
+      <title>TORREON, VIVIENDAS DESHABITADAS</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html</link>
       <description>
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Número de homicidios por cada 100 mil habitantes.&lt;/p&gt;
+&lt;p&gt;Viviendas deshabitadas con respecto al total de viviendas disponibles&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1990-12-31&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1991-12-31&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1992-12-31&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1993-12-31&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1994-12-31&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;1995-12-31&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;20.5700 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-
-&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
-
-&lt;div id=&quot;Morrisouskopsq&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morrisouskopsq --&gt;&lt;/p&gt;
 </description>
-      <author>Central</author>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>CANTIDAD DE POLICIAS</title>
-      <link>http://implan.github.io/indicadores/seguridad-cantidad-de-policias.html</link>
+      <title>TORREON, VEHICULOS AUTOMOTORES</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-vehiculos-automotores.html</link>
+      <description>
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;225&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>TORREON, SOBREEXPLOTACION DEL ACUIFERO</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html</link>
+      <description>
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;100.0000 %&lt;/td&gt;&lt;td&gt;IMCO-CONAGUA&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>TORREON, RESERVA TERRITORIAL</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-reserva-territorial.html</link>
       <description>
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Cantidad de Policías&lt;/p&gt;
+&lt;p&gt;Área no urbanizada&lt;/p&gt;
 
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2005-12-31&lt;/td&gt;&lt;td&gt;75.7000 %&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>TORREON, RED CARRETERA TRONCAL FEDERAL</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html</link>
+      <description>
 &lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
 
-&lt;p&gt;Basado en el reporte mensual de la dirección de seguridad pública de torreón.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://lapoliciadetorreon.wordpress.com&quot;&gt;SITIO WEB DE LA DSPM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No aplica a nivel metropilitano&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
-  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Región&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-05-01&lt;/td&gt;&lt;td&gt;1050&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-04-01&lt;/td&gt;&lt;td&gt;900&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-03-01&lt;/td&gt;&lt;td&gt;900&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;Se incrementó la contratación&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-02-01&lt;/td&gt;&lt;td&gt;740&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-01-01&lt;/td&gt;&lt;td&gt;700&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;226&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
-
-&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
-
-&lt;div id=&quot;Morriscchwepwq&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morriscchwepwq --&gt;&lt;/p&gt;
 </description>
-      <author>Investigación</author>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>PERCEPCION DE CONFIABILIDAD</title>
-      <link>http://implan.github.io/indicadores/gobierno-percepcion-de-confiabilidad.html</link>
+      <title>TORREON, RED CARRETERA TOTAL</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretera-total.html</link>
+      <description>
+&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+
+&lt;p&gt;No aplica a nivel metropilitano&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;226&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>TORREON, RED CARRETERA DE ALIMENTADORAS ESTATALES</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html</link>
+      <description>
+&lt;h4 id=&quot;observaciones&quot;&gt;Observaciones&lt;/h4&gt;
+
+&lt;p&gt;No aplica a nivel metropolitano&lt;/p&gt;
+
+&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2012-12-31&lt;/td&gt;&lt;td&gt;INDETERMINADO&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>TORREON, POBLACION QUE TRABAJA EN SU PROPIO MUNICIPIO</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html</link>
       <description>
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Porcentaje de la Población que opina que es bueno el Gobierno Municipal.&lt;/p&gt;
+&lt;p&gt;Porcentaje de la población ocupada que trabaja y reside en el mismo municipio&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
-  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Región&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-03-01&lt;/td&gt;&lt;td&gt;0.5101 %&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-02-01&lt;/td&gt;&lt;td&gt;0.4820 %&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-01-01&lt;/td&gt;&lt;td&gt;0.4200 %&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;89.0000 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 </description>
-      <author>Investigación</author>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
-    </item>
-    <item>
-      <title>NOMINA</title>
-      <link>http://implan.github.io/indicadores/gobierno-nomina.html</link>
-      <description>
-&lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
-
-&lt;p&gt;Erogación mensual de la nómina&lt;/p&gt;
-
-&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
-
-&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
-  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Región&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-03-01&lt;/td&gt;&lt;td&gt;$ 1,231.00&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-02-01&lt;/td&gt;&lt;td&gt;$ 1,340.00&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-01-01&lt;/td&gt;&lt;td&gt;$ 1,254.00&lt;/td&gt;&lt;td&gt;TORREON&lt;/td&gt;&lt;td&gt;AYUNTAMIENTO DE TORREÓN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;grfica&quot;&gt;Gráfica&lt;/h4&gt;
-
-&lt;div id=&quot;Morrisokyoqkvf&quot; class=&quot;grafica&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;!-- JAVASCRIPT DE LA GRAFICA EN Morrisokyoqkvf --&gt;&lt;/p&gt;
-</description>
-      <author>Investigación</author>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-04-08T00:00:00-05:00</dc:date>
+      <author>IMPLAN</author>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
   </channel>
 </rss>
