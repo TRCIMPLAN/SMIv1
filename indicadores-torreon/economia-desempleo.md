@@ -20,11 +20,11 @@ Cantidad de personas desempleadas.
 
 #### Gráfica
 
-<div id="Morrisgrlivviw" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgrlivviw -->
+<div id="Morrisncvsyagb" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisncvsyagb -->
   <script>
   new Morris.Bar({
-    element: 'Morrisgrlivviw',
+    element: 'Morrisncvsyagb',
     data: [
       { fecha: '1989-12-31', dato: 4043 },
       { fecha: '1999-12-31', dato: 2135 },

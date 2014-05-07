@@ -26,11 +26,11 @@ Flujo de pasajeros del o hacia el extranjero.
 
 #### Gráfica
 
-<div id="Morristpzhzqwa" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristpzhzqwa -->
+<div id="Morrisiuxvofhh" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisiuxvofhh -->
   <script>
   new Morris.Bar({
-    element: 'Morristpzhzqwa',
+    element: 'Morrisiuxvofhh',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },

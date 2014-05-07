@@ -13,24 +13,26 @@ Créditos otorgados durante el año indicado
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>8365</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>9108</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>9607</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>9560</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>1548</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>1755</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>3124</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>2915</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
+  <tr><td>2014-03-31</td><td>401</td><td>COMISION NACIONAL BANCARIA Y DE VALORES (CNBV)</td><td></td></tr>
 </table>
 
 #### Gráfica
 
-<div id="Morriszbbeuinq" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszbbeuinq -->
+<div id="Morrisxqcqruuf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxqcqruuf -->
   <script>
   new Morris.Bar({
-    element: 'Morriszbbeuinq',
+    element: 'Morrisxqcqruuf',
     data: [
-      { fecha: '2010-12-31', dato: 8365 },
-      { fecha: '2011-12-31', dato: 9108 },
-      { fecha: '2012-12-31', dato: 9607 },
-      { fecha: '2013-12-31', dato: 9560 }
+      { fecha: '2010-12-31', dato: 1548 },
+      { fecha: '2011-12-31', dato: 1755 },
+      { fecha: '2012-12-31', dato: 3124 },
+      { fecha: '2013-12-31', dato: 2915 },
+      { fecha: '2014-03-31', dato: 401 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

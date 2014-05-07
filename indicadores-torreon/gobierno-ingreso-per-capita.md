@@ -24,11 +24,11 @@ Ingresos totales del municipio entre el total de la población.
 
 #### Gráfica
 
-<div id="Morrisvbkfnuwy" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvbkfnuwy -->
+<div id="Morrisaavkfkzk" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisaavkfkzk -->
   <script>
   new Morris.Bar({
-    element: 'Morrisvbkfnuwy',
+    element: 'Morrisaavkfkzk',
     data: [
       { fecha: '2007-12-31', dato: 2312.71 },
       { fecha: '2008-12-31', dato: 2713.59 },

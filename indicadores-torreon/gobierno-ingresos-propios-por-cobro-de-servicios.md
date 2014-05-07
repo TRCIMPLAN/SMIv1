@@ -24,11 +24,11 @@ Ingresos recaudados por el municipio por cobro de servicios
 
 #### Gráfica
 
-<div id="Morriszbfwmmny" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszbfwmmny -->
+<div id="Morrisxerxsgwy" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxerxsgwy -->
   <script>
   new Morris.Bar({
-    element: 'Morriszbfwmmny',
+    element: 'Morrisxerxsgwy',
     data: [
       { fecha: '2007-12-31', dato: 575374852.00 },
       { fecha: '2008-12-31', dato: 596172106.00 },

@@ -46,6 +46,7 @@ class MenuRegionesSubindicesIndicadoresConfig
     @indicadores_por_subindice_por_region = {
         2 => { # TORREON
             3 => { # ECONOMIA Y COMPETITIVIDAD
+                79 => {'nombre' => 'CARTERA HIPOTECARIA', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'DESEMPLEO', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
                 77 => {'nombre' => 'GRANDES EMPRESAS', 'ruta' => 'indicadores-torreon/economia-grandes-empresas.html'},
                 16 => {'nombre' => 'INDICE DE ESPECIALIZACION LOCAL EN COMERCIO', 'ruta' => 'indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -75,8 +76,14 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             1 => { # SEGURIDAD PUBLICA
                 81 => {'nombre' => 'ACCIDENTES VIALES', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales.html'},
+                82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales-fatales.html'},
                 1 => {'nombre' => 'CANTIDAD DE POLICIAS', 'ruta' => 'indicadores-torreon/seguridad-cantidad-de-policias.html'},
+                83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
+                85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html'},
                 9 => {'nombre' => 'TASA DE HOMICIDIOS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-homicidios.html'},
+                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-torreon/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -128,6 +135,7 @@ class MenuRegionesSubindicesIndicadoresConfig
         },
         3 => { # GOMEZ PALACIO
             3 => { # ECONOMIA Y COMPETITIVIDAD
+                79 => {'nombre' => 'CARTERA HIPOTECARIA', 'ruta' => 'indicadores-gomez-palacio/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'DESEMPLEO', 'ruta' => 'indicadores-gomez-palacio/economia-desempleo.html'},
                 77 => {'nombre' => 'GRANDES EMPRESAS', 'ruta' => 'indicadores-gomez-palacio/economia-grandes-empresas.html'},
                 16 => {'nombre' => 'INDICE DE ESPECIALIZACION LOCAL EN COMERCIO', 'ruta' => 'indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -156,6 +164,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             1 => { # SEGURIDAD PUBLICA
                 81 => {'nombre' => 'ACCIDENTES VIALES', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales.html'},
+                82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html'},
+                83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
+                85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -201,6 +215,7 @@ class MenuRegionesSubindicesIndicadoresConfig
         },
         4 => { # LERDO
             3 => { # ECONOMIA Y COMPETITIVIDAD
+                79 => {'nombre' => 'CARTERA HIPOTECARIA', 'ruta' => 'indicadores-lerdo/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'DESEMPLEO', 'ruta' => 'indicadores-lerdo/economia-desempleo.html'},
                 77 => {'nombre' => 'GRANDES EMPRESAS', 'ruta' => 'indicadores-lerdo/economia-grandes-empresas.html'},
                 16 => {'nombre' => 'INDICE DE ESPECIALIZACION LOCAL EN COMERCIO', 'ruta' => 'indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -229,6 +244,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             1 => { # SEGURIDAD PUBLICA
                 81 => {'nombre' => 'ACCIDENTES VIALES', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales.html'},
+                82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales-fatales.html'},
+                83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
+                85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-lerdo/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -274,6 +295,7 @@ class MenuRegionesSubindicesIndicadoresConfig
         },
         5 => { # MATAMOROS
             3 => { # ECONOMIA Y COMPETITIVIDAD
+                79 => {'nombre' => 'CARTERA HIPOTECARIA', 'ruta' => 'indicadores-matamoros/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'DESEMPLEO', 'ruta' => 'indicadores-matamoros/economia-desempleo.html'},
                 77 => {'nombre' => 'GRANDES EMPRESAS', 'ruta' => 'indicadores-matamoros/economia-grandes-empresas.html'},
                 16 => {'nombre' => 'INDICE DE ESPECIALIZACION LOCAL EN COMERCIO', 'ruta' => 'indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -302,6 +324,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             1 => { # SEGURIDAD PUBLICA
                 81 => {'nombre' => 'ACCIDENTES VIALES', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales.html'},
+                82 => {'nombre' => 'ACCIDENTES VIALES FATALES', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales-fatales.html'},
+                83 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO COMUN', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
+                85 => {'nombre' => 'PRESUNTOS DELINCUENTES DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
                 80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-matamoros/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD

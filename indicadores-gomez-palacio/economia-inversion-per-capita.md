@@ -23,11 +23,11 @@ Gasto en obras públicas y acciones sociales entre población total.
 
 #### Gráfica
 
-<div id="Morrishjgoihck" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishjgoihck -->
+<div id="Morrisjxgnynpj" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjxgnynpj -->
   <script>
   new Morris.Bar({
-    element: 'Morrishjgoihck',
+    element: 'Morrisjxgnynpj',
     data: [
       { fecha: '2007-12-31', dato: 621.87 },
       { fecha: '2008-12-31', dato: 805.66 },

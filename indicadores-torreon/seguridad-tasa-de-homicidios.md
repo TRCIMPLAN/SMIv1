@@ -23,11 +23,11 @@ Número de homicidios por cada 100 mil habitantes.
 
 #### Gráfica
 
-<div id="Morrisfqxnaavc" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisfqxnaavc -->
+<div id="Morrismttidtht" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismttidtht -->
   <script>
   new Morris.Bar({
-    element: 'Morrisfqxnaavc',
+    element: 'Morrismttidtht',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },
