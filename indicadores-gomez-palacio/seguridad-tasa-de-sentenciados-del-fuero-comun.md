@@ -1,4 +1,4 @@
-TASA DE SENTENCIADOS DEL FUERO COMUN
+Tasa de Sentenciados del Fuero Común
 =====
 
 Fecha: 2014-05-01

@@ -1,4 +1,4 @@
-SENTENCIADOS POR DELITOS DE NARCOTICOS
+Sentenciados por Delitos de Narcóticos
 =====
 
 Fecha: 2014-05-01

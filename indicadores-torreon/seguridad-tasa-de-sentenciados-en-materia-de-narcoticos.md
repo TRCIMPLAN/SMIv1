@@ -1,4 +1,4 @@
-TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS
+Tasa de Sentenciados en Materia de Narcóticos
 =====
 
 Fecha: 2014-05-01

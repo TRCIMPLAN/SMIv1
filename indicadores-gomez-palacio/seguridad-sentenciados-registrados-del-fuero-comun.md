@@ -1,8 +1,8 @@
-SENTENCIADOS REGISTRADOS DEL FUERO COMUN
+Sentenciados Registrados del Fuero Común
 =====
 
 Fecha: 2014-05-01
-Categorías: SEGURIDAD
+Categorías: Seguridad
 Autor: IMPLAN
 
 ### Gómez Palacio

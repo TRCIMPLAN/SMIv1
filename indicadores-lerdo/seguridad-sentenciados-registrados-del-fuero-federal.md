@@ -1,4 +1,4 @@
-SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL
+Sentenciados Registrados del Fuero Federal
 =====
 
 Fecha: 2014-05-01

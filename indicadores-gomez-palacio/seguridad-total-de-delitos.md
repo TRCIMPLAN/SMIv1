@@ -1,8 +1,8 @@
-TOTAL DE DELITOS
+Total de Delitos
 =====
 
 Fecha: 2014-05-01
-Categorías: SEGURIDAD
+Categorías: Seguridad
 Autor: IMPLAN
 
 ### Gómez Palacio
@@ -24,11 +24,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisavrwluxu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisavrwluxu -->
+<div id="Morrisotvuyjhy" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisotvuyjhy -->
   <script>
   new Morris.Bar({
-    element: 'Morrisavrwluxu',
+    element: 'Morrisotvuyjhy',
     data: [
       { fecha: '2014-01-31', dato: 363 },
       { fecha: '2014-02-28', dato: 307 },

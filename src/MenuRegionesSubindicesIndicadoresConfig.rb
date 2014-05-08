@@ -34,7 +34,8 @@ class MenuRegionesSubindicesIndicadoresConfig
         2 => {'nombre' => 'Torreón', 'directorio' => 'indicadores-torreon'},
         3 => {'nombre' => 'Gómez Palacio', 'directorio' => 'indicadores-gomez-palacio'},
         4 => {'nombre' => 'Lerdo', 'directorio' => 'indicadores-lerdo'},
-        5 => {'nombre' => 'Matamoros', 'directorio' => 'indicadores-matamoros'}
+        5 => {'nombre' => 'Matamoros', 'directorio' => 'indicadores-matamoros'},
+        1 => {'nombre' => 'La Laguna', 'directorio' => 'indicadores-la-laguna'}
     }
     @subindices_listado = {
         3 => {'nombre' => 'ECONOMÍA Y COMPETITIVIDAD'},
@@ -86,15 +87,15 @@ class MenuRegionesSubindicesIndicadoresConfig
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html'},
                 94 => {'nombre' => 'Robo de vehículos', 'ruta' => 'indicadores-torreon/seguridad-robo-de-vehiculos.html'},
                 95 => {'nombre' => 'Secuestros', 'ruta' => 'indicadores-torreon/seguridad-secuestros.html'},
-                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
-                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html'},
-                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                9 => {'nombre' => 'TASA DE HOMICIDIOS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-homicidios.html'},
-                91 => {'nombre' => 'TASA DE PERSONAS CONDENADAS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO COMUN', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
-                80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-torreon/seguridad-total-de-delitos.html'}
+                89 => {'nombre' => 'Sentenciados por Delitos de Narcóticos', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
+                84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-homicidios.html'},
+                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-personas-condenadas.html'},
+                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
+                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
+                80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-torreon/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
@@ -181,14 +182,14 @@ class MenuRegionesSubindicesIndicadoresConfig
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html'},
                 94 => {'nombre' => 'Robo de vehículos', 'ruta' => 'indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html'},
                 95 => {'nombre' => 'Secuestros', 'ruta' => 'indicadores-gomez-palacio/seguridad-secuestros.html'},
-                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
-                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html'},
-                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                91 => {'nombre' => 'TASA DE PERSONAS CONDENADAS', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO COMUN', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
-                80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-gomez-palacio/seguridad-total-de-delitos.html'}
+                89 => {'nombre' => 'Sentenciados por Delitos de Narcóticos', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
+                84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-personas-condenadas.html'},
+                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
+                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
+                80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-gomez-palacio/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
@@ -269,14 +270,14 @@ class MenuRegionesSubindicesIndicadoresConfig
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-por-narcoticos.html'},
                 94 => {'nombre' => 'Robo de vehículos', 'ruta' => 'indicadores-lerdo/seguridad-robo-de-vehiculos.html'},
                 95 => {'nombre' => 'Secuestros', 'ruta' => 'indicadores-lerdo/seguridad-secuestros.html'},
-                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
-                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html'},
-                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                91 => {'nombre' => 'TASA DE PERSONAS CONDENADAS', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO COMUN', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
-                80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-lerdo/seguridad-total-de-delitos.html'}
+                89 => {'nombre' => 'Sentenciados por Delitos de Narcóticos', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
+                84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-personas-condenadas.html'},
+                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
+                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
+                80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-lerdo/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
@@ -357,14 +358,14 @@ class MenuRegionesSubindicesIndicadoresConfig
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-por-narcoticos.html'},
                 94 => {'nombre' => 'Robo de vehículos', 'ruta' => 'indicadores-matamoros/seguridad-robo-de-vehiculos.html'},
                 95 => {'nombre' => 'Secuestros', 'ruta' => 'indicadores-matamoros/seguridad-secuestros.html'},
-                89 => {'nombre' => 'SENTENCIADOS POR DELITOS DE NARCOTICOS', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
-                84 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO COMUN', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html'},
-                86 => {'nombre' => 'SENTENCIADOS REGISTRADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                91 => {'nombre' => 'TASA DE PERSONAS CONDENADAS', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO COMUN', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'TASA DE SENTENCIADOS DEL FUERO FEDERAL', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'TASA DE SENTENCIADOS EN MATERIA DE NARCOTICOS', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
-                80 => {'nombre' => 'TOTAL DE DELITOS', 'ruta' => 'indicadores-matamoros/seguridad-total-de-delitos.html'}
+                89 => {'nombre' => 'Sentenciados por Delitos de Narcóticos', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
+                84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-personas-condenadas.html'},
+                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
+                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
+                80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-matamoros/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
@@ -405,6 +406,88 @@ class MenuRegionesSubindicesIndicadoresConfig
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html'},
                 43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-matamoros/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
+            }
+        },
+        1 => { # La Laguna
+            3 => { # ECONOMÍA Y COMPETITIVIDAD
+                79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-la-laguna/economia-cartera-hipotecaria.html'},
+                56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-la-laguna/economia-desempleo.html'},
+                77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-la-laguna/economia-grandes-empresas.html'},
+                16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html'},
+                11 => {'nombre' => 'Índice de Especialización Local en Industria Manufacturera', 'ruta' => 'indicadores-la-laguna/economia-indice-de-especializacion-local-en-industria-manufacturera.html'},
+                17 => {'nombre' => 'Índice de Especialización Local en Servicios', 'ruta' => 'indicadores-la-laguna/economia-indice-de-especializacion-local-en-servicios.html'},
+                28 => {'nombre' => 'Inversión Extranjera Directa', 'ruta' => 'indicadores-la-laguna/economia-inversion-extranjera-directa.html'},
+                42 => {'nombre' => 'Inversión Per cápita', 'ruta' => 'indicadores-la-laguna/economia-inversion-per-capita.html'},
+                76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-la-laguna/economia-medianas-empresas.html'},
+                74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-la-laguna/economia-microempresas.html'},
+                75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-la-laguna/economia-pequenas-empresas.html'},
+                10 => {'nombre' => 'Producción Bruta Total Per cápita', 'ruta' => 'indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html'},
+                24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
+                26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
+                78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html'},
+                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-la-laguna/economia-total-de-empresas.html'}
+            },
+            2 => { # BUEN GOBIERNO
+                18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
+                12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html'},
+                14 => {'nombre' => 'Competencia Electoral - Votos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral---votos-totales.html'},
+                8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html'},
+                19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-totales.html'},
+                13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-la-laguna/gobierno-participacion-electoral.html'},
+                20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html'}
+            },
+            1 => { # SEGURIDAD PUBLICA
+                81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales.html'},
+                82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales-fatales.html'},
+                93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-la-laguna/seguridad-homicidios.html'},
+                83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
+                85 => {'nombre' => 'Presuntos Delincuentes del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
+                88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-por-narcoticos.html'},
+                94 => {'nombre' => 'Robo de vehículos', 'ruta' => 'indicadores-la-laguna/seguridad-robo-de-vehiculos.html'},
+                95 => {'nombre' => 'Secuestros', 'ruta' => 'indicadores-la-laguna/seguridad-secuestros.html'},
+                89 => {'nombre' => 'Sentenciados por Delitos de Narcóticos', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-por-delitos-de-narcoticos.html'},
+                84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-comun.html'},
+                86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
+                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
+                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'}
+            },
+            5 => { # SOCIEDAD
+                49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
+                50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
+                47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-la-laguna/sociedad-espacios-culturales.html'},
+                57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html'},
+                52 => {'nombre' => 'Médicos', 'ruta' => 'indicadores-la-laguna/sociedad-medicos.html'},
+                51 => {'nombre' => 'Mortalidad', 'ruta' => 'indicadores-la-laguna/sociedad-mortalidad.html'},
+                54 => {'nombre' => 'Mortalidad Infantil', 'ruta' => 'indicadores-la-laguna/sociedad-mortalidad-infantil.html'},
+                55 => {'nombre' => 'Mortalidad Materna', 'ruta' => 'indicadores-la-laguna/sociedad-mortalidad-materna.html'},
+                53 => {'nombre' => 'Mortalidad por Diabetes', 'ruta' => 'indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html'},
+                66 => {'nombre' => 'Ocupación por Vivienda', 'ruta' => 'indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html'},
+                71 => {'nombre' => 'Organizaciones de la Sociedad Civil', 'ruta' => 'indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html'},
+                70 => {'nombre' => 'Pobreza', 'ruta' => 'indicadores-la-laguna/sociedad-pobreza.html'},
+                68 => {'nombre' => 'Pobreza Extrema', 'ruta' => 'indicadores-la-laguna/sociedad-pobreza-extrema.html'},
+                69 => {'nombre' => 'Pobreza Moderada', 'ruta' => 'indicadores-la-laguna/sociedad-pobreza-moderada.html'},
+                48 => {'nombre' => 'Universidades', 'ruta' => 'indicadores-la-laguna/sociedad-universidades.html'},
+                62 => {'nombre' => 'Viviendas con Agua de la Red Pública', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html'},
+                60 => {'nombre' => 'Viviendas con Computadora', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-computadora.html'},
+                64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-drenaje.html'},
+                61 => {'nombre' => 'Viviendas con energía eléctrica', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html'},
+                67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-internet.html'},
+                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'}
+            },
+            4 => { # SUSTENTABILIDAD
+                45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
+                46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-la-laguna/sustentabilidad-alumbrado-publico.html'},
+                39 => {'nombre' => 'Destinos Vía Aérea', 'ruta' => 'indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html'},
+                38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html'},
+                27 => {'nombre' => 'Generación de basura', 'ruta' => 'indicadores-la-laguna/sustentabilidad-generacion-de-basura.html'},
+                29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-la-laguna/sustentabilidad-motorizacion.html'},
+                32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
+                31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
+                23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html'},
+                41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html'},
+                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
+                25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-la-laguna/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
             }
         }
     }

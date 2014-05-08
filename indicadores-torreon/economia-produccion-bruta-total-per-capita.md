@@ -28,11 +28,11 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morriswmmsjxxp" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswmmsjxxp -->
+<div id="Morrisghejxyiv" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisghejxyiv -->
   <script>
   new Morris.Bar({
-    element: 'Morriswmmsjxxp',
+    element: 'Morrisghejxyiv',
     data: [
       { fecha: '1998-12-31', dato: 57746.33 },
       { fecha: '2003-12-31', dato: 101715.94 },

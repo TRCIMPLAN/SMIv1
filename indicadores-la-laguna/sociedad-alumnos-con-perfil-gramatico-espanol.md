@@ -1,0 +1,26 @@
+Alumnos con Perfil Gramático-Español
+=====
+
+Fecha: 2014-05-01
+Categorías: Educación
+Autor: IMPLAN
+
+### La Laguna
+
+#### Descripción
+
+Alumnos buenos y excelentes en Prueba Enlace nivel básico.
+
+#### Información recopilada
+
+<table class="table table-hover table-bordered">
+  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  <tr><td>2013-12-31</td><td>40.0000 %</td><td>SEP</td><td></td></tr>
+</table>
+
+Unidad: Porcentaje.
+
+#### Observaciones
+
+El criterio de "Alumnos buenos y excelentes" provienen de [mejoratuescuela.org](http://www.mejoratuescuela.org)
+Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos_completa_2013/)

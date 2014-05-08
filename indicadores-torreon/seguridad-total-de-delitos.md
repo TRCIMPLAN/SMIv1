@@ -1,8 +1,8 @@
-TOTAL DE DELITOS
+Total de Delitos
 =====
 
 Fecha: 2014-05-01
-Categorías: SEGURIDAD
+Categorías: Seguridad
 Autor: IMPLAN
 
 ### Torreón
@@ -24,11 +24,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morriszxbnounn" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszxbnounn -->
+<div id="Morrisspueajhi" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisspueajhi -->
   <script>
   new Morris.Bar({
-    element: 'Morriszxbnounn',
+    element: 'Morrisspueajhi',
     data: [
       { fecha: '2014-01-31', dato: 934 },
       { fecha: '2014-02-28', dato: 841 },

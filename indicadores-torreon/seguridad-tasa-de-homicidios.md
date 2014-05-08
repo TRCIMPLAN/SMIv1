@@ -1,4 +1,4 @@
-TASA DE HOMICIDIOS
+Tasa de Homicidios
 =====
 
 Fecha: 2014-05-01
@@ -27,11 +27,11 @@ Unidad: Por cada 100 mil.
 
 #### Gráfica
 
-<div id="Morrisafewwgei" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisafewwgei -->
+<div id="Morrisaljhxegv" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisaljhxegv -->
   <script>
   new Morris.Bar({
-    element: 'Morrisafewwgei',
+    element: 'Morrisaljhxegv',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },

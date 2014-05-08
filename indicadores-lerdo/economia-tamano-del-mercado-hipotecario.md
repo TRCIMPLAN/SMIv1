@@ -9,7 +9,7 @@ Autor: IMPLAN
 
 #### Descripción
 
-Créditos otorgados durante el año indicado
+Créditos dispuestos marginalmente durante el año indicado.
 
 #### Información recopilada
 
@@ -30,11 +30,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisfonwgxku" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisfonwgxku -->
+<div id="Morrisiykdqghl" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisiykdqghl -->
   <script>
   new Morris.Bar({
-    element: 'Morrisfonwgxku',
+    element: 'Morrisiykdqghl',
     data: [
       { fecha: '2010-12-31', dato: 76 },
       { fecha: '2011-12-31', dato: 179 },

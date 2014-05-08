@@ -1,8 +1,8 @@
-TOTAL DE DELITOS
+Total de Delitos
 =====
 
 Fecha: 2014-05-01
-Categorías: SEGURIDAD
+Categorías: Seguridad
 Autor: IMPLAN
 
 ### Matamoros
@@ -24,11 +24,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisglictqkb" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisglictqkb -->
+<div id="Morrisvyavhggj" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvyavhggj -->
   <script>
   new Morris.Bar({
-    element: 'Morrisglictqkb',
+    element: 'Morrisvyavhggj',
     data: [
       { fecha: '2014-01-31', dato: 69 },
       { fecha: '2014-02-28', dato: 65 },

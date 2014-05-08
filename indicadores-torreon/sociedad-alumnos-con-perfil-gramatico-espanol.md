@@ -22,4 +22,5 @@ Unidad: Porcentaje.
 
 #### Observaciones
 
-El parámetro de "Alumnos buenos y excelentes" provienen de www.mejoratuescuela.org
+El criterio de "Alumnos buenos y excelentes" provienen de [mejoratuescuela.org](http://www.mejoratuescuela.org)
+Consulta la [Base de datos](http://www.enlace.sep.gob.mx/content/ba/pages/base_de_datos_completa_2013/)

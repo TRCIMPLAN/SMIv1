@@ -269,3 +269,45 @@ h6 {
 #pie a:focus   { color:#FFF; }
 #pie a:active,
 #pie a:visited { color:#CCC; }
+
+/**
+ * RESPONSIVO
+ */
+@media only screen and (max-width: 992px) {
+    .inferior-logo {
+        margin-top:4px;
+        margin-bottom:4px;
+    }
+    .inferior-mapa {
+        margin-top:4px;
+        margin-bottom:4px;
+        border-right:none;
+        height:auto;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .inferior-logo {
+        width:400px;
+        margin-top:4px;
+        margin-bottom:2px;
+    }
+    .inferior-mapa {
+        margin-top:4px;
+        margin-bottom:4px;
+        border-right:none;
+        height:auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .inferior-logo {
+        width:200px;
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+    .inferior-mapa {
+        margin-top:4px;
+        margin-bottom:4px;
+        border-right:none;
+        height:auto;
+    }
+}
