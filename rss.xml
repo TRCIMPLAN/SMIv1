@@ -9,42 +9,62 @@
     <link>http://trcimplan.github.io</link>
     <description>Sistema Municipal de Indicadores</description>
     <item>
-      <title>Volumen Tratado de Aguas Residuales</title>
-      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html</link>
+      <title>¿Qué es el Sistema Municipal de Indicadores?</title>
+      <link>http://trcimplan.github.io/acerca/acerca.html</link>
       <description>
-&lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
+&lt;h4 id=&quot;smi-torren&quot;&gt;SMI Torreón&lt;/h4&gt;
 
-&lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
+&lt;p&gt;Es un banco de información sobre los temas de interés de nuestra ciudad y su zona metropolitana, para conocer el estado de distintos fenómenos comparables en el tiempo, pero también con otras ciudades y con estándares internacionales.&lt;/p&gt;
 
-&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
-  &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;2.4400&lt;/td&gt;&lt;td&gt;IMCO-CONAGUA&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
+&lt;h4 id=&quot;por-ejemplo&quot;&gt;¿Por ejemplo?&lt;/h4&gt;
 
-&lt;p&gt;Unidad: Litros por segundo por persona.&lt;/p&gt;
+&lt;p&gt;Torreón tiene un Índice de Desarrollo Humano (IDH) .874, y eso ¿es mucho o es poco? Depende, en un país cercano como Guatemala es de .581 y en Estados Unidos .937, Torreón se encuentra a niveles superiores que Polonia o Portugal. En México el IDH que mide aspectos de ingresos, salud y educación, nos muestra que Torreón ocupa el lugar 35 de entre los 2443 municipios medidos para México, mientras Atlixtac, Guerrero tiene .455 y San Pedro Garza García .909.&lt;/p&gt;
+
+&lt;h4 id=&quot;para-qu-sirve-el-smi&quot;&gt;¿Para qué sirve el SMI?&lt;/h4&gt;
+
+&lt;p&gt;El SMI ordena y recopila información dispersa para convertirla en conocimiento útil, para que el gobierno, empresas y sociedad conozcan las condiciones de nuestra ciudad y así sepamos hacia donde orientar nuestras acciones, y con el tiempo podamos medir el impacto no sólo de las políticas públicas sino también de los proyectos empresariales y las iniciativas sociales.&lt;/p&gt;
+
+&lt;h4 id=&quot;qu-metodologa-utiliza&quot;&gt;¿Qué metodología utiliza?&lt;/h4&gt;
+
+&lt;p&gt;El SMI retoma metodologías probadas por instituciones expertas en diversos temas y mide lo mismo que toman en cuenta organizaciones como el Instituto Mexicano para la Competitividad (IMCO) o el Centro de investigación y Docencia Económica (CIDE) para medir la capacidad de Torreón y La Laguna para atraer y retener inversiones y talentos. Pero no solo eso, usará los mismos métodos del Programa de Naciones Unidas para el Desarrollo (PNUD) para medir el Índice de Desarrollo Humano de nuestra población y replicará las herramientas del Banco Mundial para medir la facilidad para abrir un negocio. Considera además estándares internacionales como los puestos por la Organización Mundial de la Salud para prevenir riesgos sanitarios o la OCDE para asegurar que la educación tenga la calidad a la atura de la aldea global.&lt;/p&gt;
+
+&lt;h4 id=&quot;cmo-se-organiza-la-informacin&quot;&gt;¿Cómo se organiza la Información?&lt;/h4&gt;
+
+&lt;p&gt;El SMI agrupa información e indicadores en 5 grandes temas: Seguridad Ciudadana, Buen Gobierno, Medio Ambiente y Entorno Urbano, Desarrollo Económico y Competitividad y Desarrollo Social, que son los gabinetes en los que se agrupa según el Reglamento Orgánico del Municipio de Torreón, la política pública en nuestra ciudad y a su vez son los ejes del Plan Municipal de Desarrollo 2014-2017, retomados de la Norma ISO 18091 para Gobiernos Confiables, aprobada en suiza a inicios de este año.
+Sin embargo el sistema es flexible y agrupará paulatinamente indicadores de acuerdo a otras clasificaciones para poder compararnos con otras ciudades y facilitar el trabajo de organismos nacionales e internacionales que se interesan por el estado de nuestra ciudad. Es decir esta misma información contiene y puede agruparse en los 10 subíndices de competitividad del IMCO, los 4 componentes de las ciudades competitivas según el CIDE o las 5 dimensiones inteligentes que propone Smart Cities, entre otros.&lt;/p&gt;
+
+&lt;h4 id=&quot;de-dnde-proviene-la-informacin&quot;&gt;¿De dónde Proviene la información?&lt;/h4&gt;
+
+&lt;p&gt;La información se recopila de fuentes primarias como el INEGI, SEGOB, CONAGUA, así como organismos que generan indicadores como IMCO o CIDAC, sin embargo también  vamos a las fuentes directas procurando una periodicidad menor como Aeronáutica Civil, IMSS, CONACYT, entre otros, aprovechando además los registros administrativos municipales y estatales, con información verificable, para generar información lo más oportuna posible.&lt;/p&gt;
+
+&lt;p&gt;Con esta información el SMI calculará indicadores con metodologías transparentes y promoviendo los datos abiertos, para que observatorios ciudadanos, otros investigadores, estudiantes, académicos y cualquier persona pueda construir sus propios estudios e investigaciones&lt;/p&gt;
+
+&lt;h4 id=&quot;de-cuantos-indicadores-consta-el-smi&quot;&gt;¿De cuantos indicadores consta el SMI?&lt;/h4&gt;
+
+&lt;p&gt;En su primera etapa empezaremos con 64 indicadores, sumados a análisis sobre los 60 indicadores del Índice de Competitividad Urbana (ICU) 2012 del IMCO y algunos de los 30 nuevos indicadores que contendrá el ICU 2014. Sin embargo el SMI podrá ir creciendo, incorporando todos los indicadores que nos puedan ser útiles y con información verificable, estructurándola de forma amigable para convertirla en conocimiento para el desarrollo y bienestar de nuestra ciudad y su zona metropolitana.&lt;/p&gt;
 </description>
-      <author>IMPLAN</author>
-      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
-      <dc:date>2014-05-01T00:00:00-05:00</dc:date>
+      <author>implan</author>
+      <pubDate>Thu, 08 May 2014 00:00:00 -0500</pubDate>
+      <dc:date>2014-05-08T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>Viviendas Ocupadas Temporalmente</title>
-      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html</link>
+      <title>Red de Transporte Público</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-de-transporte-publico.html</link>
       <description>
 &lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
 
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Vivienda particular destinada para vacacionar o vivir algunos días, semanas o meses.&lt;/p&gt;
+&lt;p&gt;Extensión de la red de transporte público en Kilómetros totales.&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2010-12-31&lt;/td&gt;&lt;td&gt;2.9000 %&lt;/td&gt;&lt;td&gt;CONAPO&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2014-03-31&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;td&gt;IMPLAN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Unidad: Porcentaje.&lt;/p&gt;
+&lt;p&gt;Unidad: Kilómetros.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
@@ -116,23 +136,23 @@
       <dc:date>2014-05-01T00:00:00-05:00</dc:date>
     </item>
     <item>
-      <title>Red de Transporte Público</title>
-      <link>http://trcimplan.github.io/indicadores-torreon/sustentabilidad-red-de-transporte-publico.html</link>
+      <title>Sentenciados Registrados del Fuero Federal</title>
+      <link>http://trcimplan.github.io/indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html</link>
       <description>
 &lt;h3 id=&quot;torren&quot;&gt;Torreón&lt;/h3&gt;
 
 &lt;h4 id=&quot;descripcin&quot;&gt;Descripción&lt;/h4&gt;
 
-&lt;p&gt;Extensión de la red de transporte público en Kilómetros totales.&lt;/p&gt;
+&lt;p&gt;Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal&lt;/p&gt;
 
 &lt;h4 id=&quot;informacin-recopilada&quot;&gt;Información recopilada&lt;/h4&gt;
 
 &lt;table class=&quot;table table-hover table-bordered&quot;&gt;
   &lt;tr&gt;&lt;th&gt;Fecha&lt;/th&gt;&lt;th&gt;Dato&lt;/th&gt;&lt;th&gt;Fuente&lt;/th&gt;&lt;th&gt;Notas&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;2014-03-31&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;td&gt;IMPLAN&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;2008-12-31&lt;/td&gt;&lt;td&gt;194&lt;/td&gt;&lt;td&gt;INEGI&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Unidad: Kilómetros.&lt;/p&gt;
+&lt;p&gt;Unidad: 00) SIN UNIDAD.&lt;/p&gt;
 </description>
       <author>IMPLAN</author>
       <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>

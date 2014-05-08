@@ -73,11 +73,13 @@ class CMS < Imprenta
     # Acumula todos los directorios que comienzen con "indicadores"
 
     def determinar_directorios_publicaciones
+        # En este arreglo acumularemos los directorios
+        directorios = Array.new
+        directorios << 'acerca'
         # Buscar lo que empieze con indicadores
         busqueda = Dir.glob('indicadores*')
         raise "ERROR al determinar los directorios de las publicaciones: No hay directorios que comienzen con 'indicadores'." if busqueda.length == 0
         # Validar que sean directorios
-        directorios = Array.new
         busqueda.sort.each do |item|
             directorios.push(item) if FileTest.directory?(item)
         end
