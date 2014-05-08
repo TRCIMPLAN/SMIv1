@@ -34,11 +34,11 @@ Nivel metropolitano
 
 #### Gráfica
 
-<div id="Morrisxhtbndvn" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxhtbndvn -->
+<div id="Morrisxzkbdamc" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxzkbdamc -->
   <script>
   new Morris.Bar({
-    element: 'Morrisxhtbndvn',
+    element: 'Morrisxzkbdamc',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },
