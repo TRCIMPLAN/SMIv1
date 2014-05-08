@@ -44,8 +44,8 @@ class CMS < Imprenta
     def initialize
         super
         # Modifique estas propiedades
-        @sitio_titulo              = "IMPLAN Torreón"
-        @sitio_descripcion         = "Sistema Municipal de Indicadores"
+        @sitio_titulo              = "IMPLAN Torreón SMI"
+        @sitio_descripcion         = "Sistema Municipal de Indicadores del IMPLAN Torreón"
         @sitio_url                 = "http://trcimplan.github.io"                     # No use diagonal al final
         @autor_por_defecto         = "implan"
      #~ @publicaciones_directorios = %w{ contacto descargar documentacion licencias } # Los directorios que contenen las publicaciones
@@ -63,7 +63,7 @@ class CMS < Imprenta
         # Preparar plantilla
         @plantilla              = PlantillaIMPLAN.new
         @plantilla.sitio_titulo = @sitio_titulo
-     #~ @plantilla.encabezado   = ""
+     #~ @plantilla.encabezado   = "" # El encabezado se define más adelante como entrega de MenuRegionesSubindicesIndicadores
         @plantilla.pie          = "<p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>"
     end
 
