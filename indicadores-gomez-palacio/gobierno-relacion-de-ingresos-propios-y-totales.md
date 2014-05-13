@@ -15,12 +15,12 @@ Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>27.0800 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>27.7300 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>40.1200 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>28.0000 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>47.1700 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>46.4200 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2007-12-31</td><td>27.08%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>27.73%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2009-12-31</td><td>40.12%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>28.00%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2011-12-31</td><td>47.17%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>46.42%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

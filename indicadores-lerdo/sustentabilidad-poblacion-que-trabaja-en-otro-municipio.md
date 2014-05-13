@@ -15,7 +15,7 @@ Porcentaje de la población que trabaja en un municipio diferente al que reside 
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>28.0000 %</td><td>CONAPO</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>28.00%</td><td>CONAPO</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

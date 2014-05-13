@@ -2,7 +2,7 @@ Volumen Tratado de Aguas Residuales
 =====
 
 Fecha: 2014-05-01
-Categorías: Medio Ambiente
+Categorías: Recursos Naturales
 Autor: IMPLAN
 
 ### La Laguna

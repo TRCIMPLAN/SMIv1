@@ -30,15 +30,15 @@ Unidad: Personas.
 
 #### Observaciones
 
-Nivel metropolitano
+Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
 
 #### Gráfica
 
-<div id="Morrisatevlzix" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisatevlzix -->
+<div id="Morrisnkbxwqgr" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisnkbxwqgr -->
   <script>
   new Morris.Bar({
-    element: 'Morrisatevlzix',
+    element: 'Morrisnkbxwqgr',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },

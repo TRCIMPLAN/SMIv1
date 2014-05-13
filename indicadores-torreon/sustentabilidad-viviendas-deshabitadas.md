@@ -15,7 +15,7 @@ Viviendas deshabitadas con respecto al total de viviendas disponibles.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>20.5700 %</td><td>CONAPO</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>20.57%</td><td>CONAPO</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

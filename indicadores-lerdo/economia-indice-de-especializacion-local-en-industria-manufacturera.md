@@ -15,9 +15,9 @@ Producción bruta total de la industria manufacturera entre la producción bruta
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>1998-12-31</td><td>59.2500 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2003-12-31</td><td>75.8500 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>53.9400 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>1998-12-31</td><td>59.25%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2003-12-31</td><td>75.85%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>53.94%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

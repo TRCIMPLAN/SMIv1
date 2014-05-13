@@ -15,7 +15,7 @@ Alumnos buenos y excelentes en Prueba Enlace nivel básico.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2013-12-31</td><td>37.0000 %</td><td>SEP</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>37.00%</td><td>SEP</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

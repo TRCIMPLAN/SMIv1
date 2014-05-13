@@ -118,8 +118,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 62 => {'nombre' => 'Viviendas con Agua de la Red Pública', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html'},
                 60 => {'nombre' => 'Viviendas con Computadora', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-computadora.html'},
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-drenaje.html'},
-                61 => {'nombre' => 'Viviendas con energía eléctrica', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-energia-electrica.html'},
+                61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-internet.html'},
+                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-torreon/sociedad-viviendas-ocupadas-temporalmente.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html'}
             },
             4 => { # SUSTENTABILIDAD
@@ -127,7 +128,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-torreon/sustentabilidad-alumbrado-publico.html'},
                 44 => {'nombre' => 'Áreas Verdes', 'ruta' => 'indicadores-torreon/sustentabilidad-areas-verdes.html'},
                 22 => {'nombre' => 'Consumo de Agua', 'ruta' => 'indicadores-torreon/sustentabilidad-consumo-de-agua.html'},
-                27 => {'nombre' => 'Generación de basura', 'ruta' => 'indicadores-torreon/sustentabilidad-generacion-de-basura.html'},
+                27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-torreon/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-torreon/sustentabilidad-motorizacion.html'},
                 15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html'},
                 36 => {'nombre' => 'Pasajeros Aéreos Totales', 'ruta' => 'indicadores-torreon/sustentabilidad-pasajeros-aereos-totales.html'},
@@ -135,12 +136,11 @@ class MenuRegionesSubindicesIndicadoresConfig
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
                 35 => {'nombre' => 'Red Carretera Total', 'ruta' => 'indicadores-torreon/sustentabilidad-red-carretera-total.html'},
-                33 => {'nombre' => 'Red Carretra Troncal Federal', 'ruta' => 'indicadores-torreon/sustentabilidad-red-carretra-troncal-federal.html'},
+                33 => {'nombre' => 'Red Carretera Troncal Federal', 'ruta' => 'indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html'},
                 37 => {'nombre' => 'Red de Transporte Público', 'ruta' => 'indicadores-torreon/sustentabilidad-red-de-transporte-publico.html'},
-                40 => {'nombre' => 'Reserva Territorial', 'ruta' => 'indicadores-torreon/sustentabilidad-reserva-territorial.html'},
+                40 => {'nombre' => 'Reserva Ecológica', 'ruta' => 'indicadores-torreon/sustentabilidad-reserva-ecologica.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html'},
-                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
             }
         },
@@ -212,23 +212,23 @@ class MenuRegionesSubindicesIndicadoresConfig
                 62 => {'nombre' => 'Viviendas con Agua de la Red Pública', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html'},
                 60 => {'nombre' => 'Viviendas con Computadora', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html'},
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html'},
-                61 => {'nombre' => 'Viviendas con energía eléctrica', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html'},
+                61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-internet.html'},
+                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-ocupadas-temporalmente.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html'},
-                27 => {'nombre' => 'Generación de basura', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html'},
+                27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-motorizacion.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
                 35 => {'nombre' => 'Red Carretera Total', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html'},
-                33 => {'nombre' => 'Red Carretra Troncal Federal', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-red-carretra-troncal-federal.html'},
+                33 => {'nombre' => 'Red Carretera Troncal Federal', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html'},
-                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
             }
         },
@@ -300,23 +300,23 @@ class MenuRegionesSubindicesIndicadoresConfig
                 62 => {'nombre' => 'Viviendas con Agua de la Red Pública', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-agua-de-la-red-publica.html'},
                 60 => {'nombre' => 'Viviendas con Computadora', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-computadora.html'},
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-drenaje.html'},
-                61 => {'nombre' => 'Viviendas con energía eléctrica', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html'},
+                61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-internet.html'},
+                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-ocupadas-temporalmente.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-lerdo/sustentabilidad-alumbrado-publico.html'},
-                27 => {'nombre' => 'Generación de basura', 'ruta' => 'indicadores-lerdo/sustentabilidad-generacion-de-basura.html'},
+                27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-lerdo/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-lerdo/sustentabilidad-motorizacion.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
                 35 => {'nombre' => 'Red Carretera Total', 'ruta' => 'indicadores-lerdo/sustentabilidad-red-carretera-total.html'},
-                33 => {'nombre' => 'Red Carretra Troncal Federal', 'ruta' => 'indicadores-lerdo/sustentabilidad-red-carretra-troncal-federal.html'},
+                33 => {'nombre' => 'Red Carretera Troncal Federal', 'ruta' => 'indicadores-lerdo/sustentabilidad-red-carretera-troncal-federal.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-lerdo/sustentabilidad-sobreexplotacion-del-acuifero.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-lerdo/sustentabilidad-viviendas-deshabitadas.html'},
-                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-lerdo/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-lerdo/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
             }
         },
@@ -333,6 +333,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-matamoros/economia-medianas-empresas.html'},
                 74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-matamoros/economia-microempresas.html'},
                 75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-matamoros/economia-pequenas-empresas.html'},
+                72 => {'nombre' => 'Posgrados de Calidad', 'ruta' => 'indicadores-matamoros/economia-posgrados-de-calidad.html'},
                 10 => {'nombre' => 'Producción Bruta Total Per cápita', 'ruta' => 'indicadores-matamoros/economia-produccion-bruta-total-per-capita.html'},
                 24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
@@ -388,23 +389,23 @@ class MenuRegionesSubindicesIndicadoresConfig
                 62 => {'nombre' => 'Viviendas con Agua de la Red Pública', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-agua-de-la-red-publica.html'},
                 60 => {'nombre' => 'Viviendas con Computadora', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-computadora.html'},
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-drenaje.html'},
-                61 => {'nombre' => 'Viviendas con energía eléctrica', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html'},
+                61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-internet.html'},
+                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-ocupadas-temporalmente.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-matamoros/sustentabilidad-alumbrado-publico.html'},
-                27 => {'nombre' => 'Generación de basura', 'ruta' => 'indicadores-matamoros/sustentabilidad-generacion-de-basura.html'},
+                27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-matamoros/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-matamoros/sustentabilidad-motorizacion.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
                 35 => {'nombre' => 'Red Carretera Total', 'ruta' => 'indicadores-matamoros/sustentabilidad-red-carretera-total.html'},
-                33 => {'nombre' => 'Red Carretra Troncal Federal', 'ruta' => 'indicadores-matamoros/sustentabilidad-red-carretra-troncal-federal.html'},
+                33 => {'nombre' => 'Red Carretera Troncal Federal', 'ruta' => 'indicadores-matamoros/sustentabilidad-red-carretera-troncal-federal.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-matamoros/sustentabilidad-sobreexplotacion-del-acuifero.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-matamoros/sustentabilidad-viviendas-deshabitadas.html'},
-                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-matamoros/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-matamoros/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
             }
         },
@@ -471,8 +472,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 62 => {'nombre' => 'Viviendas con Agua de la Red Pública', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html'},
                 60 => {'nombre' => 'Viviendas con Computadora', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-computadora.html'},
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-drenaje.html'},
-                61 => {'nombre' => 'Viviendas con energía eléctrica', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html'},
+                61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-internet.html'},
+                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-ocupadas-temporalmente.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'}
             },
             4 => { # SUSTENTABILIDAD
@@ -480,13 +482,12 @@ class MenuRegionesSubindicesIndicadoresConfig
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-la-laguna/sustentabilidad-alumbrado-publico.html'},
                 39 => {'nombre' => 'Destinos Vía Aérea', 'ruta' => 'indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html'},
                 38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html'},
-                27 => {'nombre' => 'Generación de basura', 'ruta' => 'indicadores-la-laguna/sustentabilidad-generacion-de-basura.html'},
+                27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-la-laguna/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-la-laguna/sustentabilidad-motorizacion.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html'},
-                43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-la-laguna/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
             }
         }

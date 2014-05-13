@@ -30,11 +30,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morriszmtizpkb" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszmtizpkb -->
+<div id="Morrislafphjzw" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrislafphjzw -->
   <script>
   new Morris.Bar({
-    element: 'Morriszmtizpkb',
+    element: 'Morrislafphjzw',
     data: [
       { fecha: '2010-12-31', dato: 188 },
       { fecha: '2011-12-31', dato: 669 },

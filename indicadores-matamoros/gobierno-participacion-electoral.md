@@ -15,7 +15,7 @@ Porcentaje de personas que emitieron su voto.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-07-01</td><td>64.5800 %</td><td>INE-IEPCC</td><td></td></tr>
+  <tr><td>2012-07-01</td><td>64.58%</td><td>INE-IEPCC</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

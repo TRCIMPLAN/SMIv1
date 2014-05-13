@@ -15,7 +15,7 @@ Porcentaje de la población ocupada que trabaja en el mismo municipio en el que 
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>76.0000 %</td><td>CONAPO</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>76.00%</td><td>CONAPO</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

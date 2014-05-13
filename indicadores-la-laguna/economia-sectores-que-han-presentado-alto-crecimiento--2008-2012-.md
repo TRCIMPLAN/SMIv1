@@ -15,7 +15,7 @@ Autor: IMPLAN
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2008-12-31</td><td>30.8621 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>30.86%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

@@ -15,9 +15,9 @@ Producción bruta total del comercio al por mayor y al por menor entre la produc
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>1998-12-31</td><td>12.8400 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2003-12-31</td><td>12.5800 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>8.3300 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>1998-12-31</td><td>12.84%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2003-12-31</td><td>12.58%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>8.33%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

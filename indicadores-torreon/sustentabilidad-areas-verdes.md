@@ -2,7 +2,7 @@
 =====
 
 Fecha: 2014-05-01
-Categorías: Medio Ambiente
+Categorías: Medio Ambiente, Recursos Naturales, Entorno Urbano
 Autor: IMPLAN
 
 ### Torreón

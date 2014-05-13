@@ -2,7 +2,7 @@ Motorización
 =====
 
 Fecha: 2014-05-01
-Categorías: Medio Ambiente
+Categorías: Recursos Naturales, Movilidad
 Autor: IMPLAN
 
 ### Torreón
@@ -22,4 +22,4 @@ Unidad: Por cada mil.
 
 #### Observaciones
 
-Índice de motorización.
+Índice de motorización. Consulta la [Base de Datos](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/vehiculos.asp?s=est&c=13158&proy=vmrc_vehiculos)

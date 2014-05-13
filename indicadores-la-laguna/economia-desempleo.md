@@ -28,11 +28,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrismahzsqhn" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismahzsqhn -->
+<div id="Morriseokcspvy" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriseokcspvy -->
   <script>
   new Morris.Bar({
-    element: 'Morrismahzsqhn',
+    element: 'Morriseokcspvy',
     data: [
       { fecha: '1989-12-31', dato: 7688 },
       { fecha: '1999-12-31', dato: 3854 },

@@ -9,7 +9,7 @@ Autor: IMPLAN
 
 #### Descripción
 
-Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón
+Destinos directos ofertados desde el Aeropuerto Internacional Francisco Sarabia de la ciudad de Torreón.
 
 #### Información recopilada
 
@@ -22,4 +22,4 @@ Unidad: Cantidad.
 
 #### Observaciones
 
-Se considera a nivel metropolitano
+Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)

@@ -11,7 +11,7 @@ Autor: IMPLAN
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>19.9000 %</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>19.90%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

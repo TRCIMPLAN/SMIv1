@@ -11,7 +11,7 @@ Autor: IMPLAN
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2008-12-31</td><td>51.2400 %</td><td>INEGI</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>51.24%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Cantidad.

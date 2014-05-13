@@ -2,7 +2,7 @@ Viviendas Ocupadas Temporalmente
 =====
 
 Fecha: 2014-05-01
-Categorías: Vivienda
+Categorías: Vivienda, Movilidad
 Autor: IMPLAN
 
 ### La Laguna
@@ -15,7 +15,7 @@ Vivienda particular destinada para vacacionar o vivir algunos días, semanas o m
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>3.0000 %</td><td>CONAPO</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>3.00%</td><td>CONAPO</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

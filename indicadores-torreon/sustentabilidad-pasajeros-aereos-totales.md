@@ -19,3 +19,7 @@ Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.
 </table>
 
 Unidad: Personas.
+
+#### Observaciones
+
+Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)

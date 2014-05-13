@@ -2,14 +2,14 @@ Consumo de Agua
 =====
 
 Fecha: 2014-05-01
-Categorías: Medio Ambiente
+Categorías: Recursos Naturales
 Autor: IMPLAN
 
 ### Torreón
 
 #### Descripción
 
-Consumo mensual de agua por persona en expresado en litros
+Consumo mensual de agua por persona expresado en litros.
 
 #### Información recopilada
 
@@ -18,8 +18,8 @@ Consumo mensual de agua por persona en expresado en litros
   <tr><td>2013-12-31</td><td>42.5000</td><td>SIMAS</td><td>Consumo anual</td></tr>
 </table>
 
-Unidad: Litros por personas.
+Unidad: LITROS POR PERSONA.
 
 #### Observaciones
 
-Total facturado dividio entre la población
+Total facturado dividido entre la población.

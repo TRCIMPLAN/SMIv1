@@ -15,7 +15,7 @@ Porcentaje del total de empresas que emplean de 0 a 10 personas.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2013-12-31</td><td>88.6100 %</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
+  <tr><td>2013-12-31</td><td>88.61%</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

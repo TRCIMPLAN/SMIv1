@@ -1,8 +1,8 @@
-Generación de basura
+Generación de Basura
 =====
 
 Fecha: 2014-05-01
-Categorías: Medio ambiente
+Categorías: Recursos Naturales
 Autor: IMPLAN
 
 ### Torreón
@@ -15,3 +15,7 @@ Autor: IMPLAN
 </table>
 
 Unidad: Kilogramos diarios por cada diez personas.
+
+#### Observaciones
+
+Consulta la [Base de Datos](http://www3.inegi.org.mx/sistemas/sisept/default.aspx?t=mamb1065&s=est&c=33986)

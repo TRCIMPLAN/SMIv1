@@ -1,4 +1,4 @@
-Viviendas con energía eléctrica
+Viviendas con Energía Eléctrica
 =====
 
 Fecha: 2014-05-01
@@ -15,7 +15,11 @@ Porcentaje de viviendas con acceso a energía eléctrica
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>95.7000 %</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>95.70%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)

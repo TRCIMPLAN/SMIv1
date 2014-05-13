@@ -15,7 +15,11 @@ Porcentaje de hogares con jefatura femenina.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>22.7000 %</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>22.70%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)

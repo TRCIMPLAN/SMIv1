@@ -15,7 +15,11 @@ Porcentaje de la población en situación de pobreza moderada.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-12-31</td><td>41.1000 %</td><td>CONEVAL</td><td></td></tr>
+  <tr><td>2012-12-31</td><td>41.10%</td><td>CONEVAL</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)

@@ -15,9 +15,9 @@ Producción bruta total del comercio al por mayor y al por menor entre la produc
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>1998-12-31</td><td>8.9300 %</td><td>00) DESCONOCIDA</td><td></td></tr>
-  <tr><td>2003-12-31</td><td>8.8500 %</td><td>00) DESCONOCIDA</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>9.8800 %</td><td>00) DESCONOCIDA</td><td></td></tr>
+  <tr><td>1998-12-31</td><td>8.93%</td><td>00) DESCONOCIDA</td><td></td></tr>
+  <tr><td>2003-12-31</td><td>8.85%</td><td>00) DESCONOCIDA</td><td></td></tr>
+  <tr><td>2008-12-31</td><td>9.88%</td><td>00) DESCONOCIDA</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.
