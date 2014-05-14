@@ -1,4 +1,4 @@
-Reserva Ecológica
+Área No Urbanizada
 =====
 
 Fecha: 2014-05-01
@@ -9,7 +9,7 @@ Autor: IMPLAN
 
 #### Descripción
 
-Área no urbanizada, áreas naturales protegidas.
+Área total de localidades urbanizadas sobre el
 
 #### Información recopilada
 

@@ -126,7 +126,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-torreon/sustentabilidad-alumbrado-publico.html'},
-                44 => {'nombre' => 'Áreas Verdes', 'ruta' => 'indicadores-torreon/sustentabilidad-areas-verdes.html'},
+                40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-torreon/sustentabilidad-area-no-urbanizada.html'},
                 22 => {'nombre' => 'Consumo de Agua', 'ruta' => 'indicadores-torreon/sustentabilidad-consumo-de-agua.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-torreon/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-torreon/sustentabilidad-motorizacion.html'},
@@ -138,7 +138,6 @@ class MenuRegionesSubindicesIndicadoresConfig
                 35 => {'nombre' => 'Red Carretera Total', 'ruta' => 'indicadores-torreon/sustentabilidad-red-carretera-total.html'},
                 33 => {'nombre' => 'Red Carretera Troncal Federal', 'ruta' => 'indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html'},
                 37 => {'nombre' => 'Red de Transporte Público', 'ruta' => 'indicadores-torreon/sustentabilidad-red-de-transporte-publico.html'},
-                40 => {'nombre' => 'Reserva Ecológica', 'ruta' => 'indicadores-torreon/sustentabilidad-reserva-ecologica.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}

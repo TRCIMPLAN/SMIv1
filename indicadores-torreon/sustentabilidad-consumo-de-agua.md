@@ -18,7 +18,7 @@ Consumo mensual de agua por persona expresado en litros.
   <tr><td>2013-12-31</td><td>42.5000</td><td>SIMAS</td><td>Consumo anual</td></tr>
 </table>
 
-Unidad: LITROS POR PERSONA.
+Unidad: Litros por Persona.
 
 #### Observaciones
 
