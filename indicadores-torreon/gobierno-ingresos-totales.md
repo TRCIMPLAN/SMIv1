@@ -28,11 +28,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriswvscrafe" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswvscrafe -->
+<div id="Morrisbujjnoxl" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbujjnoxl -->
   <script>
   new Morris.Bar({
-    element: 'Morriswvscrafe',
+    element: 'Morrisbujjnoxl',
     data: [
       { fecha: '2007-12-31', dato: 1395070656.00 },
       { fecha: '2008-12-31', dato: 1672978076.00 },

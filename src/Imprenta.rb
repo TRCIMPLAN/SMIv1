@@ -111,23 +111,26 @@ class Imprenta
         end
         # Asignar el tipo 'rb' y el autor por defecto en las publicaciones que no lo tengan
         pubs.each do |pub|
-            pub.tipo  = 'rb'
-            pub.autor = @autor_por_defecto if pub.autor.nil?
-            # Buscar las lineas que empiecen con un espacio
-            nuevo   = String.new
-            bandera = false
-            pub.contenido.each_line do |linea|
-                if bandera == false and linea[0] == " "
-                    nuevo  += "<pre><code>\n"
-                    bandera = true
+            pub.tipo           = 'rb'
+            pub.autor          = @autor_por_defecto if pub.autor.nil?
+            pub.tipo_contenido = 'redcloth' if pub.tipo_contenido.nil?
+            # Si es redcloth, cambiar las lineas que empiecen con un espacio a monoespaciado
+            if pub.tipo_contenido == 'redcloth'
+                nuevo   = String.new
+                bandera = false
+                pub.contenido.each_line do |linea|
+                    if bandera == false and linea[0] == " "
+                        nuevo  += "<pre><code>\n"
+                        bandera = true
+                    end
+                    if bandera == true and linea.chomp != "" and linea[0] != " "
+                        nuevo  += "</code></pre>"
+                        bandera = false
+                    end
+                    nuevo += linea
                 end
-                if bandera == true and linea.chomp != "" and linea[0] != " "
-                    nuevo  += "</code></pre>"
-                    bandera = false
-                end
-                nuevo += linea
+                pub.contenido = nuevo
             end
-            pub.contenido = nuevo
         end
         # Acumular en la propiedad
         @publicaciones.concat(pubs)
@@ -182,11 +185,12 @@ class Imprenta
                         contenido.push(linea.chomp)
                     end
                 end
-                pub.contenido  = contenido.join("\n")                  # Pasamos el contenido
-                pub.javascript = javascript.join("\n")                 # Pasamos el javascript
-                pub.autor      = @autor_por_defecto if pub.autor.nil?  # Si no hay autor en el archivo markdown, le asignamos el autor por defecto
-                pubs.push(pub)                                         # Acumular la publicación
-                @cantidad += 1                                         # Incrementar la cantidad de las mismas
+                pub.contenido      = contenido.join("\n")                  # Pasamos el contenido
+                pub.javascript     = javascript.join("\n")                 # Pasamos el javascript
+                pub.autor          = @autor_por_defecto if pub.autor.nil?  # Si no hay autor en el archivo markdown, le asignamos el autor por defecto
+                pub.tipo_contenido = 'markdown' if pub.tipo_contenido.nil? # Si no se ha definido el tipo de contenido, por defecto es "markdown"
+                pubs.push(pub)                                             # Acumular la publicación
+                @cantidad += 1                                             # Incrementar la cantidad de las mismas
             end
         end
         # Almacenar en @publicaciones

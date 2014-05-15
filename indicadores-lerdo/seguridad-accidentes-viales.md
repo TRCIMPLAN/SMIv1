@@ -2,7 +2,6 @@ Accidentes Viales
 =====
 
 Fecha: 2014-05-01
-Categorías: 
 Autor: IMPLAN
 
 ### Lerdo

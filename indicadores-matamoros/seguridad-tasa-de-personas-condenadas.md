@@ -2,7 +2,6 @@ Tasa de Personas Condenadas
 =====
 
 Fecha: 2014-05-01
-Categorías: 
 Autor: IMPLAN
 
 ### Matamoros

@@ -9,13 +9,17 @@ Autor: IMPLAN
 
 #### Descripción
 
-Área total de localidades urbanizadas sobre el
+Área total de localidades no urbanizadas sobre la superficie municipal.
 
 #### Información recopilada
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2005-12-31</td><td>75.70%</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>88.90%</td><td>INEGI</td><td>La distribución geográfica de Torreón es de considerarse aparte, ya que el municipio se encuentra dividido en dos partes: Norte; en la cual está asentada la cabecera municipal y la mancha urbana, y el Sur; que abarca aproximadamente tres cuartas partes de la superficie municipal, separadas tanto por la Sierra de las Noas como por extensiones de los municipios de Matamoros y Viesca.</td></tr>
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Descarga de [Base de Datos](http://www3.inegi.org.mx/sistemas/productos/default.aspx?c=265&upc=0&s=est&tg=3594&f=2&cl=0&pf=prod&ef=0&ct=201100000&pg=2)

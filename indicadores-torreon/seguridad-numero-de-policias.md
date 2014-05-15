@@ -2,7 +2,6 @@ Número de policías
 =====
 
 Fecha: 2014-05-01
-Categorías: 
 Autor: IMPLAN
 
 ### Torreón

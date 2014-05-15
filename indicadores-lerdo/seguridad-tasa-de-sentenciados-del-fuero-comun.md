@@ -2,7 +2,6 @@ Tasa de Sentenciados del Fuero Común
 =====
 
 Fecha: 2014-05-01
-Categorías: 
 Autor: IMPLAN
 
 ### Lerdo
