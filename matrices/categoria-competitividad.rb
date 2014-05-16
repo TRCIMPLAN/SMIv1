@@ -35,6 +35,7 @@ def publicacion(dir)
   </tr>
 </tbody>
 </table>
+<p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
 FIN_CONTENIDO
 
     # Entregar la publicacion

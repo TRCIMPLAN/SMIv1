@@ -15,7 +15,7 @@ Porcentaje de viviendas habitadas que disponen de retrete.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>96.00%</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>98.71%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

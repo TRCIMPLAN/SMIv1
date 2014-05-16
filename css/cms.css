@@ -212,6 +212,10 @@ table.matriz > thead > tr > th {
     color:#888;
     display:none;
 }
+.instrucciones {
+    font-size:11px;
+    color:#444;
+}
 .btn-publicacion-completa,
 .btn-publicacion-completa:hover,
 .btn-publicacion-completa:focus {

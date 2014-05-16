@@ -15,7 +15,7 @@ Porcentaje de viviendas habitadas que disponen de drenaje.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>90.80%</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>91.31%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

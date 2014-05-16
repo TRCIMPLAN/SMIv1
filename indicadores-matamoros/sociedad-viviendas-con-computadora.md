@@ -15,7 +15,7 @@ Porcentaje de viviendas habitadas con computadora.
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>16.60%</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>18.73%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

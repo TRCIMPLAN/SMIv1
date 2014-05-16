@@ -15,7 +15,7 @@ Porcentaje de viviendas con acceso a energía eléctrica
 
 <table class="table table-hover table-bordered">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>96.70%</td><td>INEGI</td><td></td></tr>
+  <tr><td>2010-12-31</td><td>99.61%</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.
