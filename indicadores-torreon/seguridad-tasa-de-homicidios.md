@@ -26,11 +26,11 @@ Unidad: Por cada 100 mil.
 
 #### Gráfica
 
-<div id="Morrisozmtitnp" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisozmtitnp -->
+<div id="Morrispqlcrqqx" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispqlcrqqx -->
   <script>
   new Morris.Bar({
-    element: 'Morrisozmtitnp',
+    element: 'Morrispqlcrqqx',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },

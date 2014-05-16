@@ -51,11 +51,11 @@ class MenuRegionesSubindicesIndicadores < MenuRegionesSubindicesIndicadoresConfi
             a << '      </h4>'
             a << '    </div>'
             a << "    <div class=\"panel-collapse collapse\" id=\"#{r['directorio']}\">"
-            a << '      <div class="panel-body">'
+            a << '      <div class="panel-body menu-subindices-indicadores-body">'
             # Bucle por subíndices
             subindices.each do |subindice_id, indicadores|
                 s = @subindices_listado[subindice_id]
-                a << '        <div class="menu-subindices-indicadores-block">'
+                a << "        <div class=\"menu-subindices-indicadores-block #{s['color']}\">"
                 a << "          #{s['nombre']}"
                 a << '          <ul>'
                 # Bucle por indicadores

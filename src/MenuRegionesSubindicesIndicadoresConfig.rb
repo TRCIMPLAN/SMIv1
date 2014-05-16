@@ -30,21 +30,21 @@ class MenuRegionesSubindicesIndicadoresConfig
     # Inicializar
 
     def initialize
-            @regiones_listado = {
+    @regiones_listado = {
         2 => {'nombre' => 'Torreón', 'directorio' => 'indicadores-torreon'},
         3 => {'nombre' => 'Gómez Palacio', 'directorio' => 'indicadores-gomez-palacio'},
         4 => {'nombre' => 'Lerdo', 'directorio' => 'indicadores-lerdo'},
         5 => {'nombre' => 'Matamoros', 'directorio' => 'indicadores-matamoros'},
         1 => {'nombre' => 'La Laguna', 'directorio' => 'indicadores-la-laguna'}
     }
-            @subindices_listado = {
-        3 => {'nombre' => 'ECONOMÍA Y COMPETITIVIDAD'},
-        2 => {'nombre' => 'BUEN GOBIERNO'},
-        1 => {'nombre' => 'SEGURIDAD PUBLICA'},
-        5 => {'nombre' => 'SOCIEDAD'},
-        4 => {'nombre' => 'SUSTENTABILIDAD'}
+    @subindices_listado = {
+        3 => {'nombre' => 'ECONOMÍA Y COMPETITIVIDAD', 'color' => 'color1'},
+        2 => {'nombre' => 'BUEN GOBIERNO', 'color' => 'color2'},
+        1 => {'nombre' => 'SEGURIDAD PUBLICA', 'color' => 'color3'},
+        5 => {'nombre' => 'SOCIEDAD', 'color' => 'color4'},
+        4 => {'nombre' => 'SUSTENTABILIDAD', 'color' => 'color5'}
     }
-            @indicadores_por_subindice_por_region = {
+    @indicadores_por_subindice_por_region = {
         2 => { # Torreón
             3 => { # ECONOMÍA Y COMPETITIVIDAD
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
@@ -126,7 +126,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-torreon/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-torreon/sustentabilidad-area-no-urbanizada.html'},
-                22 => {'nombre' => 'Consumo de Agua', 'ruta' => 'indicadores-torreon/sustentabilidad-consumo-de-agua.html'},
+                22 => {'nombre' => 'Consumo de Agua Facturado', 'ruta' => 'indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-torreon/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-torreon/sustentabilidad-motorizacion.html'},
                 15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html'},

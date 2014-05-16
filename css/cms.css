@@ -104,12 +104,16 @@ h6 {
     display:block;
 }
 .menu-subindices-indicadores > .panel-collapse {
-    background-color:#D1C7C1;
+    background-color:#FFF;
     border:solid 1px #524B48;
+}
+.menu-subindices-indicadores-body {
+    padding:4px;
 }
 .menu-subindices-indicadores-block {
     float:left;
     width:20%;
+    padding:2px;
 }
 .menu-subindices-indicadores ul {
     margin:0;
@@ -194,11 +198,11 @@ table.matriz > thead > tr > th {
     text-align:center;
     font-size:12px;
 }
-.color1 { background-color:#FFF4E9; }
-.color2 { background-color:#F3F4F9; }
-.color3 { background-color:#F2EFBE; }
-.color4 { background-color:#F9F1F9; }
-.color5 { background-color:#F6EBD1; }
+.color1 { background-color:#FFF2E3; }
+.color2 { background-color:#EDF0FF; }
+.color3 { background-color:#FFFCC3; }
+.color4 { background-color:#FFE7FF; }
+.color5 { background-color:#FFF1CF; }
 .color6 { background-color:#E8FCE6; }
 .color7 { background-color:#EAF0CC; }
 .color8 { background-color:#EFE5F9; }

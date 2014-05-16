@@ -1,0 +1,43 @@
+# encoding: utf-8
+def publicacion(dir)
+
+    p                           = Publicacion.new
+    p.directorio                = dir
+    p.archivo                   = 'categoria-empleo'
+    p.nombre                    = 'Categoría Empleo'
+    p.fecha                     = '1980-01-01'
+    p.categorias                = Array.new
+    p.autor                     = 'Autor'
+    p.aparece_en_pagina_inicial = false
+    p.tipo_contenido            = 'html'
+    p.contenido                 = <<FIN_CONTENIDO
+<table class="table table-bordered matriz">
+<thead>
+  <tr>
+    <th>Subíndice</th>
+    <th>Indicador</th>
+    <th>Torreón</th>
+    <th>Gómez Palacio</th>
+    <th>Lerdo</th>
+    <th>Matamoros</th>
+    <th>La Laguna</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Desempleo</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desempleo.html">19536</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desempleo.html">9705</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-desempleo.html">3795</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-desempleo.html">2380</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desempleo.html">35416</a></td>
+  </tr>
+</tbody>
+</table>
+FIN_CONTENIDO
+
+    # Entregar la publicacion
+    p
+
+end
