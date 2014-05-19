@@ -14,13 +14,13 @@ Monto de créditos otorgados a la fecha indicada.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>4,205,870,657.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>4,528,969,820.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>4,896,553,645.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>5,442,162,894.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2014-03-31</td><td>5,671,976,037.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">4,205,870,657.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">4,528,969,820.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">4,896,553,645.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">5,442,162,894.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/03/2014</td><td class="derecha">5,671,976,037.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
 </table>
 
 Unidad: Pesos.
@@ -31,11 +31,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisvvnojfzh" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvvnojfzh -->
+<div id="Morrishhjplqzf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishhjplqzf -->
   <script>
   new Morris.Line({
-    element: 'Morrisvvnojfzh',
+    element: 'Morrishhjplqzf',
     data: [
       { fecha: '2010-12-31', dato: 4205870657.0000 },
       { fecha: '2011-12-31', dato: 4528969820.0000 },

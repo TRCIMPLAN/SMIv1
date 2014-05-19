@@ -215,16 +215,16 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
-    <td class="indicador color2">Competencia Electoral - Votos Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">246044</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">120131</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">56517</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">48093</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">479785</a></td>
+    <td class="indicador color2">Competencia Electoral Votos Totales</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">246044</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">120131</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">56517</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">48093</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">479785</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
-    <td class="indicador color2">Ingreso Per cápita</td>
+    <td class="indicador color2">Ingreso Per Cápita</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,821.23</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 3,328.92</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,460.58</a></td>
@@ -368,12 +368,21 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
+    <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">108</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">60</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">182</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">SEGURIDAD</td>
     <td class="indicador color3">Sentenciados por Delitos de Narcóticos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">108</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">60</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">12</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">182</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">108</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">60</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">2</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-por-delitos-de-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">182</a></td>
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
@@ -387,11 +396,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
     <td class="indicador color3">Sentenciados Registrados del Fuero Federal</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">194</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">119</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">20</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">8</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2008-12-31, INEGI">341</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">194</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">119</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">20</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">341</a></td>
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>

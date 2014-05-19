@@ -14,11 +14,11 @@ Cantidad de personas desempleadas.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>1989-12-31</td><td>774</td><td>INEGI</td><td></td></tr>
-  <tr><td>1999-12-31</td><td>378</td><td>INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>2380</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/1989</td><td class="derecha">774</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/1999</td><td class="derecha">378</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">2380</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Personas.
@@ -29,11 +29,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrisbfkkepiz" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbfkkepiz -->
+<div id="Morrishhruckaw" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishhruckaw -->
   <script>
   new Morris.Bar({
-    element: 'Morrisbfkkepiz',
+    element: 'Morrishhruckaw',
     data: [
       { fecha: '1989-12-31', dato: 774 },
       { fecha: '1999-12-31', dato: 378 },

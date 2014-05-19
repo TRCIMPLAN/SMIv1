@@ -14,9 +14,9 @@ Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>-0.0600</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">-0.0600</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Promedio.

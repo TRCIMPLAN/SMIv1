@@ -14,9 +14,9 @@ Diferencia de votos entre primer y segundo lugar en la elección federal.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-07-01</td><td>32140</td><td>INE-IEPCC</td><td>En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo</td></tr>
+  <tr><td class="centrado">01/07/2012</td><td class="derecha">32140</td><td>INE-IEPCC</td><td>En esta cifra se incluye solo a los municipios de Torreón, Matamoros, Gómez Palacio y Lerdo</td></tr>
 </table>
 
 Unidad: Cantidad.

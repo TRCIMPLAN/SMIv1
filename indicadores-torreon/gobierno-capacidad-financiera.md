@@ -14,15 +14,15 @@ Ingresos propios entre gastos corrientes.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>80.95%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>77.61%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>75.46%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>65.27%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>56.45%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>74.10%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>74.22%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2007</td><td class="derecha">80.95%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">77.61%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">75.46%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">65.27%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">56.45%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">74.10%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">74.22%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

@@ -14,9 +14,9 @@ Espacios culturales físicamente delimitados.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2014-03-31</td><td>8</td><td>CONACULTA-IMPLAN</td><td></td></tr>
+  <tr><td class="centrado">31/03/2014</td><td class="derecha">8</td><td>CONACULTA-IMPLAN</td><td></td></tr>
 </table>
 
 Unidad: Por cada 100 mil.

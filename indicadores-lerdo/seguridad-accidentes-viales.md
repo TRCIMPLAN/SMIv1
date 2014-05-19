@@ -13,9 +13,9 @@ Cantidad de accidentes viales por año.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-12-31</td><td>362</td><td>INEGI</td><td>Número de accidentes registrados durante el año 2012.</td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">362</td><td>INEGI</td><td>Número de accidentes registrados durante el año 2012.</td></tr>
 </table>
 
 Unidad: Cantidad.

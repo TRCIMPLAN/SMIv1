@@ -14,9 +14,9 @@ Programas aceptados por CONACYT como posgrados de calidad
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2014-04-30</td><td>11</td><td>CONACYT</td><td></td></tr>
+  <tr><td class="centrado">30/04/2014</td><td class="derecha">11</td><td>CONACYT</td><td></td></tr>
 </table>
 
 Unidad: Cantidad de Posgrados.

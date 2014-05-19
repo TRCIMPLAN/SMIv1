@@ -10,9 +10,9 @@ Aparece en pagina inicial: No
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2014-03-31</td><td>30</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+  <tr><td class="centrado">31/03/2014</td><td class="derecha">30</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
 </table>
 
 Unidad: Cantidad.

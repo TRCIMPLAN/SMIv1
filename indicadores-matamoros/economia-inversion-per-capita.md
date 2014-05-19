@@ -14,14 +14,14 @@ Gasto en obras públicas y acciones sociales entre población total.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 304.33</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 396.24</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 627.35</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 405.29</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 327.41</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 44.62</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 304.33</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 396.24</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 627.35</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 405.29</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 327.41</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 44.62</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Pesos.
@@ -32,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriscmcbdatx" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscmcbdatx -->
+<div id="Morrispjjyerox" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispjjyerox -->
   <script>
   new Morris.Bar({
-    element: 'Morriscmcbdatx',
+    element: 'Morrispjjyerox',
     data: [
       { fecha: '2007-12-31', dato: 304.33 },
       { fecha: '2008-12-31', dato: 396.24 },

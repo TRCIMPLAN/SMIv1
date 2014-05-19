@@ -13,9 +13,9 @@ Policías por cada mil habitantes
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2014-02-28</td><td>0.11%</td><td>Ayuntamiento de Torreón</td><td>Disponible sólo para Torreón</td></tr>
+  <tr><td class="centrado">28/02/2014</td><td class="derecha">0.11%</td><td>Ayuntamiento de Torreón</td><td>Disponible sólo para Torreón</td></tr>
 </table>
 
 Unidad: Cantidad.

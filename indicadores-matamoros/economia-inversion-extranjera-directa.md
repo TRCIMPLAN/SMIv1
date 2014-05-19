@@ -14,9 +14,9 @@ Promedio de inversión entre 2008 y 2012.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-12-31</td><td>$ 0.61</td><td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 0.61</td><td>Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía</td><td></td></tr>
 </table>
 
 Unidad: Millones de dólares.

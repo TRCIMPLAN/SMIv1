@@ -53,7 +53,7 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
-    <td class="indicador color2">Ingreso Per cápita</td>
+    <td class="indicador color2">Ingreso Per Cápita</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,821.23</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 3,328.92</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,460.58</a></td>

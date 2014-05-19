@@ -14,9 +14,9 @@ Tasa de Mortalidad. Número de muertes por cada mil habitantes.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-12-31</td><td>5.2000</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">5.2000</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Por cada mil.

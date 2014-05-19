@@ -14,13 +14,13 @@ Créditos dispuestos marginalmente durante el año indicado.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>188</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>669</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>1030</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>948</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td>2014-03-31</td><td>85</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">188</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">669</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">1030</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">948</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+  <tr><td class="centrado">31/03/2014</td><td class="derecha">85</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
 </table>
 
 Unidad: Cantidad de Créditos.
@@ -31,11 +31,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisqgdmcejy" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqgdmcejy -->
+<div id="Morrisewfbycse" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisewfbycse -->
   <script>
   new Morris.Bar({
-    element: 'Morrisqgdmcejy',
+    element: 'Morrisewfbycse',
     data: [
       { fecha: '2010-12-31', dato: 188 },
       { fecha: '2011-12-31', dato: 669 },

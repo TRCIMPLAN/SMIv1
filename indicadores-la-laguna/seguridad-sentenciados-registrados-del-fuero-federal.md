@@ -13,9 +13,9 @@ Sentenciados registrados en los juzgados de primera instancia en materia penal d
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2008-12-31</td><td>341</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">341</td><td>INEGI</td><td></td></tr>
 </table>
 
-Unidad: 00) SIN UNIDAD.
+Unidad: Cantidad.

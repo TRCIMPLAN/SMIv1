@@ -1,4 +1,4 @@
-Ingreso Per cápita
+Ingreso Per Cápita
 =====
 
 Fecha: 2014-05-01
@@ -14,14 +14,14 @@ Ingresos totales del municipio entre el total de la población.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 1,155.87</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 1,717.79</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 1,623.19</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 1,399.66</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 1,418.38</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 1,594.68</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 1,155.87</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 1,717.79</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 1,623.19</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 1,399.66</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 1,418.38</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 1,594.68</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Pesos.
@@ -32,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisuxrzophs" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisuxrzophs -->
+<div id="Morriswumdbzzs" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswumdbzzs -->
   <script>
   new Morris.Bar({
-    element: 'Morrisuxrzophs',
+    element: 'Morriswumdbzzs',
     data: [
       { fecha: '2007-12-31', dato: 1155.87 },
       { fecha: '2008-12-31', dato: 1717.79 },

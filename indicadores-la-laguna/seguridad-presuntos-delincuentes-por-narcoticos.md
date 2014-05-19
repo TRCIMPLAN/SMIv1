@@ -14,9 +14,9 @@ Presuntos delincuentes por delitos en materia de narcóticos registrados en los 
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2008-12-31</td><td>228</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">228</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Cantidad.

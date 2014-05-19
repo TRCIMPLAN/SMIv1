@@ -35,12 +35,12 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
-    <td class="indicador color2">Competencia Electoral - Votos Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">246044</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">120131</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">56517</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">48093</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral---votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">479785</a></td>
+    <td class="indicador color2">Competencia Electoral Votos Totales</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">246044</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">120131</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">56517</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">48093</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">479785</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>

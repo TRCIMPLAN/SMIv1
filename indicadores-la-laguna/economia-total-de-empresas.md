@@ -10,9 +10,9 @@ Aparece en pagina inicial: No
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2013-12-31</td><td>8937</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">8937</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
 </table>
 
 Unidad: Cantidad de Empresas.

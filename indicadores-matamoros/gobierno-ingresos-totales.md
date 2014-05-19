@@ -10,14 +10,14 @@ Aparece en pagina inicial: No
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 118,848,281.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 179,363,074.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 172,111,514.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 149,987,909.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 154,367,205.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 176,265,107.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 118,848,281.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 179,363,074.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 172,111,514.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 149,987,909.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 154,367,205.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 176,265,107.00</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Pesos.
@@ -28,11 +28,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisuczwsxtu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisuczwsxtu -->
+<div id="Morriseaniibzi" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriseaniibzi -->
   <script>
   new Morris.Bar({
-    element: 'Morrisuczwsxtu',
+    element: 'Morriseaniibzi',
     data: [
       { fecha: '2007-12-31', dato: 118848281.00 },
       { fecha: '2008-12-31', dato: 179363074.00 },

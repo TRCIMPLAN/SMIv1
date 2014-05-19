@@ -10,9 +10,9 @@ Aparece en pagina inicial: No
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>1.7800</td><td>IMCO-CONAGUA</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">1.7800</td><td>IMCO-CONAGUA</td><td></td></tr>
 </table>
 
 Unidad: Litros por segundo por persona.

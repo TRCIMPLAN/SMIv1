@@ -14,9 +14,9 @@ Red carretera de alimentadoras estatales.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-12-31</td><td>43</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">43</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Kilómetros.

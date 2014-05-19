@@ -10,15 +10,15 @@ Aparece en pagina inicial: No
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 1,395,070,656.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 1,672,978,076.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 1,555,061,545.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 1,828,589,942.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 1,910,299,313.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 1,840,277,768.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>$ 1,927,501,368.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 1,395,070,656.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 1,672,978,076.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 1,555,061,545.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 1,828,589,942.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 1,910,299,313.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 1,840,277,768.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 1,927,501,368.00</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Pesos.
@@ -29,11 +29,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrispiemhyju" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispiemhyju -->
+<div id="Morristoqthrxw" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristoqthrxw -->
   <script>
   new Morris.Bar({
-    element: 'Morrispiemhyju',
+    element: 'Morristoqthrxw',
     data: [
       { fecha: '2007-12-31', dato: 1395070656.00 },
       { fecha: '2008-12-31', dato: 1672978076.00 },

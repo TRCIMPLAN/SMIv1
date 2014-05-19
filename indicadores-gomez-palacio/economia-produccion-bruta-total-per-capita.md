@@ -14,11 +14,11 @@ Producción bruta total (de los sectores industria, comercio y servicios) entre 
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>1998-12-31</td><td>$ 64,470.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2003-12-31</td><td>$ 117,604.88</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 157,032.38</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 64,470.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 117,604.88</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 157,032.38</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
 </table>
 
 Unidad: Pesos.
@@ -29,11 +29,11 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisdwzzjyxb" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisdwzzjyxb -->
+<div id="Morrisujdmtany" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisujdmtany -->
   <script>
   new Morris.Bar({
-    element: 'Morrisdwzzjyxb',
+    element: 'Morrisujdmtany',
     data: [
       { fecha: '1998-12-31', dato: 64470.91 },
       { fecha: '2003-12-31', dato: 117604.88 },

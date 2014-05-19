@@ -14,9 +14,9 @@ Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>72.00%</td><td>IMPLAN</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">72.00%</td><td>IMPLAN</td><td></td></tr>
 </table>
 
 Unidad: Porcentaje.

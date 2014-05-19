@@ -14,9 +14,9 @@ Porcentaje de la población en situación de pobreza.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2012-12-31</td><td>37.20%</td><td>CONEVAL</td><td>Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)</td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">37.20%</td><td>CONEVAL</td><td>Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)</td></tr>
 </table>
 
 Unidad: Porcentaje.

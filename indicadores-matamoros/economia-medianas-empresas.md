@@ -14,9 +14,9 @@ Porcentaje del total de empresas que emplean de 51 a 250 personas.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2013-12-31</td><td>3.01%</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">3.01%</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
 </table>
 
 Unidad: Cantidad de Empresas.

@@ -14,12 +14,12 @@ Consumo anual de agua por persona expresado en metros cúbicos.
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2010-12-31</td><td>47.7700</td><td>SIMAS</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>46.7500</td><td>SIMAS</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>44.5700</td><td>SIMAS</td><td></td></tr>
-  <tr><td>2013-12-31</td><td>41.9900</td><td>SIMAS</td><td>Consumo anual</td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">47.7700</td><td>SIMAS</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">46.7500</td><td>SIMAS</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">44.5700</td><td>SIMAS</td><td></td></tr>
+  <tr><td class="centrado">31/12/2013</td><td class="derecha">41.9900</td><td>SIMAS</td><td>Consumo anual</td></tr>
 </table>
 
 Unidad: Metros cúbicos per cápita.
@@ -30,11 +30,11 @@ Total facturado dividido entre la población.
 
 #### Gráfica
 
-<div id="Morristcfiifho" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristcfiifho -->
+<div id="Morrisiomcimds" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisiomcimds -->
   <script>
   new Morris.Line({
-    element: 'Morristcfiifho',
+    element: 'Morrisiomcimds',
     data: [
       { fecha: '2010-12-31', dato: 47.7700 },
       { fecha: '2011-12-31', dato: 46.7500 },

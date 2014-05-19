@@ -14,25 +14,25 @@ Ingresos recaudados por el municipio por cobro de servicios
 
 #### Información recopilada
 
-<table class="table table-hover table-bordered">
+<table class="table table-hover table-bordered matriz">
   <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td>2007-12-31</td><td>$ 171,558,852.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2008-12-31</td><td>$ 260,603,974.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2009-12-31</td><td>$ 446,425,780.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2010-12-31</td><td>$ 218,261,225.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2011-12-31</td><td>$ 473,049,020.00</td><td>INEGI</td><td></td></tr>
-  <tr><td>2012-12-31</td><td>$ 523,339,253.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 171,558,852.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 260,603,974.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 446,425,780.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 218,261,225.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 473,049,020.00</td><td>INEGI</td><td></td></tr>
+  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 523,339,253.00</td><td>INEGI</td><td></td></tr>
 </table>
 
 Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrishvgdoqht" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishvgdoqht -->
+<div id="Morrissnznlaam" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrissnznlaam -->
   <script>
   new Morris.Bar({
-    element: 'Morrishvgdoqht',
+    element: 'Morrissnznlaam',
     data: [
       { fecha: '2007-12-31', dato: 171558852.00 },
       { fecha: '2008-12-31', dato: 260603974.00 },
