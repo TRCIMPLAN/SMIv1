@@ -15,24 +15,28 @@ Ingresos recaudados por el municipio por cobro de servicios
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 171,558,852.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 260,603,974.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 446,425,780.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 218,261,225.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 473,049,020.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 523,339,253.00</td><td>INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 171,558,852.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 260,603,974.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 446,425,780.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 218,261,225.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 473,049,020.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 523,339,253.00</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrissnznlaam" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrissnznlaam -->
+<div id="Morristxfenclb" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristxfenclb -->
   <script>
-  new Morris.Bar({
-    element: 'Morrissnznlaam',
+  new Morris.Line({
+    element: 'Morristxfenclb',
     data: [
       { fecha: '2007-12-31', dato: 171558852.00 },
       { fecha: '2008-12-31', dato: 260603974.00 },
@@ -44,6 +48,13 @@ Unidad: Pesos.
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

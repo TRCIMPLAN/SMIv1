@@ -54,16 +54,16 @@ def publicacion(dir)
   <tr>
     <td class="subindice color5">SUSTENTABILIDAD</td>
     <td class="indicador color5">Motorización</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">225</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">312</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">237</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">161</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">226</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">308</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">235</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">162</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">244</a></td>
   </tr>
   <tr>
     <td class="subindice color5">SUSTENTABILIDAD</td>
     <td class="indicador color5">Pasajeros Aéreos Internacionales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">55446</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">55,446</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
@@ -72,7 +72,7 @@ def publicacion(dir)
   <tr>
     <td class="subindice color5">SUSTENTABILIDAD</td>
     <td class="indicador color5">Pasajeros Aéreos Totales</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 2013-12-31, INEGI">508133</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 2013-12-31, INEGI">508,133</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

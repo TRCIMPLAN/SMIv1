@@ -72,11 +72,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Total de Empresas</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">6671</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">1942</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">6,671</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">1,942</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">158</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">166</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">8937</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">8,937</a></td>
   </tr>
 </tbody>
 </table>

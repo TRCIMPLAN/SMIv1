@@ -27,7 +27,7 @@ def publicacion(dir)
   <tr>
     <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Espacios Culturales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">15</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">16</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">10</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">13</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">8</a></td>

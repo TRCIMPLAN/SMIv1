@@ -15,21 +15,25 @@ Total de delitos cometidos por mes
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/01/2014</td><td class="derecha">363</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
-  <tr><td class="centrado">28/02/2014</td><td class="derecha">307</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
-  <tr><td class="centrado">31/03/2014</td><td class="derecha">382</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/01/2014</td><td class="derecha">363</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">28/02/2014</td><td class="derecha">307</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">382</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisqsqrdnjd" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqsqrdnjd -->
+<div id="Morrismcrcywky" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismcrcywky -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisqsqrdnjd',
+  new Morris.Line({
+    element: 'Morrismcrcywky',
     data: [
       { fecha: '2014-01-31', dato: 363 },
       { fecha: '2014-02-28', dato: 307 },
@@ -38,6 +42,13 @@ Unidad: Cantidad.
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

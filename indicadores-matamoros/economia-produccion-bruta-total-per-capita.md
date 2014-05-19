@@ -15,10 +15,14 @@ Producción bruta total (de los sectores industria, comercio y servicios) entre 
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 3,081.72</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 6,804.48</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 15,373.03</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 3,081.72</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 6,804.48</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 15,373.03</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
@@ -29,11 +33,11 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisormqcmng" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisormqcmng -->
+<div id="Morrisawbtxvtl" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisawbtxvtl -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisormqcmng',
+  new Morris.Line({
+    element: 'Morrisawbtxvtl',
     data: [
       { fecha: '1998-12-31', dato: 3081.72 },
       { fecha: '2003-12-31', dato: 6804.48 },
@@ -42,6 +46,13 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

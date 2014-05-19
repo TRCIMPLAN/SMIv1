@@ -15,25 +15,29 @@ Ingresos recaudados por el municipio por cobro de servicios
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 575,374,852.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 596,172,106.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 599,061,383.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 595,186,051.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 578,219,346.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 792,240,176.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 848,020,707.00</td><td>INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 575,374,852.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 596,172,106.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 599,061,383.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 595,186,051.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 578,219,346.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 792,240,176.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 848,020,707.00</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrisgudiijiu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgudiijiu -->
+<div id="Morrisepulgdto" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisepulgdto -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisgudiijiu',
+  new Morris.Line({
+    element: 'Morrisepulgdto',
     data: [
       { fecha: '2007-12-31', dato: 575374852.00 },
       { fecha: '2008-12-31', dato: 596172106.00 },
@@ -46,6 +50,13 @@ Unidad: Pesos.
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

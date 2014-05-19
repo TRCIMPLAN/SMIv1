@@ -15,10 +15,14 @@ Cantidad de personas desempleadas.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/1989</td><td class="derecha">821</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/1999</td><td class="derecha">360</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2009</td><td class="derecha">3795</td><td>INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/1989</td><td class="derecha">821</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1999</td><td class="derecha">360</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">3,795</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Personas.
@@ -29,11 +33,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrisjcrdhvho" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjcrdhvho -->
+<div id="Morrisdwylzdof" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisdwylzdof -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisjcrdhvho',
+  new Morris.Line({
+    element: 'Morrisdwylzdof',
     data: [
       { fecha: '1989-12-31', dato: 821 },
       { fecha: '1999-12-31', dato: 360 },
@@ -42,6 +46,13 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

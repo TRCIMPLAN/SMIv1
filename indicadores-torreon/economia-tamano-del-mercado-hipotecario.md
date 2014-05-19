@@ -15,12 +15,16 @@ Créditos dispuestos marginalmente durante el año indicado.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">1269</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">2755</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">1565</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">1549</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/03/2014</td><td class="derecha">284</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">1,269</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">2,755</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">1,565</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">1,549</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">284</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  </tbody>
 </table>
 
 Unidad: Cantidad de Créditos.
@@ -31,11 +35,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisknbneioe" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisknbneioe -->
+<div id="Morrisvpyexwxh" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvpyexwxh -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisknbneioe',
+  new Morris.Line({
+    element: 'Morrisvpyexwxh',
     data: [
       { fecha: '2010-12-31', dato: 1269 },
       { fecha: '2011-12-31', dato: 2755 },
@@ -46,6 +50,13 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

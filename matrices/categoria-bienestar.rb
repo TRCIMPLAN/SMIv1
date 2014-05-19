@@ -28,10 +28,10 @@ def publicacion(dir)
     <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Pobreza</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">26.80%</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">37.20%</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">47.90%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">37.29%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">47.98%</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">33.84%</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">32.70%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">32.74%</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

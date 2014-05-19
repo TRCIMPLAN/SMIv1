@@ -15,14 +15,18 @@ Ingresos totales del municipio entre el total de la población.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 2,312.71</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 2,713.59</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 2,467.92</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 2,858.83</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 2,921.67</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 2,753.40</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 2,821.23</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 2,312.71</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 2,713.59</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 2,467.92</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 2,858.83</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 2,921.67</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 2,753.40</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 2,821.23</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
@@ -33,11 +37,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrismycrhqwd" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismycrhqwd -->
+<div id="Morrissrlrcprx" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrissrlrcprx -->
   <script>
-  new Morris.Bar({
-    element: 'Morrismycrhqwd',
+  new Morris.Line({
+    element: 'Morrissrlrcprx',
     data: [
       { fecha: '2007-12-31', dato: 2312.71 },
       { fecha: '2008-12-31', dato: 2713.59 },
@@ -50,6 +54,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

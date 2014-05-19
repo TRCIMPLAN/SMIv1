@@ -15,13 +15,17 @@ Gasto en obras públicas y acciones sociales entre población total.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 604.26</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 767.48</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 497.90</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 236.57</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 529.86</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 348.09</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 604.26</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 767.48</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 497.90</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 236.57</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 529.86</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 348.09</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
@@ -32,11 +36,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisanatenof" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisanatenof -->
+<div id="Morrisfjqnvuin" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisfjqnvuin -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisanatenof',
+  new Morris.Line({
+    element: 'Morrisfjqnvuin',
     data: [
       { fecha: '2007-12-31', dato: 604.26 },
       { fecha: '2008-12-31', dato: 767.48 },
@@ -48,6 +52,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

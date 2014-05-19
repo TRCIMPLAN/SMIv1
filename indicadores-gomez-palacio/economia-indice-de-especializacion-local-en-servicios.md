@@ -15,10 +15,14 @@ Producción bruta total de los servicios entre la producción bruta total de tod
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/1998</td><td class="derecha">6.10%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2003</td><td class="derecha">5.42%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">4.91%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">6.10%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">5.42%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">4.91%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Porcentaje.
@@ -26,3 +30,29 @@ Unidad: Porcentaje.
 #### Observaciones
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+
+#### Gráfica
+
+<div id="Morristmutggcd" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristmutggcd -->
+  <script>
+  new Morris.Line({
+    element: 'Morristmutggcd',
+    data: [
+      { fecha: '1998-12-31', dato: 6.1000 },
+      { fecha: '2003-12-31', dato: 5.4200 },
+      { fecha: '2008-12-31', dato: 4.9100 }
+    ],
+    xkey: 'fecha',
+    ykeys: ['dato'],
+    labels: ['Dato'],
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
+  });
+  </script>

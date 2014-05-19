@@ -15,8 +15,12 @@ Vehículos automotores registrados en circulación.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">225</td><td>INEGI</td><td>VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS</td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">226</td><td>INEGI</td><td>VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS</td></tr>
+  </tbody>
 </table>
 
 Unidad: Por cada mil.

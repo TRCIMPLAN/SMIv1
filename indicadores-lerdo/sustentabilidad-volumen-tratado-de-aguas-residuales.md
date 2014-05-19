@@ -11,8 +11,12 @@ Aparece en pagina inicial: No
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">ND</td><td>IMCO-CONAGUA</td><td>VALOR IGUAL A CERO</td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">ND</td><td>IMCO-CONAGUA</td><td>VALOR IGUAL A CERO</td></tr>
+  </tbody>
 </table>
 
-Unidad: Litros por segundo por persona.
+Unidad: Litros por segundo por cada mil habitantes.

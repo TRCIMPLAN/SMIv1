@@ -11,13 +11,17 @@ Aparece en pagina inicial: No
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 633,417,899.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 939,654,384.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 1,112,511,574.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 779,450,508.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 1,002,767,622.00</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 1,127,248,678.00</td><td>INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 633,417,899.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 939,654,384.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 1,112,511,574.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 779,450,508.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 1,002,767,622.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 1,127,248,678.00</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
@@ -28,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriswkcnwuyq" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswkcnwuyq -->
+<div id="Morrisgptlzmuq" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgptlzmuq -->
   <script>
-  new Morris.Bar({
-    element: 'Morriswkcnwuyq',
+  new Morris.Line({
+    element: 'Morrisgptlzmuq',
     data: [
       { fecha: '2007-12-31', dato: 633417899.00 },
       { fecha: '2008-12-31', dato: 939654384.00 },
@@ -44,6 +48,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

@@ -15,8 +15,12 @@ Planteles de Instituciones de Educación Superior.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/03/2014</td><td class="derecha">18</td><td>CIESLAG-FOMEC</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">18</td><td>CIESLAG-FOMEC</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Cantidad.

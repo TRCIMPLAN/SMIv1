@@ -15,12 +15,16 @@ Monto de créditos otorgados a la fecha indicada.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">428,193,681.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">487,730,197.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">549,445,038.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">588,858,276.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/03/2014</td><td class="derecha">614,765,352.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">428,193,681.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">487,730,197.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">549,445,038.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">588,858,276.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">614,765,352.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
@@ -31,11 +35,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrismajcrjwb" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismajcrjwb -->
+<div id="Morrisonfbfpap" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisonfbfpap -->
   <script>
   new Morris.Line({
-    element: 'Morrismajcrjwb',
+    element: 'Morrisonfbfpap',
     data: [
       { fecha: '2010-12-31', dato: 428193681.0000 },
       { fecha: '2011-12-31', dato: 487730197.0000 },
@@ -46,6 +50,13 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    lineColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

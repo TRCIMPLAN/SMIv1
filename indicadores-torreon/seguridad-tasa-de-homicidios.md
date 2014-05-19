@@ -14,24 +14,28 @@ Número de homicidios por cada 100 mil habitantes.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/1990</td><td class="derecha">10</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/1991</td><td class="derecha">17</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/1992</td><td class="derecha">17</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/1993</td><td class="derecha">12</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/1994</td><td class="derecha">14</td><td>INEGI</td><td></td></tr>
-  <tr><td class="centrado">31/12/1995</td><td class="derecha">10</td><td>INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/1990</td><td class="derecha">10</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1991</td><td class="derecha">17</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1992</td><td class="derecha">17</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1993</td><td class="derecha">12</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1994</td><td class="derecha">14</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1995</td><td class="derecha">10</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Por cada 100 mil.
 
 #### Gráfica
 
-<div id="Morrisubnnytnz" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisubnnytnz -->
+<div id="Morrishofocdpy" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishofocdpy -->
   <script>
-  new Morris.Bar({
-    element: 'Morrisubnnytnz',
+  new Morris.Line({
+    element: 'Morrishofocdpy',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },
@@ -43,6 +47,13 @@ Unidad: Por cada 100 mil.
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    barColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

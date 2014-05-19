@@ -1,7 +1,8 @@
-Número de policías
+Número de Policías
 =====
 
 Fecha: 2014-05-01
+Categorías: Seguridad
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
@@ -9,13 +10,17 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Total de policías por municipio
+Cantidad total de policías en el municipio.
 
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">28/02/2014</td><td class="derecha">768</td><td>Ayuntamiento de Torreón</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">28/02/2014</td><td class="derecha">768</td><td>Ayuntamiento de Torreón</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Cantidad.

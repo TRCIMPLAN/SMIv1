@@ -15,12 +15,16 @@ Monto de créditos otorgados a la fecha indicada.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">3,479,653,828.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">3,741,316,668.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">4,027,766,032.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">4,476,538,920.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-  <tr><td class="centrado">31/03/2014</td><td class="derecha">4,664,619,926.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">3,479,653,828.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">3,741,316,668.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">4,027,766,032.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">4,476,538,920.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">4,664,619,926.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+  </tbody>
 </table>
 
 Unidad: Pesos.
@@ -31,11 +35,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisajjyjnlh" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisajjyjnlh -->
+<div id="Morrisienqrzmr" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisienqrzmr -->
   <script>
   new Morris.Line({
-    element: 'Morrisajjyjnlh',
+    element: 'Morrisienqrzmr',
     data: [
       { fecha: '2010-12-31', dato: 3479653828.0000 },
       { fecha: '2011-12-31', dato: 3741316668.0000 },
@@ -46,6 +50,13 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    lineColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

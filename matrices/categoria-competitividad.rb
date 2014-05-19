@@ -27,8 +27,8 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Índice de Competitividad Urbana</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">50.6700</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">42.5700</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

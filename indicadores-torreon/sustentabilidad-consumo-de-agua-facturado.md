@@ -15,11 +15,15 @@ Consumo anual de agua por persona expresado en metros cúbicos.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2010</td><td class="derecha">47.7700</td><td>SIMAS</td><td></td></tr>
-  <tr><td class="centrado">31/12/2011</td><td class="derecha">46.7500</td><td>SIMAS</td><td></td></tr>
-  <tr><td class="centrado">31/12/2012</td><td class="derecha">44.5700</td><td>SIMAS</td><td></td></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">41.9900</td><td>SIMAS</td><td>Consumo anual</td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">47.7700</td><td>SIMAS</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">46.7500</td><td>SIMAS</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">44.5700</td><td>SIMAS</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">41.9900</td><td>SIMAS</td><td>Consumo anual</td></tr>
+  </tbody>
 </table>
 
 Unidad: Metros cúbicos per cápita.
@@ -30,11 +34,11 @@ Total facturado dividido entre la población.
 
 #### Gráfica
 
-<div id="Morrisiomcimds" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisiomcimds -->
+<div id="Morrisxuiopxxt" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxuiopxxt -->
   <script>
   new Morris.Line({
-    element: 'Morrisiomcimds',
+    element: 'Morrisxuiopxxt',
     data: [
       { fecha: '2010-12-31', dato: 47.7700 },
       { fecha: '2011-12-31', dato: 46.7500 },
@@ -44,6 +48,13 @@ Total facturado dividido entre la población.
     xkey: 'fecha',
     ykeys: ['dato'],
     labels: ['Dato'],
-    lineColors: ['#FF5B02']
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
   });
   </script>

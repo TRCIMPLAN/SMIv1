@@ -51,6 +51,7 @@ class MenuMatrices < MenuSecundario
         agregar('Salud', 'matrices/categoria-salud.html')
         agregar('Seguridad', 'matrices/categoria-seguridad.html')
         agregar('Servicios Públicos', 'matrices/categoria-servicios-publicos.html')
+        agregar('Vialidad', 'matrices/categoria-vialidad.html')
         agregar('Vivienda', 'matrices/categoria-vivienda.html')
         agregar('Todos los indicadores', 'matrices/todos-los-indicadores.html')
     end

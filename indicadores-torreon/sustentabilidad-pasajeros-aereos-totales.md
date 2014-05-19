@@ -15,8 +15,12 @@ Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  <tr><td class="centrado">31/12/2013</td><td class="derecha">508133</td><td>INEGI</td><td></td></tr>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">508,133</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
 Unidad: Personas.
