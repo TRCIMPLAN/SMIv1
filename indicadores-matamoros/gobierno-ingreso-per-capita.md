@@ -4,6 +4,7 @@ Ingreso Per cápita
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Matamoros
 
@@ -31,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriswnpglona" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswnpglona -->
+<div id="Morrisuxrzophs" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisuxrzophs -->
   <script>
   new Morris.Bar({
-    element: 'Morriswnpglona',
+    element: 'Morrisuxrzophs',
     data: [
       { fecha: '2007-12-31', dato: 1155.87 },
       { fecha: '2008-12-31', dato: 1717.79 },
@@ -46,6 +47,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

@@ -4,6 +4,7 @@ Cartera Hipotecaria
 Fecha: 2014-05-01
 Categorías: Mercados
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### La Laguna
 
@@ -30,11 +31,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisxcuqolrh" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxcuqolrh -->
+<div id="Morrisvvnojfzh" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvvnojfzh -->
   <script>
   new Morris.Line({
-    element: 'Morrisxcuqolrh',
+    element: 'Morrisvvnojfzh',
     data: [
       { fecha: '2010-12-31', dato: 4205870657.0000 },
       { fecha: '2011-12-31', dato: 4528969820.0000 },
@@ -44,6 +45,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    lineColors: ['#FF5B02']
   });
   </script>

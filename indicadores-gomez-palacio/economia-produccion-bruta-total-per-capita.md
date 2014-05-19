@@ -1,9 +1,10 @@
-Producción Bruta Total Per cápita
+Producción Bruta Total Per Cápita
 =====
 
 Fecha: 2014-05-01
 Categorías: Macroeconomía, Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
@@ -24,15 +25,15 @@ Unidad: Pesos.
 
 #### Observaciones
 
-Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas/saic/)
 
 #### Gráfica
 
-<div id="Morrisikegjqhq" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisikegjqhq -->
+<div id="Morrisdwzzjyxb" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisdwzzjyxb -->
   <script>
   new Morris.Bar({
-    element: 'Morrisikegjqhq',
+    element: 'Morrisdwzzjyxb',
     data: [
       { fecha: '1998-12-31', dato: 64470.91 },
       { fecha: '2003-12-31', dato: 117604.88 },
@@ -40,6 +41,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

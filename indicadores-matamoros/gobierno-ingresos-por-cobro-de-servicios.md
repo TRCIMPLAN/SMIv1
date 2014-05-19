@@ -4,6 +4,7 @@ Ingresos por Cobro de Servicios
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Matamoros
 
@@ -27,11 +28,11 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morriswiiwslnd" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswiiwslnd -->
+<div id="Morrispqaqsglg" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispqaqsglg -->
   <script>
   new Morris.Bar({
-    element: 'Morriswiiwslnd',
+    element: 'Morrispqaqsglg',
     data: [
       { fecha: '2007-12-31', dato: 14524248.00 },
       { fecha: '2008-12-31', dato: 16686819.00 },
@@ -42,6 +43,7 @@ Unidad: Pesos.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

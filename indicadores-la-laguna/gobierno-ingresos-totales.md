@@ -4,6 +4,7 @@ Ingresos Totales
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### La Laguna
 
@@ -27,11 +28,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisvxhpjiac" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvxhpjiac -->
+<div id="Morrisxxtuqsfo" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxxtuqsfo -->
   <script>
   new Morris.Bar({
-    element: 'Morrisvxhpjiac',
+    element: 'Morrisxxtuqsfo',
     data: [
       { fecha: '2007-12-31', dato: 2389268767.00 },
       { fecha: '2008-12-31', dato: 3054640385.00 },
@@ -42,6 +43,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

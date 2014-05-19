@@ -4,6 +4,7 @@ Sentenciados Registrados del Fuero Común
 Fecha: 2014-05-01
 Categorías: Seguridad
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### La Laguna
 

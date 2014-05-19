@@ -4,6 +4,7 @@ Viviendas Ocupadas Temporalmente
 Fecha: 2014-05-01
 Categorías: Vivienda, Movilidad
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Matamoros
 

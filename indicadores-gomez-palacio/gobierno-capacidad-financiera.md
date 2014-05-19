@@ -4,6 +4,7 @@ Capacidad Financiera
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 

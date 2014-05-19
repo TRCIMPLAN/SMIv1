@@ -4,6 +4,7 @@ Alumnos con Perfil Científico-Matemático
 Fecha: 2014-05-01
 Categorías: Educación
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 

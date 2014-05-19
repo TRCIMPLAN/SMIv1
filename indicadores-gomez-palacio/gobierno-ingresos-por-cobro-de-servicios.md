@@ -4,6 +4,7 @@ Ingresos por Cobro de Servicios
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
@@ -27,11 +28,11 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrishnzlqicv" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishnzlqicv -->
+<div id="Morrishvgdoqht" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishvgdoqht -->
   <script>
   new Morris.Bar({
-    element: 'Morrishnzlqicv',
+    element: 'Morrishvgdoqht',
     data: [
       { fecha: '2007-12-31', dato: 171558852.00 },
       { fecha: '2008-12-31', dato: 260603974.00 },
@@ -42,6 +43,7 @@ Unidad: Pesos.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

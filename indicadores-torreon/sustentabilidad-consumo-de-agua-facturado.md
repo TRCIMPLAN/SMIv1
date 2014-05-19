@@ -4,6 +4,7 @@ Consumo de Agua Facturado
 Fecha: 2014-05-01
 Categorías: Recursos Naturales
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -29,11 +30,11 @@ Total facturado dividido entre la población.
 
 #### Gráfica
 
-<div id="Morrisbriwnwcy" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbriwnwcy -->
+<div id="Morristcfiifho" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristcfiifho -->
   <script>
   new Morris.Line({
-    element: 'Morrisbriwnwcy',
+    element: 'Morristcfiifho',
     data: [
       { fecha: '2010-12-31', dato: 47.7700 },
       { fecha: '2011-12-31', dato: 46.7500 },
@@ -42,6 +43,7 @@ Total facturado dividido entre la población.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    lineColors: ['#FF5B02']
   });
   </script>

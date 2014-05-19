@@ -216,6 +216,9 @@ table.matriz > thead > tr > th {
     font-size:11px;
     color:#444;
 }
+.grafica {
+    background-color:#F0F0F0;
+}
 .btn-publicacion-completa,
 .btn-publicacion-completa:hover,
 .btn-publicacion-completa:focus {

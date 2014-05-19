@@ -4,6 +4,7 @@ Ingresos por Cobro de Servicios
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 
@@ -27,11 +28,11 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrislfbvoqiq" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrislfbvoqiq -->
+<div id="Morrisofjjwrpn" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisofjjwrpn -->
   <script>
   new Morris.Bar({
-    element: 'Morrislfbvoqiq',
+    element: 'Morrisofjjwrpn',
     data: [
       { fecha: '2007-12-31', dato: 41128483.00 },
       { fecha: '2008-12-31', dato: 45464319.00 },
@@ -42,6 +43,7 @@ Unidad: Pesos.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

@@ -3,6 +3,7 @@ Sentenciados por Delitos de Narcóticos
 
 Fecha: 2014-05-01
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 

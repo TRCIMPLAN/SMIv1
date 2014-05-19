@@ -39,6 +39,8 @@ require 'kramdown'
 # * archivo                    El nombre del archivo para la publicación
 # * fecha                      La fecha en forma de YYYY-MM-DD HH:MM, siendo así se ordena cronológicamente
 # * autor                      El nombre o apodo a quien se le atribuye
+# * descripcion                Descripción del sitio o la página
+# * claves                     Claves que ayuden a los buscadores
 # * contenido                  Contenido de la publicación. Puede tener una línea con <!-- break --> para separar la parte breve.
 # * javascript                 Código Javascript. Debe estar aparte para ponerlo al final de la página.
 # * categorias                 Separadas por comas, las categorías de la publicación.
@@ -50,14 +52,14 @@ require 'kramdown'
 
 class Publicacion
 
-    attr_writer :nombre, :nombre_menu, :directorio, :archivo, :fecha, :autor, :contenido, :javascript, :categorias, :aparece_en_pagina_inicial, :en_raiz, :en_otro, :tipo, :tipo_contenido
-    attr_reader :nombre, :nombre_menu, :directorio, :archivo, :fecha, :autor, :contenido, :javascript, :categorias, :aparece_en_pagina_inicial, :en_raiz, :en_otro, :tipo, :tipo_contenido
+    attr_writer :nombre, :nombre_menu, :directorio, :archivo, :fecha, :autor, :descripcion, :claves, :contenido, :javascript, :categorias, :aparece_en_pagina_inicial, :en_raiz, :en_otro, :tipo, :tipo_contenido
+    attr_reader :nombre, :nombre_menu, :directorio, :archivo, :fecha, :autor, :descripcion, :claves, :contenido, :javascript, :categorias, :aparece_en_pagina_inicial, :en_raiz, :en_otro, :tipo, :tipo_contenido
 
     ##
     # Inicializar
 
     def initialize
-        @fecha                     = '1980-01-01' # La fecha por defecto es del pasado.
+     #~ @fecha                     = '1980-01-01' # La fecha por defecto es del pasado.
         @aparece_en_pagina_inicial = true
         @en_raiz                   = false
         @en_otro                   = false

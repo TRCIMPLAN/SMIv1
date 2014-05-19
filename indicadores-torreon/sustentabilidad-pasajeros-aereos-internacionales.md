@@ -4,6 +4,7 @@ Pasajeros Aéreos Internacionales
 Fecha: 2014-05-01
 Categorías: Movilidad
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -34,11 +35,11 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 
 #### Gráfica
 
-<div id="Morristayxccch" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristayxccch -->
+<div id="Morrisowmolzkf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisowmolzkf -->
   <script>
   new Morris.Bar({
-    element: 'Morristayxccch',
+    element: 'Morrisowmolzkf',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },
@@ -52,6 +53,7 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

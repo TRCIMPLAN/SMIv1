@@ -2,8 +2,9 @@ Organizaciones de la Sociedad Civil
 =====
 
 Fecha: 2014-05-01
-Categorías: Participación Ciudadana
+Categorías: Participación Ciudadana, Gobierno
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 

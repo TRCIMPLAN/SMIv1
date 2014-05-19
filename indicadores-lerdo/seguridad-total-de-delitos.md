@@ -4,6 +4,7 @@ Total de Delitos
 Fecha: 2014-05-01
 Categorías: Seguridad
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 
@@ -24,11 +25,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisymqffhwx" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisymqffhwx -->
+<div id="Morrisjiiifghp" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjiiifghp -->
   <script>
   new Morris.Bar({
-    element: 'Morrisymqffhwx',
+    element: 'Morrisjiiifghp',
     data: [
       { fecha: '2014-01-31', dato: 66 },
       { fecha: '2014-02-28', dato: 66 },
@@ -36,6 +37,7 @@ Unidad: Cantidad.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

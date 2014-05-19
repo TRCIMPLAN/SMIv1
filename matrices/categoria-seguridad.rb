@@ -85,7 +85,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">382</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">71</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1273</a></td>
   </tr>
 </tbody>
 </table>

@@ -4,6 +4,7 @@ Inversión Per cápita
 Fecha: 2014-05-01
 Categorías: Macroeconomía, Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -31,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisqebyclpb" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqebyclpb -->
+<div id="Morrisziiandtf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisziiandtf -->
   <script>
   new Morris.Bar({
-    element: 'Morrisqebyclpb',
+    element: 'Morrisziiandtf',
     data: [
       { fecha: '2007-12-31', dato: 604.26 },
       { fecha: '2008-12-31', dato: 767.48 },
@@ -46,6 +47,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

@@ -4,6 +4,7 @@ Tamaño del Mercado Hipotecario
 Fecha: 2014-05-01
 Categorías: Mercados
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -30,11 +31,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisntgqcdjj" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisntgqcdjj -->
+<div id="Morrisbdygaqzz" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbdygaqzz -->
   <script>
   new Morris.Bar({
-    element: 'Morrisntgqcdjj',
+    element: 'Morrisbdygaqzz',
     data: [
       { fecha: '2010-12-31', dato: 1269 },
       { fecha: '2011-12-31', dato: 2755 },
@@ -44,6 +45,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

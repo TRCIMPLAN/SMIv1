@@ -4,6 +4,7 @@ Desempleo
 Fecha: 2014-05-01
 Categorías: Empleo
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
@@ -28,11 +29,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morristnevvcnp" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristnevvcnp -->
+<div id="Morrisrricvwbx" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisrricvwbx -->
   <script>
   new Morris.Bar({
-    element: 'Morristnevvcnp',
+    element: 'Morrisrricvwbx',
     data: [
       { fecha: '1989-12-31', dato: 2050 },
       { fecha: '1999-12-31', dato: 981 },
@@ -40,6 +41,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

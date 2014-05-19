@@ -152,7 +152,7 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
-    <td class="indicador color1">Producción Bruta Total Per cápita</td>
+    <td class="indicador color1">Producción Bruta Total Per Cápita</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 197,854.91</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 157,032.38</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 16,746.04</a></td>
@@ -445,7 +445,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">382</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">71</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1273</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

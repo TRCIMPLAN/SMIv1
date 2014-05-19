@@ -4,6 +4,7 @@ Inversión Per cápita
 Fecha: 2014-05-01
 Categorías: Macroeconomía, Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 
@@ -31,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisqemabnds" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqemabnds -->
+<div id="Morrisjajaolua" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjajaolua -->
   <script>
   new Morris.Bar({
-    element: 'Morrisqemabnds',
+    element: 'Morrisjajaolua',
     data: [
       { fecha: '2007-12-31', dato: 212.34 },
       { fecha: '2008-12-31', dato: 325.00 },
@@ -46,6 +47,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

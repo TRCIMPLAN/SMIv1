@@ -4,6 +4,7 @@ Diferencial de Grado Promedio de Escolaridad por Género
 Fecha: 2014-05-01
 Categorías: Género, Educación
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 

@@ -4,6 +4,7 @@ Ingreso Per cápita
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
@@ -31,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morristmrilici" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristmrilici -->
+<div id="Morriszadbfnaz" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszadbfnaz -->
   <script>
   new Morris.Bar({
-    element: 'Morristmrilici',
+    element: 'Morriszadbfnaz',
     data: [
       { fecha: '2007-12-31', dato: 2015.23 },
       { fecha: '2008-12-31', dato: 2942.54 },
@@ -46,6 +47,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

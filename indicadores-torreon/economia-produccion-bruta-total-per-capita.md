@@ -1,9 +1,10 @@
-Producción Bruta Total Per cápita
+Producción Bruta Total Per Cápita
 =====
 
 Fecha: 2014-05-01
 Categorías: Macroeconomía, Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -24,15 +25,15 @@ Unidad: Pesos.
 
 #### Observaciones
 
-Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas/saic/)
 
 #### Gráfica
 
-<div id="Morrisocdpzszk" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisocdpzszk -->
+<div id="Morrisyohwxcsm" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisyohwxcsm -->
   <script>
   new Morris.Bar({
-    element: 'Morrisocdpzszk',
+    element: 'Morrisyohwxcsm',
     data: [
       { fecha: '1998-12-31', dato: 57746.33 },
       { fecha: '2003-12-31', dato: 101715.94 },
@@ -40,6 +41,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

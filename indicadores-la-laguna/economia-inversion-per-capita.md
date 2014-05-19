@@ -4,6 +4,7 @@ Inversión Per cápita
 Fecha: 2014-05-01
 Categorías: Macroeconomía, Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### La Laguna
 
@@ -31,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisofgzoepr" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisofgzoepr -->
+<div id="Morrisofcpbjqw" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisofcpbjqw -->
   <script>
   new Morris.Bar({
-    element: 'Morrisofgzoepr',
+    element: 'Morrisofcpbjqw',
     data: [
       { fecha: '2007-12-31', dato: 536.81 },
       { fecha: '2008-12-31', dato: 693.53 },
@@ -46,6 +47,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

@@ -4,6 +4,7 @@ Desempleo
 Fecha: 2014-05-01
 Categorías: Empleo
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### La Laguna
 
@@ -28,11 +29,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrisetaqblqo" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisetaqblqo -->
+<div id="Morrismjmqvtpw" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismjmqvtpw -->
   <script>
   new Morris.Bar({
-    element: 'Morrisetaqblqo',
+    element: 'Morrismjmqvtpw',
     data: [
       { fecha: '1989-12-31', dato: 7688 },
       { fecha: '1999-12-31', dato: 3854 },
@@ -40,6 +41,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

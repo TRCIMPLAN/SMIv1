@@ -39,6 +39,7 @@ class MenuMatrices < MenuSecundario
         agregar('Empleo', 'matrices/categoria-empleo.html')
         agregar('Empresas', 'matrices/categoria-empresas.html')
         agregar('Finanzas Públicas', 'matrices/categoria-finanzas-publicas.html')
+        agregar('Gobierno', 'matrices/categoria-gobierno.html')
         agregar('Género', 'matrices/categoria-genero.html')
         agregar('Infraestructura', 'matrices/categoria-infraestructura.html')
         agregar('Innovación', 'matrices/categoria-innovacion.html')

@@ -4,6 +4,7 @@ Ingresos Totales
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Matamoros
 
@@ -27,11 +28,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisfecuzxtw" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisfecuzxtw -->
+<div id="Morrisuczwsxtu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisuczwsxtu -->
   <script>
   new Morris.Bar({
-    element: 'Morrisfecuzxtw',
+    element: 'Morrisuczwsxtu',
     data: [
       { fecha: '2007-12-31', dato: 118848281.00 },
       { fecha: '2008-12-31', dato: 179363074.00 },
@@ -42,6 +43,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

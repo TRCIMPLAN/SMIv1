@@ -4,6 +4,7 @@ Ingresos Totales
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -28,11 +29,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriskdvghaiu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriskdvghaiu -->
+<div id="Morrispiemhyju" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispiemhyju -->
   <script>
   new Morris.Bar({
-    element: 'Morriskdvghaiu',
+    element: 'Morrispiemhyju',
     data: [
       { fecha: '2007-12-31', dato: 1395070656.00 },
       { fecha: '2008-12-31', dato: 1672978076.00 },
@@ -44,6 +45,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

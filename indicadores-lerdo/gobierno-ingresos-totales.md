@@ -4,6 +4,7 @@ Ingresos Totales
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 
@@ -27,11 +28,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriscmhgrwzm" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscmhgrwzm -->
+<div id="Morrisjvtmxzid" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjvtmxzid -->
   <script>
   new Morris.Bar({
-    element: 'Morriscmhgrwzm',
+    element: 'Morrisjvtmxzid',
     data: [
       { fecha: '2007-12-31', dato: 241931931.00 },
       { fecha: '2008-12-31', dato: 262644851.00 },
@@ -42,6 +43,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

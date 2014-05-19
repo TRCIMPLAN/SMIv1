@@ -4,6 +4,7 @@ Sectores que Han Frenado el Crecimiento (2008-2012)
 Fecha: 2014-05-01
 Categorías: Mercados
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 

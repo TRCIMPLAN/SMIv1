@@ -54,7 +54,7 @@ class CMS < Imprenta
         @publicaciones_por_pagina_maximo = 10
         # Prepare el menu principal
         @menu_principal              = MenuPrincipal.new
-        @menu_principal.sitio_titulo = @sitio_titulo
+        @menu_principal.sitio_imagen = 'imagenes/implan-barra-logo-chico.png'
         @menu_principal.agregar('INSTITUCIONAL',     'http://trcimplan.mx/institucional/')
         @menu_principal.agregar('SERVICIOS',         'http://trcimplan.mx/servicios/')
         @menu_principal.agregar('INTERACCIÓN',       'http://trcimplan.mx/interaccion/')

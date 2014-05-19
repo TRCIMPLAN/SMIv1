@@ -4,6 +4,7 @@ Tamaño del Mercado Hipotecario
 Fecha: 2014-05-01
 Categorías: Mercados
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 
@@ -30,11 +31,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morriscldpqsqs" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscldpqsqs -->
+<div id="Morrisvlkmvrep" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvlkmvrep -->
   <script>
   new Morris.Bar({
-    element: 'Morriscldpqsqs',
+    element: 'Morrisvlkmvrep',
     data: [
       { fecha: '2010-12-31', dato: 76 },
       { fecha: '2011-12-31', dato: 179 },
@@ -44,6 +45,7 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

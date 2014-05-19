@@ -4,6 +4,7 @@ Ingreso Per cápita
 Fecha: 2014-05-01
 Categorías: Finanzas Públicas
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Lerdo
 
@@ -31,11 +32,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisifhvteab" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisifhvteab -->
+<div id="Morrisahjvynlq" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisahjvynlq -->
   <script>
   new Morris.Bar({
-    element: 'Morrisifhvteab',
+    element: 'Morrisahjvynlq',
     data: [
       { fecha: '2007-12-31', dato: 1803.84 },
       { fecha: '2008-12-31', dato: 2595.45 },
@@ -46,6 +47,7 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

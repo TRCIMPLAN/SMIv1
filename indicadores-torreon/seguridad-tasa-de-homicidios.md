@@ -3,6 +3,7 @@ Tasa de Homicidios
 
 Fecha: 2014-05-01
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Torreón
 
@@ -26,11 +27,11 @@ Unidad: Por cada 100 mil.
 
 #### Gráfica
 
-<div id="Morrisvmqrhmcm" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvmqrhmcm -->
+<div id="Morrisgtcjzgkf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgtcjzgkf -->
   <script>
   new Morris.Bar({
-    element: 'Morrisvmqrhmcm',
+    element: 'Morrisgtcjzgkf',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },
@@ -41,6 +42,7 @@ Unidad: Por cada 100 mil.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

@@ -4,6 +4,7 @@ Total de Delitos
 Fecha: 2014-05-01
 Categorías: Seguridad
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
@@ -24,11 +25,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morristnipmbxi" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristnipmbxi -->
+<div id="Morrisqtotppoj" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqtotppoj -->
   <script>
   new Morris.Bar({
-    element: 'Morristnipmbxi',
+    element: 'Morrisqtotppoj',
     data: [
       { fecha: '2014-01-31', dato: 363 },
       { fecha: '2014-02-28', dato: 307 },
@@ -36,6 +37,7 @@ Unidad: Cantidad.
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>

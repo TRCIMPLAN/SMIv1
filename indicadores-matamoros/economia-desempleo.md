@@ -4,6 +4,7 @@ Desempleo
 Fecha: 2014-05-01
 Categorías: Empleo
 Autor: IMPLAN
+Aparece en pagina inicial: No
 
 ### Matamoros
 
@@ -28,11 +29,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrisrlpmjxnd" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisrlpmjxnd -->
+<div id="Morrisbfkkepiz" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbfkkepiz -->
   <script>
   new Morris.Bar({
-    element: 'Morrisrlpmjxnd',
+    element: 'Morrisbfkkepiz',
     data: [
       { fecha: '1989-12-31', dato: 774 },
       { fecha: '1999-12-31', dato: 378 },
@@ -40,6 +41,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
-    labels: ['Dato']
+    labels: ['Dato'],
+    barColors: ['#FF5B02']
   });
   </script>
