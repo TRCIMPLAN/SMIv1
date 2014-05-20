@@ -28,11 +28,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisjhyvlapy" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisjhyvlapy -->
+<div id="Morrisrbtksnmj" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisrbtksnmj -->
   <script>
   new Morris.Line({
-    element: 'Morrisjhyvlapy',
+    element: 'Morrisrbtksnmj',
     data: [
       { fecha: '2008-12-31', dato: 392 },
       { fecha: '2012-12-31', dato: 245 }
