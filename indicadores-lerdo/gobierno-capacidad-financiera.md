@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Ingresos propios entre gastos corrientes.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -36,11 +38,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisxrzniyxo" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxrzniyxo -->
+<div id="Morrispjaxeuqg" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispjaxeuqg -->
   <script>
   new Morris.Line({
-    element: 'Morrisxrzniyxo',
+    element: 'Morrispjaxeuqg',
     data: [
       { fecha: '2007-12-31', dato: 25.5200 },
       { fecha: '2008-12-31', dato: 27.7100 },

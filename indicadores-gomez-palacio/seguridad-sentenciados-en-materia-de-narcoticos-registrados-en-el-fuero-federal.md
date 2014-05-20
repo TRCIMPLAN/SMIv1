@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -24,11 +26,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrismnzkcszo" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismnzkcszo -->
+<div id="Morrisaqcjvmsi" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisaqcjvmsi -->
   <script>
   new Morris.Line({
-    element: 'Morrismnzkcszo',
+    element: 'Morrisaqcjvmsi',
     data: [
       { fecha: '2008-12-31', dato: 60 },
       { fecha: '2012-12-31', dato: 58 }

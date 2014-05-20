@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Cantidad de presuntos delincuentes registrados en los juzgados de primera instancia del fuero común por año.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -28,11 +30,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisbezmakbe" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbezmakbe -->
+<div id="Morristevemnyn" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristevemnyn -->
   <script>
   new Morris.Line({
-    element: 'Morrisbezmakbe',
+    element: 'Morristevemnyn',
     data: [
       { fecha: '2008-12-31', dato: 765 },
       { fecha: '2012-12-31', dato: 354 }

@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Cantidad de sentenciados registrados en los juzgados de primera instancia del fuero común por año.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -28,11 +30,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morriswfgvlhcg" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswfgvlhcg -->
+<div id="Morrisxmgtocpu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxmgtocpu -->
   <script>
   new Morris.Line({
-    element: 'Morriswfgvlhcg',
+    element: 'Morrisxmgtocpu',
     data: [
       { fecha: '2008-12-31', dato: 20 },
       { fecha: '2012-12-31', dato: 13 }

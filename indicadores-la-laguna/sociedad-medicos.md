@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Médicos en contacto con pacientes por cada diez mil personas.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

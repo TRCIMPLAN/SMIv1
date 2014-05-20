@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

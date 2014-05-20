@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -28,11 +30,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisacnxuhvq" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisacnxuhvq -->
+<div id="Morrisbkrgbwex" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbkrgbwex -->
   <script>
   new Morris.Line({
-    element: 'Morrisacnxuhvq',
+    element: 'Morrisbkrgbwex',
     data: [
       { fecha: '2008-12-31', dato: 194 },
       { fecha: '2012-12-31', dato: 318 }

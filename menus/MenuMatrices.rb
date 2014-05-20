@@ -47,6 +47,7 @@ class MenuMatrices < MenuSecundario
         agregar('Mercados', 'matrices/categoria-mercados.html')
         agregar('Movilidad', 'matrices/categoria-movilidad.html')
         agregar('Participación Ciudadana', 'matrices/categoria-participacion-ciudadana.html')
+        agregar('Población', 'matrices/categoria-poblacion.html')
         agregar('Recursos Naturales', 'matrices/categoria-recursos-naturales.html')
         agregar('Salud', 'matrices/categoria-salud.html')
         agregar('Seguridad', 'matrices/categoria-seguridad.html')

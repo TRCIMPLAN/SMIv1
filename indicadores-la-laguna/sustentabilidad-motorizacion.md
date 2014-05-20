@@ -2,7 +2,7 @@ Motorización
 =====
 
 Fecha: 2014-05-01
-Categorías: Recursos Naturales, Movilidad
+Categorías: Recursos Naturales, Movilidad, Vialidad
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
@@ -11,6 +11,8 @@ Aparece en pagina inicial: No
 #### Descripción
 
 Vehículos automotores registrados en circulación.
+
+<!-- break -->
 
 #### Información recopilada
 

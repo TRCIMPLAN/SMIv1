@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Espacios culturales físicamente delimitados.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

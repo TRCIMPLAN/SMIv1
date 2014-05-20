@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Lerdo
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -24,11 +26,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morriscotqgvdv" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscotqgvdv -->
+<div id="Morrisulokavec" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisulokavec -->
   <script>
   new Morris.Line({
-    element: 'Morriscotqgvdv',
+    element: 'Morrisulokavec',
     data: [
       { fecha: '2008-12-31', dato: 12 },
       { fecha: '2012-12-31', dato: 23 }

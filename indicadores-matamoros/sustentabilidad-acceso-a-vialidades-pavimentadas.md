@@ -2,7 +2,7 @@ Acceso a Vialidades Pavimentadas
 =====
 
 Fecha: 2014-05-01
-Categorías: Movilidad
+Categorías: Movilidad, Vialidad
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
@@ -11,6 +11,8 @@ Aparece en pagina inicial: No
 #### Descripción
 
 Porcentaje de manzanas que cuentan con acceso a vialidades pavimentadas.
+
+<!-- break -->
 
 #### Información recopilada
 

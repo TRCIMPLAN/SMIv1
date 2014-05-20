@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -28,11 +30,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisqwaaxosp" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqwaaxosp -->
+<div id="Morrisyruaieki" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisyruaieki -->
   <script>
   new Morris.Line({
-    element: 'Morrisqwaaxosp',
+    element: 'Morrisyruaieki',
     data: [
       { fecha: '2008-12-31', dato: 130 },
       { fecha: '2012-12-31', dato: 102 }

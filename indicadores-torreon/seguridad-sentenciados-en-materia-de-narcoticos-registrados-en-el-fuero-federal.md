@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Torreón
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -24,11 +26,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morristpmtralr" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristpmtralr -->
+<div id="Morrisxmqnaqxj" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxmqnaqxj -->
   <script>
   new Morris.Line({
-    element: 'Morristpmtralr',
+    element: 'Morrisxmqnaqxj',
     data: [
       { fecha: '2008-12-31', dato: 108 },
       { fecha: '2012-12-31', dato: 135 }

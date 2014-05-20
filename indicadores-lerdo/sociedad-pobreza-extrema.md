@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Porcentaje de la población en situación de pobreza extrema.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

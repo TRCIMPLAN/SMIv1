@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Porcentaje del total de empresas que cuentan con más de 250 empleados
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

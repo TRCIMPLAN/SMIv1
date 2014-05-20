@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Ingresos totales del municipio entre el total de la población.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -36,11 +38,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriswfexbgfy" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswfexbgfy -->
+<div id="Morrisgzatexvu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgzatexvu -->
   <script>
   new Morris.Line({
-    element: 'Morriswfexbgfy',
+    element: 'Morrisgzatexvu',
     data: [
       { fecha: '2007-12-31', dato: 1803.84 },
       { fecha: '2008-12-31', dato: 2595.45 },

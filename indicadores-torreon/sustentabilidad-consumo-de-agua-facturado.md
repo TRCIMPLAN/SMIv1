@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Consumo anual de agua por persona expresado en metros cúbicos.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -34,11 +36,11 @@ Total facturado dividido entre la población.
 
 #### Gráfica
 
-<div id="Morriszmrxhier" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszmrxhier -->
+<div id="Morrisadirongw" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisadirongw -->
   <script>
   new Morris.Line({
-    element: 'Morriszmrxhier',
+    element: 'Morrisadirongw',
     data: [
       { fecha: '2010-12-31', dato: 47.7700 },
       { fecha: '2011-12-31', dato: 46.7500 },

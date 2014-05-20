@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Ingresos recaudados por el municipio por cobro de servicios
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -32,11 +34,11 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrisfdypqccf" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisfdypqccf -->
+<div id="Morrisismwguqu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisismwguqu -->
   <script>
   new Morris.Line({
-    element: 'Morrisfdypqccf',
+    element: 'Morrisismwguqu',
     data: [
       { fecha: '2007-12-31', dato: 171558852.00 },
       { fecha: '2008-12-31', dato: 260603974.00 },

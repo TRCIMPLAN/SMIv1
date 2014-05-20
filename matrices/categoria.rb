@@ -35,6 +35,15 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Desempleados como porcentaje de la PEA</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.46%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.80%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.41%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">6.07%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.43%</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Desempleo</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2009-12-31, INEGI">19,536</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2009-12-31, INEGI">9,705</a></td>
@@ -162,11 +171,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Sectores que Han Frenado el Crecimiento (2008-2012)</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">7.35%</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">9.61%</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">38.17%</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">55.98%</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">14.86%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">7.36%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">9.84%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">40.97%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">56.40%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">16.81%</a></td>
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
@@ -554,6 +563,15 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 10 mil, 2014-03-31, RFOSC">2.3000</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 10 mil, 2014-03-31, RFOSC">1.1000</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 10 mil, 2014-03-31, RFOSC">4.1000</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">SOCIEDAD</td>
+    <td class="indicador color4">Población Estimada</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">683,914</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">350,513</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">151,409</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">112,434</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

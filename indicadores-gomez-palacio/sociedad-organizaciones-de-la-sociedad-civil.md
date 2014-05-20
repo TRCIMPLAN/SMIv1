@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Organizaciones de la sociedad civil por cada diez mil habitantes.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

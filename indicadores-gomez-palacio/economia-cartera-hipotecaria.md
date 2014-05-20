@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Monto de créditos otorgados a la fecha indicada.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -31,15 +33,17 @@ Unidad: Pesos.
 
 #### Observaciones
 
+La cartera hipotecaria de La Laguna representa el 1.69% de la cartera nacional. 
+
 Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
 
 #### Gráfica
 
-<div id="Morriswiireohy" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswiireohy -->
+<div id="Morrisekpsupcj" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisekpsupcj -->
   <script>
   new Morris.Line({
-    element: 'Morriswiireohy',
+    element: 'Morrisekpsupcj',
     data: [
       { fecha: '2010-12-31', dato: 428193681.0000 },
       { fecha: '2011-12-31', dato: 487730197.0000 },

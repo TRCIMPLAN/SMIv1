@@ -56,7 +56,7 @@ class MenuRegionesSubindicesIndicadores < MenuRegionesSubindicesIndicadoresConfi
             subindices.each do |subindice_id, indicadores|
                 s = @subindices_listado[subindice_id]
                 a << "        <div class=\"menu-subindices-indicadores-block #{s['color']}\">"
-                a << "          #{s['nombre']}"
+                a << "          <p class=\"menu-subindices-indicadores-eje\">#{s['nombre']}</p>"
                 a << '          <ul>'
                 # Bucle por indicadores
                 indicadores.each do |indicador_id, i|

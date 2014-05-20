@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### La Laguna
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -24,11 +26,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrismgitncdd" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismgitncdd -->
+<div id="Morrisneiiluww" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisneiiluww -->
   <script>
   new Morris.Line({
-    element: 'Morrismgitncdd',
+    element: 'Morrisneiiluww',
     data: [
       { fecha: '2008-12-31', dato: 182 },
       { fecha: '2012-12-31', dato: 231 }

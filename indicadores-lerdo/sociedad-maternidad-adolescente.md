@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Lerdo
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -20,3 +22,7 @@ Aparece en pagina inicial: No
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Enlace al [Sistema de Información Geográfica](http://200.92.216.133:9090/apps/implan.html)

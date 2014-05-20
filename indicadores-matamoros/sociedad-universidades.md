@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Planteles de Instituciones de Educación Superior.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

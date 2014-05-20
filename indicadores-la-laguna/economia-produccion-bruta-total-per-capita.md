@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Producción bruta total (de los sectores industria, comercio y servicios) entre población total.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -33,11 +35,11 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisyccypxuu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisyccypxuu -->
+<div id="Morrismvvwocwf" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrismvvwocwf -->
   <script>
   new Morris.Line({
-    element: 'Morrisyccypxuu',
+    element: 'Morrismvvwocwf',
     data: [
       { fecha: '1998-12-31', dato: 49506.05 },
       { fecha: '2003-12-31', dato: 88356.17 },

@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Cantidad de personas desempleadas.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -29,15 +31,21 @@ Unidad: Personas.
 
 #### Observaciones
 
+Desempleados a nivel nacional:
+2009= 2,031,369
+1999= 424,644
+1989= 659,870
+
+
 Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
 
 #### Gráfica
 
-<div id="Morrisdbskvvqv" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisdbskvvqv -->
+<div id="Morrisuqbwgksd" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisuqbwgksd -->
   <script>
   new Morris.Line({
-    element: 'Morrisdbskvvqv',
+    element: 'Morrisuqbwgksd',
     data: [
       { fecha: '1989-12-31', dato: 7688 },
       { fecha: '1999-12-31', dato: 3854 },

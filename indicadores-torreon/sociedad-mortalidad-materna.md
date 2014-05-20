@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Defunciones maternas por cada cien mil partos.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

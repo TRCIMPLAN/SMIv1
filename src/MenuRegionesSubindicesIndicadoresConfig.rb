@@ -38,16 +38,17 @@ class MenuRegionesSubindicesIndicadoresConfig
         1 => {'nombre' => 'La Laguna', 'directorio' => 'indicadores-la-laguna'}
     }
     @subindices_listado = {
-        3 => {'nombre' => 'ECONOMÍA Y COMPETITIVIDAD', 'color' => 'color1'},
-        2 => {'nombre' => 'BUEN GOBIERNO', 'color' => 'color2'},
-        1 => {'nombre' => 'SEGURIDAD PUBLICA', 'color' => 'color3'},
+        3 => {'nombre' => 'ECONOMÍA', 'color' => 'color1'},
+        2 => {'nombre' => 'GOBIERNO', 'color' => 'color2'},
+        1 => {'nombre' => 'SEGURIDAD', 'color' => 'color3'},
         5 => {'nombre' => 'SOCIEDAD', 'color' => 'color4'},
         4 => {'nombre' => 'SUSTENTABILIDAD', 'color' => 'color5'}
     }
     @indicadores_por_subindice_por_region = {
         2 => { # Torreón
-            3 => { # ECONOMÍA Y COMPETITIVIDAD
+            3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
+                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-torreon/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-torreon/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-torreon/economia-indice-de-competitividad-urbana.html'},
@@ -66,7 +67,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-torreon/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-torreon/economia-total-de-empresas.html'}
             },
-            2 => { # BUEN GOBIERNO
+            2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-torreon/gobierno-capacidad-financiera.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral-votos-totales.html'},
@@ -76,7 +77,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-torreon/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD PUBLICA
+            1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales-fatales.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-torreon/seguridad-homicidios.html'},
@@ -111,6 +112,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 53 => {'nombre' => 'Mortalidad por Diabetes', 'ruta' => 'indicadores-torreon/sociedad-mortalidad-por-diabetes.html'},
                 66 => {'nombre' => 'Ocupación por Vivienda', 'ruta' => 'indicadores-torreon/sociedad-ocupacion-por-vivienda.html'},
                 71 => {'nombre' => 'Organizaciones de la Sociedad Civil', 'ruta' => 'indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html'},
+                102 => {'nombre' => 'Población Estimada', 'ruta' => 'indicadores-torreon/sociedad-poblacion-estimada.html'},
                 70 => {'nombre' => 'Pobreza', 'ruta' => 'indicadores-torreon/sociedad-pobreza.html'},
                 68 => {'nombre' => 'Pobreza Extrema', 'ruta' => 'indicadores-torreon/sociedad-pobreza-extrema.html'},
                 69 => {'nombre' => 'Pobreza Moderada', 'ruta' => 'indicadores-torreon/sociedad-pobreza-moderada.html'},
@@ -144,8 +146,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         3 => { # Gómez Palacio
-            3 => { # ECONOMÍA Y COMPETITIVIDAD
+            3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-gomez-palacio/economia-cartera-hipotecaria.html'},
+                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-gomez-palacio/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-gomez-palacio/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html'},
@@ -163,7 +166,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-total-de-empresas.html'}
             },
-            2 => { # BUEN GOBIERNO
+            2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-gomez-palacio/gobierno-capacidad-financiera.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html'},
@@ -173,7 +176,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-gomez-palacio/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD PUBLICA
+            1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-gomez-palacio/seguridad-homicidios.html'},
@@ -205,6 +208,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 53 => {'nombre' => 'Mortalidad por Diabetes', 'ruta' => 'indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html'},
                 66 => {'nombre' => 'Ocupación por Vivienda', 'ruta' => 'indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html'},
                 71 => {'nombre' => 'Organizaciones de la Sociedad Civil', 'ruta' => 'indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html'},
+                102 => {'nombre' => 'Población Estimada', 'ruta' => 'indicadores-gomez-palacio/sociedad-poblacion-estimada.html'},
                 70 => {'nombre' => 'Pobreza', 'ruta' => 'indicadores-gomez-palacio/sociedad-pobreza.html'},
                 68 => {'nombre' => 'Pobreza Extrema', 'ruta' => 'indicadores-gomez-palacio/sociedad-pobreza-extrema.html'},
                 69 => {'nombre' => 'Pobreza Moderada', 'ruta' => 'indicadores-gomez-palacio/sociedad-pobreza-moderada.html'},
@@ -234,8 +238,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         4 => { # Lerdo
-            3 => { # ECONOMÍA Y COMPETITIVIDAD
+            3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-lerdo/economia-cartera-hipotecaria.html'},
+                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-lerdo/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-lerdo/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-lerdo/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-lerdo/economia-indice-de-competitividad-urbana.html'},
@@ -253,7 +258,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-lerdo/economia-total-de-empresas.html'}
             },
-            2 => { # BUEN GOBIERNO
+            2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-lerdo/gobierno-capacidad-financiera.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html'},
@@ -263,7 +268,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-lerdo/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD PUBLICA
+            1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales-fatales.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-lerdo/seguridad-homicidios.html'},
@@ -295,6 +300,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 53 => {'nombre' => 'Mortalidad por Diabetes', 'ruta' => 'indicadores-lerdo/sociedad-mortalidad-por-diabetes.html'},
                 66 => {'nombre' => 'Ocupación por Vivienda', 'ruta' => 'indicadores-lerdo/sociedad-ocupacion-por-vivienda.html'},
                 71 => {'nombre' => 'Organizaciones de la Sociedad Civil', 'ruta' => 'indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html'},
+                102 => {'nombre' => 'Población Estimada', 'ruta' => 'indicadores-lerdo/sociedad-poblacion-estimada.html'},
                 70 => {'nombre' => 'Pobreza', 'ruta' => 'indicadores-lerdo/sociedad-pobreza.html'},
                 68 => {'nombre' => 'Pobreza Extrema', 'ruta' => 'indicadores-lerdo/sociedad-pobreza-extrema.html'},
                 69 => {'nombre' => 'Pobreza Moderada', 'ruta' => 'indicadores-lerdo/sociedad-pobreza-moderada.html'},
@@ -324,8 +330,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         5 => { # Matamoros
-            3 => { # ECONOMÍA Y COMPETITIVIDAD
+            3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-matamoros/economia-cartera-hipotecaria.html'},
+                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-matamoros/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-matamoros/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-matamoros/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-matamoros/economia-indice-de-competitividad-urbana.html'},
@@ -344,7 +351,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-matamoros/economia-total-de-empresas.html'}
             },
-            2 => { # BUEN GOBIERNO
+            2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-matamoros/gobierno-capacidad-financiera.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html'},
@@ -354,7 +361,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-matamoros/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD PUBLICA
+            1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales-fatales.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-matamoros/seguridad-homicidios.html'},
@@ -386,6 +393,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 53 => {'nombre' => 'Mortalidad por Diabetes', 'ruta' => 'indicadores-matamoros/sociedad-mortalidad-por-diabetes.html'},
                 66 => {'nombre' => 'Ocupación por Vivienda', 'ruta' => 'indicadores-matamoros/sociedad-ocupacion-por-vivienda.html'},
                 71 => {'nombre' => 'Organizaciones de la Sociedad Civil', 'ruta' => 'indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html'},
+                102 => {'nombre' => 'Población Estimada', 'ruta' => 'indicadores-matamoros/sociedad-poblacion-estimada.html'},
                 70 => {'nombre' => 'Pobreza', 'ruta' => 'indicadores-matamoros/sociedad-pobreza.html'},
                 68 => {'nombre' => 'Pobreza Extrema', 'ruta' => 'indicadores-matamoros/sociedad-pobreza-extrema.html'},
                 69 => {'nombre' => 'Pobreza Moderada', 'ruta' => 'indicadores-matamoros/sociedad-pobreza-moderada.html'},
@@ -415,8 +423,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         1 => { # La Laguna
-            3 => { # ECONOMÍA Y COMPETITIVIDAD
+            3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-la-laguna/economia-cartera-hipotecaria.html'},
+                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-la-laguna/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-la-laguna/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-la-laguna/economia-grandes-empresas.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -433,7 +442,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-la-laguna/economia-total-de-empresas.html'}
             },
-            2 => { # BUEN GOBIERNO
+            2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html'},
@@ -442,7 +451,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-la-laguna/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD PUBLICA
+            1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales-fatales.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-la-laguna/seguridad-homicidios.html'},

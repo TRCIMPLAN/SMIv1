@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Diferencia de votos entre primer y segundo lugar en la elección federal.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

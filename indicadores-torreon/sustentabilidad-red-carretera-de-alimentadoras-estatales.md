@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Red carretera de alimentadoras estatales.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

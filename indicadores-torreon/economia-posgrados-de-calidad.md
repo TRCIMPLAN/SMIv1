@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Programas aceptados por CONACYT como posgrados de calidad
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

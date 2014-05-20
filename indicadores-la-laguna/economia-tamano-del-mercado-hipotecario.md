@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Créditos dispuestos marginalmente durante el año indicado.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -26,5 +28,7 @@ Créditos dispuestos marginalmente durante el año indicado.
 Unidad: Cantidad de Créditos.
 
 #### Observaciones
+
+El mercado hipotecario de La Laguna representa el 0.54% del mercado hipotecario nacional.
 
 Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)

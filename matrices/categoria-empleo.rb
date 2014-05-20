@@ -26,6 +26,15 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Desempleados como porcentaje de la PEA</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.46%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.80%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.41%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">6.07%</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desempleados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.43%</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Desempleo</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2009-12-31, INEGI">19,536</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2009-12-31, INEGI">9,705</a></td>

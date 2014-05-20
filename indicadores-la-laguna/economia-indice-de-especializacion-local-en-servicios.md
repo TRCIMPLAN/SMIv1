@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Producción bruta total de los servicios entre la producción bruta total de todas las actividades económicas.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -33,11 +35,11 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisgnycipxp" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgnycipxp -->
+<div id="Morristuoaegds" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristuoaegds -->
   <script>
   new Morris.Line({
-    element: 'Morrisgnycipxp',
+    element: 'Morristuoaegds',
     data: [
       { fecha: '1998-12-31', dato: 11.9700 },
       { fecha: '2003-12-31', dato: 12.7500 },

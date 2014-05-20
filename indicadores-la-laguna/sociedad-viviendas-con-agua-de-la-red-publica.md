@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Porcentaje de viviendas habitadas que cuentan con acceso al agua de la red pública.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -27,4 +29,6 @@ Unidad: Porcentaje.
 
 #### Observaciones
 
-Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/)
+Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/).
+
+Enlace al [Sistema de Información Geográfica](http://200.92.216.133:9090/apps/implan.html).

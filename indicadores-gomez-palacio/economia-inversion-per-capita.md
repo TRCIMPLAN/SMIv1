@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Gasto en obras públicas y acciones sociales entre población total.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -36,11 +38,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriskpvzyarj" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriskpvzyarj -->
+<div id="Morristzqdszwa" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morristzqdszwa -->
   <script>
   new Morris.Line({
-    element: 'Morriskpvzyarj',
+    element: 'Morristzqdszwa',
     data: [
       { fecha: '2007-12-31', dato: 621.87 },
       { fecha: '2008-12-31', dato: 805.66 },

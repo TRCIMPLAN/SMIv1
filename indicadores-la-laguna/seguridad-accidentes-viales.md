@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Cantidad de accidentes viales por año.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

@@ -42,6 +42,24 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">3</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">66</a></td>
   </tr>
+  <tr>
+    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="indicador color5">Acceso a Vialidades Pavimentadas</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">93.00%</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">88.00%</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">72.00%</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">73.00%</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">88.00%</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="indicador color5">Motorización</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">226</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">308</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">235</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">162</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">244</a></td>
+  </tr>
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>

@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Presuntos delincuentes por delitos en materia de narcóticos registrados en los juzgados del fuero federal.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -28,11 +30,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrispkmnupmj" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrispkmnupmj -->
+<div id="Morriscfpnfeli" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscfpnfeli -->
   <script>
   new Morris.Line({
-    element: 'Morrispkmnupmj',
+    element: 'Morriscfpnfeli',
     data: [
       { fecha: '2008-12-31', dato: 22 },
       { fecha: '2012-12-31', dato: 18 }

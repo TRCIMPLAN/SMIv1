@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Área total de localidades no urbanizadas sobre la superficie municipal.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

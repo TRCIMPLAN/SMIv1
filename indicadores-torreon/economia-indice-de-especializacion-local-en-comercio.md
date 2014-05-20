@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Producción bruta total del comercio al por mayor y al por menor entre la producción bruta total de todas las actividades económicas.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -33,11 +35,11 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisydkxiaem" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisydkxiaem -->
+<div id="Morrisvvowasmp" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvvowasmp -->
   <script>
   new Morris.Line({
-    element: 'Morrisydkxiaem',
+    element: 'Morrisvvowasmp',
     data: [
       { fecha: '1998-12-31', dato: 0.3592 },
       { fecha: '2003-12-31', dato: 14.8700 },

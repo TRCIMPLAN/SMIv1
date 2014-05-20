@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Créditos dispuestos marginalmente durante el año indicado.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -31,15 +33,17 @@ Unidad: Cantidad de Créditos.
 
 #### Observaciones
 
+El mercado hipotecario de La Laguna representa el 0.54% del mercado hipotecario nacional.
+
 Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas/carteravivienda.aspx)
 
 #### Gráfica
 
-<div id="Morristlsiteir" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristlsiteir -->
+<div id="Morrisnqymordk" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisnqymordk -->
   <script>
   new Morris.Line({
-    element: 'Morristlsiteir',
+    element: 'Morrisnqymordk',
     data: [
       { fecha: '2010-12-31', dato: 188 },
       { fecha: '2011-12-31', dato: 669 },

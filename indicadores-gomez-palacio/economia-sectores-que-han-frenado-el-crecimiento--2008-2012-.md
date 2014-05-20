@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Porcentaje de la producción en sectores con tasa promedio de crecimiento negativo a nivel nacional en los últimos cinco años.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -19,12 +21,15 @@ Porcentaje de la producción en sectores con tasa promedio de crecimiento negati
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">9.61%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">9.84%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
 Unidad: Porcentaje.
 
 #### Observaciones
+
+A nivel nacional, el porcentaje de producción en sectores con tasa promedio de crecimiento negativo es de 25.66%.
+
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/) y [Centro de Estudios de las Finanzas Públicas](http://www.cefp.gob.mx/Pub_Macro_Estadisticas.htm)

@@ -11,6 +11,8 @@ Aparece en pagina inicial: No
 
 Número de homicidios por cada 100 mil habitantes.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -31,11 +33,11 @@ Unidad: Por cada 100 mil.
 
 #### Gráfica
 
-<div id="Morriscgnhtpdn" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscgnhtpdn -->
+<div id="Morriswhfkiaog" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriswhfkiaog -->
   <script>
   new Morris.Line({
-    element: 'Morriscgnhtpdn',
+    element: 'Morriswhfkiaog',
     data: [
       { fecha: '1990-12-31', dato: 10 },
       { fecha: '1991-12-31', dato: 17 },

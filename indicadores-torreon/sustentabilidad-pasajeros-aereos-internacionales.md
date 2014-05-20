@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -39,11 +41,11 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 
 #### Gráfica
 
-<div id="Morrislhvkkqsk" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrislhvkkqsk -->
+<div id="Morrisoxslskfs" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisoxslskfs -->
   <script>
   new Morris.Line({
-    element: 'Morrislhvkkqsk',
+    element: 'Morrisoxslskfs',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },

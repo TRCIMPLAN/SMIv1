@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Porcentaje de la población ocupada que trabaja en el mismo municipio en el que reside.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">

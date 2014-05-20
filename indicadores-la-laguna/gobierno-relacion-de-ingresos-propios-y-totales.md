@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -36,11 +38,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriszwuzqulo" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszwuzqulo -->
+<div id="Morrisbizqrgng" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbizqrgng -->
   <script>
   new Morris.Line({
-    element: 'Morriszwuzqulo',
+    element: 'Morrisbizqrgng',
     data: [
       { fecha: '2007-12-31', dato: 33.5900 },
       { fecha: '2008-12-31', dato: 30.0800 },

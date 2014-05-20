@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -32,11 +34,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisirjcxkqo" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisirjcxkqo -->
+<div id="Morrisiixpdqko" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisiixpdqko -->
   <script>
   new Morris.Line({
-    element: 'Morrisirjcxkqo',
+    element: 'Morrisiixpdqko',
     data: [
       { fecha: '2007-12-31', dato: 633417899.00 },
       { fecha: '2008-12-31', dato: 939654384.00 },

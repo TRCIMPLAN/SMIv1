@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Total de delitos cometidos por mes
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -29,11 +31,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morristcqjeqmu" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristcqjeqmu -->
+<div id="Morrisipkvgpio" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisipkvgpio -->
   <script>
   new Morris.Line({
-    element: 'Morristcqjeqmu',
+    element: 'Morrisipkvgpio',
     data: [
       { fecha: '2014-01-31', dato: 363 },
       { fecha: '2014-02-28', dato: 307 },

@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Lerdo
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -32,11 +34,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriskhlmabbd" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriskhlmabbd -->
+<div id="Morrishbsgrxbu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishbsgrxbu -->
   <script>
   new Morris.Line({
-    element: 'Morriskhlmabbd',
+    element: 'Morrishbsgrxbu',
     data: [
       { fecha: '2007-12-31', dato: 241931931.00 },
       { fecha: '2008-12-31', dato: 262644851.00 },

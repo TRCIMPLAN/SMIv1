@@ -8,6 +8,8 @@ Aparece en pagina inicial: No
 
 ### Lerdo
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -23,4 +25,5 @@ Unidad: Cantidad de Empresas.
 
 #### Observaciones
 
+Las empresas de La Laguna representan el 1.34% del total de 666,684 empresas a nivel nacional para el año 2013.
 Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1)

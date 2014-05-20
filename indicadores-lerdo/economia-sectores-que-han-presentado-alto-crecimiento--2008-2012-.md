@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 % de la producción en sectores con tasa promedio de crecimiento superior al promedio nacional en los últimos 5 años.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
@@ -26,5 +28,7 @@ Aparece en pagina inicial: No
 Unidad: Porcentaje.
 
 #### Observaciones
+
+A nivel nacional el porcentaje de producción en sectores con tasa promedio de crecimiento superior al promedio es de 26.44%.
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/) y [Centro de Estudios de las Finanzas Públicas](http://www.cefp.gob.mx/Pub_Macro_Estadisticas.htm)

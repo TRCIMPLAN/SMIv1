@@ -12,6 +12,8 @@ Aparece en pagina inicial: No
 
 Grado promedio de escolaridad (GPE) de las mujeres menos GPE de hombres.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
