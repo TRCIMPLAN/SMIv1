@@ -21,11 +21,11 @@ Monto de créditos otorgados a la fecha indicada.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">3,479,653,828.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">3,741,316,668.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">4,027,766,032.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">4,476,538,920.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">4,664,619,926.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">3,479,653,828</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">3,741,316,668</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">4,027,766,032</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">4,476,538,920</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">4,664,619,926</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
   </tbody>
 </table>
 
@@ -39,10 +39,10 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisbajjjglm" class="grafica"></div>
+<div id="Morrisolslxvax" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisbajjjglm',
+    element: 'Morrisolslxvax',
     data: [
       { fecha: '2010-12-31', dato: 3479653828.0000 },
       { fecha: '2011-12-31', dato: 3741316668.0000 },

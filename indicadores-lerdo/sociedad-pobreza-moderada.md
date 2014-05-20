@@ -21,7 +21,7 @@ Porcentaje de la población en situación de pobreza moderada.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">41.10%</td><td>CONEVAL</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">41.1%</td><td>CONEVAL</td><td></td></tr>
   </tbody>
 </table>
 

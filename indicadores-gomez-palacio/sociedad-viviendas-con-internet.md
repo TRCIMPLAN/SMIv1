@@ -21,7 +21,7 @@ Porcentaje de viviendas habitadas con internet.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">19.00%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">19%</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 

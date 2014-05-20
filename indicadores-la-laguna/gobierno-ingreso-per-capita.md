@@ -6,7 +6,7 @@ Categorías: Finanzas Públicas
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
-### Lerdo
+### La Laguna
 
 #### Descripción
 
@@ -21,12 +21,11 @@ Ingresos totales del municipio entre el total de la población.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 2,069.57</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 1,921.94</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 2,213.26</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 1,980.37</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 2,255.84</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 2,460.58</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 2,595.45</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 2,623.62</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 2,498.19</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 2,735.96</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 2,772.32</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -47,17 +46,16 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisbqiltjtf" class="grafica"></div>
+<div id="Morrisrniyecdf" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisbqiltjtf',
+    element: 'Morrisrniyecdf',
     data: [
-      { fecha: '2007-12-31', dato: 2069.57 },
-      { fecha: '2008-12-31', dato: 1921.94 },
-      { fecha: '2009-12-31', dato: 2213.26 },
-      { fecha: '2010-12-31', dato: 1980.37 },
-      { fecha: '2011-12-31', dato: 2255.84 },
-      { fecha: '2012-12-31', dato: 2460.58 }
+      { fecha: '2008-12-31', dato: 2595.45 },
+      { fecha: '2009-12-31', dato: 2623.62 },
+      { fecha: '2010-12-31', dato: 2498.19 },
+      { fecha: '2011-12-31', dato: 2735.96 },
+      { fecha: '2012-12-31', dato: 2772.32 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

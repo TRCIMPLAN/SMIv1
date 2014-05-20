@@ -21,11 +21,11 @@ Monto de créditos otorgados a la fecha indicada.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">4,205,870,657.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">4,528,969,820.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">4,896,553,645.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">5,442,162,894.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">5,671,976,037.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">4,205,870,657</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">4,528,969,820</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">4,896,553,645</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">5,442,162,894</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">5,671,976,037</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
   </tbody>
 </table>
 
@@ -39,10 +39,10 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisubjfnfdo" class="grafica"></div>
+<div id="Morrisovsywdvm" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisubjfnfdo',
+    element: 'Morrisovsywdvm',
     data: [
       { fecha: '2010-12-31', dato: 4205870657.0000 },
       { fecha: '2011-12-31', dato: 4528969820.0000 },

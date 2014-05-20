@@ -46,7 +46,7 @@ def publicacion(dir)
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Capacidad Financiera</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">74.22%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">74.26%</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">74.26%</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">23.76%</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">29.45%</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">66.50%</a></td>
@@ -58,7 +58,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 3,328.92</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,460.58</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 1,594.68</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingreso-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,772.32</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>

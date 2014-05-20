@@ -21,7 +21,7 @@ Vivienda particular destinada para vacacionar o vivir algunos días, semanas o m
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">3.60%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">3.6%</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 

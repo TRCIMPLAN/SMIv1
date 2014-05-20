@@ -21,7 +21,7 @@ Porcentaje de la producción en sectores con tasa promedio de crecimiento negati
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">56.40%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">56.4%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 

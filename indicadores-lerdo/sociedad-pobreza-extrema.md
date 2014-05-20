@@ -21,7 +21,7 @@ Porcentaje de la población en situación de pobreza extrema.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">6.80%</td><td>CONEVAL</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">6.8%</td><td>CONEVAL</td><td></td></tr>
   </tbody>
 </table>
 

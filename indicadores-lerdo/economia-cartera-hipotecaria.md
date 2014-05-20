@@ -21,11 +21,11 @@ Monto de créditos otorgados a la fecha indicada.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">231,743,194.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">240,598,550.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">261,966,994.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">319,887,703.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">334,888,287.0000</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">231,743,194</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">240,598,550</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">261,966,994</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">319,887,703</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">334,888,287</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
   </tbody>
 </table>
 
@@ -39,10 +39,10 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisakithwtu" class="grafica"></div>
+<div id="Morrispkpyfwlp" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisakithwtu',
+    element: 'Morrispkpyfwlp',
     data: [
       { fecha: '2010-12-31', dato: 231743194.0000 },
       { fecha: '2011-12-31', dato: 240598550.0000 },

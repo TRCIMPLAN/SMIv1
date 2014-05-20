@@ -91,11 +91,6 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-homicidios.html'},
-                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-torreon/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -188,10 +183,6 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-gomez-palacio/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -280,10 +271,6 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-lerdo/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -373,10 +360,6 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                91 => {'nombre' => 'Tasa de Personas Condenadas', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-personas-condenadas.html'},
-                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-matamoros/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -446,6 +429,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html'},
+                21 => {'nombre' => 'Ingreso Per Cápita', 'ruta' => 'indicadores-la-laguna/gobierno-ingreso-per-capita.html'},
                 8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html'},
                 19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-totales.html'},
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-la-laguna/gobierno-participacion-electoral.html'},
@@ -463,9 +447,6 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html'},
-                92 => {'nombre' => 'Tasa de Sentenciados del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-sentenciados-del-fuero-comun.html'},
-                87 => {'nombre' => 'Tasa de Sentenciados del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-sentenciados-del-fuero-federal.html'},
-                90 => {'nombre' => 'Tasa de Sentenciados en Materia de Narcóticos', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-sentenciados-en-materia-de-narcoticos.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-la-laguna/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD

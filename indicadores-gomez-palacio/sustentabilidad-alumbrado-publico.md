@@ -21,7 +21,7 @@ Porcentaje de viviendas sin acceso a alumbrado público en su manzana
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">1.30%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">1.3%</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 

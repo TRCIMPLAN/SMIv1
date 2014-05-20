@@ -27,7 +27,6 @@ Ingresos propios entre gastos corrientes.
     <tr><td class="centrado">31/12/2010</td><td class="derecha">47.40%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2011</td><td class="derecha">69.57%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">74.26%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">74.26%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -48,18 +47,17 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrislmhegbqd" class="grafica"></div>
+<div id="Morrisaaoujwgc" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrislmhegbqd',
+    element: 'Morrisaaoujwgc',
     data: [
       { fecha: '2007-12-31', dato: 51.1900 },
       { fecha: '2008-12-31', dato: 52.8900 },
       { fecha: '2009-12-31', dato: 74.4600 },
       { fecha: '2010-12-31', dato: 47.4000 },
       { fecha: '2011-12-31', dato: 69.5700 },
-      { fecha: '2012-12-31', dato: 74.2600 },
-      { fecha: '2013-12-31', dato: 74.2600 }
+      { fecha: '2012-12-31', dato: 74.2600 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

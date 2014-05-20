@@ -21,7 +21,7 @@ Porcentaje de alumnos buenos y excelentes en Prueba Enlace nivel básico.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">43.00%</td><td>SEP</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">43%</td><td>SEP</td><td></td></tr>
   </tbody>
 </table>
 

@@ -17,7 +17,7 @@ Aparece en pagina inicial: No
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">8.0300</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">8.03</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 
