@@ -19,7 +19,7 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">42.5700</td><td>IMCO</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">42.5700</td><td>IMCO</td><td>Ese valor equivale al lugar 59 de 77 ciudades, de acuerdo a la edición 2012 del ICU.</td></tr>
   </tbody>
 </table>
 

@@ -39,11 +39,11 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 
 #### Gráfica
 
-<div id="Morrisbfqivlss" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisbfqivlss -->
+<div id="Morrisueccpccu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisueccpccu -->
   <script>
   new Morris.Line({
-    element: 'Morrisbfqivlss',
+    element: 'Morrisueccpccu',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },

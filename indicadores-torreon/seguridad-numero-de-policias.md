@@ -24,3 +24,7 @@ Cantidad total de policías en el municipio.
 </table>
 
 Unidad: Cantidad.
+
+#### Observaciones
+
+Determinado en base al reporte de Transparencia de la Nómina.

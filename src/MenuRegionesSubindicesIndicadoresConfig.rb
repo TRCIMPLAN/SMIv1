@@ -79,7 +79,6 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD PUBLICA
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales-fatales.html'},
-                1 => {'nombre' => 'Cantidad de Policías', 'ruta' => 'indicadores-torreon/seguridad-cantidad-de-policias.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-torreon/seguridad-homicidios.html'},
                 96 => {'nombre' => 'Número de Policías', 'ruta' => 'indicadores-torreon/seguridad-numero-de-policias.html'},
                 97 => {'nombre' => 'Policías por Habitante', 'ruta' => 'indicadores-torreon/seguridad-policias-por-habitante.html'},
@@ -239,6 +238,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-lerdo/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-lerdo/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-lerdo/economia-grandes-empresas.html'},
+                98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-lerdo/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html'},
                 11 => {'nombre' => 'Índice de Especialización Local en Industria Manufacturera', 'ruta' => 'indicadores-lerdo/economia-indice-de-especializacion-local-en-industria-manufacturera.html'},
                 17 => {'nombre' => 'Índice de Especialización Local en Servicios', 'ruta' => 'indicadores-lerdo/economia-indice-de-especializacion-local-en-servicios.html'},
@@ -328,6 +328,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-matamoros/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-matamoros/economia-desempleo.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-matamoros/economia-grandes-empresas.html'},
+                98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-matamoros/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html'},
                 11 => {'nombre' => 'Índice de Especialización Local en Industria Manufacturera', 'ruta' => 'indicadores-matamoros/economia-indice-de-especializacion-local-en-industria-manufacturera.html'},
                 17 => {'nombre' => 'Índice de Especialización Local en Servicios', 'ruta' => 'indicadores-matamoros/economia-indice-de-especializacion-local-en-servicios.html'},

@@ -26,15 +26,6 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Cantidad de Policías</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-cantidad-de-policias.html" data-toggle="tooltip" title="Cantidad, 2014-02-28, Ayuntamiento de Torreón">768</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color3">SEGURIDAD</td>
     <td class="indicador color3">Homicidios</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">61</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">30</a></td>

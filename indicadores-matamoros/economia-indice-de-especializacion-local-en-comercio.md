@@ -33,11 +33,11 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisiyyourlc" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisiyyourlc -->
+<div id="Morriscopiqbpu" class="grafica"></div>
+  <!-- JAVASCRIPT DE LA GRAFICA EN Morriscopiqbpu -->
   <script>
   new Morris.Line({
-    element: 'Morrisiyyourlc',
+    element: 'Morriscopiqbpu',
     data: [
       { fecha: '1998-12-31', dato: 38.9400 },
       { fecha: '2003-12-31', dato: 32.2300 },

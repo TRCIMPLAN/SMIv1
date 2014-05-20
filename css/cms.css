@@ -136,11 +136,10 @@ h6 {
 /*
  * CONTENIDO
  */
-#contenido { background-color:#888; }
 #contenido .container {
     background-color:#DDD;
     padding-top:8px;
-    padding-bottom:8px;
+    padding-bottom:12px;
 }
 #contenido section {
     background-color:#FFF;
@@ -306,6 +305,7 @@ table.matriz > tbody > tr > td {
 #pie p {
     padding-top:8px;
     padding-bottom:8px;
+    text-align:right;
 }
 #pie a         { color:#CCC; font-weight:bold; }
 #pie a:hover,
