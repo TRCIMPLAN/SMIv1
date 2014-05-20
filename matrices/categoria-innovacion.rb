@@ -26,15 +26,6 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
-    <td class="indicador color1">Empresas Certificadas con ISO-9000 y 14000</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Posgrados de Calidad</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 2014-04-30, CONACYT">11</a></td>
     <td class="nd">ND</td>

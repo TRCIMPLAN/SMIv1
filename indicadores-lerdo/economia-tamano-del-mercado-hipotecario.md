@@ -39,10 +39,10 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrissebvzgty" class="grafica"></div>
+<div id="Morrisisdppsiq" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrissebvzgty',
+    element: 'Morrisisdppsiq',
     data: [
       { fecha: '2010-12-31', dato: 76 },
       { fecha: '2011-12-31', dato: 179 },

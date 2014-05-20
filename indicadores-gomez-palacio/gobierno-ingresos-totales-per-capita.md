@@ -1,4 +1,4 @@
-Ingreso Per Cápita
+Ingresos Totales Per Cápita
 =====
 
 Fecha: 2014-05-01
@@ -47,10 +47,10 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisicdveavf" class="grafica"></div>
+<div id="Morristogibrxa" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisicdveavf',
+    element: 'Morristogibrxa',
     data: [
       { fecha: '2007-12-31', dato: 2015.23 },
       { fecha: '2008-12-31', dato: 2942.54 },

@@ -1,4 +1,4 @@
-Ingreso Per Cápita
+Ingresos Totales Per Cápita
 =====
 
 Fecha: 2014-05-01
@@ -21,6 +21,7 @@ Ingresos totales del municipio entre el total de la población.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 2,069.57</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 2,595.45</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 2,623.62</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 2,498.19</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
@@ -46,11 +47,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisrniyecdf" class="grafica"></div>
+<div id="Morrisyitqqsjp" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisrniyecdf',
+    element: 'Morrisyitqqsjp',
     data: [
+      { fecha: '2007-12-31', dato: 2069.57 },
       { fecha: '2008-12-31', dato: 2595.45 },
       { fecha: '2009-12-31', dato: 2623.62 },
       { fecha: '2010-12-31', dato: 2498.19 },
