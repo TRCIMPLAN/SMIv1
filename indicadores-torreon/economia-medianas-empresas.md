@@ -29,4 +29,6 @@ Unidad: Cantidad de Empresas.
 
 #### Observaciones
 
+A nivel nacional el 1.29% de las empresas son grandes.
+
 Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoPublico.asp?p=1)

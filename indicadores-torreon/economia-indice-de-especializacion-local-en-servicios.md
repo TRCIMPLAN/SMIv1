@@ -31,15 +31,20 @@ Unidad: Porcentaje.
 
 #### Observaciones
 
+El índice de especialización nacional en el comercio es de:
+
+- 2008 = 16.55%
+- 2003 = 17.66%
+- 1998 = 15.85%
+
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
 
 #### Gráfica
 
-<div id="Morriszwrstrml" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszwrstrml -->
+<div id="Morrisszezlqhy" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriszwrstrml',
+    element: 'Morrisszezlqhy',
     data: [
       { fecha: '1998-12-31', dato: 15.1100 },
       { fecha: '2003-12-31', dato: 17.4900 },

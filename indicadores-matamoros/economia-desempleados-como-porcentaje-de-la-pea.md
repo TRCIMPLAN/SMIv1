@@ -32,19 +32,19 @@ Unidad: Porcentaje.
 #### Observaciones
 
 Media nacional del indicador:
-2009 = 3.72%
-1999 = 0.98%
-1989 = 2.32%
+
+- 2009 = 3.72%
+- 1999 = 0.98%
+- 1989 = 2.32%
 
 Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
 
 #### Gráfica
 
-<div id="Morrisgmdgegab" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisgmdgegab -->
+<div id="Morrisgtsdpuop" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisgmdgegab',
+    element: 'Morrisgtsdpuop',
     data: [
       { fecha: '1989-12-31', dato: 3.3200 },
       { fecha: '1999-12-31', dato: 1.1800 },

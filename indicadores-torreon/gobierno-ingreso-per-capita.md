@@ -35,15 +35,23 @@ Unidad: Pesos.
 
 #### Observaciones
 
+El ingreso per cápita a nivel nacional es de:
+
+- 2012 = $2,486.26 
+- 2011 = $2,697.76 
+- 2010 = $2,458.53 
+- 2009 = $2,418.96 
+- 2008 = $2,300.63 
+- 2007 = $1,865.79 
+
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morrisqzefecld" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisqzefecld -->
+<div id="Morriskjypedcl" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisqzefecld',
+    element: 'Morriskjypedcl',
     data: [
       { fecha: '2007-12-31', dato: 2312.71 },
       { fecha: '2008-12-31', dato: 2713.59 },

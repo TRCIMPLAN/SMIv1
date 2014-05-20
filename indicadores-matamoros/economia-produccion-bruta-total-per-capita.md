@@ -31,15 +31,20 @@ Unidad: Pesos.
 
 #### Observaciones
 
+La producción bruta total per cápita a nivel nacional es de:
+
+- 2008 = $103,094.93 
+- 2003 = $60,324.54 
+- 1998 = $37,765.57 
+
 Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas/saic/)
 
 #### Gráfica
 
-<div id="Morrisejihutga" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisejihutga -->
+<div id="Morristyofwflq" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisejihutga',
+    element: 'Morristyofwflq',
     data: [
       { fecha: '1998-12-31', dato: 3081.72 },
       { fecha: '2003-12-31', dato: 6804.48 },

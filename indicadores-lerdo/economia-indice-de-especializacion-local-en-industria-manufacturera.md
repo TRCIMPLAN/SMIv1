@@ -32,19 +32,19 @@ Unidad: Porcentaje.
 #### Observaciones
 
 El índice de especialización en manufactura a nivel nacional es de:
-2008 = 44.34%
-2003 = 43.26%
-1998 = 48.52%
+
+- 2008 = 44.34%
+- 2003 = 43.26%
+- 1998 = 48.52%
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
 
 #### Gráfica
 
-<div id="Morrisvwfcygvw" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisvwfcygvw -->
+<div id="Morrisdiehqaxh" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisvwfcygvw',
+    element: 'Morrisdiehqaxh',
     data: [
       { fecha: '1998-12-31', dato: 59.2500 },
       { fecha: '2003-12-31', dato: 75.8500 },

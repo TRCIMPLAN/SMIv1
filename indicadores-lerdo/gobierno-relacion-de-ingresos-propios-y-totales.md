@@ -34,15 +34,23 @@ Unidad: Porcentaje.
 
 #### Observaciones
 
+El promedio de la relación entre ingresos propios y totales de los municipios es:
+
+- 2012 = 20.91%
+- 2011 = 18.92%
+- 2010 = 19.84%
+- 2009 = 19.23%
+- 2008 = 20.49%
+- 2007 = 22.78%
+
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morrishslmpghw" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrishslmpghw -->
+<div id="Morrissaxfilxp" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrishslmpghw',
+    element: 'Morrissaxfilxp',
     data: [
       { fecha: '2007-12-31', dato: 17.0000 },
       { fecha: '2008-12-31', dato: 17.3100 },

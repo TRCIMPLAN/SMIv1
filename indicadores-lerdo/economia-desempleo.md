@@ -32,20 +32,20 @@ Unidad: Personas.
 #### Observaciones
 
 Desempleados a nivel nacional:
-2009= 2,031,369
-1999= 424,644
-1989= 659,870
+
+- 2009 = 2,031,369
+- 1999 = 424,644
+- 1989 = 659,870
 
 
 Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
 
 #### Gráfica
 
-<div id="Morrisxgrctqua" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisxgrctqua -->
+<div id="Morrisqcprbyrc" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisxgrctqua',
+    element: 'Morrisqcprbyrc',
     data: [
       { fecha: '1989-12-31', dato: 821 },
       { fecha: '1999-12-31', dato: 360 },

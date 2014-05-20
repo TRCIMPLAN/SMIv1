@@ -31,15 +31,23 @@ Unidad: Pesos.
 
 #### Observaciones
 
+El promedio nacional de los ingresos totales por municipio es de:
+
+- 2012 = 118495956.6
+- 2011 = 127070246.1
+- 2010 = 114373415.8
+- 2009 = 111150577.4
+- 2008 = 104258227.4
+- 2007 = 83404076.21
+
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morriszicdkevv" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morriszicdkevv -->
+<div id="Morrisuaeujbfj" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriszicdkevv',
+    element: 'Morrisuaeujbfj',
     data: [
       { fecha: '2007-12-31', dato: 1395070656.00 },
       { fecha: '2008-12-31', dato: 1672978076.00 },

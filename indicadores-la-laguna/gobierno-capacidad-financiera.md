@@ -34,15 +34,23 @@ Unidad: Porcentaje.
 
 #### Observaciones
 
+El indicador de capacidad financiera a nivel nacional es de:
+
+- 2012 = 39.41%
+- 2011 = 39.94%
+- 2010 = 41.63%
+- 2009 = 40.87%
+- 2008 = 43.36%
+- 2007 = 44.48%
+
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morrisivhzvbes" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisivhzvbes -->
+<div id="Morriskrecvmxc" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisivhzvbes',
+    element: 'Morriskrecvmxc',
     data: [
       { fecha: '2007-12-31', dato: 62.9900 },
       { fecha: '2008-12-31', dato: 60.9700 },

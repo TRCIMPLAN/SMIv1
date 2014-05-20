@@ -37,15 +37,26 @@ Unidad: Personas.
 
 #### Observaciones
 
+El flujo de pasajeros a nivel internacional es de:
+
+- 2013 = 1,833,223
+- 2012 = 1,825,145
+- 2011 = 1,784,252
+- 2010 = 1,927,529
+- 2009 = 1,806,105
+- 2008 = 2,327,839
+- 2007 = 2,471,947
+- 2006 = 2,525,279
+- 2005 = 2,479,772
+
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
 
 #### Gráfica
 
-<div id="Morrisoxslskfs" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morrisoxslskfs -->
+<div id="Morrisrpkevwph" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisoxslskfs',
+    element: 'Morrisrpkevwph',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },

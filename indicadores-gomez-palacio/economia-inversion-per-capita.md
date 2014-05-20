@@ -34,15 +34,23 @@ Unidad: Pesos.
 
 #### Observaciones
 
+La inversión nacional per cápita es de:
+
+- 2012 = $553.80 
+- 2011 = $747.22 
+- 2010 = $698.38 
+- 2009 = $765.24 
+- 2008 = $636.13 
+- 2007 = $484.72 
+
 Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y municipales](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/finanzaspublicas/FPMun.asp?s=est&c=11289&proy=efipem_fmun)
 
 #### Gráfica
 
-<div id="Morristzqdszwa" class="grafica"></div>
-  <!-- JAVASCRIPT DE LA GRAFICA EN Morristzqdszwa -->
+<div id="Morriscyziuszl" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morristzqdszwa',
+    element: 'Morriscyziuszl',
     data: [
       { fecha: '2007-12-31', dato: 621.87 },
       { fecha: '2008-12-31', dato: 805.66 },
