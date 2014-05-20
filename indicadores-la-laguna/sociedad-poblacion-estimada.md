@@ -18,7 +18,7 @@ Aparece en pagina inicial: No
   </thead>
   <tbody>
     <tr><td class="centrado">30/06/2011</td><td class="derecha">1,251,771</td><td>CONAPO</td><td></td></tr>
-    <tr><td class="centrado">30/06/2012</td><td class="derecha">126,630</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2012</td><td class="derecha">1,267,630</td><td>CONAPO</td><td></td></tr>
     <tr><td class="centrado">30/06/2013</td><td class="derecha">1,283,072</td><td>CONAPO</td><td></td></tr>
     <tr><td class="centrado">30/06/2014</td><td class="derecha">1,298,270</td><td>CONAPO</td><td></td></tr>
   </tbody>
@@ -28,13 +28,13 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisjhjrkvkp" class="grafica"></div>
+<div id="Morrisotwjhcem" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisjhjrkvkp',
+    element: 'Morrisotwjhcem',
     data: [
       { fecha: '2011-06-30', dato: 1251771 },
-      { fecha: '2012-06-30', dato: 126630 },
+      { fecha: '2012-06-30', dato: 1267630 },
       { fecha: '2013-06-30', dato: 1283072 },
       { fecha: '2014-06-30', dato: 1298270 }
     ],

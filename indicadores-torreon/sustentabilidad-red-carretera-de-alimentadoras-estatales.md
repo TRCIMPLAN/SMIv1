@@ -21,7 +21,7 @@ Red carretera de alimentadoras estatales.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">ND</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">0</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 

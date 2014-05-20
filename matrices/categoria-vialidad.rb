@@ -43,6 +43,15 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">66</a></td>
   </tr>
   <tr>
+    <td class="subindice color3">SEGURIDAD</td>
+    <td class="indicador color3">Porcentaje de accidentes viales fatales</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.17%</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.94%</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">3.04%</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.04%</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.61%</a></td>
+  </tr>
+  <tr>
     <td class="subindice color5">SUSTENTABILIDAD</td>
     <td class="indicador color5">Acceso a Vialidades Pavimentadas</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">93%</a></td>

@@ -21,7 +21,7 @@ Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sar
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">X</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">NO TIENE</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
   </tbody>
 </table>
 

@@ -17,7 +17,7 @@ Aparece en pagina inicial: No
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">ND</td><td>IMCO-CONAGUA</td><td>VALOR IGUAL A CERO</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">0</td><td>IMCO-CONAGUA</td><td>VALOR IGUAL A CERO</td></tr>
   </tbody>
 </table>
 

@@ -48,8 +48,8 @@ class MenuRegionesSubindicesIndicadoresConfig
         2 => { # Torreón
             3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
-                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-torreon/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
+                101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-torreon/economia-desocupados-como-porcentaje-de-la-pea.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-torreon/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-torreon/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -69,8 +69,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-torreon/gobierno-capacidad-financiera.html'},
+                103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral-votos-totales.html'},
+                104 => {'nombre' => 'Cumplimiento en información pública mínina', 'ruta' => 'indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html'},
+                106 => {'nombre' => 'Índice de Gobierno Digital', 'ruta' => 'indicadores-torreon/gobierno-indice-de-gobierno-digital.html'},
+                105 => {'nombre' => 'índice de Información Presupuestal', 'ruta' => 'indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html'},
                 8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-torreon/gobierno-ingresos-por-cobro-de-servicios.html'},
                 19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-torreon/gobierno-ingresos-totales.html'},
                 21 => {'nombre' => 'Ingresos Totales Per Cápita', 'ruta' => 'indicadores-torreon/gobierno-ingresos-totales-per-capita.html'},
@@ -80,9 +84,11 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales-fatales.html'},
+                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-torreon/seguridad-delitos-por-cada-100-mil-habitantes.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-torreon/seguridad-homicidios.html'},
                 96 => {'nombre' => 'Número de Policías', 'ruta' => 'indicadores-torreon/seguridad-numero-de-policias.html'},
                 97 => {'nombre' => 'Policías por Habitante', 'ruta' => 'indicadores-torreon/seguridad-policias-por-habitante.html'},
+                110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'Presuntos Delincuentes del Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html'},
@@ -91,6 +97,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-homicidios.html'},
+                107 => {'nombre' => 'Tasa de robo de vehiculos', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html'},
+                108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-secuestro.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-torreon/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -117,13 +126,17 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-internet.html'},
-                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html'}
+                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-torreon/sociedad-viviendas-deshabitadas.html'},
+                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html'},
+                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-torreon/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-torreon/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-torreon/sustentabilidad-area-no-urbanizada.html'},
                 22 => {'nombre' => 'Consumo de Agua Facturado', 'ruta' => 'indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html'},
+                39 => {'nombre' => 'Destinos Vía Aérea', 'ruta' => 'indicadores-torreon/sustentabilidad-destinos-via-aerea.html'},
+                38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-torreon/sustentabilidad-destinos-via-terrestre.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-torreon/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-torreon/sustentabilidad-motorizacion.html'},
                 15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html'},
@@ -143,8 +156,8 @@ class MenuRegionesSubindicesIndicadoresConfig
         3 => { # Gómez Palacio
             3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-gomez-palacio/economia-cartera-hipotecaria.html'},
-                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-gomez-palacio/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-gomez-palacio/economia-desempleo.html'},
+                101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-gomez-palacio/economia-desocupados-como-porcentaje-de-la-pea.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -163,8 +176,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-gomez-palacio/gobierno-capacidad-financiera.html'},
+                103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html'},
+                104 => {'nombre' => 'Cumplimiento en información pública mínina', 'ruta' => 'indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html'},
+                106 => {'nombre' => 'Índice de Gobierno Digital', 'ruta' => 'indicadores-gomez-palacio/gobierno-indice-de-gobierno-digital.html'},
+                105 => {'nombre' => 'índice de Información Presupuestal', 'ruta' => 'indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html'},
                 8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html'},
                 19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-gomez-palacio/gobierno-ingresos-totales.html'},
                 21 => {'nombre' => 'Ingresos Totales Per Cápita', 'ruta' => 'indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html'},
@@ -174,7 +191,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html'},
+                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-gomez-palacio/seguridad-delitos-por-cada-100-mil-habitantes.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-gomez-palacio/seguridad-homicidios.html'},
+                110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'Presuntos Delincuentes del Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html'},
@@ -183,6 +202,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html'},
+                107 => {'nombre' => 'Tasa de robo de vehiculos', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html'},
+                108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-gomez-palacio/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -209,15 +231,20 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-internet.html'},
-                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html'}
+                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-deshabitadas.html'},
+                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html'},
+                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html'},
+                39 => {'nombre' => 'Destinos Vía Aérea', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html'},
+                38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-motorizacion.html'},
                 15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-internacionales.html'},
+                36 => {'nombre' => 'Pasajeros Aéreos Totales', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-totales.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
@@ -232,8 +259,8 @@ class MenuRegionesSubindicesIndicadoresConfig
         4 => { # Lerdo
             3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-lerdo/economia-cartera-hipotecaria.html'},
-                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-lerdo/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-lerdo/economia-desempleo.html'},
+                101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-lerdo/economia-desocupados-como-porcentaje-de-la-pea.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-lerdo/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-lerdo/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -252,8 +279,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-lerdo/gobierno-capacidad-financiera.html'},
+                103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral-votos-totales.html'},
+                104 => {'nombre' => 'Cumplimiento en información pública mínina', 'ruta' => 'indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html'},
+                106 => {'nombre' => 'Índice de Gobierno Digital', 'ruta' => 'indicadores-lerdo/gobierno-indice-de-gobierno-digital.html'},
+                105 => {'nombre' => 'índice de Información Presupuestal', 'ruta' => 'indicadores-lerdo/gobierno-indice-de-informacion-presupuestal.html'},
                 8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-lerdo/gobierno-ingresos-por-cobro-de-servicios.html'},
                 19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-lerdo/gobierno-ingresos-totales.html'},
                 21 => {'nombre' => 'Ingresos Totales Per Cápita', 'ruta' => 'indicadores-lerdo/gobierno-ingresos-totales-per-capita.html'},
@@ -263,7 +294,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales-fatales.html'},
+                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-lerdo/seguridad-delitos-por-cada-100-mil-habitantes.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-lerdo/seguridad-homicidios.html'},
+                110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'Presuntos Delincuentes del Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-por-narcoticos.html'},
@@ -272,6 +305,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-lerdo/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-homicidios.html'},
+                107 => {'nombre' => 'Tasa de robo de vehiculos', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html'},
+                108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-secuestro.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-lerdo/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -298,15 +334,20 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-internet.html'},
-                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html'}
+                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-deshabitadas.html'},
+                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html'},
+                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-lerdo/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-lerdo/sustentabilidad-area-no-urbanizada.html'},
+                39 => {'nombre' => 'Destinos Vía Aérea', 'ruta' => 'indicadores-lerdo/sustentabilidad-destinos-via-aerea.html'},
+                38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-lerdo/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-lerdo/sustentabilidad-motorizacion.html'},
                 15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-lerdo/sustentabilidad-pasajeros-aereos-internacionales.html'},
+                36 => {'nombre' => 'Pasajeros Aéreos Totales', 'ruta' => 'indicadores-lerdo/sustentabilidad-pasajeros-aereos-totales.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-lerdo/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-lerdo/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
@@ -321,8 +362,8 @@ class MenuRegionesSubindicesIndicadoresConfig
         5 => { # Matamoros
             3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-matamoros/economia-cartera-hipotecaria.html'},
-                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-matamoros/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-matamoros/economia-desempleo.html'},
+                101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-matamoros/economia-desocupados-como-porcentaje-de-la-pea.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-matamoros/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-matamoros/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -342,8 +383,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-matamoros/gobierno-capacidad-financiera.html'},
+                103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral-votos-totales.html'},
+                104 => {'nombre' => 'Cumplimiento en información pública mínina', 'ruta' => 'indicadores-matamoros/gobierno-cumplimiento-en-informacion-publica-minina.html'},
+                106 => {'nombre' => 'Índice de Gobierno Digital', 'ruta' => 'indicadores-matamoros/gobierno-indice-de-gobierno-digital.html'},
+                105 => {'nombre' => 'índice de Información Presupuestal', 'ruta' => 'indicadores-matamoros/gobierno-indice-de-informacion-presupuestal.html'},
                 8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-matamoros/gobierno-ingresos-por-cobro-de-servicios.html'},
                 19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-matamoros/gobierno-ingresos-totales.html'},
                 21 => {'nombre' => 'Ingresos Totales Per Cápita', 'ruta' => 'indicadores-matamoros/gobierno-ingresos-totales-per-capita.html'},
@@ -353,7 +398,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales-fatales.html'},
+                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-matamoros/seguridad-delitos-por-cada-100-mil-habitantes.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-matamoros/seguridad-homicidios.html'},
+                110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'Presuntos Delincuentes del Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-por-narcoticos.html'},
@@ -362,6 +409,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-matamoros/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-homicidios.html'},
+                107 => {'nombre' => 'Tasa de robo de vehiculos', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html'},
+                108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-secuestro.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-matamoros/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -388,15 +438,20 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-internet.html'},
-                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html'}
+                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-deshabitadas.html'},
+                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html'},
+                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-matamoros/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-matamoros/sustentabilidad-area-no-urbanizada.html'},
+                39 => {'nombre' => 'Destinos Vía Aérea', 'ruta' => 'indicadores-matamoros/sustentabilidad-destinos-via-aerea.html'},
+                38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-matamoros/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-matamoros/sustentabilidad-motorizacion.html'},
                 15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-matamoros/sustentabilidad-pasajeros-aereos-internacionales.html'},
+                36 => {'nombre' => 'Pasajeros Aéreos Totales', 'ruta' => 'indicadores-matamoros/sustentabilidad-pasajeros-aereos-totales.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-matamoros/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 34 => {'nombre' => 'Red Carretera de Alimentadoras Estatales', 'ruta' => 'indicadores-matamoros/sustentabilidad-red-carretera-de-alimentadoras-estatales.html'},
@@ -411,8 +466,8 @@ class MenuRegionesSubindicesIndicadoresConfig
         1 => { # La Laguna
             3 => { # ECONOMÍA
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-la-laguna/economia-cartera-hipotecaria.html'},
-                101 => {'nombre' => 'Desempleados como porcentaje de la PEA', 'ruta' => 'indicadores-la-laguna/economia-desempleados-como-porcentaje-de-la-pea.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-la-laguna/economia-desempleo.html'},
+                101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-la-laguna/economia-desocupados-como-porcentaje-de-la-pea.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-la-laguna/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-la-laguna/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -431,8 +486,12 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
+                103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html'},
                 14 => {'nombre' => 'Competencia Electoral Votos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html'},
+                104 => {'nombre' => 'Cumplimiento en información pública mínina', 'ruta' => 'indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html'},
+                106 => {'nombre' => 'Índice de Gobierno Digital', 'ruta' => 'indicadores-la-laguna/gobierno-indice-de-gobierno-digital.html'},
+                105 => {'nombre' => 'índice de Información Presupuestal', 'ruta' => 'indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html'},
                 8 => {'nombre' => 'Ingresos por Cobro de Servicios', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html'},
                 19 => {'nombre' => 'Ingresos Totales', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-totales.html'},
                 21 => {'nombre' => 'Ingresos Totales Per Cápita', 'ruta' => 'indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html'},
@@ -442,7 +501,9 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales-fatales.html'},
+                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-la-laguna/seguridad-delitos-por-cada-100-mil-habitantes.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-la-laguna/seguridad-homicidios.html'},
+                110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
                 85 => {'nombre' => 'Presuntos Delincuentes del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-federal.html'},
                 88 => {'nombre' => 'Presuntos Delincuentes por Narcóticos', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-por-narcoticos.html'},
@@ -451,6 +512,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 100 => {'nombre' => 'Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html'},
                 84 => {'nombre' => 'Sentenciados Registrados del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-comun.html'},
                 86 => {'nombre' => 'Sentenciados Registrados del Fuero Federal', 'ruta' => 'indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html'},
+                9 => {'nombre' => 'Tasa de Homicidios', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-homicidios.html'},
+                107 => {'nombre' => 'Tasa de robo de vehiculos', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html'},
+                108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-secuestro.html'},
                 80 => {'nombre' => 'Total de Delitos', 'ruta' => 'indicadores-la-laguna/seguridad-total-de-delitos.html'}
             },
             5 => { # SOCIEDAD
@@ -475,7 +539,9 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-internet.html'},
-                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'}
+                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-deshabitadas.html'},
+                65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'},
+                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
@@ -485,6 +551,8 @@ class MenuRegionesSubindicesIndicadoresConfig
                 38 => {'nombre' => 'Destinos Vía Terrestre', 'ruta' => 'indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html'},
                 27 => {'nombre' => 'Generación de Basura', 'ruta' => 'indicadores-la-laguna/sustentabilidad-generacion-de-basura.html'},
                 29 => {'nombre' => 'Motorización', 'ruta' => 'indicadores-la-laguna/sustentabilidad-motorizacion.html'},
+                15 => {'nombre' => 'Pasajeros Aéreos Internacionales', 'ruta' => 'indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales.html'},
+                36 => {'nombre' => 'Pasajeros Aéreos Totales', 'ruta' => 'indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html'},
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html'},

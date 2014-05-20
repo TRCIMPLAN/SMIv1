@@ -47,10 +47,10 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morristhkctyzc" class="grafica"></div>
+<div id="Morriszcunmrjx" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morristhkctyzc',
+    element: 'Morriszcunmrjx',
     data: [
       { fecha: '2007-12-31', dato: 17.0000 },
       { fecha: '2008-12-31', dato: 17.3100 },
