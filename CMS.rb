@@ -53,14 +53,14 @@ class CMS < Imprenta
      #~ @publicaciones_etiquetas   = { 'documentacion' => 'Documentación' }           # Si hay que usar una etiqueta diferente para el directorio
         @publicaciones_por_pagina_maximo = 10
         # Prepare el menu principal
-        @menu_principal              = MenuPrincipal.new
-        @menu_principal.sitio_imagen = 'imagenes/implan-barra-logo-chico.png'
-        @menu_principal.agregar('INSTITUCIONAL',     'http://trcimplan.mx/institucional/')
-        @menu_principal.agregar('SERVICIOS',         'http://trcimplan.mx/servicios/')
-        @menu_principal.agregar('INTERACCIÓN',       'http://trcimplan.mx/interaccion/')
-        @menu_principal.agregar('CONSEJO DIRECTIVO', 'http://trcimplan.mx/consejo/')
-        @menu_principal.agregar('CONTACTO',          'http://trcimplan.mx/contacto/')
-        @menu_principal.agregar_derecha('RSS',       'rss.xml')
+     #~ @menu_principal              = MenuPrincipal.new
+     #~ @menu_principal.sitio_imagen = 'imagenes/implan-barra-logo-chico.png'
+     #~ @menu_principal.agregar('INSTITUCIONAL',     'http://trcimplan.mx/institucional/')
+     #~ @menu_principal.agregar('SERVICIOS',         'http://trcimplan.mx/servicios/')
+     #~ @menu_principal.agregar('INTERACCIÓN',       'http://trcimplan.mx/interaccion/')
+     #~ @menu_principal.agregar('CONSEJO DIRECTIVO', 'http://trcimplan.mx/consejo/')
+     #~ @menu_principal.agregar('CONTACTO',          'http://trcimplan.mx/contacto/')
+     #~ @menu_principal.agregar_derecha('RSS',       'rss.xml')
         # Preparar plantilla
         @plantilla              = PlantillaIMPLAN.new
         @plantilla.sitio_titulo = @sitio_titulo
@@ -109,7 +109,7 @@ class CMS < Imprenta
      #~ puts preparar_menu_ultimas_publicaciones
         # Preparar plantilla para archivos que NO estarán en la raíz
         @plantilla.contenido_secundario = leer_archivo('inc/acerca.html') + menu_matrices.to_html # + @menu_autores.to_html + @menu_ultimas_publicaciones.to_html + @menu_categorias.to_html
-        @plantilla.menu_principal       = @menu_principal.to_html
+     #~ @plantilla.menu_principal       = @menu_principal.to_html
         @plantilla.encabezado           = menu_rsi.to_html
         # Crear archivos que NO estarán en la raíz
         puts "Creando publicaciones..."
@@ -122,7 +122,7 @@ class CMS < Imprenta
      #~ paginas_categorias.each    { |archivo, contenido| puts crear_archivo(archivo, contenido) }
         # Preparar la plantilla para archivos que SI van a estar en la raíz
         @plantilla.contenido_secundario = leer_archivo('inc/acerca.html') + menu_matrices.to_html(true) # + @menu_autores.to_html(true) + @menu_ultimas_publicaciones.to_html(true) + @menu_categorias.to_html(true)
-        @plantilla.menu_principal       = @menu_principal.to_html(true)
+     #~ @plantilla.menu_principal       = @menu_principal.to_html(true)
         @plantilla.encabezado           = menu_rsi.to_html(true)
         # Crear archivos para la raíz
         puts "Creando páginas iniciales..."
