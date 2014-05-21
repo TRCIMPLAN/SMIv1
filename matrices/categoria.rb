@@ -153,7 +153,7 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Producción Bruta Total Per Cápita</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 197,854.91</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 197,853.91</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 157,032.38</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 16,746.04</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 15,373.03</a></td>
@@ -323,12 +323,12 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Delitos por cada 100 mil habitantes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,466.36</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,078.32</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">706.65</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">820.27</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,216.77</a></td>
+    <td class="indicador color3">Delitos</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,466.36</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,078.32</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">706.65</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">820.27</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,216.77</a></td>
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
@@ -351,7 +351,7 @@ def publicacion(dir)
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
     <td class="indicador color3">Policías por Habitante</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-policias-por-habitante.html" data-toggle="tooltip" title="Por cada mil, 2014-02-28, Ayuntamiento de Torreón">0.11%</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-policias-por-habitante.html" data-toggle="tooltip" title="Por cada mil, 2014-02-28, Ayuntamiento de Torreón">1.0997</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

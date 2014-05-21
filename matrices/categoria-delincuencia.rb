@@ -26,12 +26,12 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Delitos por cada 100 mil habitantes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,466.36</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,078.32</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">706.65</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">820.27</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos-por-cada-100-mil-habitantes.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,216.77</a></td>
+    <td class="indicador color3">Delitos</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,466.36</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,078.32</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">706.65</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">820.27</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,216.77</a></td>
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>

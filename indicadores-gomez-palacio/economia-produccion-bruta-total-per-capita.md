@@ -21,8 +21,8 @@ Producción bruta total (de los sectores industria, comercio y servicios) entre 
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 64,470.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 117,604.88</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 64,469.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 117,603.88</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 157,032.38</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
@@ -41,13 +41,13 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morristneansui" class="grafica"></div>
+<div id="Morrisypjolpmh" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morristneansui',
+    element: 'Morrisypjolpmh',
     data: [
-      { fecha: '1998-12-31', dato: 64470.91 },
-      { fecha: '2003-12-31', dato: 117604.88 },
+      { fecha: '1998-12-31', dato: 64469.91 },
+      { fecha: '2003-12-31', dato: 117603.88 },
       { fecha: '2008-12-31', dato: 157032.38 }
     ],
     xkey: 'fecha',

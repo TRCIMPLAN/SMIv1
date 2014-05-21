@@ -1,4 +1,4 @@
-Delitos por cada 100 mil habitantes
+Delitos
 =====
 
 Fecha: 2014-05-01
@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Homicidios por habitantes por 100 mil
+Cantidad de delitos por cada 100 mil habitantes
 
 <!-- break -->
 

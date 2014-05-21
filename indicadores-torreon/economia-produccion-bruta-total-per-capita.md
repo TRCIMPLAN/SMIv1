@@ -23,7 +23,7 @@ Producción bruta total (de los sectores industria, comercio y servicios) entre 
   <tbody>
     <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 57,746.33</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 101,715.94</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 197,854.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 197,853.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -41,14 +41,14 @@ Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisezzsatgl" class="grafica"></div>
+<div id="Morriseybsgdpk" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisezzsatgl',
+    element: 'Morriseybsgdpk',
     data: [
       { fecha: '1998-12-31', dato: 57746.33 },
       { fecha: '2003-12-31', dato: 101715.94 },
-      { fecha: '2008-12-31', dato: 197854.91 }
+      { fecha: '2008-12-31', dato: 197853.91 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

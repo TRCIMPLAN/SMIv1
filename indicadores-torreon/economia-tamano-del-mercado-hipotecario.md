@@ -22,7 +22,7 @@ Créditos dispuestos marginalmente durante el año indicado.
   </thead>
   <tbody>
     <tr><td class="centrado">31/12/2010</td><td class="derecha">1,269</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">2,755</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">1,755</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">1,565</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
     <tr><td class="centrado">31/12/2013</td><td class="derecha">1,549</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td></td></tr>
     <tr><td class="centrado">31/03/2014</td><td class="derecha">284</td><td>Comisión Nacional Bancaria y de Valores (CNBV)</td><td>Dato trimestral</td></tr>
@@ -39,13 +39,13 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisarlwudcz" class="grafica"></div>
+<div id="Morriskbjxhmel" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisarlwudcz',
+    element: 'Morriskbjxhmel',
     data: [
       { fecha: '2010-12-31', dato: 1269 },
-      { fecha: '2011-12-31', dato: 2755 },
+      { fecha: '2011-12-31', dato: 1755 },
       { fecha: '2012-12-31', dato: 1565 },
       { fecha: '2013-12-31', dato: 1549 },
       { fecha: '2014-03-31', dato: 284 }

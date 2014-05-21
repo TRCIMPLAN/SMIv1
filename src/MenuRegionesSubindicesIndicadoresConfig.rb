@@ -84,7 +84,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales-fatales.html'},
-                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-torreon/seguridad-delitos-por-cada-100-mil-habitantes.html'},
+                109 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-torreon/seguridad-delitos.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-torreon/seguridad-homicidios.html'},
                 96 => {'nombre' => 'Número de Policías', 'ruta' => 'indicadores-torreon/seguridad-numero-de-policias.html'},
                 97 => {'nombre' => 'Policías por Habitante', 'ruta' => 'indicadores-torreon/seguridad-policias-por-habitante.html'},
@@ -191,7 +191,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html'},
-                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-gomez-palacio/seguridad-delitos-por-cada-100-mil-habitantes.html'},
+                109 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-gomez-palacio/seguridad-delitos.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-gomez-palacio/seguridad-homicidios.html'},
                 110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
@@ -294,7 +294,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales-fatales.html'},
-                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-lerdo/seguridad-delitos-por-cada-100-mil-habitantes.html'},
+                109 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-lerdo/seguridad-delitos.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-lerdo/seguridad-homicidios.html'},
                 110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-lerdo/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
@@ -398,7 +398,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales-fatales.html'},
-                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-matamoros/seguridad-delitos-por-cada-100-mil-habitantes.html'},
+                109 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-matamoros/seguridad-delitos.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-matamoros/seguridad-homicidios.html'},
                 110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-matamoros/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-matamoros/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
@@ -501,7 +501,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             1 => { # SEGURIDAD
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales-fatales.html'},
-                109 => {'nombre' => 'Delitos por cada 100 mil habitantes', 'ruta' => 'indicadores-la-laguna/seguridad-delitos-por-cada-100-mil-habitantes.html'},
+                109 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-la-laguna/seguridad-delitos.html'},
                 93 => {'nombre' => 'Homicidios', 'ruta' => 'indicadores-la-laguna/seguridad-homicidios.html'},
                 110 => {'nombre' => 'Porcentaje de accidentes viales fatales', 'ruta' => 'indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html'},
                 83 => {'nombre' => 'Presuntos Delincuentes del Fuero Común', 'ruta' => 'indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-comun.html'},
