@@ -2,11 +2,15 @@ Secuestros
 =====
 
 Fecha: 2014-05-01
-Categorías: Seguridad
+Categorías: Delincuencia, Seguridad
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
 ### Gómez Palacio
+
+#### Descripción
+
+Cantidad de secuestros en el primer trimestre de 2014
 
 <!-- break -->
 

@@ -1,4 +1,4 @@
-Porcentaje de accidentes viales fatales
+Porcentaje de Accidentes Viales Fatales
 =====
 
 Fecha: 2014-05-01
@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Accidentes fatales entre accidentes viales totales
+Porcentaje de accidentes fatales entre accidentes viales totales
 
 <!-- break -->
 

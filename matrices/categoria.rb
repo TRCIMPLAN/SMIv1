@@ -323,12 +323,21 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
+    <td class="indicador color3">Cantidad de Policías</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-cantidad-de-policias.html" data-toggle="tooltip" title="Cantidad, 2014-02-28, Ayuntamiento de Torreón">768</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">SEGURIDAD</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,466.36</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,078.32</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">706.65</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">820.27</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1,216.77</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">741</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">382</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">71</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,273</a></td>
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
@@ -341,25 +350,7 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Número de Policías</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-numero-de-policias.html" data-toggle="tooltip" title="Cantidad, 2014-02-28, Ayuntamiento de Torreón">768</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Policías por Habitante</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-policias-por-habitante.html" data-toggle="tooltip" title="Por cada mil, 2014-02-28, Ayuntamiento de Torreón">1.0997</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-  </tr>
-  <tr>
-    <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Porcentaje de accidentes viales fatales</td>
+    <td class="indicador color3">Porcentaje de Accidentes Viales Fatales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.17%</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.94%</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">3.04%</a></td>
@@ -395,7 +386,7 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Robo de vehículos</td>
+    <td class="indicador color3">Robo de Vehículos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">330</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">182</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">31</a></td>
@@ -440,6 +431,15 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
+    <td class="indicador color3">Tasa de Delitos</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">1,466.36</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">1,078.32</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">706.65</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">820.27</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">1,216.77</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color3">SEGURIDAD</td>
     <td class="indicador color3">Tasa de Homicidios</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-homicidios.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">45.76</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">57.38</a></td>
@@ -449,7 +449,16 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Tasa de robo de vehiculos</td>
+    <td class="indicador color3">Tasa de Policías por Habitante</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-policias-por-habitante.html" data-toggle="tooltip" title="Por cada mil, 2014-02-28, Ayuntamiento de Torreón">1.0997</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color3">SEGURIDAD</td>
+    <td class="indicador color3">Tasa de Robo de VehÍculos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">232.82</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">347.43</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">148.28</a></td>
@@ -464,15 +473,6 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">0.67</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1.4</a></td>
-  </tr>
-  <tr>
-    <td class="subindice color3">SEGURIDAD</td>
-    <td class="indicador color3">Total de Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">741</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">382</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">71</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">79</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-total-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,273</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

@@ -1,4 +1,4 @@
-Número de Policías
+Cantidad de Policías
 =====
 
 Fecha: 2014-05-01

@@ -2,7 +2,7 @@ Delitos
 =====
 
 Fecha: 2014-05-01
-Categorías: Delincuencia
+Categorías: Delincuencia, Seguridad
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Cantidad de delitos por cada 100 mil habitantes
+Total de delitos cometidos por mes
 
 <!-- break -->
 
@@ -21,8 +21,8 @@ Cantidad de delitos por cada 100 mil habitantes
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">1,216.77</td><td>SNSP</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">1,273</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
-Unidad: Por cada 100 mil.
+Unidad: Cantidad.

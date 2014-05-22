@@ -1,16 +1,16 @@
-Total de Delitos
+Tasa de Delitos
 =====
 
 Fecha: 2014-05-01
-Categorías: Seguridad
+Categorías: Delincuencia, Seguridad
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
-### La Laguna
+### Matamoros
 
 #### Descripción
 
-Total de delitos cometidos por mes
+Delitos por cada 100 mil habitantes
 
 <!-- break -->
 
@@ -21,7 +21,7 @@ Total de delitos cometidos por mes
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">1,273</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">820.27</td><td>SNSP</td><td></td></tr>
   </tbody>
 </table>
 
