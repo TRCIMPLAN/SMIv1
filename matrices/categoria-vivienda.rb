@@ -80,12 +80,12 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>
-    <td class="indicador color4">Viviendas Deshabitadas</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-deshabitadas.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">172,719</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-deshabitadas.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">83,973</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-deshabitadas.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">35,009</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-deshabitadas.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">26,131</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-deshabitadas.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">317,832</a></td>
+    <td class="indicador color4">Viviendas Habitadas</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">172,719</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">83,973</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">35,009</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">26,131</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">317,832</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

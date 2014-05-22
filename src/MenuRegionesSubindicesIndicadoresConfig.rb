@@ -126,7 +126,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-internet.html'},
-                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-torreon/sociedad-viviendas-deshabitadas.html'},
+                112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-torreon/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-torreon/sociedad-viviendas-totales.html'}
             },
@@ -231,7 +231,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-internet.html'},
-                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-deshabitadas.html'},
+                112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-totales.html'}
             },
@@ -334,7 +334,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-internet.html'},
-                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-deshabitadas.html'},
+                112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-totales.html'}
             },
@@ -438,7 +438,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-internet.html'},
-                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-deshabitadas.html'},
+                112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-totales.html'}
             },
@@ -539,7 +539,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 64 => {'nombre' => 'Viviendas con Drenaje', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-drenaje.html'},
                 61 => {'nombre' => 'Viviendas con Energía Eléctrica', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html'},
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-internet.html'},
-                112 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-deshabitadas.html'},
+                112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-totales.html'}
             },

@@ -8,6 +8,10 @@ Aparece en pagina inicial: No
 
 ### La Laguna
 
+#### Descripción
+
+Población estimada a mitad de año.
+
 <!-- break -->
 
 #### Información recopilada
@@ -26,12 +30,16 @@ Aparece en pagina inicial: No
 
 Unidad: Cantidad.
 
+#### Observaciones
+
+Estimaciones de CONAPO en base a INEGI.
+
 #### Gráfica
 
-<div id="Morrisktpppcdy" class="grafica"></div>
+<div id="Morrislsmvdqjd" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisktpppcdy',
+    element: 'Morrislsmvdqjd',
     data: [
       { fecha: '2011-06-30', dato: 1251771 },
       { fecha: '2012-06-30', dato: 1267630 },

@@ -8,6 +8,10 @@ Aparece en pagina inicial: No
 
 ### Gómez Palacio
 
+#### Descripción
+
+Población estimada a mitad de año.
+
 <!-- break -->
 
 #### Información recopilada
@@ -21,22 +25,38 @@ Aparece en pagina inicial: No
     <tr><td class="centrado">30/06/2012</td><td class="derecha">343,135</td><td>CONAPO</td><td></td></tr>
     <tr><td class="centrado">30/06/2013</td><td class="derecha">346,836</td><td>CONAPO</td><td></td></tr>
     <tr><td class="centrado">30/06/2014</td><td class="derecha">350,513</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2015</td><td class="derecha">354,123</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2016</td><td class="derecha">357,664</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2017</td><td class="derecha">361,144</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2018</td><td class="derecha">364,540</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2019</td><td class="derecha">367,828</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2020</td><td class="derecha">371,002</td><td>CONAPO</td><td></td></tr>
   </tbody>
 </table>
 
 Unidad: Cantidad.
 
+#### Observaciones
+
+Estimaciones de CONAPO en base a INEGI.
+
 #### Gráfica
 
-<div id="Morrisykoxjypm" class="grafica"></div>
+<div id="Morrissthjdgku" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisykoxjypm',
+    element: 'Morrissthjdgku',
     data: [
       { fecha: '2011-06-30', dato: 339355 },
       { fecha: '2012-06-30', dato: 343135 },
       { fecha: '2013-06-30', dato: 346836 },
-      { fecha: '2014-06-30', dato: 350513 }
+      { fecha: '2014-06-30', dato: 350513 },
+      { fecha: '2015-06-30', dato: 354123 },
+      { fecha: '2016-06-30', dato: 357664 },
+      { fecha: '2017-06-30', dato: 361144 },
+      { fecha: '2018-06-30', dato: 364540 },
+      { fecha: '2019-06-30', dato: 367828 },
+      { fecha: '2020-06-30', dato: 371002 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

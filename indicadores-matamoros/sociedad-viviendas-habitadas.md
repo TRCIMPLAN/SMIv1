@@ -1,4 +1,4 @@
-Viviendas Deshabitadas
+Viviendas Habitadas
 =====
 
 Fecha: 2014-05-01
@@ -6,7 +6,7 @@ Categorías: Vivienda
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
-### La Laguna
+### Matamoros
 
 <!-- break -->
 
@@ -17,8 +17,8 @@ Aparece en pagina inicial: No
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">317,832</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">26,131</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 
-Unidad: 00) SIN UNIDAD.
+Unidad: Cantidad.
