@@ -1,4 +1,4 @@
-Viviendas totales
+Viviendas Totales
 =====
 
 Fecha: 2014-05-01
@@ -21,4 +21,4 @@ Aparece en pagina inicial: No
   </tbody>
 </table>
 
-Unidad: 00) SIN UNIDAD.
+Unidad: Cantidad.

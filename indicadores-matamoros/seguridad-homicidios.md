@@ -8,6 +8,10 @@ Aparece en pagina inicial: No
 
 ### Matamoros
 
+#### Descripción
+
+Número de homicidios durante el primer trimestre de 2014
+
 <!-- break -->
 
 #### Información recopilada

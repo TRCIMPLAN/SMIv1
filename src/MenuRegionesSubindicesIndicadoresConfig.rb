@@ -128,7 +128,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-torreon/sociedad-viviendas-con-internet.html'},
                 112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-torreon/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html'},
-                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-torreon/sociedad-viviendas-totales.html'}
+                111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-torreon/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
@@ -233,7 +233,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-con-internet.html'},
                 112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html'},
-                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-totales.html'}
+                111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
@@ -336,7 +336,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-con-internet.html'},
                 112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html'},
-                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-totales.html'}
+                111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
@@ -440,7 +440,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-con-internet.html'},
                 112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html'},
-                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-totales.html'}
+                111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
@@ -541,7 +541,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 67 => {'nombre' => 'Viviendas con Internet', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-con-internet.html'},
                 112 => {'nombre' => 'Viviendas Habitadas', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-habitadas.html'},
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'},
-                111 => {'nombre' => 'Viviendas totales', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-totales.html'}
+                111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-totales.html'}
             },
             4 => { # SUSTENTABILIDAD
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},

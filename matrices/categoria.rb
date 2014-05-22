@@ -701,12 +701,12 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>
-    <td class="indicador color4">Viviendas totales</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-totales.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">224,234</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">108,682</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-totales.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">44,565</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-totales.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">30,746</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-totales.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2010-12-31, INEGI">408,227</a></td>
+    <td class="indicador color4">Viviendas Totales</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">224,234</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">108,682</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">44,565</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">30,746</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">408,227</a></td>
   </tr>
   <tr>
     <td class="subindice color5">SUSTENTABILIDAD</td>
