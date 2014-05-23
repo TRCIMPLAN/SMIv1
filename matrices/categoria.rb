@@ -196,6 +196,15 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">8,937</a></td>
   </tr>
   <tr>
+    <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Trabajadores Asegurados</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2012-12-31, IMSS Subdelegación Torreón">184,407</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Capacidad Financiera</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">74.22%</a></td>
@@ -242,12 +251,12 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
-    <td class="indicador color2">Índice de Gobierno Digital</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-gobierno-digital.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.6916</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-digital.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.4763</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-gobierno-digital.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.4714</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-indice-de-gobierno-digital.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.5366</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-digital.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.544</a></td>
+    <td class="indicador color2">Índice de Gobierno Electrónico Municipal</td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.6916</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.4763</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.4714</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.5366</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.544</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
@@ -594,11 +603,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Población Estimada</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2020-06-30, CONAPO">731,902</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2020-06-30, CONAPO">371,002</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2020-06-30, CONAPO">160,479</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2020-06-30, CONAPO">119,919</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">1,298,270</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2013-06-30, CONAPO">675,210</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2013-06-30, CONAPO">346,836</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2013-06-30, CONAPO">149,721</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2013-06-30, CONAPO">111,305</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2013-06-30, CONAPO">1,283,072</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

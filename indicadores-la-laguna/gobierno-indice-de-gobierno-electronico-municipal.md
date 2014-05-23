@@ -1,4 +1,4 @@
-Índice de Gobierno Digital
+Índice de Gobierno Electrónico Municipal
 =====
 
 Fecha: 2014-05-01
@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-índice que abarca líneas telefónicas, computadoras, funcionalidad citio web, información citio, conexión a internet.
+índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.
 
 <!-- break -->
 

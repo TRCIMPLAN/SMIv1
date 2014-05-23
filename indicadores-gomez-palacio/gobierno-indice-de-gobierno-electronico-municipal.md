@@ -1,4 +1,4 @@
-Índice de Gobierno Digital
+Índice de Gobierno Electrónico Municipal
 =====
 
 Fecha: 2014-05-01
@@ -6,11 +6,11 @@ Categorías: Gobierno Digital
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
-### Torreón
+### Gómez Palacio
 
 #### Descripción
 
-índice que abarca líneas telefónicas, computadoras, funcionalidad citio web, información citio, conexión a internet.
+índice que abarca líneas telefónicas, computadoras, funcionalidad sitio web, información sitio, conexión a internet estableciendo un valor de 0 a 1.
 
 <!-- break -->
 
@@ -21,7 +21,7 @@ Aparece en pagina inicial: No
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2009</td><td class="derecha">0.6916</td><td>CIDE</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">0.4763</td><td>CIDE</td><td></td></tr>
   </tbody>
 </table>
 
