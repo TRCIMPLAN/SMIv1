@@ -21,7 +21,7 @@ Aparece en pagina inicial: No
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2009</td><td class="derecha">0.544</td><td>CIDE</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">0.544</td><td>CIDE</td><td>Consulta la base de datos del Índice de [Gobierno Electrónico Municipal](http://biiacs-dspace.cide.edu/handle/10089/16427)</td></tr>
   </tbody>
 </table>
 

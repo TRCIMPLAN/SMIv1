@@ -37,10 +37,10 @@ def publicacion(dir)
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Índice de Gobierno Electrónico Municipal</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.6916</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.4763</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.4714</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.5366</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2009-12-31, CIDE">0.544</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.4763</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.4714</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.5366</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.544</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

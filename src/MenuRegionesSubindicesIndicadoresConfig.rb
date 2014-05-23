@@ -60,13 +60,19 @@ class MenuRegionesSubindicesIndicadoresConfig
                 76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-torreon/economia-medianas-empresas.html'},
                 74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-torreon/economia-microempresas.html'},
                 75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-torreon/economia-pequenas-empresas.html'},
+                119 => {'nombre' => 'Personal Ocupado en el Comercio', 'ruta' => 'indicadores-torreon/economia-personal-ocupado-en-el-comercio.html'},
+                117 => {'nombre' => 'Personal Ocupado en la Industria Manufacturera', 'ruta' => 'indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html'},
+                118 => {'nombre' => 'Personal Ocupado en los Servicios', 'ruta' => 'indicadores-torreon/economia-personal-ocupado-en-los-servicios.html'},
                 72 => {'nombre' => 'Posgrados de Calidad', 'ruta' => 'indicadores-torreon/economia-posgrados-de-calidad.html'},
                 10 => {'nombre' => 'Producción Bruta Total Per Cápita', 'ruta' => 'indicadores-torreon/economia-produccion-bruta-total-per-capita.html'},
                 24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-torreon/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-torreon/economia-total-de-empresas.html'},
-                113 => {'nombre' => 'Trabajadores Asegurados', 'ruta' => 'indicadores-torreon/economia-trabajadores-asegurados.html'}
+                113 => {'nombre' => 'Trabajadores Asegurados', 'ruta' => 'indicadores-torreon/economia-trabajadores-asegurados.html'},
+                114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
+                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html'},
+                116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-torreon/gobierno-capacidad-financiera.html'},
@@ -169,11 +175,17 @@ class MenuRegionesSubindicesIndicadoresConfig
                 76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-medianas-empresas.html'},
                 74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-gomez-palacio/economia-microempresas.html'},
                 75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-pequenas-empresas.html'},
+                119 => {'nombre' => 'Personal Ocupado en el Comercio', 'ruta' => 'indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html'},
+                117 => {'nombre' => 'Personal Ocupado en la Industria Manufacturera', 'ruta' => 'indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html'},
+                118 => {'nombre' => 'Personal Ocupado en los Servicios', 'ruta' => 'indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html'},
                 10 => {'nombre' => 'Producción Bruta Total Per Cápita', 'ruta' => 'indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html'},
                 24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html'},
-                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-total-de-empresas.html'}
+                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-total-de-empresas.html'},
+                114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
+                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html'},
+                116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-gomez-palacio/gobierno-capacidad-financiera.html'},
@@ -272,11 +284,17 @@ class MenuRegionesSubindicesIndicadoresConfig
                 76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-lerdo/economia-medianas-empresas.html'},
                 74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-lerdo/economia-microempresas.html'},
                 75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-lerdo/economia-pequenas-empresas.html'},
+                119 => {'nombre' => 'Personal Ocupado en el Comercio', 'ruta' => 'indicadores-lerdo/economia-personal-ocupado-en-el-comercio.html'},
+                117 => {'nombre' => 'Personal Ocupado en la Industria Manufacturera', 'ruta' => 'indicadores-lerdo/economia-personal-ocupado-en-la-industria-manufacturera.html'},
+                118 => {'nombre' => 'Personal Ocupado en los Servicios', 'ruta' => 'indicadores-lerdo/economia-personal-ocupado-en-los-servicios.html'},
                 10 => {'nombre' => 'Producción Bruta Total Per Cápita', 'ruta' => 'indicadores-lerdo/economia-produccion-bruta-total-per-capita.html'},
                 24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-lerdo/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html'},
-                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-lerdo/economia-total-de-empresas.html'}
+                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-lerdo/economia-total-de-empresas.html'},
+                114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
+                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html'},
+                116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-lerdo/gobierno-capacidad-financiera.html'},
@@ -375,12 +393,18 @@ class MenuRegionesSubindicesIndicadoresConfig
                 76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-matamoros/economia-medianas-empresas.html'},
                 74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-matamoros/economia-microempresas.html'},
                 75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-matamoros/economia-pequenas-empresas.html'},
+                119 => {'nombre' => 'Personal Ocupado en el Comercio', 'ruta' => 'indicadores-matamoros/economia-personal-ocupado-en-el-comercio.html'},
+                117 => {'nombre' => 'Personal Ocupado en la Industria Manufacturera', 'ruta' => 'indicadores-matamoros/economia-personal-ocupado-en-la-industria-manufacturera.html'},
+                118 => {'nombre' => 'Personal Ocupado en los Servicios', 'ruta' => 'indicadores-matamoros/economia-personal-ocupado-en-los-servicios.html'},
                 72 => {'nombre' => 'Posgrados de Calidad', 'ruta' => 'indicadores-matamoros/economia-posgrados-de-calidad.html'},
                 10 => {'nombre' => 'Producción Bruta Total Per Cápita', 'ruta' => 'indicadores-matamoros/economia-produccion-bruta-total-per-capita.html'},
                 24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-matamoros/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html'},
-                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-matamoros/economia-total-de-empresas.html'}
+                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-matamoros/economia-total-de-empresas.html'},
+                114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
+                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html'},
+                116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-matamoros/gobierno-capacidad-financiera.html'},
@@ -479,11 +503,16 @@ class MenuRegionesSubindicesIndicadoresConfig
                 76 => {'nombre' => 'Medianas Empresas', 'ruta' => 'indicadores-la-laguna/economia-medianas-empresas.html'},
                 74 => {'nombre' => 'Microempresas', 'ruta' => 'indicadores-la-laguna/economia-microempresas.html'},
                 75 => {'nombre' => 'Pequeñas Empresas', 'ruta' => 'indicadores-la-laguna/economia-pequenas-empresas.html'},
+                119 => {'nombre' => 'Personal Ocupado en el Comercio', 'ruta' => 'indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html'},
+                117 => {'nombre' => 'Personal Ocupado en la Industria Manufacturera', 'ruta' => 'indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html'},
+                118 => {'nombre' => 'Personal Ocupado en los Servicios', 'ruta' => 'indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html'},
                 10 => {'nombre' => 'Producción Bruta Total Per Cápita', 'ruta' => 'indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html'},
                 24 => {'nombre' => 'Sectores que Han Frenado el Crecimiento (2008-2012)', 'ruta' => 'indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html'},
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html'},
-                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-la-laguna/economia-total-de-empresas.html'}
+                63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-la-laguna/economia-total-de-empresas.html'},
+                114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
+                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html'}
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
