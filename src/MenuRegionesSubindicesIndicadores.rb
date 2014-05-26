@@ -36,9 +36,9 @@ class MenuRegionesSubindicesIndicadores < MenuRegionesSubindicesIndicadoresConfi
         a  = Array.new
         a << '<!-- MENU REGIONES SUBINDICES INDICES INICIA -->'
         if en_raiz
-            a << '<a href="index.html"><img class="img-responsive img-encabezado" src="imagenes/encabezado-smi.jpg"></a>'
+            a << '<a href="index.html"><img class="img-responsive img-encabezado" src="imagenes/encabezado-smi2.jpg"></a>'
         else
-            a << '<a href="../index.html"><img class="img-responsive img-encabezado" src="../imagenes/encabezado-smi.jpg"></a>'
+            a << '<a href="../index.html"><img class="img-responsive img-encabezado" src="../imagenes/encabezado-smi2.jpg"></a>'
         end
         a << "<div class=\"panel-group\" id=\"#{id}\">"
         # Bucle por regiones
