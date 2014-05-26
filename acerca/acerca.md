@@ -1,5 +1,5 @@
-¿Qué es el Sistema Municipal de Indicadores?
-============================================
+¿Qué es el Sistema Metropolitano de Indicadores?
+================================================
 
 Fecha: 2014-05-08
 Corto: Acerca del SMI
@@ -22,7 +22,7 @@ El SMI retoma metodologías probadas por instituciones expertas en diversos tema
 
 #### ¿Cómo se organiza la Información?
 
-El SMI agrupa información e indicadores en 5 grandes temas: Seguridad Ciudadana, Buen Gobierno, Medio Ambiente y Entorno Urbano, Desarrollo Económico y Competitividad y Desarrollo Social, que son los gabinetes en los que se agrupa según el Reglamento Orgánico del Municipio de Torreón, la política pública en nuestra ciudad y a su vez son los ejes del Plan Municipal de Desarrollo 2014-2017, retomados de la Norma ISO 18091 para Gobiernos Confiables, aprobada en Suiza a inicios de este año.
+El SMI agrupa información e indicadores en 5 grandes temas: Seguridad, Gobierno, Sustentabilidad, Economía y Sociedad, que son los gabinetes en los que se agrupa según el Reglamento Orgánico del Municipio de Torreón, la política pública en nuestra ciudad y a su vez son los ejes del Plan Municipal de Desarrollo 2014-2017, retomados de la Norma ISO 18091 para Gobiernos Confiables, aprobada en Suiza a inicios de este año.
 Sin embargo el sistema es flexible y agrupará paulatinamente indicadores de acuerdo a otras clasificaciones para poder compararnos con otras ciudades y facilitar el trabajo de organismos nacionales e internacionales que se interesan por el estado de nuestra ciudad. Es decir esta misma información contiene y puede agruparse en los 10 subíndices de competitividad del IMCO, los 4 componentes de las ciudades competitivas según el CIDE o las 5 dimensiones inteligentes que propone Smart Cities, entre otros.
 
 #### ¿De dónde Proviene la información?
