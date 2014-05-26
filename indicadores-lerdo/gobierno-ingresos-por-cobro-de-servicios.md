@@ -34,10 +34,10 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morriszfxcizvb" class="grafica"></div>
+<div id="Morrisarpqviwd" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriszfxcizvb',
+    element: 'Morrisarpqviwd',
     data: [
       { fecha: '2007-12-31', dato: 41128483.00 },
       { fecha: '2008-12-31', dato: 45464319.00 },

@@ -25,4 +25,4 @@ El índice de Competitividad Urbana (ICU) ha sido dado a conocer por el Institut
   </tbody>
 </table>
 
-Unidad: 00) SIN UNIDAD.
+Unidad: De 0 a 1.

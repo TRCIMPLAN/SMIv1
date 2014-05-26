@@ -63,11 +63,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Índice de Competitividad Urbana</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">50.67</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">42.57</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">37.39</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">41.54</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2012-12-31, IMCO">45.11</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">50.67</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">42.57</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">37.39</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">41.54</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">45.11</a></td>
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
@@ -306,11 +306,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Índice de Gobierno Electrónico Municipal</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.6916</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.4763</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.4714</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.5366</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="00) SIN UNIDAD, 2011-12-31, CIDE">0.544</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.6916</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.4763</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.4714</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.5366</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.544</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
@@ -581,6 +581,15 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">22.7%</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">18.48%</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23.67%</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">SOCIEDAD</td>
+    <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.847</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.816</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.797</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.782</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>

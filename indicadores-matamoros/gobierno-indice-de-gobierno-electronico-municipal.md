@@ -25,4 +25,4 @@ Aparece en pagina inicial: No
   </tbody>
 </table>
 
-Unidad: 00) SIN UNIDAD.
+Unidad: De 0 a 1.
