@@ -71,6 +71,15 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Productividad Laboral</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2012-12-31, IMSS Subdelegación Torreón">184,407</a></td>
     <td class="nd">ND</td>

@@ -21,7 +21,7 @@ Unidades económicas dedicadas a los servicios entre el total de las unidades ec
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">43.06%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">44.92%</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 

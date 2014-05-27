@@ -26,6 +26,15 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>
+    <td class="indicador color4">Camas Censables</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">51</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">74</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">38</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">10</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">173</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Médicos</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">2.5</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">4.5</a></td>

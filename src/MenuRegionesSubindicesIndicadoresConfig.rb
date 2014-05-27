@@ -112,6 +112,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
+                121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-torreon/sociedad-camas-censables.html'},
                 58 => {'nombre' => 'Diferencial de Grado Promedio de Escolaridad por Género', 'ruta' => 'indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html'},
                 47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-torreon/sociedad-espacios-culturales.html'},
                 57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html'},
@@ -224,6 +225,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
+                121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-gomez-palacio/sociedad-camas-censables.html'},
                 58 => {'nombre' => 'Diferencial de Grado Promedio de Escolaridad por Género', 'ruta' => 'indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html'},
                 47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-gomez-palacio/sociedad-espacios-culturales.html'},
                 57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html'},
@@ -334,6 +336,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
+                121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-lerdo/sociedad-camas-censables.html'},
                 58 => {'nombre' => 'Diferencial de Grado Promedio de Escolaridad por Género', 'ruta' => 'indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html'},
                 47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-lerdo/sociedad-espacios-culturales.html'},
                 57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html'},
@@ -445,6 +448,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
+                121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-matamoros/sociedad-camas-censables.html'},
                 58 => {'nombre' => 'Diferencial de Grado Promedio de Escolaridad por Género', 'ruta' => 'indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html'},
                 47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-matamoros/sociedad-espacios-culturales.html'},
                 57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html'},
@@ -516,7 +520,8 @@ class MenuRegionesSubindicesIndicadoresConfig
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-la-laguna/economia-total-de-empresas.html'},
                 114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
-                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html'}
+                115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html'},
+                116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
             2 => { # GOBIERNO
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
@@ -554,6 +559,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             5 => { # SOCIEDAD
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
+                121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-la-laguna/sociedad-camas-censables.html'},
                 47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-la-laguna/sociedad-espacios-culturales.html'},
                 57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html'},
                 52 => {'nombre' => 'Médicos', 'ruta' => 'indicadores-la-laguna/sociedad-medicos.html'},
