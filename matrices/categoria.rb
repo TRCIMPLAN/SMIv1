@@ -26,6 +26,15 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Apertura de Negocio</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-negocio.html" data-toggle="tooltip" title="Días, 2012-12-31, Doing Business">11</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Cartera Hipotecaria</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">4,664,619,926</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">614,765,352</a></td>
@@ -50,6 +59,15 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.41%</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">6.07%</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2009-12-31, INEGI">7.43%</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Ejecución de Contraros</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ejecucion-de-contraros.html" data-toggle="tooltip" title="Días, 2012-12-31, Doing Business">270</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
@@ -134,12 +152,30 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Obtención de crédito - Creación de garantías</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html" data-toggle="tooltip" title="Días, 2007-12-31, Doing Business">13</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Pequeñas Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">8.66%</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">9.37%</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">6.96%</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">3.01%</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2013-12-31, Sistema de Información Empresarial Mexicano (SIEM)">8.68%</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Permiso de Construcción</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-permiso-de-construccion.html" data-toggle="tooltip" title="Días, 2012-12-31, Doing Business">72</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
@@ -189,10 +225,19 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
     <td class="indicador color1">Productividad Laboral</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, INEGI">$ 530,143.00</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, INEGI">$ 462,597.00</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, INEGI">$ 51,284.00</a></td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, INEGI">$ 45,744.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 530,143.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 462,597.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 51,284.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 45,744.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 421,204.00</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Registro de Propiedades</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-propiedades.html" data-toggle="tooltip" title="Días, 2012-12-31, Doing Business">33</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
     <td class="nd">ND</td>
   </tr>
   <tr>

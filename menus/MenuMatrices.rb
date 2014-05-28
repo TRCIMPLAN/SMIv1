@@ -43,7 +43,6 @@ class MenuMatrices < MenuSecundario
         agregar('Gobierno', 'matrices/categoria-gobierno.html')
         agregar('Gobierno Digital', 'matrices/categoria-gobierno-digital.html')
         agregar('Género', 'matrices/categoria-genero.html')
-        agregar('IMCO', 'matrices/categoria-imco.html')
         agregar('Infraestructura', 'matrices/categoria-infraestructura.html')
         agregar('Innovación', 'matrices/categoria-innovacion.html')
         agregar('Macroeconomía', 'matrices/categoria-macroeconomia.html')

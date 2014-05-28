@@ -51,6 +51,15 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 15,373.03</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 149,559.46</a></td>
   </tr>
+  <tr>
+    <td class="subindice color1">ECONOMÍA</td>
+    <td class="indicador color1">Productividad Laboral</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 530,143.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 462,597.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 51,284.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 45,744.00</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 421,204.00</a></td>
+  </tr>
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>

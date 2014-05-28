@@ -2,7 +2,7 @@ Productividad Laboral
 =====
 
 Fecha: 2014-05-01
-Categorías: IMCO, Empleo
+Categorías: Macroeconomía, Empleo
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
@@ -21,7 +21,7 @@ PIB sin petróleo / PEA.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 462,597.00</td><td>INEGI</td><td>Cálculo del IMCO publicado [en](http://porciudad.comparadondevives.org/contacto)</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 462,597.00</td><td>IMCO</td><td></td></tr>
   </tbody>
 </table>
 

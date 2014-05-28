@@ -21,9 +21,9 @@ Producción bruta total (de los sectores industria, comercio y servicios) entre 
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 57,746.33</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 101,715.94</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 197,853.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">$ 57,746.33</td><td>Elaboración propia con datos obtenidos del INEGI</td><td>La producción bruta total per cápita en dólares es de $5,835.14. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 9.89630</td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">$ 101,715.94</td><td>Elaboración propia con datos obtenidos del INEGI</td><td>La producción bruta total per cápita en dólares es de $9,051.63. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 11.23720</td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 197,853.91</td><td>Elaboración propia con datos obtenidos del INEGI</td><td>La producción bruta total per cápita en dólares es de $14,303.55. Calculada con el tipo de cambio Fix al cierre del año correspondiente al dato en pesos: 13.83250</td></tr>
   </tbody>
 </table>
 
@@ -37,14 +37,22 @@ La producción bruta total per cápita a nivel nacional es de:
 - 2003 = $60,324.54 
 - 1998 = $37,765.57 
 
+La producción bruta total per cápita en dólares a nivel nacional es de:
+
+- 2008 = $7,453.09 
+- 2003 = $5,368.29 
+- 1998 = $3,816.13 
+
+Calculados con el tipo de cambio Fix publicado por el Banxico al cierre del año correspondiente.
+
 Datos obtenidos de [INEGI Censos económicos.](http://www3.inegi.org.mx/sistemas/saic/)
 
 #### Gráfica
 
-<div id="Morrismizdbhia" class="grafica"></div>
+<div id="Morrisvyvhbzdm" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrismizdbhia',
+    element: 'Morrisvyvhbzdm',
     data: [
       { fecha: '1998-12-31', dato: 57746.33 },
       { fecha: '2003-12-31', dato: 101715.94 },
