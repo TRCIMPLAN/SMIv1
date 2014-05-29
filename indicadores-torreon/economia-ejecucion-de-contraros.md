@@ -31,6 +31,11 @@ Días transcurridos para la ejecución de un contrato.
 - # de procedimientos: 37 
 - Costo (% de cantidad demandada): 27.9 
 - Ranking en ejecución de contratos: 7</td></tr>
+    <tr><td class="centrado">31/10/2013</td><td class="derecha">270</td><td>Doing Business</td><td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
+
+Los Indicadores complementarios en ejecución de contratos fueron los siguientes para Torreón: 
+Procedimientos (número) = 37 ; 
+Costo (% de cantidad demandada) = 27,9</td></tr>
   </tbody>
 </table>
 
@@ -38,13 +43,14 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morriskokouckw" class="grafica"></div>
+<div id="Morrisswcdtzcx" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriskokouckw',
+    element: 'Morrisswcdtzcx',
     data: [
       { fecha: '2007-12-31', dato: 386 },
-      { fecha: '2012-12-31', dato: 270 }
+      { fecha: '2012-12-31', dato: 270 },
+      { fecha: '2013-10-31', dato: 270 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

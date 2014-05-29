@@ -42,10 +42,10 @@ Estimaciones de CONAPO en base a INEGI.
 
 #### Gráfica
 
-<div id="Morrisjtsgirdi" class="grafica"></div>
+<div id="Morrisuccplwpv" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisjtsgirdi',
+    element: 'Morrisuccplwpv',
     data: [
       { fecha: '2011-06-30', dato: 146164 },
       { fecha: '2012-06-30', dato: 147985 },

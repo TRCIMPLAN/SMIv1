@@ -32,31 +32,13 @@ Número de días necesarios para el trámite de apertura de un negocio.
 - Costo (% del ingreso per cápita): 12.8
 
 - Ranking en apertura de negocio: 22</td></tr>
+    <tr><td class="centrado">31/10/2013</td><td class="derecha">9.5000</td><td>Doing Business</td><td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014.
+
+Los Indicadores complementarios en apertura de un negocio fueron los siguientes para Torreón:
+Procedimientos (número) = 7 ; 
+Costo (% de ingreso per cápita) = 21,2 ;
+Requisito de capital mínimo pagado (% de ingreso per cápita) = 0,0</td></tr>
   </tbody>
 </table>
 
 Unidad: Días.
-
-#### Gráfica
-
-<div id="Morrisksxaefsv" class="grafica"></div>
-  <script>
-  new Morris.Line({
-    element: 'Morrisksxaefsv',
-    data: [
-      { fecha: '2007-12-31', dato: 28 },
-      { fecha: '2012-12-31', dato: 11 }
-    ],
-    xkey: 'fecha',
-    ykeys: ['dato'],
-    labels: ['Dato'],
-    lineColors: ['#FF5B02'],
-    xLabelFormat: function(d) {
-      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
-    },
-    dateFormat: function (ts) {
-      var d = new Date(ts);
-      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
-    }
-  });
-  </script>

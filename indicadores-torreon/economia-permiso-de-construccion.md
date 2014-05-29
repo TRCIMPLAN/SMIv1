@@ -26,7 +26,36 @@ Número de días necesarios para conseguir un permiso de construcción.
 - # de procedimientos: 11
 - Costo (% del ingreso per cápita): 37.4 
 - Ranking en permiso de construcción: 10</td></tr>
+    <tr><td class="centrado">31/10/2013</td><td class="derecha">107</td><td>Doing Business</td><td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
+
+Los Indicadores complementarios en permiso de construcción fueron los siguientes para Torreón: 
+Procedimientos (número) = 13 ; 
+Costo (% de ingreso per cápita) = 40,6</td></tr>
   </tbody>
 </table>
 
 Unidad: Días.
+
+#### Gráfica
+
+<div id="Morrislmxoyngn" class="grafica"></div>
+  <script>
+  new Morris.Line({
+    element: 'Morrislmxoyngn',
+    data: [
+      { fecha: '2012-12-31', dato: 72 },
+      { fecha: '2013-10-31', dato: 107 }
+    ],
+    xkey: 'fecha',
+    ykeys: ['dato'],
+    labels: ['Dato'],
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
+  });
+  </script>

@@ -31,6 +31,11 @@ Días que toma el trámite para el registro de una propiedad.
 - # de procedimientos: 6 
 - Costo (% del valor de la propiedad): 4.3 
 - Ranking en registro de propiedades: 22</td></tr>
+    <tr><td class="centrado">31/10/2013</td><td class="derecha">28</td><td>Doing Business</td><td>Dato obtenido del estudio elaborado por Doing Business de octubre de 2011 a octubre de 2013 y publicado en su reporte Doing Business en México 2014. 
+
+Los Indicadores complementarios en registro de propiedades fueron los siguientes para Torreón: 
+Procedimientos (número) = 6 ; 
+Costo (% del valor de la propiedad) = 4,5</td></tr>
   </tbody>
 </table>
 
@@ -38,13 +43,14 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morriswbogcahr" class="grafica"></div>
+<div id="Morrisgrmascff" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriswbogcahr',
+    element: 'Morrisgrmascff',
     data: [
       { fecha: '2007-12-31', dato: 51 },
-      { fecha: '2012-12-31', dato: 33 }
+      { fecha: '2012-12-31', dato: 33 },
+      { fecha: '2013-10-31', dato: 28 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],
