@@ -41,10 +41,10 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morriscjnrrndg" class="grafica"></div>
+<div id="Morrisxdfdlhld" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriscjnrrndg',
+    element: 'Morrisxdfdlhld',
     data: [
       { fecha: '1998-12-31', dato: 34.7900 },
       { fecha: '2003-12-31', dato: 26.8000 },
