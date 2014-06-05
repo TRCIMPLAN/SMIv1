@@ -21,9 +21,9 @@ Producción bruta total del comercio al por mayor y al por menor entre la produc
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/1998</td><td class="derecha">8.93%</td><td>00) DESCONOCIDA</td><td></td></tr>
-    <tr><td class="centrado">31/12/2003</td><td class="derecha">8.85%</td><td>00) DESCONOCIDA</td><td></td></tr>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">9.88%</td><td>00) DESCONOCIDA</td><td></td></tr>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">8.93%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">8.85%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">9.88%</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -41,10 +41,10 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrishaxvnkng" class="grafica"></div>
+<div id="Morrisdlyfuryx" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrishaxvnkng',
+    element: 'Morrisdlyfuryx',
     data: [
       { fecha: '1998-12-31', dato: 8.9300 },
       { fecha: '2003-12-31', dato: 8.8500 },
