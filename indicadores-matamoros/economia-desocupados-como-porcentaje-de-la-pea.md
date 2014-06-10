@@ -41,10 +41,10 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrisexgnijsc" class="grafica"></div>
+<div id="Morrisgcclqdru" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisexgnijsc',
+    element: 'Morrisgcclqdru',
     data: [
       { fecha: '1989-12-31', dato: 3.3200 },
       { fecha: '1999-12-31', dato: 1.1800 },
