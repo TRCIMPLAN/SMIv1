@@ -43,6 +43,7 @@ class MenuMatrices < MenuSecundario
         agregar('Finanzas Públicas', 'matrices/categoria-finanzas-publicas.html')
         agregar('Gobierno', 'matrices/categoria-gobierno.html')
         agregar('Gobierno Digital', 'matrices/categoria-gobierno-digital.html')
+        agregar('Grupos Vulnerables', 'matrices/categoria-grupos-vulnerables.html')
         agregar('Género', 'matrices/categoria-genero.html')
         agregar('Infraestructura', 'matrices/categoria-infraestructura.html')
         agregar('Innovación', 'matrices/categoria-innovacion.html')
