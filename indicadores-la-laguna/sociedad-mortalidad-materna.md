@@ -26,3 +26,7 @@ Defunciones maternas por cada cien mil partos.
 </table>
 
 Unidad: Por cada 10 mil.
+
+#### Observaciones
+
+Dirección General de Información en Salud (DGIS). Base de datos de defunciones generales 1979-2007. [en línea]: Sistema Nacional de Información en Salud (SINAIS). [México]: Secretaría de Salud. [Consulta: 01 abril 2014]

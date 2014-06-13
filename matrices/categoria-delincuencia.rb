@@ -150,6 +150,15 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">0</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1.4</a></td>
   </tr>
+  <tr>
+    <td class="subindice color4">SOCIEDAD</td>
+    <td class="indicador color4">Estimación de Menores Huérfanos por Agresiones</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, IMPLAN">1,253</a></td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+    <td class="nd">ND</td>
+  </tr>
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>

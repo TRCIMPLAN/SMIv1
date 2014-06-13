@@ -8,6 +8,10 @@ Aparece en pagina inicial: No
 
 ### La Laguna
 
+#### Descripción
+
+Se considera la basura generada que ha sido recolectada y que termina en los depósitos adecuados para el manejo de ésta, ya que existen otras formas que implican la incineración y los depósitos no controlados y/o no autorizados.
+
 <!-- break -->
 
 #### Información recopilada
