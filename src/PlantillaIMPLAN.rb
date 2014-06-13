@@ -212,11 +212,13 @@ FINAL
             a << '  <script src="js/bootstrap.min.js"></script>'
             a << '  <script src="js/raphael-min.js"></script>'
             a << '  <script src="js/morris.min.js"></script>'
+            a << '  <script src="js/google-analytics.js"></script>'
         else
             a << '  <script src="../js/jquery.min.js"></script>'
             a << '  <script src="../js/bootstrap.min.js"></script>'
             a << '  <script src="../js/raphael-min.js"></script>'
             a << '  <script src="../js/morris.min.js"></script>'
+            a << '  <script src="../js/google-analytics.js"></script>'
         end
         a << @javascript if not @javascript.nil?
         a << '</body>'
