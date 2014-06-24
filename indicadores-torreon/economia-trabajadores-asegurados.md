@@ -40,10 +40,10 @@ Datos obtenidos de [IMSS](http://201.144.108.20/imssdigital/conoce/estadisticas/
 
 #### Gráfica
 
-<div id="Morrisnbdvwaof" class="grafica"></div>
+<div id="Morrisvuzghaeq" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisnbdvwaof',
+    element: 'Morrisvuzghaeq',
     data: [
       { fecha: '2007-12-31', dato: 171936 },
       { fecha: '2008-12-31', dato: 164258 },
