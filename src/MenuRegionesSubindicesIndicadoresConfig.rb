@@ -245,6 +245,8 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             5 => { # SOCIEDAD
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-gomez-palacio/sociedad-adultos-mayores.html'},
+                131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html'},
+                132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html'},
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
                 121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-gomez-palacio/sociedad-camas-censables.html'},
@@ -360,6 +362,8 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             5 => { # SOCIEDAD
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-lerdo/sociedad-adultos-mayores.html'},
+                131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-lerdo/sociedad-adultos-mayores-femenino.html'},
+                132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-lerdo/sociedad-adultos-mayores-masculino.html'},
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
                 121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-lerdo/sociedad-camas-censables.html'},
@@ -476,6 +480,8 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             5 => { # SOCIEDAD
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-matamoros/sociedad-adultos-mayores.html'},
+                131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-matamoros/sociedad-adultos-mayores-femenino.html'},
+                132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-matamoros/sociedad-adultos-mayores-masculino.html'},
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
                 121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-matamoros/sociedad-camas-censables.html'},
@@ -591,6 +597,8 @@ class MenuRegionesSubindicesIndicadoresConfig
             },
             5 => { # SOCIEDAD
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-la-laguna/sociedad-adultos-mayores.html'},
+                131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-la-laguna/sociedad-adultos-mayores-femenino.html'},
+                132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-la-laguna/sociedad-adultos-mayores-masculino.html'},
                 49 => {'nombre' => 'Alumnos con Perfil Científico-Matemático', 'ruta' => 'indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html'},
                 50 => {'nombre' => 'Alumnos con Perfil Gramático-Español', 'ruta' => 'indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html'},
                 121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-la-laguna/sociedad-camas-censables.html'},

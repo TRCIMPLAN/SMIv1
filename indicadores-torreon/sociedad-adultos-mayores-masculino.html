@@ -298,6 +298,8 @@
           <p class="menu-subindices-indicadores-eje">SOCIEDAD</p>
           <ul>
             <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html">Adultos Mayores</a></li>
+            <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino</a></li>
+            <li><a href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html">Camas Censables</a></li>
@@ -437,6 +439,8 @@
           <p class="menu-subindices-indicadores-eje">SOCIEDAD</p>
           <ul>
             <li><a href="../indicadores-lerdo/sociedad-adultos-mayores.html">Adultos Mayores</a></li>
+            <li><a href="../indicadores-lerdo/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino</a></li>
+            <li><a href="../indicadores-lerdo/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino</a></li>
             <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático</a></li>
             <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables</a></li>
@@ -577,6 +581,8 @@
           <p class="menu-subindices-indicadores-eje">SOCIEDAD</p>
           <ul>
             <li><a href="../indicadores-matamoros/sociedad-adultos-mayores.html">Adultos Mayores</a></li>
+            <li><a href="../indicadores-matamoros/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino</a></li>
+            <li><a href="../indicadores-matamoros/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino</a></li>
             <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático</a></li>
             <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-matamoros/sociedad-camas-censables.html">Camas Censables</a></li>
@@ -716,6 +722,8 @@
           <p class="menu-subindices-indicadores-eje">SOCIEDAD</p>
           <ul>
             <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores.html">Adultos Mayores</a></li>
+            <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html">Adultos Mayores Femenino</a></li>
+            <li><a href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html">Adultos Mayores Masculino</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html">Camas Censables</a></li>
@@ -786,11 +794,24 @@
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
+    <tr><td class="centrado">30/06/2011</td><td class="derecha">17,498</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2012</td><td class="derecha">18,233</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2013</td><td class="derecha">19,010</td><td>CONAPO</td><td></td></tr>
     <tr><td class="centrado">30/06/2014</td><td class="derecha">19,829</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2015</td><td class="derecha">20,691</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2016</td><td class="derecha">21,594</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2017</td><td class="derecha">22,537</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2018</td><td class="derecha">23,517</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2019</td><td class="derecha">24,531</td><td>CONAPO</td><td></td></tr>
+    <tr><td class="centrado">30/06/2020</td><td class="derecha">25,576</td><td>CONAPO</td><td></td></tr>
   </tbody>
 </table>
 
 <p>Unidad: Cantidad.</p>
+
+<h4 id="grfica">Gráfica</h4>
+
+<div id="Morriszendhnul" class="grafica"></div>
 
 </article>
       </div>
@@ -867,6 +888,33 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+  <script>
+  new Morris.Line({
+    element: 'Morriszendhnul',
+    data: [
+      { fecha: '2011-06-30', dato: 17498 },
+      { fecha: '2012-06-30', dato: 18233 },
+      { fecha: '2013-06-30', dato: 19010 },
+      { fecha: '2014-06-30', dato: 19829 },
+      { fecha: '2015-06-30', dato: 20691 },
+      { fecha: '2016-06-30', dato: 21594 },
+      { fecha: '2017-06-30', dato: 22537 },
+      { fecha: '2018-06-30', dato: 23517 },
+      { fecha: '2019-06-30', dato: 24531 },
+      { fecha: '2020-06-30', dato: 25576 }
+    ],
+    xkey: 'fecha',
+    ykeys: ['dato'],
+    labels: ['Dato'],
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
+  });
+  </script>
 </body>
 </html>
