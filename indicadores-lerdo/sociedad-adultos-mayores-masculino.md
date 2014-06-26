@@ -38,10 +38,10 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisdttioqyl" class="grafica"></div>
+<div id="Morrisycthpuim" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisdttioqyl',
+    element: 'Morrisycthpuim',
     data: [
       { fecha: '2011-06-30', dato: 4135 },
       { fecha: '2012-06-30', dato: 4260 },

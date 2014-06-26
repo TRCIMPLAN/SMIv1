@@ -35,8 +35,8 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color1">ECONOMÍA</td>
-    <td class="indicador color1">Ejecución de Contraros</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ejecucion-de-contraros.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">270</a></td>
+    <td class="indicador color1">Ejecución de Contratos</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ejecucion-de-contratos.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">270</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

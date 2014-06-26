@@ -1,4 +1,4 @@
-Ejecución de Contraros
+Ejecución de Contratos
 =====
 
 Fecha: 2014-05-01
@@ -43,10 +43,10 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morrissvbhcedw" class="grafica"></div>
+<div id="Morriscfcayufr" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrissvbhcedw',
+    element: 'Morriscfcayufr',
     data: [
       { fecha: '2007-12-31', dato: 386 },
       { fecha: '2012-12-31', dato: 270 },

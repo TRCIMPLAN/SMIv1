@@ -51,7 +51,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
                 101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-torreon/economia-desocupados-como-porcentaje-de-la-pea.html'},
-                126 => {'nombre' => 'Ejecución de Contraros', 'ruta' => 'indicadores-torreon/economia-ejecucion-de-contraros.html'},
+                126 => {'nombre' => 'Ejecución de Contratos', 'ruta' => 'indicadores-torreon/economia-ejecucion-de-contratos.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-torreon/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-torreon/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html'},
