@@ -33,10 +33,10 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisioizpxai" class="grafica"></div>
+<div id="Morrissepfpoly" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisioizpxai',
+    element: 'Morrissepfpoly',
     data: [
       { fecha: '2008-12-31', dato: 2.2000 },
       { fecha: '2009-12-31', dato: 2.1700 },
