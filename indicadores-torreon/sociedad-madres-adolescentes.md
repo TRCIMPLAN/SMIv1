@@ -38,10 +38,10 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
 
 #### Gráfica
 
-<div id="Morrisurjpywjm" class="grafica"></div>
+<div id="Morrisfnnyjnry" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisurjpywjm',
+    element: 'Morrisfnnyjnry',
     data: [
       { fecha: '2008-12-31', dato: 2302 },
       { fecha: '2009-12-31', dato: 2056 },

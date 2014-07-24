@@ -25,7 +25,7 @@ Vehículos automotores registrados en circulación.
   </tbody>
 </table>
 
-Unidad: Por cada mil.
+Unidad: Por cada mil habitantes.
 
 #### Observaciones
 

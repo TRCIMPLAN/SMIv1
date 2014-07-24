@@ -53,10 +53,10 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 
 #### Gráfica
 
-<div id="Morrispoxpsrby" class="grafica"></div>
+<div id="Morrisigcjknkt" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrispoxpsrby',
+    element: 'Morrisigcjknkt',
     data: [
       { fecha: '2005-12-31', dato: 64316 },
       { fecha: '2006-12-31', dato: 73900 },

@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Total de delitos cometidos por mes
+Total de delitos cometidos en el segundo trimestre 2014
 
 <!-- break -->
 
@@ -21,7 +21,7 @@ Total de delitos cometidos por mes
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">1,273</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">3,938</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 

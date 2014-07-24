@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Total de delitos cometidos por mes
+Total de delitos cometidos en el segundo trimestre 2014
 
 <!-- break -->
 
@@ -23,7 +23,7 @@ Total de delitos cometidos por mes
   <tbody>
     <tr><td class="centrado">31/01/2014</td><td class="derecha">69</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">28/02/2014</td><td class="derecha">65</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">79</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">230</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -31,14 +31,14 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisilaunxjw" class="grafica"></div>
+<div id="Morrisupktsdcx" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisilaunxjw',
+    element: 'Morrisupktsdcx',
     data: [
       { fecha: '2014-01-31', dato: 69 },
       { fecha: '2014-02-28', dato: 65 },
-      { fecha: '2014-03-31', dato: 79 }
+      { fecha: '2014-06-30', dato: 230 }
     ],
     xkey: 'fecha',
     ykeys: ['dato'],

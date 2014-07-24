@@ -21,7 +21,7 @@ Robo de vehículos con violencia y sin violencia cometidos en el primer trimestr
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">182</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">201</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
   </tbody>
 </table>
 
