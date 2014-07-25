@@ -37,10 +37,10 @@ Estimación propia en base al dato de Ocupación por Vivienda
 
 #### Gráfica
 
-<div id="Morrisuepgivak" class="grafica"></div>
+<div id="Morrisouaakeqo" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisuepgivak',
+    element: 'Morrisouaakeqo',
     data: [
       { fecha: '2008-12-31', dato: 1.8100 },
       { fecha: '2009-12-31', dato: 1.7700 },
