@@ -43,10 +43,10 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morriswufbsrec" class="grafica"></div>
+<div id="Morrisjueklbhm" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morriswufbsrec',
+    element: 'Morrisjueklbhm',
     data: [
       { fecha: '2007-12-31', dato: 51 },
       { fecha: '2012-12-31', dato: 33 },

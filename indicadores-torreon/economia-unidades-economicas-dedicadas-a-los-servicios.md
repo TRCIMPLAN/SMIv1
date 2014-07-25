@@ -21,7 +21,10 @@ Unidades económicas dedicadas a los servicios entre el total de las unidades ec
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">44.92%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">39.92%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">40.26%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">42.86%</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/10/2013</td><td class="derecha">44.92%</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -30,3 +33,29 @@ Unidad: Porcentaje.
 #### Observaciones
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+
+#### Gráfica
+
+<div id="Morrisaqaertqv" class="grafica"></div>
+  <script>
+  new Morris.Line({
+    element: 'Morrisaqaertqv',
+    data: [
+      { fecha: '1998-12-31', dato: 39.9200 },
+      { fecha: '2003-12-31', dato: 40.2600 },
+      { fecha: '2008-12-31', dato: 42.8600 },
+      { fecha: '2013-10-31', dato: 44.9200 }
+    ],
+    xkey: 'fecha',
+    ykeys: ['dato'],
+    labels: ['Dato'],
+    lineColors: ['#FF5B02'],
+    xLabelFormat: function(d) {
+      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
+    },
+    dateFormat: function (ts) {
+      var d = new Date(ts);
+      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+    }
+  });
+  </script>

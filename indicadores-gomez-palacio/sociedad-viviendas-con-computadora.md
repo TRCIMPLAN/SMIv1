@@ -31,4 +31,4 @@ Unidad: Porcentaje.
 
 Consulta la [Base de Datos](http://www.inegi.org.mx/biinegi/). 
 
-Enlace al [Sistema de Información Geográfica](http://192.99.131.181:9090/apps/implan.html).
+Enlace al [http://201.159.104.45:8080/apps/implan2.html).

@@ -36,10 +36,10 @@ Total facturado dividido entre la población.
 
 #### Gráfica
 
-<div id="Morristqvzqlqo" class="grafica"></div>
+<div id="Morrisrqmgsmge" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morristqvzqlqo',
+    element: 'Morrisrqmgsmge',
     data: [
       { fecha: '2010-12-31', dato: 47.7700 },
       { fecha: '2011-12-31', dato: 46.7500 },
