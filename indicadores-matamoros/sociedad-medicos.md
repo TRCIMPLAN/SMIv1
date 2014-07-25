@@ -45,10 +45,10 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 
 #### Gráfica
 
-<div id="Morrisyqqxhutp" class="grafica"></div>
+<div id="Morrisidaitlyv" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisyqqxhutp',
+    element: 'Morrisidaitlyv',
     data: [
       { fecha: '2001-12-31', dato: 3.3000 },
       { fecha: '2002-12-31', dato: 3.4000 },
