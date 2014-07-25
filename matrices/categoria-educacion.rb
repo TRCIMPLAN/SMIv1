@@ -73,9 +73,9 @@ def publicacion(dir)
     <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Rezago Educativo</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">10.83%</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">17.31%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">16.76%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">19.2%</a></td>
     <td class="nd">ND</td>
   </tr>
   <tr>

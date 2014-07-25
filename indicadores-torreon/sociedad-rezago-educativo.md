@@ -28,3 +28,7 @@ Tiene 16 años o más, nació a partir de 1982 y no cuenta con el nivel de educa
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx)

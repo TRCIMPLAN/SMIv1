@@ -35,10 +35,10 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrissacprdxc" class="grafica"></div>
+<div id="Morrisyuzoiwjt" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrissacprdxc',
+    element: 'Morrisyuzoiwjt',
     data: [
       { fecha: '1998-12-31', dato: 22.5000 },
       { fecha: '2003-12-31', dato: 25.4000 },

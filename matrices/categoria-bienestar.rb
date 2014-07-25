@@ -64,9 +64,9 @@ def publicacion(dir)
     <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Rezago Alimentario</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">17.77%</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">18.11%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">20.89%</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">25.1%</a></td>
     <td class="nd">ND</td>
   </tr>
 </tbody>

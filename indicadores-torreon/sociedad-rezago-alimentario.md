@@ -26,3 +26,7 @@ Personas que presenten un grado de inseguridad alimentaria moderado o severo.
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Consulta la [BasedeDatos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Anexo-estad%C3%ADstico-municipal-2010.aspx)
