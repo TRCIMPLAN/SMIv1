@@ -26,3 +26,7 @@ Porcentaje de la población ocupada que trabaja en el mismo municipio en el que 
 </table>
 
 Unidad: Porcentaje.
+
+#### Observaciones
+
+Consulta la [Base de Datos](http://www.conapo.gob.mx/en/CONAPO/Catalogo_Sistema_Urbano_Nacional_2012)

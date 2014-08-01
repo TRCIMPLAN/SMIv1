@@ -37,10 +37,10 @@ Elaboración propia en base a las defunciones registradas en [SINAIS](http://www
 
 #### Gráfica
 
-<div id="Morrisqntacuqb" class="grafica"></div>
+<div id="Morrisnoziwypy" class="grafica"></div>
   <script>
   new Morris.Line({
-    element: 'Morrisqntacuqb',
+    element: 'Morrisnoziwypy',
     data: [
       { fecha: '2008-12-31', dato: 544 },
       { fecha: '2009-12-31', dato: 597 },

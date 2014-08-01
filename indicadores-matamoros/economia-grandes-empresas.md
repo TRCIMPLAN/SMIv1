@@ -22,6 +22,7 @@ Porcentaje del total de empresas que cuentan con más de 250 empleados
   </thead>
   <tbody>
     <tr><td class="centrado">31/12/2013</td><td class="derecha">ND</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
+    <tr><td class="centrado">31/07/2014</td><td class="derecha">0.58%</td><td>Sistema de Información Empresarial Mexicano (SIEM)</td><td></td></tr>
   </tbody>
 </table>
 
