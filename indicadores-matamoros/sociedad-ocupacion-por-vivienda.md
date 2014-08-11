@@ -1,32 +1,84 @@
-Ocupación por Vivienda
+Ocupación por Vivienda en Matamoros
 =====
 
-Fecha: 2014-05-01
+Fecha: 1980-12-31
 Categorías: Vivienda
-Autor: IMPLAN
+Autor: TrcIMPLAN
 Aparece en pagina inicial: No
-
-### Matamoros
 
 #### Descripción
 
 Promedio de ocupantes por vivienda.
 
-<!-- break -->
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">4.1</td><td>INEGI. Censos de Población y Vivienda</td><td></td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2010-12-31</td>
+<td class="derecha">4.1000</td>
+<td>INEGI. Censos de Población y Vivienda</td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
-Unidad: Promedio.
+<b>Unidad:</b> Promedio.
 
 #### Observaciones
 
 Datos obtenidos de [INEGI. Censos de población y vivienda 2010](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx)
+
+
+#### En otras regiones
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>2010-12-31</td>
+<td class="derecha">3.7000</td>
+<td>INEGI. Censos de Población y Vivienda</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2010-12-31</td>
+<td class="derecha">3.9000</td>
+<td>INEGI. Censos de Población y Vivienda</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2010-12-31</td>
+<td class="derecha">4.1000</td>
+<td>INEGI. Censos de Población y Vivienda</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2010-12-31</td>
+<td class="derecha">3.9500</td>
+<td>INEGI. Censos de Población y Vivienda</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+

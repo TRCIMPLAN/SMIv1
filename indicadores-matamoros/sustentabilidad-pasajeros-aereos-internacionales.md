@@ -1,31 +1,37 @@
-Pasajeros Aéreos Internacionales
+Pasajeros Aéreos Internacionales en Matamoros
 =====
 
-Fecha: 2014-05-01
+Fecha: 1980-12-31
 Categorías: Movilidad
-Autor: IMPLAN
+Autor: TrcIMPLAN
 Aparece en pagina inicial: No
-
-### Matamoros
 
 #### Descripción
 
 Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sarabia de Torreón, Coahuila.
 
-<!-- break -->
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">NO TIENE</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013-12-31</td>
+<td class="centrado">NO TIENE</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
-Unidad: Personas.
+<b>Unidad:</b> Personas.
 
 #### Observaciones
 
@@ -42,3 +48,168 @@ El flujo de pasajeros a nivel internacional es de:
 - 2005 = 2,479,772
 
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
+
+
+#### En otras regiones
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>2005-12-31</td>
+<td class="derecha">64,316</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2006-12-31</td>
+<td class="derecha">73,900</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2007-12-31</td>
+<td class="derecha">80,742</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2008-12-31</td>
+<td class="derecha">77,199</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2009-12-31</td>
+<td class="derecha">53,112</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2010-12-31</td>
+<td class="derecha">51,238</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2011-12-31</td>
+<td class="derecha">51,401</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2012-12-31</td>
+<td class="derecha">61,443</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2013-12-31</td>
+<td class="derecha">55,446</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2013-12-31</td>
+<td class="centrado">NO TIENE</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2013-12-31</td>
+<td class="centrado">NO TIENE</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2005-12-31</td>
+<td class="derecha">64,316</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2006-12-31</td>
+<td class="derecha">73,900</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2007-12-31</td>
+<td class="derecha">80,742</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2008-12-31</td>
+<td class="derecha">77,199</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2009-12-31</td>
+<td class="derecha">53,112</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2010-12-31</td>
+<td class="derecha">51,238</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2011-12-31</td>
+<td class="derecha">51,401</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2012-12-31</td>
+<td class="derecha">61,443</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2013-12-31</td>
+<td class="derecha">55,446</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2013-12-31</td>
+<td class="derecha">1,833,223</td>
+<td>Operadora Mexicana de Aeropuertos (OMA)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+

@@ -1,28 +1,82 @@
-Tasa de Secuestro
+Tasa de Secuestro en La Laguna
 =====
 
-Fecha: 2014-05-01
+Fecha: 1980-12-31
 Categorías: Delincuencia, Seguridad
-Autor: IMPLAN
+Autor: TrcIMPLAN
 Aparece en pagina inicial: No
-
-### La Laguna
 
 #### Descripción
 
 Homicidios por habitantes por 100 mil
 
-<!-- break -->
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">1.4</td><td>SNSP</td><td></td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013-12-31</td>
+<td class="derecha">1.4000</td>
+<td>SNSP</td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
-Unidad: Por cada 100 mil.
+<b>Unidad:</b> Por cada 100 mil.
+
+
+
+
+#### En otras regiones
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>2013-12-31</td>
+<td class="derecha">1.6300</td>
+<td>SNSP</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2013-12-31</td>
+<td class="derecha">1.7300</td>
+<td>SNSP</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2013-12-31</td>
+<td class="derecha">0.6700</td>
+<td>SNSP</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2013-12-31</td>
+<td class="derecha">0.0000</td>
+<td>SNSP</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+

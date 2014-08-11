@@ -1,16 +1,11 @@
-# encoding: utf-8
-def publicacion(dir)
+Categoría Finanzas Públicas
+=====
 
-    p                           = Publicacion.new
-    p.directorio                = dir
-    p.archivo                   = 'categoria-finanzas-publicas'
-    p.nombre                    = 'Categoría Finanzas Públicas'
-    p.fecha                     = '1980-01-01'
-    p.categorias                = Array.new
-    p.autor                     = 'Autor'
-    p.aparece_en_pagina_inicial = false
-    p.tipo_contenido            = 'html'
-    p.contenido                 = <<FIN_CONTENIDO
+Fecha: 1980-12-31
+Categorías: Pendiente
+Autor: TrcIMPLAN
+Aparece en pagina inicial: No
+
 <table class="table table-bordered matriz">
 <thead>
   <tr>
@@ -45,11 +40,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Capacidad Financiera</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">74.22%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">74.26%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">23.76%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">29.45%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">66.50%</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">74.22 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">74.26 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">23.76 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">29.45 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">66.50 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
@@ -81,18 +76,12 @@ def publicacion(dir)
   <tr>
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">43.99%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">46.42%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">15.00%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">17.47%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">39.96%</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">43.99 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">46.42 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">15.00 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">17.47 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">39.96 %</a></td>
   </tr>
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
-FIN_CONTENIDO
-
-    # Entregar la publicacion
-    p
-
-end

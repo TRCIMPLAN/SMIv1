@@ -1,32 +1,105 @@
-Motorización
+Motorización en Torreón
 =====
 
-Fecha: 2014-05-01
+Fecha: 1980-12-31
 Categorías: Recursos Naturales, Movilidad, Vialidad
-Autor: IMPLAN
+Autor: TrcIMPLAN
 Aparece en pagina inicial: No
-
-### Torreón
 
 #### Descripción
 
 Vehículos automotores registrados en circulación.
 
-<!-- break -->
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">226</td><td>INEGI</td><td>VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS</td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2012-12-31</td>
+<td class="derecha">226</td>
+<td>INEGI</td>
+<td>VEHICULOS AUTOMOTORES REGISTRADOS EN CIRCULACIÓN, EXCLUYE MOTOCICLETAS</td>
+</tr>
+</tbody>
 </table>
 
-Unidad: Por cada mil habitantes.
+<b>Unidad:</b> Por cada mil habitantes.
 
 #### Observaciones
 
 Índice de motorización. Consulta la [Base de Datos](http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/transporte/vehiculos.asp?s=est&c=13158&proy=vmrc_vehiculos)
+
+
+#### En otras regiones
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gómez Palacio</td>
+<td>2012-12-31</td>
+<td class="derecha">308</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2012-12-31</td>
+<td class="derecha">235</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2012-12-31</td>
+<td class="derecha">162</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2012-12-31</td>
+<td class="derecha">244</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Coahuila</td>
+<td>2012-12-31</td>
+<td class="derecha">247</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Durango</td>
+<td>2012-12-31</td>
+<td class="derecha">282</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2012-12-31</td>
+<td class="derecha">299</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+

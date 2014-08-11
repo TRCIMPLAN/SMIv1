@@ -16,10 +16,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>IMPLAN Torreón SMI - Madres Adolescentes</title>
+  <title>IMPLAN Torreón SMI - Madres Adolescentes en Torreón</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="IMPLAN">
+  <meta name="author" content="TrcIMPLAN">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Madres Adolescentes en Torreón">
+  <meta name="twitter:url" content="http://trcimplan.github.io/indicadores-torreon/sociedad-madres-adolescentes.html">
+  <meta name="og:title" content="Madres Adolescentes en Torreón">
+  <meta name="og:url" content="http://trcimplan.github.io/indicadores-torreon/sociedad-madres-adolescentes.html">
+  <link href="../imagenes/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="../rss.xml" rel="alternate" type="application/rss+xml" title="IMPLAN Torreón SMI" />
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/morris.css" rel="stylesheet">
@@ -789,10 +795,8 @@
 <!-- MENU REGIONES SUBINDICES INDICES TERMINA -->
 <article>
   <header>
-    <h1>Madres Adolescentes</h1>
+    <h1>Madres Adolescentes en Torreón</h1>
   </header>
-
-<h3 id="torren">Torreón</h3>
 
 <h4 id="descripcin">Descripción</h4>
 
@@ -801,20 +805,55 @@
 <h4 id="informacin-recopilada">Información recopilada</h4>
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">2,302</td><td>SINAIS (SSA)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2009</td><td class="derecha">2,056</td><td>SINAIS (SSA)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">1,442</td><td>SINAIS (SSA)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">1,296</td><td>SINAIS (SSA)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">1,198</td><td>SINAIS (SSA)</td><td></td></tr>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">1,778</td><td>SINAIS (SSA)</td><td></td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2008-12-31</td>
+<td class="derecha">2,302</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>2009-12-31</td>
+<td class="derecha">2,056</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>2010-12-31</td>
+<td class="derecha">1,442</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>2011-12-31</td>
+<td class="derecha">1,296</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>2012-12-31</td>
+<td class="derecha">1,198</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+<tr>
+<td>2013-12-31</td>
+<td class="derecha">1,778</td>
+<td>SINAIS (SSA)</td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
-<p>Unidad: Cantidad.</p>
+<p><b>Unidad:</b> Cantidad.</p>
 
 <h4 id="observaciones">Observaciones</h4>
 
@@ -822,7 +861,8 @@
 
 <h4 id="grfica">Gráfica</h4>
 
-<div id="Morrisljphhfga" class="grafica"></div>
+<div id="Morrisuneqailf" class="grafica"></div>
+
 
 </article>
       </div>
@@ -899,29 +939,17 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-  <script>
-  new Morris.Line({
-    element: 'Morrisljphhfga',
-    data: [
-      { fecha: '2008-12-31', dato: 2302 },
-      { fecha: '2009-12-31', dato: 2056 },
-      { fecha: '2010-12-31', dato: 1442 },
-      { fecha: '2011-12-31', dato: 1296 },
-      { fecha: '2012-12-31', dato: 1198 },
-      { fecha: '2013-12-31', dato: 1778 }
-    ],
-    xkey: 'fecha',
-    ykeys: ['dato'],
-    labels: ['Dato'],
-    lineColors: ['#FF5B02'],
-    xLabelFormat: function(d) {
-      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
-    },
-    dateFormat: function (ts) {
-      var d = new Date(ts);
-      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
-    }
-  });
-  </script>
+<script>
+new Morris.Line({
+element: 'Morrisuneqailf',
+data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
+xkey: 'fecha',
+ykeys: ['dato'],
+labels: ['Dato'],
+lineColors: ['#FF5B02'],
+xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+});
+</script>
 </body>
 </html>

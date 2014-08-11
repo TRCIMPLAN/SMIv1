@@ -1,16 +1,11 @@
-# encoding: utf-8
-def publicacion(dir)
+Categoría Participación Ciudadana
+=====
 
-    p                           = Publicacion.new
-    p.directorio                = dir
-    p.archivo                   = 'categoria-participacion-ciudadana'
-    p.nombre                    = 'Categoría Participación Ciudadana'
-    p.fecha                     = '1980-01-01'
-    p.categorias                = Array.new
-    p.autor                     = 'Autor'
-    p.aparece_en_pagina_inicial = false
-    p.tipo_contenido            = 'html'
-    p.contenido                 = <<FIN_CONTENIDO
+Fecha: 1980-12-31
+Categorías: Pendiente
+Autor: TrcIMPLAN
+Aparece en pagina inicial: No
+
 <table class="table table-bordered matriz">
 <thead>
   <tr>
@@ -27,11 +22,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Competencia Electoral</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">1.77%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-06-30, INE-IEPCC">4.48%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-02, INE-IEPCC">5.15%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">39.67%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">6.7%</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">1.77 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-06-30, INE-IEPCC">4.48 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-02, INE-IEPCC">5.15 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">39.67 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">6.70 %</a></td>
   </tr>
   <tr>
     <td class="subindice color2">GOBIERNO</td>
@@ -54,27 +49,21 @@ def publicacion(dir)
   <tr>
     <td class="subindice color2">GOBIERNO</td>
     <td class="indicador color2">Participación Electoral</td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">53.75%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">58.31%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">59.57%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">64.58%</a></td>
-    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">57.68%</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">53.75 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">58.31 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">59.57 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-matamoros/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">64.58 %</a></td>
+    <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">57.68 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">SOCIEDAD</td>
     <td class="indicador color4">Organizaciones de la Sociedad Civil</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">47.98</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">45.84</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">22.7</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">22.70</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">10.78</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">41.22</a></td>
   </tr>
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
-FIN_CONTENIDO
-
-    # Entregar la publicacion
-    p
-
-end

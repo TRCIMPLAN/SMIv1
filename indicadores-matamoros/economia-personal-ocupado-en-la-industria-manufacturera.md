@@ -1,33 +1,49 @@
-Personal Ocupado en la Industria Manufacturera
+Personal Ocupado en la Industria Manufacturera en Matamoros
 =====
 
-Fecha: 2014-05-01
+Fecha: 1980-12-31
 Categorías: Empleo, Mercados
-Autor: IMPLAN
+Autor: TrcIMPLAN
 Aparece en pagina inicial: No
-
-### Matamoros
 
 #### Descripción
 
 Personal ocupado en la Industria manufacturera entre el personal ocupado total.
 
-<!-- break -->
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/12/1998</td><td class="derecha">37.81%</td><td>INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2003</td><td class="derecha">28.78%</td><td>INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">41.53%</td><td>INEGI</td><td></td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1998-12-31</td>
+<td class="derecha">37.81 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>2003-12-31</td>
+<td class="derecha">28.78 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>2008-12-31</td>
+<td class="derecha">41.53 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
-Unidad: Personas.
+<b>Unidad:</b> Personas.
 
 #### Observaciones
 
@@ -35,25 +51,138 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morriswsobcvmg" class="grafica"></div>
-  <script>
-  new Morris.Line({
-    element: 'Morriswsobcvmg',
-    data: [
-      { fecha: '1998-12-31', dato: 37.8100 },
-      { fecha: '2003-12-31', dato: 28.7800 },
-      { fecha: '2008-12-31', dato: 41.5338 }
-    ],
-    xkey: 'fecha',
-    ykeys: ['dato'],
-    labels: ['Dato'],
-    lineColors: ['#FF5B02'],
-    xLabelFormat: function(d) {
-      return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear();
-    },
-    dateFormat: function (ts) {
-      var d = new Date(ts);
-      return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
-    }
-  });
-  </script>
+<div id="Morrismylimjxk" class="grafica"></div>
+<script>
+new Morris.Line({
+element: 'Morrismylimjxk',
+data: [{ fecha: '1998-12-31', dato: 37.8100 },{ fecha: '2003-12-31', dato: 28.7800 },{ fecha: '2008-12-31', dato: 41.5338 }],
+xkey: 'fecha',
+ykeys: ['dato'],
+labels: ['Dato'],
+lineColors: ['#FF5B02'],
+xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+});
+</script>
+
+#### En otras regiones
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torreón</td>
+<td>1998-12-31</td>
+<td class="derecha">33.16 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2003-12-31</td>
+<td class="derecha">33.95 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Torreón</td>
+<td>2008-12-31</td>
+<td class="derecha">25.70 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>1998-12-31</td>
+<td class="derecha">42.53 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2003-12-31</td>
+<td class="derecha">42.25 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Gómez Palacio</td>
+<td>2008-12-31</td>
+<td class="derecha">32.10 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>1998-12-31</td>
+<td class="derecha">59.01 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2003-12-31</td>
+<td class="derecha">64.24 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2008-12-31</td>
+<td class="derecha">37.64 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>1998-12-31</td>
+<td class="derecha">38.10 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2003-12-31</td>
+<td class="derecha">38.10 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2008-12-31</td>
+<td class="derecha">28.59 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>1998-12-31</td>
+<td class="derecha">30.20 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2003-12-31</td>
+<td class="derecha">25.85 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+<tr>
+<td>Nacional</td>
+<td>2008-12-31</td>
+<td class="derecha">23.17 %</td>
+<td>INEGI</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+

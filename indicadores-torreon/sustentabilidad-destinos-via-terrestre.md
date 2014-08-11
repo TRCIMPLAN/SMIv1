@@ -1,28 +1,82 @@
-Destinos Vía Terrestre
+Destinos Vía Terrestre en Torreón
 =====
 
-Fecha: 2014-05-01
+Fecha: 1980-12-31
 Categorías: Movilidad
-Autor: IMPLAN
+Autor: TrcIMPLAN
 Aparece en pagina inicial: No
-
-### Torreón
 
 #### Descripción
 
 Número total de Estados de la República Mexicana y E.U. a los cuales se puede acceder desde las Centrales de Autobuses de Torreón y Gómez Palacio
 
-<!-- break -->
-
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-  <thead>
-    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
-  </thead>
-  <tbody>
-    <tr><td class="centrado">31/03/2014</td><td class="derecha">28</td><td>IMPLAN</td><td></td></tr>
-  </tbody>
+<thead>
+<tr>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014-03-31</td>
+<td class="derecha">28</td>
+<td>IMPLAN</td>
+<td></td>
+</tr>
+</tbody>
 </table>
 
-Unidad: Cantidad.
+<b>Unidad:</b> Cantidad.
+
+
+
+
+#### En otras regiones
+
+<table class="table table-hover table-bordered matriz">
+<thead>
+<tr>
+<th>Región</th>
+<th>Fecha</th>
+<th>Dato</th>
+<th>Fuente</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gómez Palacio</td>
+<td>2014-03-31</td>
+<td class="derecha">28</td>
+<td>IMPLAN</td>
+<td></td>
+</tr>
+<tr>
+<td>Lerdo</td>
+<td>2014-03-31</td>
+<td class="centrado">NO TIENE</td>
+<td>IMPLAN</td>
+<td></td>
+</tr>
+<tr>
+<td>Matamoros</td>
+<td>2014-03-31</td>
+<td class="centrado">NO TIENE</td>
+<td>IMPLAN</td>
+<td></td>
+</tr>
+<tr>
+<td>La Laguna</td>
+<td>2014-03-31</td>
+<td class="derecha">28</td>
+<td>IMPLAN</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
