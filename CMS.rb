@@ -48,12 +48,12 @@ class CMS < Imprenta
         @sitio_titulo              = "IMPLAN Torreón SMI"
         @sitio_descripcion         = "Sistema Municipal de Indicadores del IMPLAN Torreón"
         @sitio_url                 = "http://trcimplan.github.io"                     # No use diagonal al final
-        @autor_por_defecto         = "implan"
+        @autor_por_defecto         = "TrcIMPLAN"
      #~ @publicaciones_directorios = %w{ contacto descargar documentacion licencias } # Los directorios que contenen las publicaciones
      #~ @publicaciones_etiquetas   = { 'documentacion' => 'Documentación' }           # Si hay que usar una etiqueta diferente para el directorio
-        @publicaciones_por_pagina_maximo = 10
         # Prepare el menu principal
      #~ @menu_principal              = MenuPrincipal.new
+     #~ @menu_principal.sitio_titulo = @sitio_titulo
      #~ @menu_principal.sitio_imagen = 'imagenes/implan-barra-logo-chico.png'
      #~ @menu_principal.agregar('INSTITUCIONAL',     'http://trcimplan.mx/institucional/')
      #~ @menu_principal.agregar('SERVICIOS',         'http://trcimplan.mx/servicios/')
@@ -64,6 +64,8 @@ class CMS < Imprenta
         # Preparar plantilla
         @plantilla              = PlantillaIMPLAN.new
         @plantilla.sitio_titulo = @sitio_titulo
+        @plantilla.sitio_url    = @sitio_url
+        @plantilla.favicon      = 'imagenes/favicon.png'
      #~ @plantilla.encabezado   = "" # El encabezado se define más adelante como entrega de MenuRegionesSubindicesIndicadores
         @plantilla.pie          = "<p>Todos los Derechos Reservados. Instituto Municipal de Planeación y Competitividad de Torreón © 2014</p>"
     end

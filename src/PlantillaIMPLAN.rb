@@ -23,10 +23,31 @@
 
 ##
 # Plantilla IMPLAN
+#
+# Es la estructura básica para todas las páginas del sitio. Estas propiedades definen su contenido:
+#
+# * sitio_titulo          El nombre del sitio web
+# * titulo                Título de la página
+# * autor                 Persona que sea la autora
+# * descripcion           Descripción del sitio o la página
+# * claves                Claves que ayuden a los buscadores
+# * rss                   Ruta relativa desde la raíz al archivo RSS, por defecto es rss.xml
+# * favicon               Ruta relativa desde la raiz al archivo de imagen con el favicon
+# * ruta                  Ruta relativa a la pagina HTML con la publicación para_compartir
+# * imagen_previa         Ruta relativa a la imagen a usar para_compartir
+# * sitio_url             URL base del sitio web
+# * menu_principal        Menú principal creado por la clase del mismo nombre
+# * encabezado            Código HTML que va en la parte superior
+# * contenido             Código HTML con el contenido
+# * contenido_secundario  Código HTML que crea una segunda columna más delgada del lado derecho
+# * pie                   Código HTML que va en la parte inferior
+# * javascript            Código Javascript
+# * en_raiz               Si es verdadero los vínculos serán para un archivo en la raíz del sitio
+# * para_compartir        Si es verdadero pondrá los metas para tajetas en Twitter/Facebook
 
 class PlantillaIMPLAN
 
-    attr_writer :sitio_titulo, :titulo, :autor, :descripcion, :claves, :rss, :favicon, :url_base, :menu_principal, :encabezado, :contenido, :contenido_secundario, :pie, :javascript, :en_raiz
+    attr_writer :sitio_titulo, :titulo, :autor, :descripcion, :claves, :rss, :favicon, :ruta, :imagen_previa, :sitio_url, :menu_principal, :encabezado, :contenido, :contenido_secundario, :pie, :javascript, :en_raiz, :para_compartir
     attr_reader :titulo
 
     ##
@@ -72,6 +93,17 @@ FINAL
         a << "  <meta name=\"description\" content=\"#@descripcion\">" if not @descripcion.nil?
         a << "  <meta name=\"author\" content=\"#@autor\">" if not @autor.nil?
         a << "  <meta name=\"keywords\" content=\"\">" if not @claves.nil?
+        if @para_compartir
+            a << "  <meta name=\"twitter:card\" content=\"summary\">"
+            a << "  <meta name=\"twitter:title\" content=\"#@titulo\">"
+            a << "  <meta name=\"twitter:description\" content=\"#@descripcion\">" if not @descripcion.nil?
+            a << "  <meta name=\"twitter:image\" content=\"#{@sitio_url + '/' + @imagen_previa}\">" if not @imagen_previa.nil?
+            a << "  <meta name=\"twitter:url\" content=\"#{@sitio_url + '/' + @ruta}\">" if not @ruta.nil?
+            a << "  <meta name=\"og:title\" content=\"#@titulo\">"
+            a << "  <meta name=\"og:description\" content=\"#@descripcion\">" if not @descripcion.nil?
+            a << "  <meta name=\"og:image\" content=\"#{@sitio_url + '/' + @imagen_previa}\">" if not @imagen_previa.nil?
+            a << "  <meta name=\"og:url\" content=\"#{@sitio_url + '/' + @ruta}\">" if not @ruta.nil?
+        end
         if @en_raiz
             a << "  <link href=\"#@favicon\" rel=\"shortcut icon\" type=\"image/x-icon\">" if not @favicon.nil?
             a << "  <link href=\"#@rss\" rel=\"alternate\" type=\"application/rss+xml\" title=\"#@sitio_titulo\" />" if not @rss.nil?
@@ -85,7 +117,7 @@ FINAL
             a << '  <link href="../css/morris.css" rel="stylesheet">'
             a << '  <link href="../css/cms.css" rel="stylesheet">'
         end
-        a << "  <base href=\"#@url_base\" target=\"_blank\">" if not @url_base.nil?
+     #~ a << "  <base href=\"#@sitio_url\" target=\"_blank\">" if not @sitio_url.nil?
         a << '  <!-- SOPORTE PARA IE8 -->'
         a << '  <!--[if lt IE 9]>'
         a << '  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>'
