@@ -1,82 +1,28 @@
-Cumplimiento en información pública mínina en Matamoros
+Cumplimiento en información pública mínina
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Transparencia
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Matamoros
 
 #### Descripción
 
 Cumplimiento sobre total de obligaciones
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2014-03-03</td>
-<td class="derecha">63.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">03/03/2014</td><td class="derecha">63 %</td><td>ICAI-IDAIP</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Porcentaje.
-
-
-
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2014-03-03</td>
-<td class="derecha">100.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2013-12-31</td>
-<td class="derecha">79.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2013-12-31</td>
-<td class="derecha">79.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2013-12-31</td>
-<td class="derecha">80.00 %</td>
-<td>ICAI-IDAIP</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
+Unidad: Porcentaje.

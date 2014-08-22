@@ -1,77 +1,32 @@
-Red Carretera de Alimentadoras Estatales en Matamoros
+Red Carretera de Alimentadoras Estatales
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Infraestructura
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Matamoros
 
 #### Descripción
 
 Red carretera de alimentadoras estatales.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2012-12-31</td>
-<td class="derecha">0</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">0</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Kilómetros.
+Unidad: Kilómetros.
 
 #### Observaciones
 
 No aplica a nivel metropolitano
-
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2012-12-31</td>
-<td class="derecha">0</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2012-12-31</td>
-<td class="derecha">111</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2012-12-31</td>
-<td class="derecha">43</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

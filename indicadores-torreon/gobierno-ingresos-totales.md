@@ -1,71 +1,37 @@
-Ingresos Totales en Torreón
+Ingresos Totales
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Finanzas Públicas
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
 
+### Torreón
 
+#### Descripción
+
+Ingresos totales por municipio.
+
+<!-- break -->
 
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2007-12-31</td>
-<td class="derecha">$ 1,395,070,656.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2008-12-31</td>
-<td class="derecha">$ 1,672,978,076.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2009-12-31</td>
-<td class="derecha">$ 1,555,061,545.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2010-12-31</td>
-<td class="derecha">$ 1,828,589,942.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2011-12-31</td>
-<td class="derecha">$ 1,910,299,313.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2012-12-31</td>
-<td class="derecha">$ 1,840,277,768.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2013-12-31</td>
-<td class="derecha">$ 1,927,501,368.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2007</td><td class="derecha">$ 1,395,070,656.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">$ 1,672,978,076.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2009</td><td class="derecha">$ 1,555,061,545.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 1,828,589,942.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 1,910,299,313.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 1,840,277,768.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 1,927,501,368.00</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Pesos.
+Unidad: Pesos.
 
 #### Observaciones
 
@@ -82,10 +48,10 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisnfsomqmv" class="grafica"></div>
+<div id="Morriszkviiwjt" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morrisnfsomqmv',
+element: 'Morriszkviiwjt',
 data: [{ fecha: '2007-12-31', dato: 1395070656.00 },{ fecha: '2008-12-31', dato: 1672978076.00 },{ fecha: '2009-12-31', dato: 1555061545.00 },{ fecha: '2010-12-31', dato: 1828589942.00 },{ fecha: '2011-12-31', dato: 1910299313.00 },{ fecha: '2012-12-31', dato: 1840277768.00 },{ fecha: '2013-12-31', dato: 1927501368.00 }],
 xkey: 'fecha',
 ykeys: ['dato'],
@@ -95,188 +61,3 @@ xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFul
 dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
 });
 </script>
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Gómez Palacio</td>
-<td>2007-12-31</td>
-<td class="derecha">$ 633,417,899.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2008-12-31</td>
-<td class="derecha">$ 939,654,384.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2009-12-31</td>
-<td class="derecha">$ 1,112,511,574.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2010-12-31</td>
-<td class="derecha">$ 779,450,508.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2011-12-31</td>
-<td class="derecha">$ 1,002,767,622.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2012-12-31</td>
-<td class="derecha">$ 1,127,248,678.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2007-12-31</td>
-<td class="derecha">$ 241,931,931.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2008-12-31</td>
-<td class="derecha">$ 262,644,851.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2009-12-31</td>
-<td class="derecha">$ 308,171,837.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2010-12-31</td>
-<td class="derecha">$ 279,317,865.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2011-12-31</td>
-<td class="derecha">$ 324,230,289.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2012-12-31</td>
-<td class="derecha">$ 360,393,013.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2007-12-31</td>
-<td class="derecha">$ 118,848,281.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2008-12-31</td>
-<td class="derecha">$ 179,363,074.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2009-12-31</td>
-<td class="derecha">$ 172,111,514.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2010-12-31</td>
-<td class="derecha">$ 149,987,909.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2011-12-31</td>
-<td class="derecha">$ 154,367,205.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2012-12-31</td>
-<td class="derecha">$ 176,265,107.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2007-12-31</td>
-<td class="derecha">$ 2,389,268,767.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2008-12-31</td>
-<td class="derecha">$ 3,054,640,385.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2009-12-31</td>
-<td class="derecha">$ 3,147,856,470.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2010-12-31</td>
-<td class="derecha">$ 3,037,346,224.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2011-12-31</td>
-<td class="derecha">$ 3,391,664,429.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2012-12-31</td>
-<td class="derecha">$ 3,504,184,566.00</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

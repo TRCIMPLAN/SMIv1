@@ -1,105 +1,32 @@
-Pobreza en Matamoros
+Pobreza
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Bienestar
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Matamoros
 
 #### Descripción
 
 Porcentaje de la población en situación de pobreza.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2012-12-31</td>
-<td class="derecha">33.84 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">33.84 %</td><td>CONEVAL</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Porcentaje.
+Unidad: Porcentaje.
 
 #### Observaciones
 
 Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)
-
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2012-12-31</td>
-<td class="derecha">26.80 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2012-12-31</td>
-<td class="derecha">37.29 %</td>
-<td>CONEVAL</td>
-<td>Consulta la [Base de Datos](http://www.coneval.gob.mx/Medicion/Paginas/Medici%C3%B3n/Pobreza%202012/Pobreza-2012.aspx)</td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2012-12-31</td>
-<td class="derecha">47.98 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2012-12-31</td>
-<td class="derecha">32.74 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-<tr>
-<td>Coahuila</td>
-<td>2010-12-31</td>
-<td class="derecha">27.70 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-<tr>
-<td>Durango</td>
-<td>2010-12-31</td>
-<td class="derecha">50.34 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>2010-12-31</td>
-<td class="derecha">45.59 %</td>
-<td>CONEVAL</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

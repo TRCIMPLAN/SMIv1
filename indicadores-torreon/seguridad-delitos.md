@@ -1,58 +1,40 @@
-Delitos en Torreón
+Delitos
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Delincuencia, Seguridad
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Torreón
 
 #### Descripción
 
 Total de delitos cometidos en el segundo trimestre 2014
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2014-01-31</td>
-<td class="derecha">934</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>2014-02-28</td>
-<td class="derecha">841</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>2014-06-30</td>
-<td class="derecha">2,542</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/01/2014</td><td class="derecha">934</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">28/02/2014</td><td class="derecha">841</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">2,542</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Cantidad.
-
-
+Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morriszsvvjaiw" class="grafica"></div>
+<div id="Morriswrefwgom" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morriszsvvjaiw',
+element: 'Morriswrefwgom',
 data: [{ fecha: '2014-01-31', dato: 934 },{ fecha: '2014-02-28', dato: 841 },{ fecha: '2014-06-30', dato: 2542 }],
 xkey: 'fecha',
 ykeys: ['dato'],
@@ -62,90 +44,3 @@ xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFul
 dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
 });
 </script>
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Gómez Palacio</td>
-<td>2014-01-31</td>
-<td class="derecha">363</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2014-02-28</td>
-<td class="derecha">307</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2014-06-30</td>
-<td class="derecha">986</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2014-01-31</td>
-<td class="derecha">66</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2014-02-28</td>
-<td class="derecha">66</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2014-06-30</td>
-<td class="derecha">180</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2014-01-31</td>
-<td class="derecha">69</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2014-02-28</td>
-<td class="derecha">65</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2014-06-30</td>
-<td class="derecha">230</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2014-06-30</td>
-<td class="derecha">3,938</td>
-<td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

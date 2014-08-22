@@ -1,11 +1,16 @@
-Categoría Finanzas Públicas
-=====
+# encoding: utf-8
+def publicacion(dir)
 
-Fecha: 1980-12-31
-Categorías: Pendiente
-Autor: TrcIMPLAN
-Aparece en pagina inicial: No
-
+    p                           = Publicacion.new
+    p.directorio                = dir
+    p.archivo                   = 'categoria-finanzas-publicas'
+    p.nombre                    = 'Categoría Finanzas Públicas'
+    p.fecha                     = '1980-01-01'
+    p.categorias                = Array.new
+    p.autor                     = 'Autor'
+    p.aparece_en_pagina_inicial = false
+    p.tipo_contenido            = 'html'
+    p.contenido                 = <<FIN_CONTENIDO
 <table class="table table-bordered matriz">
 <thead>
   <tr>
@@ -85,3 +90,9 @@ Aparece en pagina inicial: No
 </tbody>
 </table>
 <p class="instrucciones">Instrucciones: Mantenga el ratón sobre un dato por unos segundos para mostrar la unidad, fecha y fuente. De clic para ir a la página con más información.</p>
+FIN_CONTENIDO
+
+    # Entregar la publicacion
+    p
+
+end

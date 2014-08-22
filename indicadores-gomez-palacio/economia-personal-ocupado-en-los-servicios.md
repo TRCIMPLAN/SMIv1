@@ -1,49 +1,33 @@
-Personal Ocupado en los Servicios en Gómez Palacio
+Personal Ocupado en los Servicios
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Empleo, Mercados
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Gómez Palacio
 
 #### Descripción
 
 Personal ocupado en las actividades de servicios entre personal ocupado total.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1998-12-31</td>
-<td class="derecha">30.87 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2003-12-31</td>
-<td class="derecha">26.46 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>2008-12-31</td>
-<td class="derecha">30.28 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">30.87 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">26.46 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">30.28 %</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Porcentaje.
+Unidad: Porcentaje.
 
 #### Observaciones
 
@@ -51,10 +35,10 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrismeckowpn" class="grafica"></div>
+<div id="Morrisacckjxne" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morrismeckowpn',
+element: 'Morrisacckjxne',
 data: [{ fecha: '1998-12-31', dato: 30.8700 },{ fecha: '2003-12-31', dato: 26.4600 },{ fecha: '2008-12-31', dato: 30.2786 }],
 xkey: 'fecha',
 ykeys: ['dato'],
@@ -64,125 +48,3 @@ xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFul
 dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
 });
 </script>
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>1998-12-31</td>
-<td class="derecha">27.89 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Torreón</td>
-<td>2003-12-31</td>
-<td class="derecha">27.41 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Torreón</td>
-<td>2008-12-31</td>
-<td class="derecha">35.64 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>1998-12-31</td>
-<td class="derecha">20.95 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2003-12-31</td>
-<td class="derecha">12.84 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2008-12-31</td>
-<td class="derecha">24.20 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>1998-12-31</td>
-<td class="derecha">16.41 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2003-12-31</td>
-<td class="derecha">18.09 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2008-12-31</td>
-<td class="derecha">17.95 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>1998-12-31</td>
-<td class="derecha">28.10 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2003-12-31</td>
-<td class="derecha">26.06 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2008-12-31</td>
-<td class="derecha">32.99 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>1998-12-31</td>
-<td class="derecha">28.49 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>2003-12-31</td>
-<td class="derecha">30.61 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Nacional</td>
-<td>2008-12-31</td>
-<td class="derecha">35.03 %</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

@@ -1,37 +1,31 @@
-Universidades en Gómez Palacio
+Universidades
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Educación
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Gómez Palacio
 
 #### Descripción
 
 Planteles de Instituciones de Educación Superior.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2014-03-31</td>
-<td class="derecha">9</td>
-<td>CIESLAG-FOMEC</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">9</td><td>CIESLAG-FOMEC</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Cantidad.
+Unidad: Cantidad.
 
 #### Observaciones
 
@@ -68,49 +62,3 @@ Las escuelas y facultades de la UAdeC son contabilizadas en una unidad. Únicame
 * Instituto de Estudios Superiores y Educación Normal Gral. Lázaro Cárdenas
 * Instituto Tecnológico de Lerdo
 * Universidad Pedagógica de Durango-UGP
-
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2014-03-31</td>
-<td class="derecha">18</td>
-<td>CIESLAG-FOMEC</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2014-03-31</td>
-<td class="derecha">3</td>
-<td>CIESLAG-FOMEC</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2014-03-31</td>
-<td class="derecha">1</td>
-<td>CIESLAG-FOMEC</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2014-03-31</td>
-<td class="derecha">31</td>
-<td>CIESLAG-FOMEC</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

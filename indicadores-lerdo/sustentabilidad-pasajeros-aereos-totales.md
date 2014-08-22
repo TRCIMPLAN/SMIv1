@@ -1,84 +1,32 @@
-Pasajeros Aéreos Totales en Lerdo
+Pasajeros Aéreos Totales
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Movilidad
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Lerdo
 
 #### Descripción
 
 Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2013-12-31</td>
-<td class="centrado">NO TIENE</td>
-<td>Operadora Mexicana de Aeropuertos (OMA)</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">NO TIENE</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Personas.
+Unidad: Personas.
 
 #### Observaciones
 
 Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/)
-
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2013-12-31</td>
-<td class="derecha">508,133</td>
-<td>Operadora Mexicana de Aeropuertos (OMA)</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2013-12-31</td>
-<td class="centrado">NO TIENE</td>
-<td>Operadora Mexicana de Aeropuertos (OMA)</td>
-<td></td>
-</tr>
-<tr>
-<td>Matamoros</td>
-<td>2013-12-31</td>
-<td class="centrado">NO TIENE</td>
-<td>Operadora Mexicana de Aeropuertos (OMA)</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2013-12-31</td>
-<td class="derecha">508,133</td>
-<td>Operadora Mexicana de Aeropuertos (OMA)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-

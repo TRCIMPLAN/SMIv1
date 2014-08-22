@@ -1,82 +1,28 @@
-Presuntos Delincuentes del Fuero Federal en Matamoros
+Presuntos Delincuentes del Fuero Federal
 =====
 
-Fecha: 1980-12-31
+Fecha: 2014-05-01
 Categorías: Delincuencia
-Autor: TrcIMPLAN
+Autor: IMPLAN
 Aparece en pagina inicial: No
+
+### Matamoros
 
 #### Descripción
 
 Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal
 
+<!-- break -->
+
 #### Información recopilada
 
 <table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2008-12-31</td>
-<td class="derecha">55</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+    <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">55</td><td>INEGI</td><td></td></tr>
+  </tbody>
 </table>
 
-<b>Unidad:</b> Cantidad.
-
-
-
-
-#### En otras regiones
-
-<table class="table table-hover table-bordered matriz">
-<thead>
-<tr>
-<th>Región</th>
-<th>Fecha</th>
-<th>Dato</th>
-<th>Fuente</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Torreón</td>
-<td>2008-12-31</td>
-<td class="derecha">194</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Gómez Palacio</td>
-<td>2008-12-31</td>
-<td class="derecha">130</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>Lerdo</td>
-<td>2008-12-31</td>
-<td class="derecha">29</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-<tr>
-<td>La Laguna</td>
-<td>2008-12-31</td>
-<td class="derecha">408</td>
-<td>INEGI</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
+Unidad: Cantidad.
