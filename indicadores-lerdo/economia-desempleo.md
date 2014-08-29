@@ -21,9 +21,9 @@ Cantidad de personas desempleadas.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/1989</td><td class="derecha">821</td><td>INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/1999</td><td class="derecha">360</td><td>INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2009</td><td class="derecha">3,795</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">12/03/1990</td><td class="derecha">821</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">14/02/2000</td><td class="derecha">360</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">25/06/2010</td><td class="derecha">3,795</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -42,11 +42,11 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrismzqvhyzg" class="grafica"></div>
+<div id="Morrisbuypsbof" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morrismzqvhyzg',
-data: [{ fecha: '1989-12-31', dato: 821 },{ fecha: '1999-12-31', dato: 360 },{ fecha: '2009-12-31', dato: 3795 }],
+element: 'Morrisbuypsbof',
+data: [{ fecha: '1990-03-12', dato: 821 },{ fecha: '2000-02-14', dato: 360 },{ fecha: '2010-06-25', dato: 3795 }],
 xkey: 'fecha',
 ykeys: ['dato'],
 labels: ['Dato'],

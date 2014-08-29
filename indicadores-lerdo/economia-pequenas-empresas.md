@@ -36,10 +36,10 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 #### Gráfica
 
-<div id="Morrissqhbrvbs" class="grafica"></div>
+<div id="Morriscbqadgmu" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morrissqhbrvbs',
+element: 'Morriscbqadgmu',
 data: [{ fecha: '2013-12-31', dato: 6.9600 },{ fecha: '2014-07-31', dato: 5.6200 }],
 xkey: 'fecha',
 ykeys: ['dato'],
