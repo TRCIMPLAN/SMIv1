@@ -25,7 +25,7 @@ def publicacion(dir)
 </thead>
 <tbody>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Ocupación por Vivienda</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.7</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.9</a></td>
@@ -34,7 +34,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.95</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Agua de la Red Pública</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.18 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.03 %</a></td>
@@ -43,7 +43,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.04 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Computadora</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-computadora.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">38.74 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">28.87 %</a></td>
@@ -52,7 +52,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">33.2 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Drenaje</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.23 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">95.19 %</a></td>
@@ -61,7 +61,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">96.26 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Energía Eléctrica</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">99.61 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">99.44 %</a></td>
@@ -70,7 +70,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">99.46 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Internet</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-internet.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">28 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">19 %</a></td>
@@ -79,7 +79,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas Habitadas</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">172,719</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">83,973</a></td>
@@ -88,7 +88,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">317,832</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas que Disponen de Retrete</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.71 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">97.1 %</a></td>
@@ -97,7 +97,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">97.54 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas Totales</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">224,234</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">108,682</a></td>
@@ -106,7 +106,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">408,227</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Viviendas Deshabitadas</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">20.57 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">19.68 %</a></td>
@@ -115,7 +115,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">19.45 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Viviendas Ocupadas Temporalmente</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">2.9 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">3.3 %</a></td>

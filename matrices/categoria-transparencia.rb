@@ -25,7 +25,7 @@ def publicacion(dir)
 </thead>
 <tbody>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Cumplimiento en información pública mínina</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2014-03-03, ICAI-IDAIP">100 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, ICAI-IDAIP">79 %</a></td>
@@ -34,7 +34,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, ICAI-IDAIP">80 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">índice de Información Presupuestal</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, IMCO">22 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, IMCO">35 %</a></td>

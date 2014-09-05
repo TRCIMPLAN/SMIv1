@@ -25,7 +25,7 @@ def publicacion(dir)
 </thead>
 <tbody>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Apertura de Negocio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-negocio.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">9.5000</a></td>
     <td class="nd">ND</td>
@@ -34,7 +34,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Cartera Hipotecaria</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">$ 4,664,619,926.00</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">$ 614,765,352.00</a></td>
@@ -43,7 +43,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-cartera-hipotecaria.html" data-toggle="tooltip" title="Pesos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">$ 5,671,976,037.00</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Desempleo</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI">19,536</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI">9,705</a></td>
@@ -52,7 +52,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desempleo.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI">35,416</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Desocupados como porcentaje de la PEA</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI">7.46 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI">7.80 %</a></td>
@@ -61,7 +61,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-desocupados-como-porcentaje-de-la-pea.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI">7.43 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Ejecución de Contratos</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-ejecucion-de-contratos.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">270</a></td>
     <td class="nd">ND</td>
@@ -70,7 +70,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Grandes Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-grandes-empresas.html" data-toggle="tooltip" title="Porcentaje, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">1.13 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-grandes-empresas.html" data-toggle="tooltip" title="Porcentaje, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">0.98 %</a></td>
@@ -79,7 +79,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-grandes-empresas.html" data-toggle="tooltip" title="Porcentaje, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">1.07 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Competitividad Urbana</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">50.67</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">42.57</a></td>
@@ -88,7 +88,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-competitividad-urbana.html" data-toggle="tooltip" title="De 0 a 1, 2012-12-31, IMCO">45.11</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Especialización Local en Comercio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">7.45 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">9.88 %</a></td>
@@ -97,7 +97,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">8.33 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Especialización Local en Industria Manufacturera</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-especializacion-local-en-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">76.06 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">60.23 %</a></td>
@@ -106,7 +106,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">71.10 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Especialización Local en la Construcción</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-construccion.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">3.6 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-la-construccion.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">2.23 %</a></td>
@@ -115,7 +115,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-construccion.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">3.15 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Especialización Local en la Minería</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-especializacion-local-en-la-mineria.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">1.4 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-la-mineria.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">0.2 %</a></td>
@@ -124,7 +124,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-la-mineria.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">4.8 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Especialización Local en Servicios</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-especializacion-local-en-servicios.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">8.05 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-servicios.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">4.91 %</a></td>
@@ -133,7 +133,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-especializacion-local-en-servicios.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">7.15 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Índice de Gini</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, CONEVAL">0.452</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, CONEVAL">0.4208</a></td>
@@ -142,7 +142,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-indice-de-gini.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, CONEVAL">0.4238</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Extranjera Directa</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-extranjera-directa.html" data-toggle="tooltip" title="Millones de dólares, 2012-12-31, Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía">$ 46.50</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-inversion-extranjera-directa.html" data-toggle="tooltip" title="Millones de dólares, 2012-12-31, Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía">$ 214.49</a></td>
@@ -151,7 +151,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-inversion-extranjera-directa.html" data-toggle="tooltip" title="Millones de dólares, 2012-12-31, Elaboración propia con datos obtenidos del INEGI y la Secretaría de Economía">$ 271.40</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Inversión Per cápita</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 348.09</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 640.48</a></td>
@@ -160,7 +160,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-inversion-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 411.88</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Medianas Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-medianas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">1.57 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-medianas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">2.36 %</a></td>
@@ -169,7 +169,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-medianas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">1.74 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Microempresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">89.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">88.88 %</a></td>
@@ -178,7 +178,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-microempresas.html" data-toggle="tooltip" title="Porcentaje, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">89.65 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Obtención de crédito - Creación de garantías</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-obtencion-de-credito---creacion-de-garantias.html" data-toggle="tooltip" title="Días, 2007-12-31, Doing Business">13</a></td>
     <td class="nd">ND</td>
@@ -187,7 +187,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Pequeñas Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">7.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">7.78 %</a></td>
@@ -196,7 +196,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-pequenas-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">7.54 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Permiso de Construcción</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-permiso-de-construccion.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">107</a></td>
     <td class="nd">ND</td>
@@ -205,7 +205,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Personal Ocupado en el Comercio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personal-ocupado-en-el-comercio.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">27.65 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-personal-ocupado-en-el-comercio.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">27.61 %</a></td>
@@ -214,7 +214,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-personal-ocupado-en-el-comercio.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">28.03 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Personal Ocupado en la Industria Manufacturera</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personal-ocupado-en-la-industria-manufacturera.html" data-toggle="tooltip" title="Personas, 2008-12-31, INEGI">25.70 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-personal-ocupado-en-la-industria-manufacturera.html" data-toggle="tooltip" title="Personas, 2008-12-31, INEGI">32.10 %</a></td>
@@ -223,7 +223,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-personal-ocupado-en-la-industria-manufacturera.html" data-toggle="tooltip" title="Personas, 2008-12-31, INEGI">28.59 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Personal Ocupado en los Servicios</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-personal-ocupado-en-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">35.64 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-personal-ocupado-en-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">30.28 %</a></td>
@@ -232,7 +232,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-personal-ocupado-en-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, INEGI">32.99 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Posgrados de Calidad</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-posgrados-de-calidad.html" data-toggle="tooltip" title="Cantidad de Posgrados, 2014-04-30, CONACYT">11</a></td>
     <td class="nd">ND</td>
@@ -241,7 +241,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Producción Bruta Total Per Cápita</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 197,853.91</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 157,032.38</a></td>
@@ -250,7 +250,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-produccion-bruta-total-per-capita.html" data-toggle="tooltip" title="Pesos, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">$ 149,559.46</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Productividad Laboral</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 530,143.00</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 462,597.00</a></td>
@@ -259,7 +259,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-productividad-laboral.html" data-toggle="tooltip" title="Pesos, 2010-12-31, IMCO">$ 421,204.00</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Registro de Propiedades</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-registro-de-propiedades.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">28</a></td>
     <td class="nd">ND</td>
@@ -268,7 +268,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Sectores que Han Frenado el Crecimiento (2008-2012)</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">7.36 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">9.84 %</a></td>
@@ -277,7 +277,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-frenado-el-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">16.81 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Sectores que Han Presentado Alto Crecimiento (2008-2012)</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">15.92 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">19.55 %</a></td>
@@ -286,7 +286,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html" data-toggle="tooltip" title="Porcentaje, 2008-12-31, Elaboración propia con datos obtenidos del INEGI">30.86 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Tamaño del Mercado Hipotecario</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">284</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">85</a></td>
@@ -295,7 +295,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html" data-toggle="tooltip" title="Cantidad de Créditos, 2014-03-31, Comisión Nacional Bancaria y de Valores (CNBV)">401</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Total de Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">7,402</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">2,032</a></td>
@@ -304,7 +304,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">9,785</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2013-12-31, IMSS Subdelegación Torreón">187,050</a></td>
     <td class="nd">ND</td>
@@ -313,7 +313,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Unidades Económicas Dedicadas a la Industria Manufacturera</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">8.55 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">8.84 %</a></td>
@@ -322,7 +322,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">8.69 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Unidades Económicas Dedicadas al Comercio</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">42.73 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">44.63 %</a></td>
@@ -331,7 +331,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">44.28 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color1">ECONOMÍA</td>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Unidades Económicas Dedicadas a los Servicios</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">44.92 %</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">42.09 %</a></td>
@@ -340,7 +340,7 @@ def publicacion(dir)
     <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html" data-toggle="tooltip" title="Porcentaje, 2013-10-31, INEGI">43.06 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Capacidad Financiera</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">74.22 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">74.26 %</a></td>
@@ -349,7 +349,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-capacidad-financiera.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">66.50 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Competencia Electoral</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">1.77 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-06-30, INE-IEPCC">4.48 %</a></td>
@@ -358,7 +358,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral.html" data-toggle="tooltip" title="Porcentaje, 2013-07-07, INE-IEPCC">6.7 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Competencia Electoral Diferencia de Votos</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">4,367</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">5,784</a></td>
@@ -367,7 +367,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">32,140</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Competencia Electoral Votos Totales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">246,044</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">120,131</a></td>
@@ -376,7 +376,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-competencia-electoral-votos-totales.html" data-toggle="tooltip" title="Cantidad, 2012-07-01, INE-IEPCC">479,785</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Cumplimiento en información pública mínina</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2014-03-03, ICAI-IDAIP">100 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, ICAI-IDAIP">79 %</a></td>
@@ -385,7 +385,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, ICAI-IDAIP">80 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Índice de Gobierno Electrónico Municipal</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.6916</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.4763</a></td>
@@ -394,7 +394,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-gobierno-electronico-municipal.html" data-toggle="tooltip" title="De 0 a 1, 2011-12-31, CIDE">0.544</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">índice de Información Presupuestal</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, IMCO">22 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, IMCO">35 %</a></td>
@@ -403,7 +403,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-indice-de-informacion-presupuestal.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, IMCO">26 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos por Cobro de Servicios</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-por-cobro-de-servicios.html" data-toggle="tooltip" title="Pesos, 2013-12-31, INEGI">$ 848,020,707.00</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-por-cobro-de-servicios.html" data-toggle="tooltip" title="Pesos, 2012-12-31, INEGI">$ 523,339,253.00</a></td>
@@ -412,7 +412,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-por-cobro-de-servicios.html" data-toggle="tooltip" title="Pesos, 2012-12-31, INEGI">$ 1,400,461,048.00</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos Totales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 2013-12-31, INEGI">$ 1,927,501,368.00</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 2012-12-31, INEGI">$ 1,127,248,678.00</a></td>
@@ -421,7 +421,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-totales.html" data-toggle="tooltip" title="Pesos, 2012-12-31, INEGI">$ 3,504,184,566.00</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Ingresos Totales Per Cápita</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,821.23</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 3,328.92</a></td>
@@ -430,7 +430,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-ingresos-totales-per-capita.html" data-toggle="tooltip" title="Pesos, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">$ 2,772.32</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Participación Electoral</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">53.75 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">58.31 %</a></td>
@@ -439,7 +439,7 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-participacion-electoral.html" data-toggle="tooltip" title="Porcentaje, 2012-07-01, INE-IEPCC">57.68 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color2">GOBIERNO</td>
+    <td class="subindice color2">Gobierno</td>
     <td class="indicador color2">Relación de Ingresos Propios y Totales</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, Elaboración propia con datos obtenidos del INEGI">43.99 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">46.42 %</a></td>
@@ -448,16 +448,16 @@ def publicacion(dir)
     <td class="derecha color2"><a class="vinculo" href="../indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, Elaboración propia con datos obtenidos del INEGI">39.96 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Accidentes Viales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">1,958</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">1,498</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">362</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">289</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">4,107</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, INEGI">1,831</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, INEGI">1,128</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, INEGI">242</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, INEGI">161</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, INEGI">3,362</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Accidentes Viales Fatales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">23</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">29</a></td>
@@ -466,7 +466,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-accidentes-viales-fatales.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI">66</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Cantidad de Policías</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-cantidad-de-policias.html" data-toggle="tooltip" title="Cantidad, 2014-02-28, Ayuntamiento de Torreón">768</a></td>
     <td class="nd">ND</td>
@@ -475,7 +475,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2,542</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">986</a></td>
@@ -484,7 +484,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">3,938</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">51</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">46</a></td>
@@ -493,7 +493,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">113</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Porcentaje de Accidentes Viales Fatales</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.17 %</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.94 %</a></td>
@@ -502,7 +502,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-porcentaje-de-accidentes-viales-fatales.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, INEGI">1.61 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Presuntos Delincuentes del Fuero Común</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">765</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">384</a></td>
@@ -511,7 +511,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">1,301</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Presuntos Delincuentes del Fuero Federal</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delincuentes-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">194</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">130</a></td>
@@ -520,7 +520,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-presuntos-delincuentes-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">408</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Presuntos Delincuentes por Narcóticos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-presuntos-delincuentes-por-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">111</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-presuntos-delincuentes-por-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">84</a></td>
@@ -529,7 +529,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-presuntos-delincuentes-por-narcoticos.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">228</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo de Vehículos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">259</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">201</a></td>
@@ -538,7 +538,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-de-vehiculos.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">490</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
@@ -547,7 +547,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Sentenciados en Materia de Narcóticos Registrados en el Fuero Federal</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">108</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">60</a></td>
@@ -556,7 +556,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-en-materia-de-narcoticos-registrados-en-el-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">182</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Sentenciados Registrados del Fuero Común</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">392</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">297</a></td>
@@ -565,7 +565,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-comun.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">813</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Sentenciados Registrados del Fuero Federal</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">194</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">119</a></td>
@@ -574,7 +574,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-sentenciados-registrados-del-fuero-federal.html" data-toggle="tooltip" title="Cantidad, 2008-12-31, INEGI">341</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Tasa de Delitos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">1,466.36</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">1,078.32</a></td>
@@ -583,7 +583,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-delitos.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SNSP">1,216.77</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Tasa de Homicidios</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-homicidios.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">45.76</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-homicidios.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">57.38</a></td>
@@ -592,7 +592,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-homicidios.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">49.88</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Tasa de Policías por Habitante</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-policias-por-habitante.html" data-toggle="tooltip" title="Por cada mil, 2014-02-28, Ayuntamiento de Torreón">1.0997</a></td>
     <td class="nd">ND</td>
@@ -601,7 +601,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Tasa de Robo de VehÍculos</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">232.82</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">347.43</a></td>
@@ -610,7 +610,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">243.56</a></td>
   </tr>
   <tr>
-    <td class="subindice color3">SEGURIDAD</td>
+    <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Tasa de Secuestro</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1.63</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1.73</a></td>
@@ -619,7 +619,7 @@ def publicacion(dir)
     <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-tasa-de-secuestro.html" data-toggle="tooltip" title="Por cada 100 mil, 2013-12-31, SNSP">1.4</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">45,139</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">20,263</a></td>
@@ -628,7 +628,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">82,328</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Femenino</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">25,310</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">10,863</a></td>
@@ -637,7 +637,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">44,790</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Masculino</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">19,829</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">9,400</a></td>
@@ -646,7 +646,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">37,538</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Alumnos con Perfil Científico-Matemático</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-perfil-cientifico-matematico.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, SEP">46 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-cientifico-matematico.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, SEP">35 %</a></td>
@@ -655,7 +655,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, SEP">42 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Alumnos con Perfil Gramático-Español</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-alumnos-con-perfil-gramatico-espanol.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, SEP">44 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, SEP">37 %</a></td>
@@ -664,7 +664,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html" data-toggle="tooltip" title="Porcentaje, 2013-12-31, SEP">40 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Camas Censables</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">51</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">74</a></td>
@@ -673,7 +673,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-camas-censables.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">173</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Diferencial de Grado Promedio de Escolaridad por Género</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI">-0.32</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI">-0.2</a></td>
@@ -682,7 +682,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Discapacidad</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">10.17 %</a></td>
     <td class="nd">ND</td>
@@ -691,7 +691,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Espacios Culturales</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">16</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">10</a></td>
@@ -700,7 +700,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-espacios-culturales.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, CONACULTA-IMPLAN">13</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Estimación de Menores Huérfanos por Agresiones</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, IMPLAN">1,253</a></td>
     <td class="nd">ND</td>
@@ -709,7 +709,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Fecundidad</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-fecundidad.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI. Censos de Población y Vivienda">2.13</a></td>
     <td class="nd">ND</td>
@@ -718,7 +718,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Hogares con Jefatura Femenina</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">24.91 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23.19 %</a></td>
@@ -727,7 +727,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23.67 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.847</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.816</a></td>
@@ -736,7 +736,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Madres Adolescentes</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-madres-adolescentes.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">1,778</a></td>
     <td class="nd">ND</td>
@@ -745,7 +745,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Maternidad Adolescente</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-maternidad-adolescente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">13.9 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">16.3 %</a></td>
@@ -754,7 +754,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Médicos</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 2013-12-31, SINAIS (SSA)">2.5</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 2013-12-31, SINAIS (SSA)">4.2</a></td>
@@ -763,7 +763,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-medicos.html" data-toggle="tooltip" title="Por cada 10 mil, 2013-12-31, SINAIS (SSA)">3.5</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mortalidad.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">6.1</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">5</a></td>
@@ -772,7 +772,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mortalidad.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, INEGI">5.6</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad Infantil</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mortalidad-infantil.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, SINAIS (SSA)">12.2</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-infantil.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, SINAIS (SSA)">9.5</a></td>
@@ -781,7 +781,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mortalidad-infantil.html" data-toggle="tooltip" title="Por cada mil, 2012-12-31, SINAIS (SSA)">11.9</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad Materna</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">4.6</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">5.4</a></td>
@@ -790,7 +790,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">5.3</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad por Diabetes</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mortalidad-por-diabetes.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">7</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-por-diabetes.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">6.7</a></td>
@@ -799,7 +799,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-mortalidad-por-diabetes.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">7.1</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Ocupación por Vivienda</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.7</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.9</a></td>
@@ -808,7 +808,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.95</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Organizaciones de la Sociedad Civil</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">47.98</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">45.84</a></td>
@@ -817,7 +817,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-organizaciones-de-la-sociedad-civil.html" data-toggle="tooltip" title="Por cada 100 mil, 2014-03-31, RFOSC">41.22</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Población Estimada</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">683,914</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">350,513</a></td>
@@ -826,7 +826,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-poblacion-estimada.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">1,298,270</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Pobreza</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">26.8 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">37.29 %</a></td>
@@ -835,7 +835,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">32.74 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Pobreza Extrema</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">2.84 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">5.3 %</a></td>
@@ -844,7 +844,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-extrema.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">4 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Pobreza Moderada</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">24 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">31.9 %</a></td>
@@ -853,7 +853,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-pobreza-moderada.html" data-toggle="tooltip" title="Porcentaje, 2012-12-31, CONEVAL">28.6 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Promedio de Descendencia por Varón</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, IMPLAN">1.66</a></td>
     <td class="nd">ND</td>
@@ -862,7 +862,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rezago Alimentario</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">17.77 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">18.11 %</a></td>
@@ -871,7 +871,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rezago Educativo</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">10.83 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">17.31 %</a></td>
@@ -880,7 +880,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Universidades</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-universidades.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, CIESLAG-FOMEC">18</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-universidades.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, CIESLAG-FOMEC">9</a></td>
@@ -889,7 +889,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-universidades.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, CIESLAG-FOMEC">31</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Agua de la Red Pública</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.18 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.03 %</a></td>
@@ -898,7 +898,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-agua-de-la-red-publica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.04 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Computadora</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-computadora.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">38.74 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-computadora.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">28.87 %</a></td>
@@ -907,7 +907,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-computadora.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">33.2 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Drenaje</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-drenaje.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.23 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-drenaje.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">95.19 %</a></td>
@@ -916,7 +916,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-drenaje.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">96.26 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Energía Eléctrica</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">99.61 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">99.44 %</a></td>
@@ -925,7 +925,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">99.46 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas con Internet</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-con-internet.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">28 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-con-internet.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">19 %</a></td>
@@ -934,7 +934,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-con-internet.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas Habitadas</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">172,719</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">83,973</a></td>
@@ -943,7 +943,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-habitadas.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">317,832</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas que Disponen de Retrete</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">98.71 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">97.1 %</a></td>
@@ -952,7 +952,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">97.54 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Viviendas Totales</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">224,234</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">108,682</a></td>
@@ -961,7 +961,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-viviendas-totales.html" data-toggle="tooltip" title="Cantidad, 2010-12-31, INEGI">408,227</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Acceso a Vialidades Pavimentadas</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">93 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">88 %</a></td>
@@ -970,7 +970,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMPLAN">88 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Alumbrado Público</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">2.16 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">1.3 %</a></td>
@@ -979,7 +979,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-alumbrado-publico.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">2.69 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Área No Urbanizada</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-area-no-urbanizada.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">88.9 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">92.9 %</a></td>
@@ -988,7 +988,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">94.9 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Consumo de Agua Facturado</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-consumo-de-agua-facturado.html" data-toggle="tooltip" title="Metros cúbicos per cápita, 2013-12-31, SIMAS">41.99</a></td>
     <td class="nd">ND</td>
@@ -997,7 +997,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Destinos Vía Aérea</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-destinos-via-aerea.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Operadora Mexicana de Aeropuertos (OMA)">7</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-aerea.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Operadora Mexicana de Aeropuertos (OMA)">NO TIENE</a></td>
@@ -1006,7 +1006,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-destinos-via-aerea.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, Operadora Mexicana de Aeropuertos (OMA)">7</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Destinos Vía Terrestre</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-destinos-via-terrestre.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, IMPLAN">28</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-destinos-via-terrestre.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, IMPLAN">28</a></td>
@@ -1015,7 +1015,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, IMPLAN">28</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Generación de Basura</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 2010-12-31, INEGI">8.6</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 2010-12-31, INEGI">8.7</a></td>
@@ -1024,7 +1024,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-generacion-de-basura.html" data-toggle="tooltip" title="Kilogramos diarios por cada diez personas, 2010-12-31, INEGI">8.03</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Motorización</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">226</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">308</a></td>
@@ -1033,7 +1033,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">244</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Pasajeros Aéreos Internacionales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-internacionales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">55,446</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-internacionales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">NO TIENE</a></td>
@@ -1042,7 +1042,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-internacionales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">55,446</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Pasajeros Aéreos Totales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">508,133</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">NO TIENE</a></td>
@@ -1051,7 +1051,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-pasajeros-aereos-totales.html" data-toggle="tooltip" title="Personas, 2013-12-31, Operadora Mexicana de Aeropuertos (OMA)">508,133</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Población que Trabaja en OTRO Municipio</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONAPO">4.2 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONAPO">12 %</a></td>
@@ -1060,7 +1060,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONAPO">10.2 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Población que Trabaja en su PROPIO Municipio</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONAPO">89 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONAPO">78 %</a></td>
@@ -1069,7 +1069,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONAPO">82.9 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera de Alimentadoras Estatales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">0</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">111</a></td>
@@ -1078,7 +1078,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera Total</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-carretera-total.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">226</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">361</a></td>
@@ -1087,7 +1087,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera Troncal Federal</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">226</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">71</a></td>
@@ -1096,7 +1096,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red de Transporte Público</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-de-transporte-publico.html" data-toggle="tooltip" title="Kilómetros, 2014-03-31, IMPLAN">250</a></td>
     <td class="nd">ND</td>
@@ -1105,7 +1105,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Sobreexplotación del Acuífero</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMCO-CONAGUA">100 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMCO-CONAGUA">100 %</a></td>
@@ -1114,7 +1114,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, IMCO-CONAGUA">82 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Viviendas Deshabitadas</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-viviendas-deshabitadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">20.57 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-viviendas-deshabitadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">19.68 %</a></td>
@@ -1123,7 +1123,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">19.45 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Viviendas Ocupadas Temporalmente</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-viviendas-ocupadas-temporalmente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">2.9 %</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-viviendas-ocupadas-temporalmente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">3.3 %</a></td>
@@ -1132,7 +1132,7 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">3 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Volumen Tratado de Aguas Residuales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-volumen-tratado-de-aguas-residuales.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 2010-12-31, IMCO-CONAGUA">2.44</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-volumen-tratado-de-aguas-residuales.html" data-toggle="tooltip" title="Litros por segundo por cada mil habitantes, 2010-12-31, IMCO-CONAGUA">1.83</a></td>

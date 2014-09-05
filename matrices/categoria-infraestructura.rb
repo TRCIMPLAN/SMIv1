@@ -25,7 +25,7 @@ def publicacion(dir)
 </thead>
 <tbody>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera de Alimentadoras Estatales</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">0</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-de-alimentadoras-estatales.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">111</a></td>
@@ -34,7 +34,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera Total</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-carretera-total.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">226</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-total.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">361</a></td>
@@ -43,7 +43,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color5">SUSTENTABILIDAD</td>
+    <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Red Carretera Troncal Federal</td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-red-carretera-troncal-federal.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">226</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-red-carretera-troncal-federal.html" data-toggle="tooltip" title="Kilómetros, 2012-12-31, INEGI">71</a></td>

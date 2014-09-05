@@ -25,7 +25,7 @@ def publicacion(dir)
 </thead>
 <tbody>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Femenino</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">25,310</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">10,863</a></td>
@@ -34,7 +34,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">44,790</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Diferencial de Grado Promedio de Escolaridad por Género</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI">-0.32</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI">-0.2</a></td>
@@ -43,7 +43,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Fecundidad</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-fecundidad.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, INEGI. Censos de Población y Vivienda">2.13</a></td>
     <td class="nd">ND</td>
@@ -52,7 +52,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Hogares con Jefatura Femenina</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">24.91 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23.19 %</a></td>
@@ -61,7 +61,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">23.67 %</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Madres Adolescentes</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-madres-adolescentes.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">1,778</a></td>
     <td class="nd">ND</td>
@@ -70,7 +70,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Maternidad Adolescente</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-maternidad-adolescente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">13.9 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-maternidad-adolescente.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">16.3 %</a></td>
@@ -79,7 +79,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Mortalidad Materna</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">4.6</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-mortalidad-materna.html" data-toggle="tooltip" title="Por cada 10 mil, 2012-12-31, SINAIS (SSA)">5.4</a></td>

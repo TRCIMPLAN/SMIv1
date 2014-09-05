@@ -38,15 +38,15 @@ class MenuRegionesSubindicesIndicadoresConfig
         1 => {'nombre' => 'La Laguna', 'directorio' => 'indicadores-la-laguna'}
     }
     @subindices_listado = {
-        3 => {'nombre' => 'ECONOMÍA', 'color' => 'color1'},
-        2 => {'nombre' => 'GOBIERNO', 'color' => 'color2'},
-        1 => {'nombre' => 'SEGURIDAD', 'color' => 'color3'},
-        5 => {'nombre' => 'SOCIEDAD', 'color' => 'color4'},
-        4 => {'nombre' => 'SUSTENTABILIDAD', 'color' => 'color5'}
+        3 => {'nombre' => 'Economía', 'color' => 'color1'},
+        2 => {'nombre' => 'Gobierno', 'color' => 'color2'},
+        1 => {'nombre' => 'Seguridad', 'color' => 'color3'},
+        5 => {'nombre' => 'Sociedad', 'color' => 'color4'},
+        4 => {'nombre' => 'Sustentabilidad', 'color' => 'color5'}
     }
     @indicadores_por_subindice_por_region = {
         2 => { # Torreón
-            3 => { # ECONOMÍA
+            3 => { # Economía
                 123 => {'nombre' => 'Apertura de Negocio', 'ruta' => 'indicadores-torreon/economia-apertura-de-negocio.html'},
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
@@ -83,7 +83,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-torreon/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-torreon/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
-            2 => { # GOBIERNO
+            2 => { # Gobierno
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-torreon/gobierno-capacidad-financiera.html'},
                 103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-torreon/gobierno-competencia-electoral-diferencia-de-votos.html'},
@@ -97,7 +97,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-torreon/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-torreon/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD
+            1 => { # Seguridad
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-torreon/seguridad-accidentes-viales-fatales.html'},
                 96 => {'nombre' => 'Cantidad de Policías', 'ruta' => 'indicadores-torreon/seguridad-cantidad-de-policias.html'},
@@ -118,7 +118,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 107 => {'nombre' => 'Tasa de Robo de VehÍculos', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-robo-de-vehiculos.html'},
                 108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-torreon/seguridad-tasa-de-secuestro.html'}
             },
-            5 => { # SOCIEDAD
+            5 => { # Sociedad
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-torreon/sociedad-adultos-mayores.html'},
                 131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-torreon/sociedad-adultos-mayores-femenino.html'},
                 132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-torreon/sociedad-adultos-mayores-masculino.html'},
@@ -158,7 +158,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-torreon/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-torreon/sociedad-viviendas-totales.html'}
             },
-            4 => { # SUSTENTABILIDAD
+            4 => { # Sustentabilidad
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-torreon/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-torreon/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-torreon/sustentabilidad-area-no-urbanizada.html'},
@@ -182,7 +182,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         3 => { # Gómez Palacio
-            3 => { # ECONOMÍA
+            3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-gomez-palacio/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-gomez-palacio/economia-desempleo.html'},
                 101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-gomez-palacio/economia-desocupados-como-porcentaje-de-la-pea.html'},
@@ -212,7 +212,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
-            2 => { # GOBIERNO
+            2 => { # Gobierno
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-gomez-palacio/gobierno-capacidad-financiera.html'},
                 103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-gomez-palacio/gobierno-competencia-electoral-diferencia-de-votos.html'},
@@ -226,7 +226,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-gomez-palacio/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-gomez-palacio/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD
+            1 => { # Seguridad
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-gomez-palacio/seguridad-accidentes-viales-fatales.html'},
                 80 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-gomez-palacio/seguridad-delitos.html'},
@@ -245,7 +245,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 107 => {'nombre' => 'Tasa de Robo de VehÍculos', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-robo-de-vehiculos.html'},
                 108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-gomez-palacio/seguridad-tasa-de-secuestro.html'}
             },
-            5 => { # SOCIEDAD
+            5 => { # Sociedad
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-gomez-palacio/sociedad-adultos-mayores.html'},
                 131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html'},
                 132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html'},
@@ -280,7 +280,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-gomez-palacio/sociedad-viviendas-totales.html'}
             },
-            4 => { # SUSTENTABILIDAD
+            4 => { # Sustentabilidad
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-gomez-palacio/sustentabilidad-area-no-urbanizada.html'},
@@ -302,7 +302,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         4 => { # Lerdo
-            3 => { # ECONOMÍA
+            3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-lerdo/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-lerdo/economia-desempleo.html'},
                 101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-lerdo/economia-desocupados-como-porcentaje-de-la-pea.html'},
@@ -332,7 +332,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
-            2 => { # GOBIERNO
+            2 => { # Gobierno
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-lerdo/gobierno-capacidad-financiera.html'},
                 103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-lerdo/gobierno-competencia-electoral-diferencia-de-votos.html'},
@@ -346,7 +346,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-lerdo/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-lerdo/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD
+            1 => { # Seguridad
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-lerdo/seguridad-accidentes-viales-fatales.html'},
                 80 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-lerdo/seguridad-delitos.html'},
@@ -365,7 +365,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 107 => {'nombre' => 'Tasa de Robo de VehÍculos', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-robo-de-vehiculos.html'},
                 108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-lerdo/seguridad-tasa-de-secuestro.html'}
             },
-            5 => { # SOCIEDAD
+            5 => { # Sociedad
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-lerdo/sociedad-adultos-mayores.html'},
                 131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-lerdo/sociedad-adultos-mayores-femenino.html'},
                 132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-lerdo/sociedad-adultos-mayores-masculino.html'},
@@ -400,7 +400,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-lerdo/sociedad-viviendas-totales.html'}
             },
-            4 => { # SUSTENTABILIDAD
+            4 => { # Sustentabilidad
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-lerdo/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-lerdo/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-lerdo/sustentabilidad-area-no-urbanizada.html'},
@@ -422,7 +422,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         5 => { # Matamoros
-            3 => { # ECONOMÍA
+            3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-matamoros/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-matamoros/economia-desempleo.html'},
                 101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-matamoros/economia-desocupados-como-porcentaje-de-la-pea.html'},
@@ -453,7 +453,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
-            2 => { # GOBIERNO
+            2 => { # Gobierno
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-matamoros/gobierno-capacidad-financiera.html'},
                 103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-matamoros/gobierno-competencia-electoral-diferencia-de-votos.html'},
@@ -467,7 +467,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-matamoros/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-matamoros/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD
+            1 => { # Seguridad
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-matamoros/seguridad-accidentes-viales-fatales.html'},
                 80 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-matamoros/seguridad-delitos.html'},
@@ -486,7 +486,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 107 => {'nombre' => 'Tasa de Robo de VehÍculos', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-robo-de-vehiculos.html'},
                 108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-matamoros/seguridad-tasa-de-secuestro.html'}
             },
-            5 => { # SOCIEDAD
+            5 => { # Sociedad
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-matamoros/sociedad-adultos-mayores.html'},
                 131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-matamoros/sociedad-adultos-mayores-femenino.html'},
                 132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-matamoros/sociedad-adultos-mayores-masculino.html'},
@@ -521,7 +521,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-matamoros/sociedad-viviendas-totales.html'}
             },
-            4 => { # SUSTENTABILIDAD
+            4 => { # Sustentabilidad
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-matamoros/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-matamoros/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-matamoros/sustentabilidad-area-no-urbanizada.html'},
@@ -543,7 +543,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             }
         },
         1 => { # La Laguna
-            3 => { # ECONOMÍA
+            3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-la-laguna/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-la-laguna/economia-desempleo.html'},
                 101 => {'nombre' => 'Desocupados como porcentaje de la PEA', 'ruta' => 'indicadores-la-laguna/economia-desocupados-como-porcentaje-de-la-pea.html'},
@@ -573,7 +573,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
             },
-            2 => { # GOBIERNO
+            2 => { # Gobierno
                 18 => {'nombre' => 'Capacidad Financiera', 'ruta' => 'indicadores-la-laguna/gobierno-capacidad-financiera.html'},
                 103 => {'nombre' => 'Competencia Electoral', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral.html'},
                 12 => {'nombre' => 'Competencia Electoral Diferencia de Votos', 'ruta' => 'indicadores-la-laguna/gobierno-competencia-electoral-diferencia-de-votos.html'},
@@ -587,7 +587,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 13 => {'nombre' => 'Participación Electoral', 'ruta' => 'indicadores-la-laguna/gobierno-participacion-electoral.html'},
                 20 => {'nombre' => 'Relación de Ingresos Propios y Totales', 'ruta' => 'indicadores-la-laguna/gobierno-relacion-de-ingresos-propios-y-totales.html'}
             },
-            1 => { # SEGURIDAD
+            1 => { # Seguridad
                 81 => {'nombre' => 'Accidentes Viales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales.html'},
                 82 => {'nombre' => 'Accidentes Viales Fatales', 'ruta' => 'indicadores-la-laguna/seguridad-accidentes-viales-fatales.html'},
                 80 => {'nombre' => 'Delitos', 'ruta' => 'indicadores-la-laguna/seguridad-delitos.html'},
@@ -606,7 +606,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 107 => {'nombre' => 'Tasa de Robo de VehÍculos', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-robo-de-vehiculos.html'},
                 108 => {'nombre' => 'Tasa de Secuestro', 'ruta' => 'indicadores-la-laguna/seguridad-tasa-de-secuestro.html'}
             },
-            5 => { # SOCIEDAD
+            5 => { # Sociedad
                 130 => {'nombre' => 'Adultos Mayores', 'ruta' => 'indicadores-la-laguna/sociedad-adultos-mayores.html'},
                 131 => {'nombre' => 'Adultos Mayores Femenino', 'ruta' => 'indicadores-la-laguna/sociedad-adultos-mayores-femenino.html'},
                 132 => {'nombre' => 'Adultos Mayores Masculino', 'ruta' => 'indicadores-la-laguna/sociedad-adultos-mayores-masculino.html'},
@@ -636,7 +636,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 65 => {'nombre' => 'Viviendas que Disponen de Retrete', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-que-disponen-de-retrete.html'},
                 111 => {'nombre' => 'Viviendas Totales', 'ruta' => 'indicadores-la-laguna/sociedad-viviendas-totales.html'}
             },
-            4 => { # SUSTENTABILIDAD
+            4 => { # Sustentabilidad
                 45 => {'nombre' => 'Acceso a Vialidades Pavimentadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-acceso-a-vialidades-pavimentadas.html'},
                 46 => {'nombre' => 'Alumbrado Público', 'ruta' => 'indicadores-la-laguna/sustentabilidad-alumbrado-publico.html'},
                 40 => {'nombre' => 'Área No Urbanizada', 'ruta' => 'indicadores-la-laguna/sustentabilidad-area-no-urbanizada.html'},

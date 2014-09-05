@@ -25,7 +25,7 @@ def publicacion(dir)
 </thead>
 <tbody>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">45,139</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">20,263</a></td>
@@ -34,7 +34,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">82,328</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Femenino</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">25,310</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">10,863</a></td>
@@ -43,7 +43,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-femenino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">44,790</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Adultos Mayores Masculino</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">19,829</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">9,400</a></td>
@@ -52,7 +52,7 @@ def publicacion(dir)
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-adultos-mayores-masculino.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, CONAPO">37,538</a></td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Discapacidad</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">10.17 %</a></td>
     <td class="nd">ND</td>
@@ -61,7 +61,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Estimación de Menores Huérfanos por Agresiones</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-estimacion-de-menores-huerfanos-por-agresiones.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, IMPLAN">1,253</a></td>
     <td class="nd">ND</td>
@@ -70,7 +70,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Madres Adolescentes</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-madres-adolescentes.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">1,778</a></td>
     <td class="nd">ND</td>
@@ -79,7 +79,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rezago Alimentario</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">17.77 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-alimentario.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">18.11 %</a></td>
@@ -88,7 +88,7 @@ def publicacion(dir)
     <td class="nd">ND</td>
   </tr>
   <tr>
-    <td class="subindice color4">SOCIEDAD</td>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Rezago Educativo</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">10.83 %</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-rezago-educativo.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, CONEVAL">17.31 %</a></td>
