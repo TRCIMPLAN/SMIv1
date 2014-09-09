@@ -41,10 +41,10 @@ Datos obtenidos de [IMSS](http://201.144.108.20/imssdigital/conoce/estadisticas/
 
 #### Gráfica
 
-<div id="Morrisyvxlziab" class="grafica"></div>
+<div id="Morrisoowzmihs" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morrisyvxlziab',
+element: 'Morrisoowzmihs',
 data: [{ fecha: '2007-12-31', dato: 171936 },{ fecha: '2008-12-31', dato: 164258 },{ fecha: '2009-12-31', dato: 157898 },{ fecha: '2010-12-31', dato: 168723 },{ fecha: '2011-12-31', dato: 176045 },{ fecha: '2012-12-31', dato: 184407 },{ fecha: '2013-12-31', dato: 187050 }],
 xkey: 'fecha',
 ykeys: ['dato'],

@@ -41,10 +41,10 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 
 #### Gráfica
 
-<div id="Morrispdgzvpcg" class="grafica"></div>
+<div id="Morriscaclvyxt" class="grafica"></div>
 <script>
 new Morris.Line({
-element: 'Morrispdgzvpcg',
+element: 'Morriscaclvyxt',
 data: [{ fecha: '2001-12-31', dato: 158 },{ fecha: '2002-12-31', dato: 158 },{ fecha: '2003-12-31', dato: 158 },{ fecha: '2004-12-31', dato: 160 },{ fecha: '2005-12-31', dato: 160 },{ fecha: '2006-12-31', dato: 167 },{ fecha: '2007-12-31', dato: 167 },{ fecha: '2008-12-31', dato: 159 },{ fecha: '2009-12-31', dato: 159 },{ fecha: '2010-12-31', dato: 171 },{ fecha: '2011-12-31', dato: 171 },{ fecha: '2012-12-31', dato: 171 },{ fecha: '2013-12-31', dato: 173 }],
 xkey: 'fecha',
 ykeys: ['dato'],
