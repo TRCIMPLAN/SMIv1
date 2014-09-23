@@ -53,11 +53,12 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
 
 #### Gráfica
 
-<div id="Morrissuydmhek" class="grafica"></div>
+<div id="Morrisfwraxezw" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrissuydmhek === 'undefined') {
-    varMorrissuydmhek = Morris.Line({
-      element: 'Morrissuydmhek',
+  if (typeof varMorrisfwraxezw === 'undefined') {
+    varMorrisfwraxezw = Morris.Line({
+      element: 'Morrisfwraxezw',
       data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -67,3 +68,4 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

@@ -34,11 +34,12 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisstnuxxxh" class="grafica"></div>
+<div id="Morrisndwrgbex" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisstnuxxxh === 'undefined') {
-    varMorrisstnuxxxh = Morris.Line({
-      element: 'Morrisstnuxxxh',
+  if (typeof varMorrisndwrgbex === 'undefined') {
+    varMorrisndwrgbex = Morris.Line({
+      element: 'Morrisndwrgbex',
       data: [{ fecha: '2014-01-31', dato: 3 },{ fecha: '2014-02-28', dato: 2 },{ fecha: '2014-03-31', dato: 4 },{ fecha: '2014-04-30', dato: 1 },{ fecha: '2014-05-31', dato: 2 },{ fecha: '2014-06-30', dato: 1 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -48,3 +49,4 @@ Unidad: Cantidad.
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

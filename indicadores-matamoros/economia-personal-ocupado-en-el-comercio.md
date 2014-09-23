@@ -35,11 +35,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrisfrcblvuj" class="grafica"></div>
+<div id="Morrisrptbktks" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisfrcblvuj === 'undefined') {
-    varMorrisfrcblvuj = Morris.Line({
-      element: 'Morrisfrcblvuj',
+  if (typeof varMorrisrptbktks === 'undefined') {
+    varMorrisrptbktks = Morris.Line({
+      element: 'Morrisrptbktks',
       data: [{ fecha: '1998-12-31', dato: 38.4200 },{ fecha: '2003-12-31', dato: 45.9700 },{ fecha: '2008-12-31', dato: 34.3232 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -49,3 +50,4 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

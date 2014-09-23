@@ -853,20 +853,7 @@
 
 <h4 id="grfica">Gráfica</h4>
 
-<div id="Morrispwjnqgkh" class="grafica"></div>
-<p>// Gráfica
-  if (typeof varMorrispwjnqgkh === ‘undefined’) {
-    varMorrispwjnqgkh = Morris.Line({
-      element: ‘Morrispwjnqgkh’,
-      data: [{ fecha: ‘1998-12-31’, dato: 12093.88 },{ fecha: ‘2003-12-31’, dato: 21705.57 },{ fecha: ‘2008-12-31’, dato: 16746.04 }],
-      xkey: ‘fecha’,
-      ykeys: [‘dato’],
-      labels: [‘Dato’],
-      lineColors: [‘#FF5B02’],
-      xLabelFormat: function(d) { return d.getDate()+’/’+(d.getMonth()+1)+’/’+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + ‘/’ + (d.getMonth() + 1) + ‘/’ + d.getFullYear(); }
-    });
-  }</p>
+<div id="Morrisocmirqmn" class="grafica"></div>
 
 </article>
       </div>
@@ -943,6 +930,20 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+<script>
+  // Gráfica
+  if (typeof varMorrisocmirqmn === 'undefined') {
+    varMorrisocmirqmn = Morris.Line({
+      element: 'Morrisocmirqmn',
+      data: [{ fecha: '1998-12-31', dato: 12093.88 },{ fecha: '2003-12-31', dato: 21705.57 },{ fecha: '2008-12-31', dato: 16746.04 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
 </body>
 </html>

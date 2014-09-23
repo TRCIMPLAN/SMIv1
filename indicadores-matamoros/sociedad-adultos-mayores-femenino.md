@@ -38,11 +38,12 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morriscuvlfyhn" class="grafica"></div>
+<div id="Morriswlopsgvu" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorriscuvlfyhn === 'undefined') {
-    varMorriscuvlfyhn = Morris.Line({
-      element: 'Morriscuvlfyhn',
+  if (typeof varMorriswlopsgvu === 'undefined') {
+    varMorriswlopsgvu = Morris.Line({
+      element: 'Morriswlopsgvu',
       data: [{ fecha: '2011-06-30', dato: 3269 },{ fecha: '2012-06-30', dato: 3394 },{ fecha: '2013-06-30', dato: 3526 },{ fecha: '2014-06-30', dato: 3668 },{ fecha: '2015-06-30', dato: 3817 },{ fecha: '2016-06-30', dato: 3975 },{ fecha: '2017-06-30', dato: 4140 },{ fecha: '2018-06-30', dato: 4312 },{ fecha: '2019-06-30', dato: 4490 },{ fecha: '2020-06-30', dato: 4671 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -52,3 +53,4 @@ Unidad: Cantidad.
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

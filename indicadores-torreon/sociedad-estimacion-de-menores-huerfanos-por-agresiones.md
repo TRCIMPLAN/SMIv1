@@ -37,11 +37,12 @@ Elaboración propia en base a las defunciones registradas en [SINAIS](http://www
 
 #### Gráfica
 
-<div id="Morrisiptuegii" class="grafica"></div>
+<div id="Morrisgjbhzqav" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisiptuegii === 'undefined') {
-    varMorrisiptuegii = Morris.Line({
-      element: 'Morrisiptuegii',
+  if (typeof varMorrisgjbhzqav === 'undefined') {
+    varMorrisgjbhzqav = Morris.Line({
+      element: 'Morrisgjbhzqav',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -51,3 +52,4 @@ Elaboración propia en base a las defunciones registradas en [SINAIS](http://www
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

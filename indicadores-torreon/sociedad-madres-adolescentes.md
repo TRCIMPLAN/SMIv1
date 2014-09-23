@@ -38,11 +38,12 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
 
 #### Gráfica
 
-<div id="Morriswhtbnbjk" class="grafica"></div>
+<div id="Morristbssrsnv" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorriswhtbnbjk === 'undefined') {
-    varMorriswhtbnbjk = Morris.Line({
-      element: 'Morriswhtbnbjk',
+  if (typeof varMorristbssrsnv === 'undefined') {
+    varMorristbssrsnv = Morris.Line({
+      element: 'Morristbssrsnv',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -52,3 +53,4 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

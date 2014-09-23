@@ -834,20 +834,7 @@
 
 <h4 id="grfica">Gráfica</h4>
 
-<div id="Morriszbezrnro" class="grafica"></div>
-<p>// Gráfica
-  if (typeof varMorriszbezrnro === ‘undefined’) {
-    varMorriszbezrnro = Morris.Line({
-      element: ‘Morriszbezrnro’,
-      data: [{ fecha: ‘2014-01-31’, dato: 66 },{ fecha: ‘2014-02-28’, dato: 66 },{ fecha: ‘2014-03-31’, dato: 71 },{ fecha: ‘2014-04-30’, dato: 52 },{ fecha: ‘2014-05-31’, dato: 62 },{ fecha: ‘2014-06-30’, dato: 66 }],
-      xkey: ‘fecha’,
-      ykeys: [‘dato’],
-      labels: [‘Dato’],
-      lineColors: [‘#FF5B02’],
-      xLabelFormat: function(d) { return d.getDate()+’/’+(d.getMonth()+1)+’/’+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + ‘/’ + (d.getMonth() + 1) + ‘/’ + d.getFullYear(); }
-    });
-  }</p>
+<div id="Morrisbqqaamof" class="grafica"></div>
 
 </article>
       </div>
@@ -924,6 +911,20 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+<script>
+  // Gráfica
+  if (typeof varMorrisbqqaamof === 'undefined') {
+    varMorrisbqqaamof = Morris.Line({
+      element: 'Morrisbqqaamof',
+      data: [{ fecha: '2014-01-31', dato: 66 },{ fecha: '2014-02-28', dato: 66 },{ fecha: '2014-03-31', dato: 71 },{ fecha: '2014-04-30', dato: 52 },{ fecha: '2014-05-31', dato: 62 },{ fecha: '2014-06-30', dato: 66 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
 </body>
 </html>

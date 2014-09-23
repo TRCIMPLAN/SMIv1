@@ -38,11 +38,12 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morrisnopixlbu" class="grafica"></div>
+<div id="Morrisvsgbyebw" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisnopixlbu === 'undefined') {
-    varMorrisnopixlbu = Morris.Line({
-      element: 'Morrisnopixlbu',
+  if (typeof varMorrisvsgbyebw === 'undefined') {
+    varMorrisvsgbyebw = Morris.Line({
+      element: 'Morrisvsgbyebw',
       data: [{ fecha: '2012-12-31', dato: 72 },{ fecha: '2013-10-31', dato: 107 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -52,3 +53,4 @@ Unidad: Días.
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

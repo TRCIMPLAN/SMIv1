@@ -45,11 +45,12 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
 
 #### Gráfica
 
-<div id="Morrisnujtiwpk" class="grafica"></div>
+<div id="Morrisenmywqff" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisnujtiwpk === 'undefined') {
-    varMorrisnujtiwpk = Morris.Line({
-      element: 'Morrisnujtiwpk',
+  if (typeof varMorrisenmywqff === 'undefined') {
+    varMorrisenmywqff = Morris.Line({
+      element: 'Morrisenmywqff',
       data: [{ fecha: '2001-12-31', dato: 3.3000 },{ fecha: '2002-12-31', dato: 3.4000 },{ fecha: '2003-12-31', dato: 3.3000 },{ fecha: '2004-12-31', dato: 3.3000 },{ fecha: '2005-12-31', dato: 3.0000 },{ fecha: '2006-12-31', dato: 3.9000 },{ fecha: '2007-12-31', dato: 3.7000 },{ fecha: '2008-12-31', dato: 4.0000 },{ fecha: '2009-12-31', dato: 4.0000 },{ fecha: '2010-12-31', dato: 4.1000 },{ fecha: '2011-12-31', dato: 4.2000 },{ fecha: '2012-12-31', dato: 4.3000 },{ fecha: '2013-12-31', dato: 4.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -59,3 +60,4 @@ Dirección General de Información en Salud (DGIS). Base de datos de recursos (i
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

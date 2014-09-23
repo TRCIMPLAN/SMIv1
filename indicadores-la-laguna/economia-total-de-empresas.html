@@ -831,20 +831,7 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
 
 <h4 id="grfica">Gráfica</h4>
 
-<div id="Morrishcyjhtlj" class="grafica"></div>
-<p>// Gráfica
-  if (typeof varMorrishcyjhtlj === ‘undefined’) {
-    varMorrishcyjhtlj = Morris.Line({
-      element: ‘Morrishcyjhtlj’,
-      data: [{ fecha: ‘2013-12-31’, dato: 8937 },{ fecha: ‘2014-07-31’, dato: 9785 }],
-      xkey: ‘fecha’,
-      ykeys: [‘dato’],
-      labels: [‘Dato’],
-      lineColors: [‘#FF5B02’],
-      xLabelFormat: function(d) { return d.getDate()+’/’+(d.getMonth()+1)+’/’+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + ‘/’ + (d.getMonth() + 1) + ‘/’ + d.getFullYear(); }
-    });
-  }</p>
+<div id="Morrisjtcusdae" class="grafica"></div>
 
 </article>
       </div>
@@ -921,6 +908,20 @@ Datos obtenidos de <a href="http://www.siem.gob.mx/siem/estadisticas/EstadoTaman
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+<script>
+  // Gráfica
+  if (typeof varMorrisjtcusdae === 'undefined') {
+    varMorrisjtcusdae = Morris.Line({
+      element: 'Morrisjtcusdae',
+      data: [{ fecha: '2013-12-31', dato: 8937 },{ fecha: '2014-07-31', dato: 9785 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
 </body>
 </html>

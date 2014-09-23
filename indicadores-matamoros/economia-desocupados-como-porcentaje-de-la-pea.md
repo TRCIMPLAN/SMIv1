@@ -41,11 +41,12 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morriselnbxwbu" class="grafica"></div>
+<div id="Morrisrwmqleie" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorriselnbxwbu === 'undefined') {
-    varMorriselnbxwbu = Morris.Line({
-      element: 'Morriselnbxwbu',
+  if (typeof varMorrisrwmqleie === 'undefined') {
+    varMorrisrwmqleie = Morris.Line({
+      element: 'Morrisrwmqleie',
       data: [{ fecha: '1990-03-12', dato: 3.3200 },{ fecha: '2000-02-14', dato: 1.1800 },{ fecha: '2010-06-25', dato: 6.0700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -55,3 +56,4 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

@@ -47,11 +47,12 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisaglbsalo" class="grafica"></div>
+<div id="Morrisaoibgfyu" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisaglbsalo === 'undefined') {
-    varMorrisaglbsalo = Morris.Line({
-      element: 'Morrisaglbsalo',
+  if (typeof varMorrisaoibgfyu === 'undefined') {
+    varMorrisaoibgfyu = Morris.Line({
+      element: 'Morrisaoibgfyu',
       data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -61,3 +62,4 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

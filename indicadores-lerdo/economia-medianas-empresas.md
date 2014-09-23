@@ -36,11 +36,12 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 #### Gráfica
 
-<div id="Morrisymzbxuqe" class="grafica"></div>
+<div id="Morriswsinmmri" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisymzbxuqe === 'undefined') {
-    varMorrisymzbxuqe = Morris.Line({
-      element: 'Morrisymzbxuqe',
+  if (typeof varMorriswsinmmri === 'undefined') {
+    varMorriswsinmmri = Morris.Line({
+      element: 'Morriswsinmmri',
       data: [{ fecha: '2013-12-31', dato: 3.1600 },{ fecha: '2014-07-31', dato: 1.6900 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -50,3 +51,4 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

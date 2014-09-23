@@ -34,11 +34,12 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrisnqxfacjd" class="grafica"></div>
+<div id="Morrisrobxkrsw" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisnqxfacjd === 'undefined') {
-    varMorrisnqxfacjd = Morris.Line({
-      element: 'Morrisnqxfacjd',
+  if (typeof varMorrisrobxkrsw === 'undefined') {
+    varMorrisrobxkrsw = Morris.Line({
+      element: 'Morrisrobxkrsw',
       data: [{ fecha: '2007-12-31', dato: 802586435.00 },{ fecha: '2008-12-31', dato: 918927218.00 },{ fecha: '2009-12-31', dato: 1146616790.00 },{ fecha: '2010-12-31', dato: 875399694.00 },{ fecha: '2011-12-31', dato: 1117567078.00 },{ fecha: '2012-12-31', dato: 1400461048.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -48,3 +49,4 @@ Unidad: Pesos.
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

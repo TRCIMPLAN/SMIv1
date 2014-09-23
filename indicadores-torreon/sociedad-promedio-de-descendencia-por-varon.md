@@ -37,11 +37,12 @@ Estimación propia en base al dato de Ocupación por Vivienda
 
 #### Gráfica
 
-<div id="Morrisvpreofcp" class="grafica"></div>
+<div id="Morrisjqxnokvq" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisvpreofcp === 'undefined') {
-    varMorrisvpreofcp = Morris.Line({
-      element: 'Morrisvpreofcp',
+  if (typeof varMorrisjqxnokvq === 'undefined') {
+    varMorrisjqxnokvq = Morris.Line({
+      element: 'Morrisjqxnokvq',
       data: [{ fecha: '2008-12-31', dato: 1.8100 },{ fecha: '2009-12-31', dato: 1.7700 },{ fecha: '2010-12-31', dato: 1.7200 },{ fecha: '2011-12-31', dato: 1.6900 },{ fecha: '2012-12-31', dato: 1.6600 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -51,3 +52,4 @@ Estimación propia en base al dato de Ocupación por Vivienda
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

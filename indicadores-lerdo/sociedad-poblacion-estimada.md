@@ -42,11 +42,12 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
 
 #### Gráfica
 
-<div id="Morrisjudxisys" class="grafica"></div>
+<div id="Morriszryjrdwo" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisjudxisys === 'undefined') {
-    varMorrisjudxisys = Morris.Line({
-      element: 'Morrisjudxisys',
+  if (typeof varMorriszryjrdwo === 'undefined') {
+    varMorriszryjrdwo = Morris.Line({
+      element: 'Morriszryjrdwo',
       data: [{ fecha: '2011-06-30', dato: 146164 },{ fecha: '2012-06-30', dato: 147985 },{ fecha: '2013-06-30', dato: 149721 },{ fecha: '2014-06-30', dato: 151409 },{ fecha: '2015-06-30', dato: 153040 },{ fecha: '2016-06-30', dato: 154621 },{ fecha: '2017-06-30', dato: 156161 },{ fecha: '2018-06-30', dato: 157655 },{ fecha: '2019-06-30', dato: 159094 },{ fecha: '2020-06-30', dato: 160479 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -56,3 +57,4 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

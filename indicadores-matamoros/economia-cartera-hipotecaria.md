@@ -39,11 +39,12 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisuzgvsqmj" class="grafica"></div>
+<div id="Morrisbkkxhmif" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorrisuzgvsqmj === 'undefined') {
-    varMorrisuzgvsqmj = Morris.Line({
-      element: 'Morrisuzgvsqmj',
+  if (typeof varMorrisbkkxhmif === 'undefined') {
+    varMorrisbkkxhmif = Morris.Line({
+      element: 'Morrisbkkxhmif',
       data: [{ fecha: '2010-12-31', dato: 66279954.00 },{ fecha: '2011-12-31', dato: 59324405.00 },{ fecha: '2012-12-31', dato: 57375581.00 },{ fecha: '2013-12-31', dato: 56877995.00 },{ fecha: '2014-03-31', dato: 57702472.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -53,3 +54,4 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>

@@ -41,11 +41,12 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morriskvapeicj" class="grafica"></div>
+<div id="Morrisfoaribpk" class="grafica"></div>
+<script>
   // Gráfica
-  if (typeof varMorriskvapeicj === 'undefined') {
-    varMorriskvapeicj = Morris.Line({
-      element: 'Morriskvapeicj',
+  if (typeof varMorrisfoaribpk === 'undefined') {
+    varMorrisfoaribpk = Morris.Line({
+      element: 'Morrisfoaribpk',
       data: [{ fecha: '1998-12-31', dato: 12.8400 },{ fecha: '2003-12-31', dato: 12.5800 },{ fecha: '2008-12-31', dato: 8.3300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
@@ -55,3 +56,4 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
       dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
     });
   }
+</script>
