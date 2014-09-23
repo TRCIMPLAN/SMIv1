@@ -43,16 +43,17 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morrisderpsaon" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisderpsaon',
-data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morriskftaiynz" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorriskftaiynz === 'undefined') {
+    varMorriskftaiynz = Morris.Line({
+      element: 'Morriskftaiynz',
+      data: [{ fecha: '2007-12-31', dato: 386 },{ fecha: '2012-12-31', dato: 270 },{ fecha: '2013-10-31', dato: 270 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

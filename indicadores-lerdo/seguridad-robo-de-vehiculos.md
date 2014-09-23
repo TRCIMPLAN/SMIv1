@@ -21,8 +21,30 @@ Robo de vehículos con violencia y sin violencia cometidos en el primer trimestr
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">30/06/2014</td><td class="derecha">22</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
+    <tr><td class="centrado">31/01/2014</td><td class="derecha">8</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">28/02/2014</td><td class="derecha">8</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">15</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/04/2014</td><td class="derecha">9</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/05/2014</td><td class="derecha">9</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">4</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
   </tbody>
 </table>
 
 Unidad: Cantidad.
+
+#### Gráfica
+
+<div id="Morriswsrqqqiu" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorriswsrqqqiu === 'undefined') {
+    varMorriswsrqqqiu = Morris.Line({
+      element: 'Morriswsrqqqiu',
+      data: [{ fecha: '2014-01-31', dato: 8 },{ fecha: '2014-02-28', dato: 8 },{ fecha: '2014-03-31', dato: 15 },{ fecha: '2014-04-30', dato: 9 },{ fecha: '2014-05-31', dato: 9 },{ fecha: '2014-06-30', dato: 4 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

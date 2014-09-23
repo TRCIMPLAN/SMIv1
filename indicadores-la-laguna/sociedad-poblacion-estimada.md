@@ -42,16 +42,17 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
 
 #### Gráfica
 
-<div id="Morriszgofzufv" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morriszgofzufv',
-data: [{ fecha: '2011-06-30', dato: 1251771 },{ fecha: '2012-06-30', dato: 1267630 },{ fecha: '2013-06-30', dato: 1283072 },{ fecha: '2014-06-30', dato: 1298270 },{ fecha: '2015-06-30', dato: 1313161 },{ fecha: '2016-06-30', dato: 1327769 },{ fecha: '2017-06-30', dato: 1342139 },{ fecha: '2018-06-30', dato: 1356216 },{ fecha: '2019-06-30', dato: 1369939 },{ fecha: '2020-06-30', dato: 1383303 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morristahvkwcg" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorristahvkwcg === 'undefined') {
+    varMorristahvkwcg = Morris.Line({
+      element: 'Morristahvkwcg',
+      data: [{ fecha: '2011-06-30', dato: 1251771 },{ fecha: '2012-06-30', dato: 1267630 },{ fecha: '2013-06-30', dato: 1283072 },{ fecha: '2014-06-30', dato: 1298270 },{ fecha: '2015-06-30', dato: 1313161 },{ fecha: '2016-06-30', dato: 1327769 },{ fecha: '2017-06-30', dato: 1342139 },{ fecha: '2018-06-30', dato: 1356216 },{ fecha: '2019-06-30', dato: 1369939 },{ fecha: '2020-06-30', dato: 1383303 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

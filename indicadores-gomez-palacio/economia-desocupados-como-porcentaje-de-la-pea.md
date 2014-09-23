@@ -41,16 +41,17 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
 
 #### Gráfica
 
-<div id="Morrisxcekdxmz" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisxcekdxmz',
-data: [{ fecha: '1990-03-12', dato: 2.9000 },{ fecha: '2000-02-14', dato: 0.9800 },{ fecha: '2010-06-25', dato: 7.8000 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrisggqdifnv" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrisggqdifnv === 'undefined') {
+    varMorrisggqdifnv = Morris.Line({
+      element: 'Morrisggqdifnv',
+      data: [{ fecha: '1990-03-12', dato: 2.9000 },{ fecha: '2000-02-14', dato: 0.9800 },{ fecha: '2010-06-25', dato: 7.8000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

@@ -41,16 +41,17 @@ SINAIS considera únicamente al Hospital General de Torreón y el Hospital Integ
 
 #### Gráfica
 
-<div id="Morrissuyvjfkk" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrissuyvjfkk',
-data: [{ fecha: '2001-12-31', dato: 34 },{ fecha: '2002-12-31', dato: 34 },{ fecha: '2003-12-31', dato: 34 },{ fecha: '2004-12-31', dato: 34 },{ fecha: '2005-12-31', dato: 34 },{ fecha: '2006-12-31', dato: 34 },{ fecha: '2007-12-31', dato: 34 },{ fecha: '2008-12-31', dato: 34 },{ fecha: '2009-12-31', dato: 34 },{ fecha: '2010-12-31', dato: 38 },{ fecha: '2011-12-31', dato: 38 },{ fecha: '2012-12-31', dato: 38 },{ fecha: '2013-12-31', dato: 38 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrisscllvyxc" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrisscllvyxc === 'undefined') {
+    varMorrisscllvyxc = Morris.Line({
+      element: 'Morrisscllvyxc',
+      data: [{ fecha: '2001-12-31', dato: 34 },{ fecha: '2002-12-31', dato: 34 },{ fecha: '2003-12-31', dato: 34 },{ fecha: '2004-12-31', dato: 34 },{ fecha: '2005-12-31', dato: 34 },{ fecha: '2006-12-31', dato: 34 },{ fecha: '2007-12-31', dato: 34 },{ fecha: '2008-12-31', dato: 34 },{ fecha: '2009-12-31', dato: 34 },{ fecha: '2010-12-31', dato: 38 },{ fecha: '2011-12-31', dato: 38 },{ fecha: '2012-12-31', dato: 38 },{ fecha: '2013-12-31', dato: 38 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

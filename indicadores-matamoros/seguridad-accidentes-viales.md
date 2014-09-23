@@ -45,16 +45,17 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisyiawmsod" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisyiawmsod',
-data: [{ fecha: '1997-12-31', dato: 87 },{ fecha: '1998-12-31', dato: 94 },{ fecha: '1999-12-31', dato: 39 },{ fecha: '2000-12-31', dato: 169 },{ fecha: '2001-12-31', dato: 155 },{ fecha: '2002-12-31', dato: 141 },{ fecha: '2003-12-31', dato: 140 },{ fecha: '2004-12-31', dato: 281 },{ fecha: '2005-12-31', dato: 212 },{ fecha: '2006-12-31', dato: 335 },{ fecha: '2007-12-31', dato: 524 },{ fecha: '2008-12-31', dato: 546 },{ fecha: '2009-12-31', dato: 369 },{ fecha: '2010-12-31', dato: 439 },{ fecha: '2011-12-31', dato: 321 },{ fecha: '2012-12-31', dato: 289 },{ fecha: '2013-12-31', dato: 161 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrisneccohai" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrisneccohai === 'undefined') {
+    varMorrisneccohai = Morris.Line({
+      element: 'Morrisneccohai',
+      data: [{ fecha: '1997-12-31', dato: 87 },{ fecha: '1998-12-31', dato: 94 },{ fecha: '1999-12-31', dato: 39 },{ fecha: '2000-12-31', dato: 169 },{ fecha: '2001-12-31', dato: 155 },{ fecha: '2002-12-31', dato: 141 },{ fecha: '2003-12-31', dato: 140 },{ fecha: '2004-12-31', dato: 281 },{ fecha: '2005-12-31', dato: 212 },{ fecha: '2006-12-31', dato: 335 },{ fecha: '2007-12-31', dato: 524 },{ fecha: '2008-12-31', dato: 546 },{ fecha: '2009-12-31', dato: 369 },{ fecha: '2010-12-31', dato: 439 },{ fecha: '2011-12-31', dato: 321 },{ fecha: '2012-12-31', dato: 289 },{ fecha: '2013-12-31', dato: 161 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

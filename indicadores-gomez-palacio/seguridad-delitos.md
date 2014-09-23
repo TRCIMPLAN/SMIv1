@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Total de delitos cometidos en el segundo trimestre 2014
+Total de delitos cometidos.
 
 <!-- break -->
 
@@ -23,7 +23,10 @@ Total de delitos cometidos en el segundo trimestre 2014
   <tbody>
     <tr><td class="centrado">31/01/2014</td><td class="derecha">363</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">28/02/2014</td><td class="derecha">307</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
-    <tr><td class="centrado">30/06/2014</td><td class="derecha">986</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">382</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/04/2014</td><td class="derecha">384</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/05/2014</td><td class="derecha">325</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">277</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -31,16 +34,17 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisqfquflfv" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisqfquflfv',
-data: [{ fecha: '2014-01-31', dato: 363 },{ fecha: '2014-02-28', dato: 307 },{ fecha: '2014-06-30', dato: 986 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morriswlxekfwl" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorriswlxekfwl === 'undefined') {
+    varMorriswlxekfwl = Morris.Line({
+      element: 'Morriswlxekfwl',
+      data: [{ fecha: '2014-01-31', dato: 363 },{ fecha: '2014-02-28', dato: 307 },{ fecha: '2014-03-31', dato: 382 },{ fecha: '2014-04-30', dato: 384 },{ fecha: '2014-05-31', dato: 325 },{ fecha: '2014-06-30', dato: 277 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

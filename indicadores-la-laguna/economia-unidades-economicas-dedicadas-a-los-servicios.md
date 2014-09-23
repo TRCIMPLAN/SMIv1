@@ -36,16 +36,17 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morristyrqlrno" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morristyrqlrno',
-data: [{ fecha: '1998-12-31', dato: 36.3900 },{ fecha: '2003-12-31', dato: 37.2100 },{ fecha: '2008-12-31', dato: 40.7100 },{ fecha: '2013-10-31', dato: 43.0600 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrisujgsjrqu" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrisujgsjrqu === 'undefined') {
+    varMorrisujgsjrqu = Morris.Line({
+      element: 'Morrisujgsjrqu',
+      data: [{ fecha: '1998-12-31', dato: 36.3900 },{ fecha: '2003-12-31', dato: 37.2100 },{ fecha: '2008-12-31', dato: 40.7100 },{ fecha: '2013-10-31', dato: 43.0600 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

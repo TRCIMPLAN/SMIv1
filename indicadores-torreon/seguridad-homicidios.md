@@ -21,8 +21,30 @@ Número de homicidios durante el primer trimestre de 2014
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">30/06/2014</td><td class="derecha">51</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
+    <tr><td class="centrado">31/01/2014</td><td class="derecha">24</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">28/02/2014</td><td class="derecha">24</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">13</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/04/2014</td><td class="derecha">16</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/05/2014</td><td class="derecha">20</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">15</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
   </tbody>
 </table>
 
 Unidad: Cantidad.
+
+#### Gráfica
+
+<div id="Morrisiqdjujhr" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrisiqdjujhr === 'undefined') {
+    varMorrisiqdjujhr = Morris.Line({
+      element: 'Morrisiqdjujhr',
+      data: [{ fecha: '2014-01-31', dato: 24 },{ fecha: '2014-02-28', dato: 24 },{ fecha: '2014-03-31', dato: 13 },{ fecha: '2014-04-30', dato: 16 },{ fecha: '2014-05-31', dato: 20 },{ fecha: '2014-06-30', dato: 15 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

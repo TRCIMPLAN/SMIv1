@@ -39,16 +39,17 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisnvcyuprz" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisnvcyuprz',
-data: [{ fecha: '2010-12-31', dato: 188 },{ fecha: '2011-12-31', dato: 669 },{ fecha: '2012-12-31', dato: 1030 },{ fecha: '2013-12-31', dato: 948 },{ fecha: '2014-03-31', dato: 85 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrisiqsvrdmk" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrisiqsvrdmk === 'undefined') {
+    varMorrisiqsvrdmk = Morris.Line({
+      element: 'Morrisiqsvrdmk',
+      data: [{ fecha: '2010-12-31', dato: 188 },{ fecha: '2011-12-31', dato: 669 },{ fecha: '2012-12-31', dato: 1030 },{ fecha: '2013-12-31', dato: 948 },{ fecha: '2014-03-31', dato: 85 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

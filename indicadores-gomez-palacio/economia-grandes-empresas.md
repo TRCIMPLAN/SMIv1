@@ -36,16 +36,17 @@ Datos obtenidos de [SIEM](http://www.siem.gob.mx/siem/estadisticas/EstadoTamanoP
 
 #### Gráfica
 
-<div id="Morrisicaqdewm" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisicaqdewm',
-data: [{ fecha: '2013-12-31', dato: 0.4100 },{ fecha: '2014-07-31', dato: 0.9800 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morristmtgsonx" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorristmtgsonx === 'undefined') {
+    varMorristmtgsonx = Morris.Line({
+      element: 'Morristmtgsonx',
+      data: [{ fecha: '2013-12-31', dato: 0.4100 },{ fecha: '2014-07-31', dato: 0.9800 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

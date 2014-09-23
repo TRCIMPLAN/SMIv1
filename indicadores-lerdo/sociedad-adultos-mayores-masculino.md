@@ -38,16 +38,17 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisbrtlzoxi" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisbrtlzoxi',
-data: [{ fecha: '2011-06-30', dato: 4135 },{ fecha: '2012-06-30', dato: 4260 },{ fecha: '2013-06-30', dato: 4391 },{ fecha: '2014-06-30', dato: 4529 },{ fecha: '2015-06-30', dato: 4674 },{ fecha: '2016-06-30', dato: 4827 },{ fecha: '2017-06-30', dato: 4989 },{ fecha: '2018-06-30', dato: 5160 },{ fecha: '2019-06-30', dato: 5338 },{ fecha: '2020-06-30', dato: 5523 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrishxbkwzwv" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrishxbkwzwv === 'undefined') {
+    varMorrishxbkwzwv = Morris.Line({
+      element: 'Morrishxbkwzwv',
+      data: [{ fecha: '2011-06-30', dato: 4135 },{ fecha: '2012-06-30', dato: 4260 },{ fecha: '2013-06-30', dato: 4391 },{ fecha: '2014-06-30', dato: 4529 },{ fecha: '2015-06-30', dato: 4674 },{ fecha: '2016-06-30', dato: 4827 },{ fecha: '2017-06-30', dato: 4989 },{ fecha: '2018-06-30', dato: 5160 },{ fecha: '2019-06-30', dato: 5338 },{ fecha: '2020-06-30', dato: 5523 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

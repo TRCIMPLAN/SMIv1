@@ -47,16 +47,17 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisbqdgbfqn" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisbqdgbfqn',
-data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrispmvxmbnv" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrispmvxmbnv === 'undefined') {
+    varMorrispmvxmbnv = Morris.Line({
+      element: 'Morrispmvxmbnv',
+      data: [{ fecha: '2007-12-31', dato: 604.26 },{ fecha: '2008-12-31', dato: 767.48 },{ fecha: '2009-12-31', dato: 497.90 },{ fecha: '2010-12-31', dato: 236.57 },{ fecha: '2011-12-31', dato: 529.86 },{ fecha: '2012-12-31', dato: 348.09 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

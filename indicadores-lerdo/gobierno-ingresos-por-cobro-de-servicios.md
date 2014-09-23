@@ -34,16 +34,17 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrisabiyaeow" class="grafica"></div>
-<script>
-new Morris.Line({
-element: 'Morrisabiyaeow',
-data: [{ fecha: '2007-12-31', dato: 41128483.00 },{ fecha: '2008-12-31', dato: 45464319.00 },{ fecha: '2009-12-31', dato: 80006719.00 },{ fecha: '2010-12-31', dato: 50216153.00 },{ fecha: '2011-12-31', dato: 52824557.00 },{ fecha: '2012-12-31', dato: 54082713.00 }],
-xkey: 'fecha',
-ykeys: ['dato'],
-labels: ['Dato'],
-lineColors: ['#FF5B02'],
-xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-});
-</script>
+<div id="Morrismekyunbw" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorrismekyunbw === 'undefined') {
+    varMorrismekyunbw = Morris.Line({
+      element: 'Morrismekyunbw',
+      data: [{ fecha: '2007-12-31', dato: 41128483.00 },{ fecha: '2008-12-31', dato: 45464319.00 },{ fecha: '2009-12-31', dato: 80006719.00 },{ fecha: '2010-12-31', dato: 50216153.00 },{ fecha: '2011-12-31', dato: 52824557.00 },{ fecha: '2012-12-31', dato: 54082713.00 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }

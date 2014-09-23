@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Total de delitos cometidos en el segundo trimestre 2014
+Total de delitos cometidos.
 
 <!-- break -->
 
@@ -21,8 +21,30 @@ Total de delitos cometidos en el segundo trimestre 2014
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">30/06/2014</td><td class="derecha">3,938</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/01/2014</td><td class="derecha">1,433</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">28/02/2014</td><td class="derecha">1,279</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">1,274</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/04/2014</td><td class="derecha">1,201</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/05/2014</td><td class="derecha">1,536</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">1,201</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
 Unidad: Cantidad.
+
+#### Gráfica
+
+<div id="Morriskqmeauuv" class="grafica"></div>
+  // Gráfica
+  if (typeof varMorriskqmeauuv === 'undefined') {
+    varMorriskqmeauuv = Morris.Line({
+      element: 'Morriskqmeauuv',
+      data: [{ fecha: '2014-01-31', dato: 1433 },{ fecha: '2014-02-28', dato: 1279 },{ fecha: '2014-03-31', dato: 1274 },{ fecha: '2014-04-30', dato: 1201 },{ fecha: '2014-05-31', dato: 1536 },{ fecha: '2014-06-30', dato: 1201 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
