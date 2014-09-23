@@ -39,11 +39,11 @@ Datos obtenidos de [CNBV](http://portafoliodeinformacion.cnbv.gob.mx/bm1/Paginas
 
 #### Gráfica
 
-<div id="Morrisiqsvrdmk" class="grafica"></div>
+<div id="Morrisgscwuavb" class="grafica"></div>
   // Gráfica
-  if (typeof varMorrisiqsvrdmk === 'undefined') {
-    varMorrisiqsvrdmk = Morris.Line({
-      element: 'Morrisiqsvrdmk',
+  if (typeof varMorrisgscwuavb === 'undefined') {
+    varMorrisgscwuavb = Morris.Line({
+      element: 'Morrisgscwuavb',
       data: [{ fecha: '2010-12-31', dato: 188 },{ fecha: '2011-12-31', dato: 669 },{ fecha: '2012-12-31', dato: 1030 },{ fecha: '2013-12-31', dato: 948 },{ fecha: '2014-03-31', dato: 85 }],
       xkey: 'fecha',
       ykeys: ['dato'],

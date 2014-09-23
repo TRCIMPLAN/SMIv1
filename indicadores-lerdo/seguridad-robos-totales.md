@@ -33,11 +33,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrismumdnszq" class="grafica"></div>
+<div id="Morrishwsanksg" class="grafica"></div>
   // Gráfica
-  if (typeof varMorrismumdnszq === 'undefined') {
-    varMorrismumdnszq = Morris.Line({
-      element: 'Morrismumdnszq',
+  if (typeof varMorrishwsanksg === 'undefined') {
+    varMorrishwsanksg = Morris.Line({
+      element: 'Morrishwsanksg',
       data: [{ fecha: '2014-01-31', dato: 53 },{ fecha: '2014-02-28', dato: 48 },{ fecha: '2014-03-31', dato: 52 },{ fecha: '2014-04-30', dato: 39 },{ fecha: '2014-05-31', dato: 39 },{ fecha: '2014-06-30', dato: 43 }],
       xkey: 'fecha',
       ykeys: ['dato'],

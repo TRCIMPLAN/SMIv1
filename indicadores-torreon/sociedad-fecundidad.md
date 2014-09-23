@@ -33,11 +33,11 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisjjzczwol" class="grafica"></div>
+<div id="Morriswfjgefuv" class="grafica"></div>
   // Gráfica
-  if (typeof varMorrisjjzczwol === 'undefined') {
-    varMorrisjjzczwol = Morris.Line({
-      element: 'Morrisjjzczwol',
+  if (typeof varMorriswfjgefuv === 'undefined') {
+    varMorriswfjgefuv = Morris.Line({
+      element: 'Morriswfjgefuv',
       data: [{ fecha: '2008-12-31', dato: 2.2000 },{ fecha: '2009-12-31', dato: 2.1700 },{ fecha: '2010-12-31', dato: 2.1400 },{ fecha: '2011-12-31', dato: 2.1400 },{ fecha: '2012-12-31', dato: 2.1300 }],
       xkey: 'fecha',
       ykeys: ['dato'],

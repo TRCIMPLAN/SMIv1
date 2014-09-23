@@ -41,11 +41,11 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
 
 #### Gráfica
 
-<div id="Morrishouvsqgy" class="grafica"></div>
+<div id="Morrisemsbvysb" class="grafica"></div>
   // Gráfica
-  if (typeof varMorrishouvsqgy === 'undefined') {
-    varMorrishouvsqgy = Morris.Line({
-      element: 'Morrishouvsqgy',
+  if (typeof varMorrisemsbvysb === 'undefined') {
+    varMorrisemsbvysb = Morris.Line({
+      element: 'Morrisemsbvysb',
       data: [{ fecha: '1998-12-31', dato: 8.9300 },{ fecha: '2003-12-31', dato: 8.8500 },{ fecha: '2008-12-31', dato: 9.8800 }],
       xkey: 'fecha',
       ykeys: ['dato'],

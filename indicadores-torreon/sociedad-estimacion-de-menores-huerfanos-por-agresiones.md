@@ -37,11 +37,11 @@ Elaboración propia en base a las defunciones registradas en [SINAIS](http://www
 
 #### Gráfica
 
-<div id="Morriszopqgcvb" class="grafica"></div>
+<div id="Morrisiptuegii" class="grafica"></div>
   // Gráfica
-  if (typeof varMorriszopqgcvb === 'undefined') {
-    varMorriszopqgcvb = Morris.Line({
-      element: 'Morriszopqgcvb',
+  if (typeof varMorrisiptuegii === 'undefined') {
+    varMorrisiptuegii = Morris.Line({
+      element: 'Morrisiptuegii',
       data: [{ fecha: '2008-12-31', dato: 544 },{ fecha: '2009-12-31', dato: 597 },{ fecha: '2010-12-31', dato: 753 },{ fecha: '2011-12-31', dato: 858 },{ fecha: '2012-12-31', dato: 1253 }],
       xkey: 'fecha',
       ykeys: ['dato'],

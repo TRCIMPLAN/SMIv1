@@ -47,11 +47,11 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morriswnuypkey" class="grafica"></div>
+<div id="Morrisafffgaha" class="grafica"></div>
   // Gráfica
-  if (typeof varMorriswnuypkey === 'undefined') {
-    varMorriswnuypkey = Morris.Line({
-      element: 'Morriswnuypkey',
+  if (typeof varMorrisafffgaha === 'undefined') {
+    varMorrisafffgaha = Morris.Line({
+      element: 'Morrisafffgaha',
       data: [{ fecha: '2007-12-31', dato: 118848281.00 },{ fecha: '2008-12-31', dato: 179363074.00 },{ fecha: '2009-12-31', dato: 172111514.00 },{ fecha: '2010-12-31', dato: 149987909.00 },{ fecha: '2011-12-31', dato: 154367205.00 },{ fecha: '2012-12-31', dato: 176265107.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
