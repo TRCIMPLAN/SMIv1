@@ -34,12 +34,12 @@ Unidad: Pesos.
 
 #### Gráfica
 
-<div id="Morrispvtjzzbp" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrispvtjzzbp === 'undefined') {
-    varMorrispvtjzzbp = Morris.Line({
-      element: 'Morrispvtjzzbp',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2007-12-31', dato: 41128483.00 },{ fecha: '2008-12-31', dato: 45464319.00 },{ fecha: '2009-12-31', dato: 80006719.00 },{ fecha: '2010-12-31', dato: 50216153.00 },{ fecha: '2011-12-31', dato: 52824557.00 },{ fecha: '2012-12-31', dato: 54082713.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],

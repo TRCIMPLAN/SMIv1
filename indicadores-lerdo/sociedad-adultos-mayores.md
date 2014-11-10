@@ -38,12 +38,12 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisvnpcsutw" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisvnpcsutw === 'undefined') {
-    varMorrisvnpcsutw = Morris.Line({
-      element: 'Morrisvnpcsutw',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2011-06-30', dato: 8583 },{ fecha: '2012-06-30', dato: 8868 },{ fecha: '2013-06-30', dato: 9166 },{ fecha: '2014-06-30', dato: 9479 },{ fecha: '2015-06-30', dato: 9807 },{ fecha: '2016-06-30', dato: 10152 },{ fecha: '2017-06-30', dato: 10516 },{ fecha: '2018-06-30', dato: 10899 },{ fecha: '2019-06-30', dato: 11299 },{ fecha: '2020-06-30', dato: 11717 }],
       xkey: 'fecha',
       ykeys: ['dato'],

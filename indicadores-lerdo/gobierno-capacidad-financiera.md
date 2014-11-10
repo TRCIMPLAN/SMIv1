@@ -27,6 +27,7 @@ Ingresos propios entre gastos corrientes.
     <tr><td class="centrado">31/12/2010</td><td class="derecha">24.14 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2011</td><td class="derecha">26.03 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">23.76 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">87.64 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -36,6 +37,7 @@ Unidad: Porcentaje.
 
 El indicador de capacidad financiera a nivel nacional es de:
 
+- 2013 = 41.15%
 - 2012 = 39.41%
 - 2011 = 39.94%
 - 2010 = 41.63%
@@ -47,13 +49,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisyntlytjp" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisyntlytjp === 'undefined') {
-    varMorrisyntlytjp = Morris.Line({
-      element: 'Morrisyntlytjp',
-      data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 }],
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2007-12-31', dato: 25.5200 },{ fecha: '2008-12-31', dato: 27.7100 },{ fecha: '2009-12-31', dato: 46.3000 },{ fecha: '2010-12-31', dato: 24.1400 },{ fecha: '2011-12-31', dato: 26.0300 },{ fecha: '2012-12-31', dato: 23.7600 },{ fecha: '2013-12-31', dato: 87.6400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

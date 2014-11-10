@@ -38,12 +38,12 @@ Fuente: Dirección General de Información de Salud (DGIS). [en linea]: Sistema 
 
 #### Gráfica
 
-<div id="Morristbssrsnv" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorristbssrsnv === 'undefined') {
-    varMorristbssrsnv = Morris.Line({
-      element: 'Morristbssrsnv',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2008-12-31', dato: 2302 },{ fecha: '2009-12-31', dato: 2056 },{ fecha: '2010-12-31', dato: 1442 },{ fecha: '2011-12-31', dato: 1296 },{ fecha: '2012-12-31', dato: 1198 },{ fecha: '2013-12-31', dato: 1778 }],
       xkey: 'fecha',
       ykeys: ['dato'],

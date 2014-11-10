@@ -42,12 +42,12 @@ Estimaciones de CONAPO en base a INEGI. Consulta la [Base de Datos](http://www.c
 
 #### Gráfica
 
-<div id="Morrisgntxdynh" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisgntxdynh === 'undefined') {
-    varMorrisgntxdynh = Morris.Line({
-      element: 'Morrisgntxdynh',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2011-06-30', dato: 656988 },{ fecha: '2012-06-30', dato: 666226 },{ fecha: '2013-06-30', dato: 675210 },{ fecha: '2014-06-30', dato: 683914 },{ fecha: '2015-06-30', dato: 692386 },{ fecha: '2016-06-30', dato: 700656 },{ fecha: '2017-06-30', dato: 708755 },{ fecha: '2018-06-30', dato: 716672 },{ fecha: '2019-06-30', dato: 724386 },{ fecha: '2020-06-30', dato: 731902 }],
       xkey: 'fecha',
       ykeys: ['dato'],

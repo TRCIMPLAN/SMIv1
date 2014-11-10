@@ -21,9 +21,9 @@ Consumo anual de agua por persona expresado en metros cúbicos.
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">47.77</td><td>SIMAS</td><td></td></tr>
-    <tr><td class="centrado">31/12/2011</td><td class="derecha">46.75</td><td>SIMAS</td><td></td></tr>
-    <tr><td class="centrado">31/12/2012</td><td class="derecha">44.57</td><td>SIMAS</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">47.77</td><td>SIMAS</td><td>Consumo anual</td></tr>
+    <tr><td class="centrado">31/12/2011</td><td class="derecha">46.75</td><td>SIMAS</td><td>Consumo anual</td></tr>
+    <tr><td class="centrado">31/12/2012</td><td class="derecha">44.57</td><td>SIMAS</td><td>Consumo anual</td></tr>
     <tr><td class="centrado">31/12/2013</td><td class="derecha">41.99</td><td>SIMAS</td><td>Consumo anual</td></tr>
   </tbody>
 </table>
@@ -36,12 +36,12 @@ Total facturado dividido entre la población.
 
 #### Gráfica
 
-<div id="Morrismgrzbiqh" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrismgrzbiqh === 'undefined') {
-    varMorrismgrzbiqh = Morris.Line({
-      element: 'Morrismgrzbiqh',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2010-12-31', dato: 47.7700 },{ fecha: '2011-12-31', dato: 46.7500 },{ fecha: '2012-12-31', dato: 44.5700 },{ fecha: '2013-12-31', dato: 41.9900 }],
       xkey: 'fecha',
       ykeys: ['dato'],

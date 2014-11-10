@@ -27,6 +27,7 @@ Ingresos totales por municipio.
     <tr><td class="centrado">31/12/2010</td><td class="derecha">$ 779,450,508.00</td><td>INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2011</td><td class="derecha">$ 1,002,767,622.00</td><td>INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">$ 1,127,248,678.00</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">$ 1,065,239,676.00</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -47,13 +48,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisgjrmpjai" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisgjrmpjai === 'undefined') {
-    varMorrisgjrmpjai = Morris.Line({
-      element: 'Morrisgjrmpjai',
-      data: [{ fecha: '2007-12-31', dato: 633417899.00 },{ fecha: '2008-12-31', dato: 939654384.00 },{ fecha: '2009-12-31', dato: 1112511574.00 },{ fecha: '2010-12-31', dato: 779450508.00 },{ fecha: '2011-12-31', dato: 1002767622.00 },{ fecha: '2012-12-31', dato: 1127248678.00 }],
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2007-12-31', dato: 633417899.00 },{ fecha: '2008-12-31', dato: 939654384.00 },{ fecha: '2009-12-31', dato: 1112511574.00 },{ fecha: '2010-12-31', dato: 779450508.00 },{ fecha: '2011-12-31', dato: 1002767622.00 },{ fecha: '2012-12-31', dato: 1127248678.00 },{ fecha: '2013-12-31', dato: 1065239676.00 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

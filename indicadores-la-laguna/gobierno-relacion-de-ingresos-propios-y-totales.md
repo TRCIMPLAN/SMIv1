@@ -27,6 +27,7 @@ Porcentaje de Ingresos propios el municipio con respecto a sus ingresos totales.
     <tr><td class="centrado">31/12/2010</td><td class="derecha">28.82 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2011</td><td class="derecha">32.95 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">39.96 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">40.93 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -47,13 +48,13 @@ Datos obtenidos de [INEGI. Estadística de finanzas públicas estatales y munici
 
 #### Gráfica
 
-<div id="Morrisprrzjjwk" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisprrzjjwk === 'undefined') {
-    varMorrisprrzjjwk = Morris.Line({
-      element: 'Morrisprrzjjwk',
-      data: [{ fecha: '2007-12-31', dato: 33.5900 },{ fecha: '2008-12-31', dato: 30.0800 },{ fecha: '2009-12-31', dato: 36.4200 },{ fecha: '2010-12-31', dato: 28.8200 },{ fecha: '2011-12-31', dato: 32.9500 },{ fecha: '2012-12-31', dato: 39.9600 }],
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2007-12-31', dato: 33.5900 },{ fecha: '2008-12-31', dato: 30.0800 },{ fecha: '2009-12-31', dato: 36.4200 },{ fecha: '2010-12-31', dato: 28.8200 },{ fecha: '2011-12-31', dato: 32.9500 },{ fecha: '2012-12-31', dato: 39.9600 },{ fecha: '2013-12-31', dato: 40.9300 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

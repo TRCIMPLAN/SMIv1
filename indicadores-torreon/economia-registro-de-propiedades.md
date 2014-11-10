@@ -43,12 +43,12 @@ Unidad: Días.
 
 #### Gráfica
 
-<div id="Morrisqtcygrbm" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisqtcygrbm === 'undefined') {
-    varMorrisqtcygrbm = Morris.Line({
-      element: 'Morrisqtcygrbm',
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
       data: [{ fecha: '2007-12-31', dato: 51 },{ fecha: '2012-12-31', dato: 33 },{ fecha: '2013-10-31', dato: 28 }],
       xkey: 'fecha',
       ykeys: ['dato'],

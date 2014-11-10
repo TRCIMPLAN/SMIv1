@@ -22,6 +22,9 @@ Cantidad de secuestros en el primer trimestre de 2014
   </thead>
   <tbody>
     <tr><td class="centrado">30/06/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
+    <tr><td class="centrado">31/07/2014</td><td class="derecha">NO TIENE</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/08/2014</td><td class="derecha">NO TIENE</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/09/2014</td><td class="derecha">NO TIENE</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 

@@ -27,6 +27,9 @@ Cantidad de secuestros en el primer trimestre de 2014
     <tr><td class="centrado">30/04/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/05/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/06/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td>Datos correspondientes al segundo trimestre de 2014</td></tr>
+    <tr><td class="centrado">31/07/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/08/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/09/2014</td><td class="derecha">0</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -34,13 +37,13 @@ Unidad: Cantidad.
 
 #### Gráfica
 
-<div id="Morrisjvgfvhoz" class="grafica"></div>
+<div id="graficaDatos" class="grafica"></div>
 <script>
   // Gráfica
-  if (typeof varMorrisjvgfvhoz === 'undefined') {
-    varMorrisjvgfvhoz = Morris.Line({
-      element: 'Morrisjvgfvhoz',
-      data: [{ fecha: '2014-01-31', dato: 0 },{ fecha: '2014-02-28', dato: 0 },{ fecha: '2014-03-31', dato: 0 },{ fecha: '2014-04-30', dato: 0 },{ fecha: '2014-05-31', dato: 0 },{ fecha: '2014-06-30', dato: 0 }],
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2014-01-31', dato: 0 },{ fecha: '2014-02-28', dato: 0 },{ fecha: '2014-03-31', dato: 0 },{ fecha: '2014-04-30', dato: 0 },{ fecha: '2014-05-31', dato: 0 },{ fecha: '2014-06-30', dato: 0 },{ fecha: '2014-07-31', dato: 0 },{ fecha: '2014-08-31', dato: 0 },{ fecha: '2014-09-30', dato: 0 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
