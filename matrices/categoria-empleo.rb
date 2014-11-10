@@ -81,11 +81,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Trabajadores Asegurados</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2014-07-31, Instituto Mexicano del Seguro Social (IMSS)">167,134</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2014-09-30, Instituto Mexicano del Seguro Social (IMSS)">170,628</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2014-09-30, Instituto Mexicano del Seguro Social (IMSS)">7,763</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-trabajadores-asegurados.html" data-toggle="tooltip" title="Personas, 2014-09-30, Instituto Mexicano del Seguro Social (IMSS)">266,616</a></td>
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>

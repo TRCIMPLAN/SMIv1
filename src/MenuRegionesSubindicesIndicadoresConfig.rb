@@ -465,6 +465,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-matamoros/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-matamoros/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-matamoros/economia-total-de-empresas.html'},
+                147 => {'nombre' => 'Trabajadores Asegurados', 'ruta' => 'indicadores-matamoros/economia-trabajadores-asegurados.html'},
                 114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-matamoros/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
@@ -590,6 +591,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-la-laguna/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-la-laguna/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-la-laguna/economia-total-de-empresas.html'},
+                147 => {'nombre' => 'Trabajadores Asegurados', 'ruta' => 'indicadores-la-laguna/economia-trabajadores-asegurados.html'},
                 114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-la-laguna/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
