@@ -214,6 +214,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-gomez-palacio/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-gomez-palacio/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-total-de-empresas.html'},
+                147 => {'nombre' => 'Trabajadores Asegurados', 'ruta' => 'indicadores-gomez-palacio/economia-trabajadores-asegurados.html'},
                 114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-gomez-palacio/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
@@ -339,6 +340,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 26 => {'nombre' => 'Sectores que Han Presentado Alto Crecimiento (2008-2012)', 'ruta' => 'indicadores-lerdo/economia-sectores-que-han-presentado-alto-crecimiento--2008-2012-.html'},
                 78 => {'nombre' => 'Tamaño del Mercado Hipotecario', 'ruta' => 'indicadores-lerdo/economia-tamano-del-mercado-hipotecario.html'},
                 63 => {'nombre' => 'Total de Empresas', 'ruta' => 'indicadores-lerdo/economia-total-de-empresas.html'},
+                147 => {'nombre' => 'Trabajadores Asegurados', 'ruta' => 'indicadores-lerdo/economia-trabajadores-asegurados.html'},
                 114 => {'nombre' => 'Unidades Económicas Dedicadas a la Industria Manufacturera', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-a-la-industria-manufacturera.html'},
                 115 => {'nombre' => 'Unidades Económicas Dedicadas al Comercio', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-al-comercio.html'},
                 116 => {'nombre' => 'Unidades Económicas Dedicadas a los Servicios', 'ruta' => 'indicadores-lerdo/economia-unidades-economicas-dedicadas-a-los-servicios.html'}
@@ -677,6 +679,10 @@ class MenuRegionesSubindicesIndicadoresConfig
                 32 => {'nombre' => 'Población que Trabaja en OTRO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-otro-municipio.html'},
                 31 => {'nombre' => 'Población que Trabaja en su PROPIO Municipio', 'ruta' => 'indicadores-la-laguna/sustentabilidad-poblacion-que-trabaja-en-su-propio-municipio.html'},
                 23 => {'nombre' => 'Sobreexplotación del Acuífero', 'ruta' => 'indicadores-la-laguna/sustentabilidad-sobreexplotacion-del-acuifero.html'},
+                151 => {'nombre' => 'Traslados a Pie', 'ruta' => 'indicadores-la-laguna/sustentabilidad-traslados-a-pie.html'},
+                148 => {'nombre' => 'Uso de Automóvil Particular', 'ruta' => 'indicadores-la-laguna/sustentabilidad-uso-de-automovil-particular.html'},
+                150 => {'nombre' => 'Uso de Bicicleta', 'ruta' => 'indicadores-la-laguna/sustentabilidad-uso-de-bicicleta.html'},
+                149 => {'nombre' => 'Uso de Transporte Público', 'ruta' => 'indicadores-la-laguna/sustentabilidad-uso-de-transporte-publico.html'},
                 41 => {'nombre' => 'Viviendas Deshabitadas', 'ruta' => 'indicadores-la-laguna/sustentabilidad-viviendas-deshabitadas.html'},
                 43 => {'nombre' => 'Viviendas Ocupadas Temporalmente', 'ruta' => 'indicadores-la-laguna/sustentabilidad-viviendas-ocupadas-temporalmente.html'},
                 25 => {'nombre' => 'Volumen Tratado de Aguas Residuales', 'ruta' => 'indicadores-la-laguna/sustentabilidad-volumen-tratado-de-aguas-residuales.html'}
