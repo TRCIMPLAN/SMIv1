@@ -1,4 +1,4 @@
-Desocupados como porcentaje de la PEA
+Tasa de Desempleo Abierto
 =====
 
 Fecha: 2014-05-01
@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Número total de desempleados entre la Población económicamente activa
+Número total de desempleados entre la Población económicamente activa.
 
 <!-- break -->
 
@@ -24,6 +24,9 @@ Número total de desempleados entre la Población económicamente activa
     <tr><td class="centrado">12/03/1990</td><td class="derecha">2.66 %</td><td>INEGI</td><td></td></tr>
     <tr><td class="centrado">14/02/2000</td><td class="derecha">1.04 %</td><td>INEGI</td><td></td></tr>
     <tr><td class="centrado">25/06/2010</td><td class="derecha">7.46 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/03/2014</td><td class="derecha">5.44 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
+    <tr><td class="centrado">30/06/2014</td><td class="derecha">5.11 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
+    <tr><td class="centrado">31/10/2014</td><td class="derecha">4.57 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
   </tbody>
 </table>
 
@@ -47,7 +50,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1990-03-12', dato: 2.6600 },{ fecha: '2000-02-14', dato: 1.0400 },{ fecha: '2010-06-25', dato: 7.4600 }],
+      data: [{ fecha: '1990-03-12', dato: 2.6600 },{ fecha: '2000-02-14', dato: 1.0400 },{ fecha: '2010-06-25', dato: 7.4600 },{ fecha: '2014-03-31', dato: 5.4400 },{ fecha: '2014-06-30', dato: 5.1100 },{ fecha: '2014-10-31', dato: 4.5700 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
