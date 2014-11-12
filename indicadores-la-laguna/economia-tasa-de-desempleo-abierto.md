@@ -26,7 +26,7 @@ Número total de desempleados entre la Población económicamente activa.
     <tr><td class="centrado">25/06/2010</td><td class="derecha">7.43 %</td><td>INEGI</td><td></td></tr>
     <tr><td class="centrado">31/03/2014</td><td class="derecha">5.93 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
     <tr><td class="centrado">30/06/2014</td><td class="derecha">4.84 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
-    <tr><td class="centrado">31/10/2014</td><td class="derecha">5.74 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
+    <tr><td class="centrado">30/09/2014</td><td class="derecha">5.74 %</td><td>Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos</td><td></td></tr>
   </tbody>
 </table>
 
@@ -36,11 +36,16 @@ Unidad: Porcentaje.
 
 Media nacional del indicador:
 
-- 2009 = 3.72%
-- 1999 = 0.98%
-- 1989 = 2.32%
+- 2010 = 3.72
+- 2010 = 0.98%
+- 1990 = 2.32%
 
 Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org.mx/sistemas/consulta_resultados/iter2010.aspx?c=27329&s=est)
+
+Media Nacional 2014:
+1er. Trimestre: 4.80 %
+2do. Trimestre: 4.90 %
+3er. Trimestre: 5.20 %
 
 #### Gráfica
 
@@ -50,7 +55,7 @@ Datos obtenidos de [INEGI. Censos de población y vivienda](http://www.inegi.org
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-10-31', dato: 5.7400 }],
+      data: [{ fecha: '1990-03-12', dato: 2.8100 },{ fecha: '2000-02-14', dato: 1.0300 },{ fecha: '2010-06-25', dato: 7.4300 },{ fecha: '2014-03-31', dato: 5.9300 },{ fecha: '2014-06-30', dato: 4.8400 },{ fecha: '2014-09-30', dato: 5.7400 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
