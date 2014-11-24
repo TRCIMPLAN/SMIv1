@@ -656,6 +656,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 121 => {'nombre' => 'Camas Censables', 'ruta' => 'indicadores-la-laguna/sociedad-camas-censables.html'},
                 47 => {'nombre' => 'Espacios Culturales', 'ruta' => 'indicadores-la-laguna/sociedad-espacios-culturales.html'},
                 57 => {'nombre' => 'Hogares con Jefatura Femenina', 'ruta' => 'indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html'},
+                153 => {'nombre' => 'Índice de hacinamiento', 'ruta' => 'indicadores-la-laguna/sociedad-indice-de-hacinamiento.html'},
                 52 => {'nombre' => 'Médicos', 'ruta' => 'indicadores-la-laguna/sociedad-medicos.html'},
                 51 => {'nombre' => 'Mortalidad', 'ruta' => 'indicadores-la-laguna/sociedad-mortalidad.html'},
                 54 => {'nombre' => 'Mortalidad Infantil', 'ruta' => 'indicadores-la-laguna/sociedad-mortalidad-infantil.html'},
