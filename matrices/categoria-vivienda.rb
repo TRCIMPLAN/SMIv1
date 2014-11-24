@@ -26,12 +26,30 @@ def publicacion(dir)
 <tbody>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Índice de hacinamiento</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">0.88</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">0.97</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">1.05</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">1.09</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Ocupación por Vivienda</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.7</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.9</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">4.1</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">4.1</a></td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-ocupacion-por-vivienda.html" data-toggle="tooltip" title="Promedio, 2010-12-31, INEGI. Censos de Población y Vivienda">3.95</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Promedio de Ocupantes por Vivienda</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">3.72</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">3.9</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">4.06</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">4.1</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">3.84</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

@@ -386,7 +386,7 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color2">Gobierno</td>
-    <td class="indicador color2">Cumplimiento en información pública mínina</td>
+    <td class="indicador color2">Cumplimiento en Información Pública Mínina</td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-torreon/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2014-06-30, ICAI-IDAIP">98.72 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-gomez-palacio/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2014-08-31, ICAI-IDAIP">86 %</a></td>
     <td class="derecha color2"><a class="vinculo" href="../indicadores-lerdo/gobierno-cumplimiento-en-informacion-publica-minina.html" data-toggle="tooltip" title="Porcentaje, 2014-08-31, ICAI-IDAIP">100 %</a></td>
@@ -539,16 +539,16 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robo a negocios.</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">92</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">85</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
+    <td class="indicador color3">Robo a Negocios</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">92</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">85</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robo a transeuntes</td>
+    <td class="indicador color3">Robo a Transeuntes</td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">56</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
     <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
@@ -566,12 +566,12 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
-    <td class="indicador color3">Robos a casa habitación.</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">81</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">28</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">14</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion-.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">128</a></td>
+    <td class="indicador color3">Robos a Casa Habitación</td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">81</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">28</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">14</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">128</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -782,6 +782,15 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Índice de hacinamiento</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">0.88</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">0.97</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">1.05</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-indice-de-hacinamiento.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">1.09</a></td>
+    <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Madres Adolescentes</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-madres-adolescentes.html" data-toggle="tooltip" title="Cantidad, 2013-12-31, SINAIS (SSA)">1,778</a></td>
     <td class="nd">ND</td>
@@ -914,6 +923,15 @@ def publicacion(dir)
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Promedio de Ocupantes por Vivienda</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">3.72</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">3.9</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">4.06</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">4.1</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-promedio-de-ocupantes-por-vivienda.html" data-toggle="tooltip" title="Personas, 2010-06-25, INEGI. Censos de Población y Vivienda">3.84</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
@@ -1067,6 +1085,15 @@ def publicacion(dir)
     <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-destinos-via-terrestre.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, IMPLAN">NO TIENE</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-destinos-via-terrestre.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, IMPLAN">NO TIENE</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-destinos-via-terrestre.html" data-toggle="tooltip" title="Cantidad, 2014-03-31, IMPLAN">28</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color5">Sustentabilidad</td>
+    <td class="indicador color5">Disponibilidad de Banqueta</td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-disponibilidad-de-banqueta.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">84 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-disponibilidad-de-banqueta.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">84 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-disponibilidad-de-banqueta.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">83 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-disponibilidad-de-banqueta.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">58 %</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-disponibilidad-de-banqueta.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI">82 %</a></td>
   </tr>
   <tr>
     <td class="subindice color5">Sustentabilidad</td>

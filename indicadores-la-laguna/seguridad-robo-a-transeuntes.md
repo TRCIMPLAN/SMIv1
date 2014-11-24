@@ -1,4 +1,4 @@
-Robo a transeuntes
+Robo a Transeuntes
 =====
 
 Fecha: 2014-05-01
@@ -9,7 +9,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Robos totales por mes.
+Robos a Transeuntes totales por mes.
 
 <!-- break -->
 

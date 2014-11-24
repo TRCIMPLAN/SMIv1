@@ -1,4 +1,4 @@
-Robos a casa habitación.
+Robos a Casa Habitación
 =====
 
 Fecha: 2014-05-01
@@ -9,7 +9,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-robos totales por mes
+Robos totales por mes a casa habitación.
 
 <!-- break -->
 

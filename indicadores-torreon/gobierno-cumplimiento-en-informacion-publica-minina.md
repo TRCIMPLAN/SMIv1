@@ -1,4 +1,4 @@
-Cumplimiento en información pública mínina
+Cumplimiento en Información Pública Mínina
 =====
 
 Fecha: 2014-05-01
@@ -10,7 +10,7 @@ Aparece en pagina inicial: No
 
 #### Descripción
 
-Cumplimiento sobre total de obligaciones
+Cumplimiento sobre total de obligaciones.
 
 <!-- break -->
 
