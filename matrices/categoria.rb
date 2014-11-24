@@ -917,6 +917,15 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>
+    <td class="indicador color4">Porcentaje de Viviendas con energía eléctrica</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI. Censos de Población y Vivienda">99.61 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI. Censos de Población y Vivienda">99.45 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI. Censos de Población y Vivienda">99.02 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI. Censos de Población y Vivienda">99.16 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-porcentaje-de-viviendas-con-energia-electrica.html" data-toggle="tooltip" title="Porcentaje, 2010-06-25, INEGI. Censos de Población y Vivienda">99.47 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Promedio de Descendencia por Varón</td>
     <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-promedio-de-descendencia-por-varon.html" data-toggle="tooltip" title="Cantidad, 2012-12-31, IMPLAN">1.66</a></td>
     <td class="nd">ND</td>
