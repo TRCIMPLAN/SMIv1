@@ -486,20 +486,20 @@ def publicacion(dir)
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Delitos</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">754</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">398</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-07-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">76</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">75</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,314</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">784</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">463</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">103</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">100</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-delitos.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1,414</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Homicidios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">24</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">9</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">2</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">35</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">21</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">4</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-homicidios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">1</a></td>
+    <td class="nd">ND</td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -540,20 +540,20 @@ def publicacion(dir)
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Negocios</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">92</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">85</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">105</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">66</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">11</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-negocios.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">190</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robo a Transeuntes</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">56</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">12</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">137</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">120</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">93</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">7</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robo-a-transeuntes.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">228</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -567,29 +567,29 @@ def publicacion(dir)
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos a Casa Habitación</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">81</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">28</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">14</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">5</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">128</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">64</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">25</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">13</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">8</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-a-casa-habitacion.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">110</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Robos Totales</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">403</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">278</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">52</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">26</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">759</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">433</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">328</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">55</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">35</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-robos-totales.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">851</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
     <td class="indicador color3">Secuestros</td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-09-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
-    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-06-30, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-torreon/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-gomez-palacio/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-lerdo/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">NO TIENE</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-matamoros/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
+    <td class="derecha color3"><a class="vinculo" href="../indicadores-la-laguna/seguridad-secuestros.html" data-toggle="tooltip" title="Cantidad, 2014-10-31, Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública">0</a></td>
   </tr>
   <tr>
     <td class="subindice color3">Seguridad</td>
@@ -774,11 +774,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Índice de Desarrollo Humano (IDH)</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.847</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.816</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.797</a></td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2005-03-31, Programa de Naciones Unidas para el Desarrollo (PNUD)">0.782</a></td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, INAFED-PNUD">0.8976</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, INAFED-PNUD">0.8681</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, INAFED-PNUD">0.8661</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, INAFED-PNUD">0.8404</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano--idh-.html" data-toggle="tooltip" title="De 0 a 1, 2010-12-31, INAFED-PNUD">0.8680</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

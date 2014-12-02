@@ -30,6 +30,7 @@ Número de homicidios durante el primer trimestre de 2014
     <tr><td class="centrado">31/07/2014</td><td class="derecha">11</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/08/2014</td><td class="derecha">4</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/09/2014</td><td class="derecha">9</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/10/2014</td><td class="derecha">12</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -43,7 +44,7 @@ Unidad: Cantidad.
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 12 },{ fecha: '2014-02-28', dato: 10 },{ fecha: '2014-03-31', dato: 8 },{ fecha: '2014-04-30', dato: 17 },{ fecha: '2014-05-31', dato: 10 },{ fecha: '2014-06-30', dato: 19 },{ fecha: '2014-07-31', dato: 11 },{ fecha: '2014-08-31', dato: 4 },{ fecha: '2014-09-30', dato: 9 }],
+      data: [{ fecha: '2014-01-31', dato: 12 },{ fecha: '2014-02-28', dato: 10 },{ fecha: '2014-03-31', dato: 8 },{ fecha: '2014-04-30', dato: 17 },{ fecha: '2014-05-31', dato: 10 },{ fecha: '2014-06-30', dato: 19 },{ fecha: '2014-07-31', dato: 11 },{ fecha: '2014-08-31', dato: 4 },{ fecha: '2014-09-30', dato: 9 },{ fecha: '2014-10-31', dato: 12 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

@@ -783,6 +783,7 @@
             <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html">Camas Censables</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina</a></li>
+            <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH)</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-medicos.html">Médicos</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html">Mortalidad</a></li>
@@ -864,14 +865,11 @@
     <tr><td class="centrado">31/07/2014</td><td class="derecha">39</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/08/2014</td><td class="derecha">31</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/09/2014</td><td class="derecha">35</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">31/10/2014</td><td class="derecha">ND</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
 <p>Unidad: Cantidad.</p>
-
-<h4 id="grfica">Gráfica</h4>
-
-<div id="graficaDatos" class="grafica"></div>
 
 </article>
       </div>
@@ -893,7 +891,7 @@
   <li class="list-group-item"><a href="../matrices/categoria-competitividad.html">Competitividad</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-cultura.html">Cultura</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-delincuencia.html">Delincuencia</a></li>
-  <li class="list-group-item"><a href="../matrices/categoria-doing-bussines.html">Doing Bussines</a></li>
+  <li class="list-group-item"><a href="../matrices/categoria-doing-business.html">Doing Business</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-educacion.html">Educación</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-empleo.html">Empleo</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-empresas.html">Empresas</a></li>
@@ -948,20 +946,6 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-<script>
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 45 },{ fecha: '2014-02-28', dato: 42 },{ fecha: '2014-03-31', dato: 32 },{ fecha: '2014-04-30', dato: 37 },{ fecha: '2014-05-31', dato: 38 },{ fecha: '2014-06-30', dato: 38 },{ fecha: '2014-07-31', dato: 39 },{ fecha: '2014-08-31', dato: 31 },{ fecha: '2014-09-30', dato: 35 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-</script>
+
 </body>
 </html>

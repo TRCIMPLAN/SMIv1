@@ -783,6 +783,7 @@
             <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html">Camas Censables</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina</a></li>
+            <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH)</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-indice-de-hacinamiento.html">Índice de hacinamiento</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-medicos.html">Médicos</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-mortalidad.html">Mortalidad</a></li>
@@ -855,11 +856,17 @@
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/03/2005</td><td class="derecha">0.847</td><td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td><td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td></tr>
+    <tr><td class="centrado">31/12/2000</td><td class="derecha">0.8595</td><td>INAFED-PNUD</td><td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td></tr>
+    <tr><td class="centrado">31/12/2005</td><td class="derecha">0.8915</td><td>INAFED-PNUD</td><td>Descargar [base de datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">0.8976</td><td>INAFED-PNUD</td><td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td></tr>
   </tbody>
 </table>
 
 <p>Unidad: De 0 a 1.</p>
+
+<h4 id="grfica">Gráfica</h4>
+
+<div id="graficaDatos" class="grafica"></div>
 
 </article>
       </div>
@@ -881,7 +888,7 @@
   <li class="list-group-item"><a href="../matrices/categoria-competitividad.html">Competitividad</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-cultura.html">Cultura</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-delincuencia.html">Delincuencia</a></li>
-  <li class="list-group-item"><a href="../matrices/categoria-doing-bussines.html">Doing Bussines</a></li>
+  <li class="list-group-item"><a href="../matrices/categoria-doing-business.html">Doing Business</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-educacion.html">Educación</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-empleo.html">Empleo</a></li>
   <li class="list-group-item"><a href="../matrices/categoria-empresas.html">Empresas</a></li>
@@ -936,6 +943,20 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+<script>
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2000-12-31', dato: 0.8595 },{ fecha: '2005-12-31', dato: 0.8915 },{ fecha: '2010-12-31', dato: 0.8976 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
 </body>
 </html>

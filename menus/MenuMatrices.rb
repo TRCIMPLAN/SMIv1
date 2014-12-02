@@ -36,7 +36,7 @@ class MenuMatrices < MenuSecundario
         agregar('Competitividad', 'matrices/categoria-competitividad.html')
         agregar('Cultura', 'matrices/categoria-cultura.html')
         agregar('Delincuencia', 'matrices/categoria-delincuencia.html')
-        agregar('Doing Bussines', 'matrices/categoria-doing-bussines.html')
+        agregar('Doing Business', 'matrices/categoria-doing-business.html')
         agregar('Educación', 'matrices/categoria-educacion.html')
         agregar('Empleo', 'matrices/categoria-empleo.html')
         agregar('Empresas', 'matrices/categoria-empresas.html')

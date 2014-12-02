@@ -2,7 +2,7 @@ Apertura de Negocio
 =====
 
 Fecha: 2014-05-01
-Categorías: Empresas, Doing Bussines
+Categorías: Empresas, Doing Business
 Autor: IMPLAN
 Aparece en pagina inicial: No
 

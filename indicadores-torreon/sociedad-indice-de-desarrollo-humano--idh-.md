@@ -21,8 +21,29 @@ El Índice de Desarrollo Humano (IDH) desarrollado por el Programa de Naciones U
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/03/2005</td><td class="derecha">0.847</td><td>Programa de Naciones Unidas para el Desarrollo (PNUD)</td><td>Descargar [base de datos](http://www.undp.org.mx/desarrollohumano/disco/index.html)</td></tr>
+    <tr><td class="centrado">31/12/2000</td><td class="derecha">0.8595</td><td>INAFED-PNUD</td><td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td></tr>
+    <tr><td class="centrado">31/12/2005</td><td class="derecha">0.8915</td><td>INAFED-PNUD</td><td>Descargar [base de datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">0.8976</td><td>INAFED-PNUD</td><td>Consulta la [Base de Datos](http://www.inafed.gob.mx/es/inafed/Socioeconomico_Municipal)</td></tr>
   </tbody>
 </table>
 
 Unidad: De 0 a 1.
+
+#### Gráfica
+
+<div id="graficaDatos" class="grafica"></div>
+<script>
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2000-12-31', dato: 0.8595 },{ fecha: '2005-12-31', dato: 0.8915 },{ fecha: '2010-12-31', dato: 0.8976 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
