@@ -54,11 +54,11 @@ def publicacion(dir)
   <tr>
     <td class="subindice color4">Sociedad</td>
     <td class="indicador color4">Discapacidad</td>
-    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">10.17 %</a></td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
-    <td class="nd">ND</td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-torreon/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">4.5 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-gomez-palacio/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-lerdo/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-matamoros/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">4.4 %</a></td>
+    <td class="derecha color4"><a class="vinculo" href="../indicadores-la-laguna/sociedad-discapacidad.html" data-toggle="tooltip" title="Porcentaje, 2010-12-31, INEGI. Censos de Población y Vivienda">4.3 %</a></td>
   </tr>
   <tr>
     <td class="subindice color4">Sociedad</td>

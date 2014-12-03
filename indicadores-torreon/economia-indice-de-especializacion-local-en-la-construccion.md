@@ -21,7 +21,8 @@ Producción bruta total de la actividad económica de construcción entre la pro
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2008</td><td class="derecha">3.6 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">1.37 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2008</td><td class="derecha">3.60 %</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
 
@@ -34,3 +35,22 @@ El índice de especialización en manufactura a nivel nacional es de:
  - 2008 = 3.69%
 
 Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas/saic/)
+
+#### Gráfica
+
+<div id="graficaDatos" class="grafica"></div>
+<script>
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2003-12-31', dato: 1.3700 },{ fecha: '2008-12-31', dato: 3.6000 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>

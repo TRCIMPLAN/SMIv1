@@ -320,6 +320,7 @@
             <li><a href="../indicadores-gomez-palacio/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-camas-censables.html">Camas Censables</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
+            <li><a href="../indicadores-gomez-palacio/sociedad-discapacidad.html">Discapacidad</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-espacios-culturales.html">Espacios Culturales</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina</a></li>
             <li><a href="../indicadores-gomez-palacio/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH)</a></li>
@@ -472,6 +473,7 @@
             <li><a href="../indicadores-lerdo/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-lerdo/sociedad-camas-censables.html">Camas Censables</a></li>
             <li><a href="../indicadores-lerdo/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
+            <li><a href="../indicadores-lerdo/sociedad-discapacidad.html">Discapacidad</a></li>
             <li><a href="../indicadores-lerdo/sociedad-espacios-culturales.html">Espacios Culturales</a></li>
             <li><a href="../indicadores-lerdo/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina</a></li>
             <li><a href="../indicadores-lerdo/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH)</a></li>
@@ -625,6 +627,7 @@
             <li><a href="../indicadores-matamoros/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-matamoros/sociedad-camas-censables.html">Camas Censables</a></li>
             <li><a href="../indicadores-matamoros/sociedad-diferencial-de-grado-promedio-de-escolaridad-por-genero.html">Diferencial de Grado Promedio de Escolaridad por Género</a></li>
+            <li><a href="../indicadores-matamoros/sociedad-discapacidad.html">Discapacidad</a></li>
             <li><a href="../indicadores-matamoros/sociedad-espacios-culturales.html">Espacios Culturales</a></li>
             <li><a href="../indicadores-matamoros/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina</a></li>
             <li><a href="../indicadores-matamoros/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH)</a></li>
@@ -776,6 +779,7 @@
             <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-cientifico-matematico.html">Alumnos con Perfil Científico-Matemático</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-alumnos-con-perfil-gramatico-espanol.html">Alumnos con Perfil Gramático-Español</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-camas-censables.html">Camas Censables</a></li>
+            <li><a href="../indicadores-la-laguna/sociedad-discapacidad.html">Discapacidad</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-espacios-culturales.html">Espacios Culturales</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-hogares-con-jefatura-femenina.html">Hogares con Jefatura Femenina</a></li>
             <li><a href="../indicadores-la-laguna/sociedad-indice-de-desarrollo-humano--idh-.html">Índice de Desarrollo Humano (IDH)</a></li>
@@ -849,18 +853,18 @@
   <button class="btn btn-default btn-sm btn-publicacion-completa" type="button" onclick="location.href='../indicadores-torreon/economia-apertura-de-negocio.html'">Publicación completa...</button>
 </section>
 <section>
-  <h3><a href="../indicadores-torreon/seguridad-delitos.html">Delitos</a></h3>
+  <h3><a href="../indicadores-torreon/seguridad-homicidios.html">Homicidios</a></h3>
   <blockquote>
 
 <h3 id="torren">Torreón</h3>
 
 <h4 id="descripcin">Descripción</h4>
 
-<p>Total de delitos cometidos.</p>
+<p>Número de homicidios durante el primer trimestre de 2014</p>
 
 
   </blockquote>
-  <button class="btn btn-default btn-sm btn-publicacion-completa" type="button" onclick="location.href='../indicadores-torreon/seguridad-delitos.html'">Publicación completa...</button>
+  <button class="btn btn-default btn-sm btn-publicacion-completa" type="button" onclick="location.href='../indicadores-torreon/seguridad-homicidios.html'">Publicación completa...</button>
 </section>
 <ul class="pagination">
   <li><a href="index-13.html">&laquo;</a></li>
@@ -953,20 +957,6 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-<script>
-  // Gráfica
-  if (typeof vargraficaDatos === 'undefined') {
-    vargraficaDatos = Morris.Line({
-      element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 123 },{ fecha: '2014-02-28', dato: 147 },{ fecha: '2014-03-31', dato: 87 },{ fecha: '2014-04-30', dato: 95 },{ fecha: '2014-05-31', dato: 138 },{ fecha: '2014-06-30', dato: 98 },{ fecha: '2014-07-31', dato: 89 },{ fecha: '2014-08-31', dato: 86 },{ fecha: '2014-09-30', dato: 92 },{ fecha: '2014-10-31', dato: 105 }],
-      xkey: 'fecha',
-      ykeys: ['dato'],
-      labels: ['Dato'],
-      lineColors: ['#FF5B02'],
-      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
-      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
-    });
-  }
-</script>
+
 </body>
 </html>

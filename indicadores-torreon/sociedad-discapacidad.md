@@ -21,7 +21,7 @@ Porcentaje de la población total con alguna limitación (motriz, visión, audit
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2010</td><td class="derecha">10.17 %</td><td>INEGI. Censos de Población y Vivienda</td><td></td></tr>
+    <tr><td class="centrado">31/12/2010</td><td class="derecha">4.5 %</td><td>INEGI. Censos de Población y Vivienda</td><td>Personas que tienen dificultad para el desempeño y/o realización de tareas en la vida cotidiana.</td></tr>
   </tbody>
 </table>
 
