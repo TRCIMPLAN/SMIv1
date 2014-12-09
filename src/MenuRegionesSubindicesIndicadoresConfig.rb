@@ -51,6 +51,7 @@ class MenuRegionesSubindicesIndicadoresConfig
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
                 126 => {'nombre' => 'Ejecución de Contratos', 'ruta' => 'indicadores-torreon/economia-ejecucion-de-contratos.html'},
+                156 => {'nombre' => 'Empresas Exportadoras', 'ruta' => 'indicadores-torreon/economia-empresas-exportadoras.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-torreon/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-torreon/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-torreon/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -193,6 +194,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-gomez-palacio/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-gomez-palacio/economia-desempleo.html'},
+                156 => {'nombre' => 'Empresas Exportadoras', 'ruta' => 'indicadores-gomez-palacio/economia-empresas-exportadoras.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-gomez-palacio/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-gomez-palacio/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-gomez-palacio/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -322,6 +324,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-lerdo/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-lerdo/economia-desempleo.html'},
+                156 => {'nombre' => 'Empresas Exportadoras', 'ruta' => 'indicadores-lerdo/economia-empresas-exportadoras.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-lerdo/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-lerdo/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-lerdo/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -451,6 +454,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-matamoros/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-matamoros/economia-desempleo.html'},
+                156 => {'nombre' => 'Empresas Exportadoras', 'ruta' => 'indicadores-matamoros/economia-empresas-exportadoras.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-matamoros/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-matamoros/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-matamoros/economia-indice-de-especializacion-local-en-comercio.html'},
@@ -581,6 +585,7 @@ class MenuRegionesSubindicesIndicadoresConfig
             3 => { # Economía
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-la-laguna/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-la-laguna/economia-desempleo.html'},
+                156 => {'nombre' => 'Empresas Exportadoras', 'ruta' => 'indicadores-la-laguna/economia-empresas-exportadoras.html'},
                 77 => {'nombre' => 'Grandes Empresas', 'ruta' => 'indicadores-la-laguna/economia-grandes-empresas.html'},
                 98 => {'nombre' => 'Índice de Competitividad Urbana', 'ruta' => 'indicadores-la-laguna/economia-indice-de-competitividad-urbana.html'},
                 16 => {'nombre' => 'Índice de Especialización Local en Comercio', 'ruta' => 'indicadores-la-laguna/economia-indice-de-especializacion-local-en-comercio.html'},

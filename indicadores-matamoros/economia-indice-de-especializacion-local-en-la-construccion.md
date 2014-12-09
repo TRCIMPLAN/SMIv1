@@ -21,7 +21,8 @@ Producción bruta total de la actividad económica de construcción entre la pro
     <tr><th>Fecha</th><th>Dato</th><th>Fuente</th><th>Notas</th></tr>
   </thead>
   <tbody>
-    <tr><td class="centrado">31/12/2003</td><td class="derecha">0.42 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/1998</td><td class="derecha">0.00 %</td><td>INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2003</td><td class="derecha">0.24 %</td><td>INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2008</td><td class="derecha">0.00 %</td><td>INEGI</td><td></td></tr>
   </tbody>
 </table>
@@ -44,7 +45,7 @@ Datos obtenidos de [INEGI. Censos económicos](http://www3.inegi.org.mx/sistemas
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2003-12-31', dato: 0.4200 },{ fecha: '2008-12-31', dato: 0.0000 }],
+      data: [{ fecha: '1998-12-31', dato: 0.0000 },{ fecha: '2003-12-31', dato: 0.2400 },{ fecha: '2008-12-31', dato: 0.0000 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
