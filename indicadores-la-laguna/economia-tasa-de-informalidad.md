@@ -2,6 +2,7 @@ Tasa de informalidad
 =====
 
 Fecha: 2014-05-01
+Categorías: Empleo
 Autor: IMPLAN
 Aparece en pagina inicial: No
 
