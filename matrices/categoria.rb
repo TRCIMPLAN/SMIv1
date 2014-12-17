@@ -305,6 +305,15 @@ def publicacion(dir)
   </tr>
   <tr>
     <td class="subindice color1">Economía</td>
+    <td class="indicador color1">Tasa de informalidad</td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 2014-09-30, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.25 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 2014-09-30, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">41.04 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-lerdo/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 2014-09-30, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">61.02 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-matamoros/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 2014-09-30, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">55.06 %</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-la-laguna/economia-tasa-de-informalidad.html" data-toggle="tooltip" title="Porcentaje, 2014-09-30, Encuesta Nacional de Ocupación y Empleo (ENOE) Microdatos">43.80 %</a></td>
+  </tr>
+  <tr>
+    <td class="subindice color1">Economía</td>
     <td class="indicador color1">Total de Empresas</td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">7,402</a></td>
     <td class="derecha color1"><a class="vinculo" href="../indicadores-gomez-palacio/economia-total-de-empresas.html" data-toggle="tooltip" title="Cantidad de Empresas, 2014-07-31, Sistema de Información Empresarial Mexicano (SIEM)">2,032</a></td>
@@ -1107,10 +1116,10 @@ def publicacion(dir)
   <tr>
     <td class="subindice color5">Sustentabilidad</td>
     <td class="indicador color5">Motorización</td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">226</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">308</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">235</a></td>
-    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2012-12-31, INEGI">162</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-torreon/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2013-12-31, INEGI">223</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-gomez-palacio/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2013-12-31, INEGI">333</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-lerdo/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2013-12-31, INEGI">251</a></td>
+    <td class="derecha color5"><a class="vinculo" href="../indicadores-matamoros/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2013-12-31, INEGI">163</a></td>
     <td class="derecha color5"><a class="vinculo" href="../indicadores-la-laguna/sustentabilidad-motorizacion.html" data-toggle="tooltip" title="Por cada mil habitantes, 2013-12-31, INEGI">251</a></td>
   </tr>
   <tr>
