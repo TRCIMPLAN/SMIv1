@@ -30,6 +30,7 @@ Total de pasajeros que llegan o salen del Aeropuerto Internacional Francisco Sar
     <tr><td class="centrado">31/12/2011</td><td class="derecha">51,401</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">61,443</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
     <tr><td class="centrado">31/12/2013</td><td class="derecha">55,446</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
+    <tr><td class="centrado">01/12/2014</td><td class="derecha">48,731</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td>Cifras hasta Noviembre de 2014</td></tr>
   </tbody>
 </table>
 
@@ -59,7 +60,7 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 }],
+      data: [{ fecha: '2005-12-31', dato: 64316 },{ fecha: '2006-12-31', dato: 73900 },{ fecha: '2007-12-31', dato: 80742 },{ fecha: '2008-12-31', dato: 77199 },{ fecha: '2009-12-31', dato: 53112 },{ fecha: '2010-12-31', dato: 51238 },{ fecha: '2011-12-31', dato: 51401 },{ fecha: '2012-12-31', dato: 61443 },{ fecha: '2013-12-31', dato: 55446 },{ fecha: '2014-12-01', dato: 48731 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

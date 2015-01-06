@@ -871,6 +871,7 @@
   </thead>
   <tbody>
     <tr><td class="centrado">31/12/2013</td><td class="derecha">508,133</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
+    <tr><td class="centrado">01/12/2014</td><td class="derecha">432,375</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td>Cifra hasta Noviembre de 2014</td></tr>
   </tbody>
 </table>
 
@@ -879,6 +880,10 @@
 <h4 id="observaciones">Observaciones</h4>
 
 <p>Se considera a nivel metropolitano. Consulta la <a href="http://www.oma.aero/es/aeropuertos/trfico-de-pasajeros/">Base de Datos</a></p>
+
+<h4 id="grfica">Gráfica</h4>
+
+<div id="graficaDatos" class="grafica"></div>
 
 </article>
       </div>
@@ -955,6 +960,20 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+<script>
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-01', dato: 432375 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
 </body>
 </html>

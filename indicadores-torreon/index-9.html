@@ -1076,6 +1076,20 @@
   <script src="../js/raphael-min.js"></script>
   <script src="../js/morris.min.js"></script>
   <script src="../js/google-analytics.js"></script>
-
+<script>
+  // Gráfica
+  if (typeof vargraficaDatos === 'undefined') {
+    vargraficaDatos = Morris.Line({
+      element: 'graficaDatos',
+      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-01', dato: 432375 }],
+      xkey: 'fecha',
+      ykeys: ['dato'],
+      labels: ['Dato'],
+      lineColors: ['#FF5B02'],
+      xLabelFormat: function(d) { return d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear(); },
+      dateFormat: function(ts) { var d = new Date(ts); return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear(); }
+    });
+  }
+</script>
 </body>
 </html>
