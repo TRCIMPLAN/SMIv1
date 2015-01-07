@@ -47,7 +47,7 @@ class MenuRegionesSubindicesIndicadoresConfig
     @indicadores_por_subindice_por_region = {
         2 => { # Torreón
             3 => { # Economía
-                123 => {'nombre' => 'Apertura de Negocio', 'ruta' => 'indicadores-torreon/economia-apertura-de-negocio.html'},
+                123 => {'nombre' => 'Apertura de Negocios', 'ruta' => 'indicadores-torreon/economia-apertura-de-negocios.html'},
                 79 => {'nombre' => 'Cartera Hipotecaria', 'ruta' => 'indicadores-torreon/economia-cartera-hipotecaria.html'},
                 56 => {'nombre' => 'Desempleo', 'ruta' => 'indicadores-torreon/economia-desempleo.html'},
                 126 => {'nombre' => 'Ejecución de Contratos', 'ruta' => 'indicadores-torreon/economia-ejecucion-de-contratos.html'},

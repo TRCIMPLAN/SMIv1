@@ -1,4 +1,4 @@
-Apertura de Negocio
+Apertura de Negocios
 =====
 
 Fecha: 2014-05-01
