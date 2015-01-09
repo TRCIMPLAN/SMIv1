@@ -30,6 +30,7 @@ Cantidad total de robos en el mes.
     <tr><td class="centrado">31/08/2014</td><td class="derecha">255</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/09/2014</td><td class="derecha">278</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/10/2014</td><td class="derecha">328</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/11/2014</td><td class="derecha">248</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -43,7 +44,7 @@ Unidad: Cantidad.
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 320 },{ fecha: '2014-02-28', dato: 271 },{ fecha: '2014-03-31', dato: 345 },{ fecha: '2014-04-30', dato: 338 },{ fecha: '2014-05-31', dato: 281 },{ fecha: '2014-06-30', dato: 183 },{ fecha: '2014-07-31', dato: 274 },{ fecha: '2014-08-31', dato: 255 },{ fecha: '2014-09-30', dato: 278 },{ fecha: '2014-10-31', dato: 328 }],
+      data: [{ fecha: '2014-01-31', dato: 320 },{ fecha: '2014-02-28', dato: 271 },{ fecha: '2014-03-31', dato: 345 },{ fecha: '2014-04-30', dato: 338 },{ fecha: '2014-05-31', dato: 281 },{ fecha: '2014-06-30', dato: 183 },{ fecha: '2014-07-31', dato: 274 },{ fecha: '2014-08-31', dato: 255 },{ fecha: '2014-09-30', dato: 278 },{ fecha: '2014-10-31', dato: 328 },{ fecha: '2014-11-30', dato: 248 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

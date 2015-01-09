@@ -30,6 +30,7 @@ Robos totales por mes a casa habitación.
     <tr><td class="centrado">31/08/2014</td><td class="derecha">124</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/09/2014</td><td class="derecha">128</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/10/2014</td><td class="derecha">110</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/11/2014</td><td class="derecha">92</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -43,7 +44,7 @@ Unidad: Cantidad.
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 115 },{ fecha: '2014-02-28', dato: 115 },{ fecha: '2014-03-31', dato: 123 },{ fecha: '2014-04-30', dato: 102 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 83 },{ fecha: '2014-07-31', dato: 101 },{ fecha: '2014-08-31', dato: 124 },{ fecha: '2014-09-30', dato: 128 },{ fecha: '2014-10-31', dato: 110 }],
+      data: [{ fecha: '2014-01-31', dato: 115 },{ fecha: '2014-02-28', dato: 115 },{ fecha: '2014-03-31', dato: 123 },{ fecha: '2014-04-30', dato: 102 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 83 },{ fecha: '2014-07-31', dato: 101 },{ fecha: '2014-08-31', dato: 124 },{ fecha: '2014-09-30', dato: 128 },{ fecha: '2014-10-31', dato: 110 },{ fecha: '2014-11-30', dato: 92 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],

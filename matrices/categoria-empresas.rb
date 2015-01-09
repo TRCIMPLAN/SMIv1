@@ -27,7 +27,7 @@ def publicacion(dir)
   <tr>
     <td class="subindice color1">Economía</td>
     <td class="indicador color1">Apertura de Negocios</td>
-    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-negocios.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">9.5000</a></td>
+    <td class="derecha color1"><a class="vinculo" href="../indicadores-torreon/economia-apertura-de-negocios.html" data-toggle="tooltip" title="Días, 2013-10-31, Doing Business">9.5</a></td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>
     <td class="nd">ND</td>

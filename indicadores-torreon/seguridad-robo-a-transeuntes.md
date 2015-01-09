@@ -30,6 +30,7 @@ Robos a Transeuntes totales por mes.
     <tr><td class="centrado">31/08/2014</td><td class="derecha">89</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/09/2014</td><td class="derecha">56</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/10/2014</td><td class="derecha">120</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/11/2014</td><td class="derecha">86</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -43,7 +44,7 @@ Unidad: Cantidad.
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 178 },{ fecha: '2014-02-28', dato: 134 },{ fecha: '2014-03-31', dato: 91 },{ fecha: '2014-04-30', dato: 104 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 101 },{ fecha: '2014-07-31', dato: 73 },{ fecha: '2014-08-31', dato: 89 },{ fecha: '2014-09-30', dato: 56 },{ fecha: '2014-10-31', dato: 120 }],
+      data: [{ fecha: '2014-01-31', dato: 178 },{ fecha: '2014-02-28', dato: 134 },{ fecha: '2014-03-31', dato: 91 },{ fecha: '2014-04-30', dato: 104 },{ fecha: '2014-05-31', dato: 155 },{ fecha: '2014-06-30', dato: 101 },{ fecha: '2014-07-31', dato: 73 },{ fecha: '2014-08-31', dato: 89 },{ fecha: '2014-09-30', dato: 56 },{ fecha: '2014-10-31', dato: 120 },{ fecha: '2014-11-30', dato: 86 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
