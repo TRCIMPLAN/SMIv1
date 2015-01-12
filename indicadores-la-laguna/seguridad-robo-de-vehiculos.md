@@ -31,6 +31,7 @@ Robo de vehículos con violencia y sin violencia cometidos en el primer trimestr
     <tr><td class="centrado">31/08/2014</td><td class="derecha">158</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">30/09/2014</td><td class="derecha">166</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
     <tr><td class="centrado">31/10/2014</td><td class="derecha">122</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
+    <tr><td class="centrado">30/11/2014</td><td class="derecha">137</td><td>Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública</td><td></td></tr>
   </tbody>
 </table>
 
@@ -44,7 +45,7 @@ Unidad: Cantidad.
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2014-01-31', dato: 224 },{ fecha: '2014-02-28', dato: 157 },{ fecha: '2014-03-31', dato: 147 },{ fecha: '2014-04-30', dato: 185 },{ fecha: '2014-05-31', dato: 186 },{ fecha: '2014-06-30', dato: 152 },{ fecha: '2014-07-31', dato: 148 },{ fecha: '2014-08-31', dato: 158 },{ fecha: '2014-09-30', dato: 166 },{ fecha: '2014-10-31', dato: 122 }],
+      data: [{ fecha: '2014-01-31', dato: 224 },{ fecha: '2014-02-28', dato: 157 },{ fecha: '2014-03-31', dato: 147 },{ fecha: '2014-04-30', dato: 185 },{ fecha: '2014-05-31', dato: 186 },{ fecha: '2014-06-30', dato: 152 },{ fecha: '2014-07-31', dato: 148 },{ fecha: '2014-08-31', dato: 158 },{ fecha: '2014-09-30', dato: 166 },{ fecha: '2014-10-31', dato: 122 },{ fecha: '2014-11-30', dato: 137 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
