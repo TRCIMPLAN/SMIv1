@@ -27,7 +27,7 @@ Ingresos propios entre gastos corrientes.
     <tr><td class="centrado">31/12/2010</td><td class="derecha">24.14 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2011</td><td class="derecha">26.03 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
     <tr><td class="centrado">31/12/2012</td><td class="derecha">23.76 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
-    <tr><td class="centrado">31/12/2013</td><td class="derecha">87.64 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td></td></tr>
+    <tr><td class="centrado">31/12/2013</td><td class="derecha">87.64 %</td><td>Elaboración propia con datos obtenidos del INEGI</td><td>El incremento en la capacidad financiera del municipio de Lerdo se debe a un considerable aumento en sus ingresos propios.</td></tr>
   </tbody>
 </table>
 

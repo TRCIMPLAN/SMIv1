@@ -22,7 +22,7 @@ Flujo de pasajeros del Aeropuerto Internacional Francisco Sarabia.
   </thead>
   <tbody>
     <tr><td class="centrado">31/12/2013</td><td class="derecha">508,133</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
-    <tr><td class="centrado">01/12/2014</td><td class="derecha">432,375</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td>Cifra hasta Noviembre de 2014</td></tr>
+    <tr><td class="centrado">31/12/2014</td><td class="derecha">523,783</td><td>Operadora Mexicana de Aeropuertos (OMA)</td><td></td></tr>
   </tbody>
 </table>
 
@@ -40,7 +40,7 @@ Se considera a nivel metropolitano. Consulta la [Base de Datos](http://www.oma.a
   if (typeof vargraficaDatos === 'undefined') {
     vargraficaDatos = Morris.Line({
       element: 'graficaDatos',
-      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-01', dato: 432375 }],
+      data: [{ fecha: '2013-12-31', dato: 508133 },{ fecha: '2014-12-31', dato: 523783 }],
       xkey: 'fecha',
       ykeys: ['dato'],
       labels: ['Dato'],
